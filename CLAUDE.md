@@ -27,7 +27,8 @@ Report rules, bands and history: `_pipeline/weekly/README.md`. Read it before wr
 6. `run/build_week.sh report START` builds the docx and PDFs and copies them to `reports/START/`.
 7. Check the PDF (pdftotext it; numbers match step 4, no em dashes, no timecard lines in the shared PDF).
 8. Commit and push everything (`git add -A && git commit -m "Week START to END" && git push`).
-9. Send Ryan both PDFs (SendUserFile) and a short summary: labor % per cafe vs band, anything odd, questions for him (closures, events). Ask for his OK to share.
+9. Upload both PDFs to Ryan's private Drive folder "Weekly Reports - Drafts (Ryan only)" (id 1qqWmd0T9xn791kLMu6bVQHrXD0KOvO7h) with create_file (application/pdf, disableConversionToGoogleType true, base64Content as a file reference sha256:<hash>:<absolute path>). Never share that folder or its files; Ryan's EA reads them there. Do not use the "Slipstream Weekly Reports" folder for drafts: it is shared with an outside editor.
+10. Send Ryan both PDFs (SendUserFile) and a short summary: labor % per cafe vs band, anything odd, questions for him (closures, events). Ask for his OK to share.
 
 ## After Ryan approves (only then)
 Upload the report PDF to Drive folder "Slipstream Weekly Reports" (id 1KBE76KkH4tDFJZYR-W2nr5OeCjmCKbf7), share as reader with the six ALL Portfolio members, and post a status update on the ALL Portfolio (gid 1218029309936191). Details in `_pipeline/weekly/README.md`.

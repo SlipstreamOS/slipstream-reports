@@ -582,7 +582,7 @@ def main():
     p = doc.add_paragraph()
     set_font(p.add_run(
         "ALL THREE GREEN, a first for this report. Downtown 33.3%, Studio 27.1% and 1899 Penn 37.8%, and Prime Cost is Healthy at all three. "
-        "Open-cafe core labor 31.7%, $22 under target in total (was $914 over). Studio was closed Mon and Tue."
+        "Open-cafe core labor 31.7%, $22 under target in total (was $914 over). Studio was closed Mon and Tue for a Studio Theatre event."
     ), size=8, color=RGBColor(0x66,0x66,0x66))
 
     # ==== Headlines (Income Statement read; Open Cafes basis) ================
@@ -621,7 +621,7 @@ def main():
         r = p.add_run("WIN — "); set_font(r, size=10, bold=True, color=RGBColor(0x2E,0x7D,0x32))
         set_font(p.add_run(w), size=10)
     watches = [
-        "STUDIO CLOSED Mon 11/16 and Tue 11/17: $52 rang across the two days against a $2,068 plan, so Studio's week is $1,622 under plan. Wed to Sat ran $372 to $479 a day over plan except Saturday.",
+        "STUDIO CLOSED Mon 11/16 and Tue 11/17 for a Studio Theatre event: $52 rang across the two days against a $2,068 plan, so Studio's week is $1,622 under plan. Wed to Sat ran $372 to $479 a day over plan except Saturday.",
         "DOWNTOWN FRIDAY: Fri 11/20 did $824 against a $1,261 plan at 61% labor, and Thu 11/19 ran 43%. Downtown also shows a 5-hour shift on Sat 11/21 ($105, Jay Singleton) when the cafe is closed; it is counted in Downtown's labor.",
         "1899 PENN FRIDAY ran 56% ($357 of labor on $640).",
         "NMWA EVENT Wed 11/18 (evening): four people on for about five hours, $510 of labor against $161 of register sales. Event revenue should come in by invoice; it is not in this week's numbers.",
