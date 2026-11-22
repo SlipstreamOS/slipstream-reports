@@ -1,0 +1,150 @@
+{
+  "week_start": "2026-04-19",
+  "week_end": "2026-04-25",
+  "generated_at": "2026-04-28T18:12:12.966878+00:00",
+  "per_cafe_per_day": {
+    "Downtown": {
+      "2026-04-20": {
+        "register_payments": 171,
+        "register_amount_cents": 164273,
+        "register_tip_cents": 20072,
+        "register_total_cents": 184345,
+        "catering_payments": 4,
+        "catering_amount_cents": 0
+      },
+      "2026-04-21": {
+        "register_payments": 304,
+        "register_amount_cents": 289371,
+        "register_tip_cents": 39441,
+        "register_total_cents": 328812,
+        "catering_payments": 0,
+        "catering_amount_cents": 0
+      },
+      "2026-04-22": {
+        "register_payments": 280,
+        "register_amount_cents": 253725,
+        "register_tip_cents": 30155,
+        "register_total_cents": 283880,
+        "catering_payments": 3,
+        "catering_amount_cents": 0
+      },
+      "2026-04-23": {
+        "register_payments": 245,
+        "register_amount_cents": 236764,
+        "register_tip_cents": 30891,
+        "register_total_cents": 267655,
+        "catering_payments": 1,
+        "catering_amount_cents": 0
+      },
+      "2026-04-24": {
+        "register_payments": 135,
+        "register_amount_cents": 135660,
+        "register_tip_cents": 18071,
+        "register_total_cents": 153731,
+        "catering_payments": 1,
+        "catering_amount_cents": 0
+      }
+    },
+    "Studio": {
+      "2026-04-19": {
+        "register_payments": 289,
+        "register_amount_cents": 303480,
+        "register_tip_cents": 34066,
+        "register_total_cents": 337546,
+        "catering_payments": 1,
+        "catering_amount_cents": 0
+      },
+      "2026-04-20": {
+        "register_payments": 132,
+        "register_amount_cents": 125003,
+        "register_tip_cents": 16944,
+        "register_total_cents": 141947,
+        "catering_payments": 1,
+        "catering_amount_cents": 0
+      },
+      "2026-04-21": {
+        "register_payments": 140,
+        "register_amount_cents": 133645,
+        "register_tip_cents": 17637,
+        "register_total_cents": 151282,
+        "catering_payments": 2,
+        "catering_amount_cents": 0
+      },
+      "2026-04-22": {
+        "register_payments": 176,
+        "register_amount_cents": 178522,
+        "register_tip_cents": 20772,
+        "register_total_cents": 199294,
+        "catering_payments": 3,
+        "catering_amount_cents": 0
+      },
+      "2026-04-23": {
+        "register_payments": 166,
+        "register_amount_cents": 167159,
+        "register_tip_cents": 20023,
+        "register_total_cents": 187182,
+        "catering_payments": 0,
+        "catering_amount_cents": 0
+      },
+      "2026-04-24": {
+        "register_payments": 203,
+        "register_amount_cents": 217348,
+        "register_tip_cents": 25432,
+        "register_total_cents": 242780,
+        "catering_payments": 2,
+        "catering_amount_cents": 0
+      },
+      "2026-04-25": {
+        "register_payments": 270,
+        "register_amount_cents": 312081,
+        "register_tip_cents": 30769,
+        "register_total_cents": 342850,
+        "catering_payments": 6,
+        "catering_amount_cents": 0
+      }
+    },
+    "1899 Penn": {
+      "2026-04-20": {
+        "register_payments": 82,
+        "register_amount_cents": 61179,
+        "register_tip_cents": 6412,
+        "register_total_cents": 67591,
+        "catering_payments": 0,
+        "catering_amount_cents": 0
+      },
+      "2026-04-21": {
+        "register_payments": 120,
+        "register_amount_cents": 97033,
+        "register_tip_cents": 10421,
+        "register_total_cents": 107454,
+        "catering_payments": 3,
+        "catering_amount_cents": 0
+      },
+      "2026-04-22": {
+        "register_payments": 138,
+        "register_amount_cents": 108657,
+        "register_tip_cents": 12526,
+        "register_total_cents": 121183,
+        "catering_payments": 0,
+        "catering_amount_cents": 0
+      },
+      "2026-04-23": {
+        "register_payments": 129,
+        "register_amount_cents": 99288,
+        "register_tip_cents": 11029,
+        "register_total_cents": 110317,
+        "catering_payments": 0,
+        "catering_amount_cents": 0
+      },
+      "2026-04-24": {
+        "register_payments": 59,
+        "register_amount_cents": 48539,
+        "register_tip_cents": 5132,
+        "register_total_cents": 53671,
+        "catering_payments": 0,
+        "catering_amount_cents": 0
+      }
+    }
+  },
+  "payments_processed": 3088
+}

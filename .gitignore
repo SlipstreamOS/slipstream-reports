@@ -1,0 +1,13 @@
+# Build outputs at the repo root (copies kept under reports/<week>/)
+/Slipstream Weekly Report - *.docx
+/Slipstream Weekly Report - *.pdf
+/Timecards to Fix - *.pdf
+# Projections live in Google Drive ("Slipstream Projections"); downloaded each run
+/Projections/*.xlsx
+# Per-run scratch
+/_pipeline/weekly/raw/*.json
+/_pipeline/.cache/
+__pycache__/
+*.pyc
+*.bak
+~$*

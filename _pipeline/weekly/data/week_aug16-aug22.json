@@ -1,0 +1,438 @@
+{
+  "week_start": "2026-08-16",
+  "week_end": "2026-08-22",
+  "generated_at": "2026-08-23T20:15:17.329771",
+  "per_cafe_per_day": {
+    "Downtown": {
+      "2026-08-16": {
+        "orders": 1,
+        "net_sales_cents": 5000,
+        "discount_cents": 0,
+        "tax_cents": 0,
+        "tip_cents": 0,
+        "grand_total_cents": 5000,
+        "by_category": {
+          "coffee_bev": 0,
+          "food": 0,
+          "retail_coffee": 0,
+          "other": 5000,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 5000.0,
+        "tip_pct_of_net": 0.0
+      },
+      "2026-08-17": {
+        "orders": 112,
+        "net_sales_cents": 107699,
+        "discount_cents": 3301,
+        "tax_cents": 10571,
+        "tip_cents": 10932,
+        "grand_total_cents": 118631,
+        "by_category": {
+          "coffee_bev": 68635,
+          "food": 15797,
+          "retail_coffee": 5450,
+          "other": 17817,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 961.5982142857143,
+        "tip_pct_of_net": 10.150512075321034
+      },
+      "2026-08-18": {
+        "orders": 188,
+        "net_sales_cents": 158697,
+        "discount_cents": 4728,
+        "tax_cents": 15618,
+        "tip_cents": 20342,
+        "grand_total_cents": 179039,
+        "by_category": {
+          "coffee_bev": 116947,
+          "food": 28150,
+          "retail_coffee": 0,
+          "other": 13600,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 844.1329787234042,
+        "tip_pct_of_net": 12.818137708967402
+      },
+      "2026-08-19": {
+        "orders": 184,
+        "net_sales_cents": 151760,
+        "discount_cents": 3965,
+        "tax_cents": 15179,
+        "tip_cents": 17738,
+        "grand_total_cents": 169498,
+        "by_category": {
+          "coffee_bev": 112745,
+          "food": 18965,
+          "retail_coffee": 3898,
+          "other": 16152,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 824.7826086956521,
+        "tip_pct_of_net": 11.688191881918819
+      },
+      "2026-08-20": {
+        "orders": 155,
+        "net_sales_cents": 130742,
+        "discount_cents": 4808,
+        "tax_cents": 12975,
+        "tip_cents": 15555,
+        "grand_total_cents": 146297,
+        "by_category": {
+          "coffee_bev": 94750,
+          "food": 19352,
+          "retail_coffee": 3040,
+          "other": 13600,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 843.4967741935484,
+        "tip_pct_of_net": 11.897477474721207
+      },
+      "2026-08-21": {
+        "orders": 50,
+        "net_sales_cents": 53100,
+        "discount_cents": 1775,
+        "tax_cents": 5312,
+        "tip_cents": 6900,
+        "grand_total_cents": 60000,
+        "by_category": {
+          "coffee_bev": 44750,
+          "food": 2750,
+          "retail_coffee": 1550,
+          "other": 4050,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 1062.0,
+        "tip_pct_of_net": 12.994350282485875
+      }
+    },
+    "NMWA": {
+      "2026-08-16": {
+        "orders": 15,
+        "net_sales_cents": 10430,
+        "discount_cents": 545,
+        "tax_cents": 1043,
+        "tip_cents": 1651,
+        "grand_total_cents": 12081,
+        "by_category": {
+          "coffee_bev": 8560,
+          "food": 0,
+          "retail_coffee": 0,
+          "other": 1870,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 695.3333333333334,
+        "tip_pct_of_net": 15.82933844678811
+      },
+      "2026-08-20": {
+        "orders": 14,
+        "net_sales_cents": 11235,
+        "discount_cents": 1865,
+        "tax_cents": 1123,
+        "tip_cents": 1619,
+        "grand_total_cents": 12854,
+        "by_category": {
+          "coffee_bev": 4360,
+          "food": 5405,
+          "retail_coffee": 0,
+          "other": 1470,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 802.5,
+        "tip_pct_of_net": 14.410324877614597
+      },
+      "2026-08-21": {
+        "orders": 22,
+        "net_sales_cents": 20523,
+        "discount_cents": 1927,
+        "tax_cents": 2053,
+        "tip_cents": 2695,
+        "grand_total_cents": 23218,
+        "by_category": {
+          "coffee_bev": 6840,
+          "food": 7913,
+          "retail_coffee": 0,
+          "other": 5770,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 932.8636363636364,
+        "tip_pct_of_net": 13.131608439311993
+      },
+      "2026-08-22": {
+        "orders": 9,
+        "net_sales_cents": 6920,
+        "discount_cents": 680,
+        "tax_cents": 692,
+        "tip_cents": 1186,
+        "grand_total_cents": 8106,
+        "by_category": {
+          "coffee_bev": 2310,
+          "food": 440,
+          "retail_coffee": 0,
+          "other": 4170,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 768.8888888888889,
+        "tip_pct_of_net": 17.13872832369942
+      }
+    },
+    "Studio": {
+      "2026-08-16": {
+        "orders": 163,
+        "net_sales_cents": 151466,
+        "discount_cents": 7800,
+        "tax_cents": 15066,
+        "tip_cents": 18292,
+        "grand_total_cents": 169758,
+        "by_category": {
+          "coffee_bev": 104511,
+          "food": 30042,
+          "retail_coffee": 0,
+          "other": 16913,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 929.239263803681,
+        "tip_pct_of_net": 12.076637661257312
+      },
+      "2026-08-17": {
+        "orders": 101,
+        "net_sales_cents": 88440,
+        "discount_cents": 2960,
+        "tax_cents": 8806,
+        "tip_cents": 9455,
+        "grand_total_cents": 97895,
+        "by_category": {
+          "coffee_bev": 56200,
+          "food": 22840,
+          "retail_coffee": 0,
+          "other": 9400,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 875.6435643564356,
+        "tip_pct_of_net": 10.690863862505653
+      },
+      "2026-08-18": {
+        "orders": 111,
+        "net_sales_cents": 93332,
+        "discount_cents": 2893,
+        "tax_cents": 9296,
+        "tip_cents": 11153,
+        "grand_total_cents": 104485,
+        "by_category": {
+          "coffee_bev": 55885,
+          "food": 28165,
+          "retail_coffee": 0,
+          "other": 9282,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 840.8288288288288,
+        "tip_pct_of_net": 11.949813568765268
+      },
+      "2026-08-19": {
+        "orders": 132,
+        "net_sales_cents": 123037,
+        "discount_cents": 4488,
+        "tax_cents": 12309,
+        "tip_cents": 13909,
+        "grand_total_cents": 136946,
+        "by_category": {
+          "coffee_bev": 74582,
+          "food": 30350,
+          "retail_coffee": 4250,
+          "other": 13855,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 932.0984848484849,
+        "tip_pct_of_net": 11.304729471622357
+      },
+      "2026-08-20": {
+        "orders": 133,
+        "net_sales_cents": 101452,
+        "discount_cents": 2548,
+        "tax_cents": 10144,
+        "tip_cents": 13151,
+        "grand_total_cents": 114603,
+        "by_category": {
+          "coffee_bev": 71879,
+          "food": 21985,
+          "retail_coffee": 0,
+          "other": 7588,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 762.796992481203,
+        "tip_pct_of_net": 12.962780428182786
+      },
+      "2026-08-21": {
+        "orders": 191,
+        "net_sales_cents": 177272,
+        "discount_cents": 6413,
+        "tax_cents": 17084,
+        "tip_cents": 20631,
+        "grand_total_cents": 197903,
+        "by_category": {
+          "coffee_bev": 99049,
+          "food": 47600,
+          "retail_coffee": 3100,
+          "other": 27523,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 928.1256544502618,
+        "tip_pct_of_net": 11.638047745836905
+      },
+      "2026-08-22": {
+        "orders": 238,
+        "net_sales_cents": 235948,
+        "discount_cents": 3002,
+        "tax_cents": 23554,
+        "tip_cents": 29775,
+        "grand_total_cents": 265723,
+        "by_category": {
+          "coffee_bev": 159393,
+          "food": 56555,
+          "retail_coffee": 0,
+          "other": 20000,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 991.3781512605042,
+        "tip_pct_of_net": 12.619305948768373
+      }
+    },
+    "1899 Penn": {
+      "2026-08-17": {
+        "orders": 89,
+        "net_sales_cents": 61005,
+        "discount_cents": 545,
+        "tax_cents": 6100,
+        "tip_cents": 5122,
+        "grand_total_cents": 66127,
+        "by_category": {
+          "coffee_bev": 47755,
+          "food": 2900,
+          "retail_coffee": 3550,
+          "other": 6800,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 685.4494382022472,
+        "tip_pct_of_net": 8.396033112039996
+      },
+      "2026-08-18": {
+        "orders": 122,
+        "net_sales_cents": 89927,
+        "discount_cents": 1123,
+        "tax_cents": 8995,
+        "tip_cents": 8279,
+        "grand_total_cents": 98206,
+        "by_category": {
+          "coffee_bev": 69782,
+          "food": 13600,
+          "retail_coffee": 0,
+          "other": 6545,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 737.1065573770492,
+        "tip_pct_of_net": 9.206356266749697
+      },
+      "2026-08-19": {
+        "orders": 142,
+        "net_sales_cents": 103602,
+        "discount_cents": 1723,
+        "tax_cents": 10363,
+        "tip_cents": 10835,
+        "grand_total_cents": 114437,
+        "by_category": {
+          "coffee_bev": 80127,
+          "food": 4350,
+          "retail_coffee": 6000,
+          "other": 13125,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 729.5915492957746,
+        "tip_pct_of_net": 10.458292310959248
+      },
+      "2026-08-20": {
+        "orders": 126,
+        "net_sales_cents": 81995,
+        "discount_cents": 1530,
+        "tax_cents": 8157,
+        "tip_cents": 8799,
+        "grand_total_cents": 90794,
+        "by_category": {
+          "coffee_bev": 64078,
+          "food": 6075,
+          "retail_coffee": 0,
+          "other": 11842,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 650.7539682539683,
+        "tip_pct_of_net": 10.731142142813587
+      },
+      "2026-08-21": {
+        "orders": 65,
+        "net_sales_cents": 46220,
+        "discount_cents": 1130,
+        "tax_cents": 4626,
+        "tip_cents": 4904,
+        "grand_total_cents": 51124,
+        "by_category": {
+          "coffee_bev": 34495,
+          "food": 2450,
+          "retail_coffee": 2200,
+          "other": 7075,
+          "catering": 0
+        },
+        "by_fulfillment": {},
+        "items": {},
+        "avg_ticket_cents": 711.0769230769231,
+        "tip_pct_of_net": 10.61012548680225
+      }
+    }
+  },
+  "summary": {
+    "orders_in_week_total": 2363,
+    "source": "daily_metrics.csv (built by scheduled task slipstream-weekly-data-pull)"
+  },
+  "txstore_patched": true
+}

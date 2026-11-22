@@ -1,0 +1,6 @@
+        "DOWNTOWN AMBER at 36.8%, $73 over the top of its 32% to 36% range and under the 38% max. The over-range days were Fri 11/6 (57%: $972 of sales vs $1,302 plan, three shifts), Tue 11/3 (47%: five shifts on $1,842 vs $2,371 plan) and Mon 11/2 (41%).",
+        "1899 PENN MONDAY: Mon 11/2 did $154 on 20 transactions against a $650 plan, and both shifts ended at 11:48. Was the cafe closed early that day? If so, the week is effectively green.",
+        "STUDIO MID-WEEK is heavy again, the same pattern as last week: Tue 11/3 49% ($700 labor on $1,433), Thu 11/5 47% and Mon 11/2 41%. Labor ran $656 over plan for the week, nearly all Mon to Thu.",
+        "TIMECARD TO FIX BEFORE PAYROLL: Christina Jie, Studio, Mon 11/2 (Production Barista) was never clocked out and Square closed it at 24.0h. The report caps it at 7.1h (the median shift); the Square timecard still needs editing.",
+        "PRIME COST at all four cafes is in the Watch band (62.1% to 64.2%; open cafes 62.6%). COGS is applied at fixed category rates, so the movement is labor.",
+        "Downtown collected $93 of catering (invoice) this week. No other catering came in.",

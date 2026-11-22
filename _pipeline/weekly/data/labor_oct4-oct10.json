@@ -1,0 +1,644 @@
+{
+  "week_start": "2026-10-04",
+  "week_end": "2026-10-10",
+  "generated_at": "2026-10-11T15:36:02.595591+00:00",
+  "per_cafe_per_day": {
+    "Studio": {
+      "2026-10-10": {
+        "labor_hours": 37.883333333333326,
+        "labor_cents": 74863,
+        "shifts": 5,
+        "core_hours": 37.883333333333326,
+        "core_cents": 74863,
+        "core_shifts": 5,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Shift Lead": {
+            "hours": 14.233333333333334,
+            "cents": 30626,
+            "shifts": 2
+          },
+          "Barista": {
+            "hours": 13.95,
+            "cents": 25807,
+            "shifts": 2
+          },
+          "Production Line": {
+            "hours": 9.7,
+            "cents": 18430,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-09": {
+        "labor_hours": 31.91666666666667,
+        "labor_cents": 66325,
+        "shifts": 4,
+        "core_hours": 31.91666666666667,
+        "core_cents": 66325,
+        "core_shifts": 4,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Production Barista": {
+            "hours": 7.55,
+            "cents": 15289,
+            "shifts": 1
+          },
+          "Barista": {
+            "hours": 7.183333333333334,
+            "cents": 13289,
+            "shifts": 1
+          },
+          "Shift Lead": {
+            "hours": 8.966666666666667,
+            "cents": 19054,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 8.216666666666667,
+            "cents": 18693,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-08": {
+        "labor_hours": 23.46666666666667,
+        "labor_cents": 49335,
+        "shifts": 3,
+        "core_hours": 23.46666666666667,
+        "core_cents": 49335,
+        "core_shifts": 3,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Shift Lead": {
+            "hours": 7.283333333333333,
+            "cents": 14749,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 7.433333333333334,
+            "cents": 18398,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 8.75,
+            "cents": 16188,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-07": {
+        "labor_hours": 23.75,
+        "labor_cents": 47338,
+        "shifts": 3,
+        "core_hours": 23.75,
+        "core_cents": 47338,
+        "core_shifts": 3,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Barista": {
+            "hours": 7.0,
+            "cents": 12950,
+            "shifts": 1
+          },
+          "Shift Lead": {
+            "hours": 8.0,
+            "cents": 18200,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 8.75,
+            "cents": 16188,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-06": {
+        "labor_hours": 23.5,
+        "labor_cents": 49488,
+        "shifts": 3,
+        "core_hours": 23.5,
+        "core_cents": 49488,
+        "core_shifts": 3,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Shift Lead": {
+            "hours": 7.633333333333334,
+            "cents": 18892,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 7.1,
+            "cents": 14378,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 8.766666666666667,
+            "cents": 16218,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-05": {
+        "labor_hours": 29.25,
+        "labor_cents": 60953,
+        "shifts": 4,
+        "core_hours": 22.35,
+        "core_cents": 43875,
+        "core_shifts": 3,
+        "admin_hours": 6.9,
+        "admin_cents": 17078,
+        "admin_shifts": 1,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Manager": {
+            "hours": 6.9,
+            "cents": 17078,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 7.733333333333333,
+            "cents": 14307,
+            "shifts": 1
+          },
+          "Shift Lead": {
+            "hours": 7.983333333333333,
+            "cents": 16965,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 6.633333333333334,
+            "cents": 12603,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-04": {
+        "labor_hours": 37.85,
+        "labor_cents": 79076,
+        "shifts": 5,
+        "core_hours": 37.85,
+        "core_cents": 79076,
+        "core_shifts": 5,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Production Barista": {
+            "hours": 14.45,
+            "cents": 31222,
+            "shifts": 2
+          },
+          "Shift Lead": {
+            "hours": 7.7,
+            "cents": 15978,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 9.083333333333334,
+            "cents": 17485,
+            "shifts": 1
+          },
+          "Barista": {
+            "hours": 6.616666666666666,
+            "cents": 14391,
+            "shifts": 1
+          }
+        }
+      }
+    },
+    "NMWA": {
+      "2026-10-09": {
+        "labor_hours": 7.408333333333333,
+        "labor_cents": 16113,
+        "shifts": 1,
+        "core_hours": 7.408333333333333,
+        "core_cents": 16113,
+        "core_shifts": 1,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "FOH": {
+            "hours": 7.408333333333333,
+            "cents": 16113,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-04": {
+        "labor_hours": 14.816666666666666,
+        "labor_cents": 28721,
+        "shifts": 2,
+        "core_hours": 14.816666666666666,
+        "core_cents": 28721,
+        "core_shifts": 2,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "FOH": {
+            "hours": 14.816666666666666,
+            "cents": 28721,
+            "shifts": 2
+          }
+        }
+      }
+    },
+    "Downtown": {
+      "2026-10-09": {
+        "labor_hours": 24.816666666666666,
+        "labor_cents": 50588,
+        "shifts": 3,
+        "core_hours": 24.816666666666666,
+        "core_cents": 50588,
+        "core_shifts": 3,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Production Barista": {
+            "hours": 8.2,
+            "cents": 17835,
+            "shifts": 1
+          },
+          "Shift Lead": {
+            "hours": 6.75,
+            "cents": 14006,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 9.866666666666667,
+            "cents": 18747,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-08": {
+        "labor_hours": 38.93333333333334,
+        "labor_cents": 84917,
+        "shifts": 5,
+        "core_hours": 38.93333333333334,
+        "core_cents": 84917,
+        "core_shifts": 5,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Barista": {
+            "hours": 7.033333333333333,
+            "cents": 14594,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 17.333333333333336,
+            "cents": 36196,
+            "shifts": 2
+          },
+          "Shift Lead": {
+            "hours": 14.566666666666666,
+            "cents": 34127,
+            "shifts": 2
+          }
+        }
+      },
+      "2026-10-07": {
+        "labor_hours": 31.05,
+        "labor_cents": 67402,
+        "shifts": 4,
+        "core_hours": 31.05,
+        "core_cents": 67402,
+        "core_shifts": 4,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Shift Lead": {
+            "hours": 7.183333333333334,
+            "cents": 15624,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 8.05,
+            "cents": 20326,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 9.116666666666667,
+            "cents": 17550,
+            "shifts": 1
+          },
+          "Barista": {
+            "hours": 6.7,
+            "cents": 13902,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-06": {
+        "labor_hours": 38.91666666666666,
+        "labor_cents": 86157,
+        "shifts": 5,
+        "core_hours": 38.91666666666666,
+        "core_cents": 86157,
+        "core_shifts": 5,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "FOH": {
+            "hours": 5.016666666666667,
+            "cents": 11413,
+            "shifts": 1
+          },
+          "Shift Lead": {
+            "hours": 7.433333333333334,
+            "cents": 15424,
+            "shifts": 1
+          },
+          "Barista": {
+            "hours": 9.483333333333333,
+            "cents": 23945,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 8.283333333333333,
+            "cents": 18845,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 8.7,
+            "cents": 16530,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-05": {
+        "labor_hours": 29.616666666666667,
+        "labor_cents": 67605,
+        "shifts": 4,
+        "core_hours": 29.616666666666667,
+        "core_cents": 67605,
+        "core_shifts": 4,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Shift Lead": {
+            "hours": 13.133333333333333,
+            "cents": 31399,
+            "shifts": 2
+          },
+          "Production Barista": {
+            "hours": 6.466666666666667,
+            "cents": 13418,
+            "shifts": 1
+          },
+          "Production Line": {
+            "hours": 10.016666666666667,
+            "cents": 22788,
+            "shifts": 1
+          }
+        }
+      }
+    },
+    "1899 Penn": {
+      "2026-10-09": {
+        "labor_hours": 15.433333333333334,
+        "labor_cents": 34568,
+        "shifts": 2,
+        "core_hours": 15.433333333333334,
+        "core_cents": 34568,
+        "core_shifts": 2,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Shift Lead": {
+            "hours": 8.166666666666666,
+            "cents": 16946,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 7.266666666666667,
+            "cents": 17622,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-08": {
+        "labor_hours": 9.416666666666666,
+        "labor_cents": 22835,
+        "shifts": 1,
+        "core_hours": 9.416666666666666,
+        "core_cents": 22835,
+        "core_shifts": 1,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "Production Barista": {
+            "hours": 9.416666666666666,
+            "cents": 22835,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-07": {
+        "labor_hours": 16.616666666666667,
+        "labor_cents": 38512,
+        "shifts": 2,
+        "core_hours": 16.616666666666667,
+        "core_cents": 38512,
+        "core_shifts": 2,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "FOH": {
+            "hours": 7.133333333333334,
+            "cents": 15515,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 9.483333333333333,
+            "cents": 22997,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-06": {
+        "labor_hours": 22.083333333333336,
+        "labor_cents": 46351,
+        "shifts": 3,
+        "core_hours": 22.083333333333336,
+        "core_cents": 46351,
+        "core_shifts": 3,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 0.0,
+        "training_cents": 0,
+        "training_shifts": 0,
+        "role_breakdown": {
+          "FOH": {
+            "hours": 5.0,
+            "cents": 12125,
+            "shifts": 1
+          },
+          "Shift Lead": {
+            "hours": 8.066666666666666,
+            "cents": 17545,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 9.016666666666667,
+            "cents": 16681,
+            "shifts": 1
+          }
+        }
+      },
+      "2026-10-05": {
+        "labor_hours": 17.2,
+        "labor_cents": 37427,
+        "shifts": 3,
+        "core_hours": 15.233333333333334,
+        "core_cents": 33789,
+        "core_shifts": 2,
+        "admin_hours": 0.0,
+        "admin_cents": 0,
+        "admin_shifts": 0,
+        "training_hours": 1.9666666666666666,
+        "training_cents": 3638,
+        "training_shifts": 1,
+        "role_breakdown": {
+          "Training": {
+            "hours": 1.9666666666666666,
+            "cents": 3638,
+            "shifts": 1
+          },
+          "Shift Lead": {
+            "hours": 7.966666666666667,
+            "cents": 16531,
+            "shifts": 1
+          },
+          "Production Barista": {
+            "hours": 7.266666666666667,
+            "cents": 17258,
+            "shifts": 1
+          }
+        }
+      }
+    }
+  },
+  "timecards_processed": 68,
+  "skipped_zero_rate": [],
+  "capped_shifts": [
+    {
+      "id": "0JKVYCEGJSPXX",
+      "cafe": "Studio",
+      "date": "2026-10-10",
+      "role": "Barista",
+      "who": "Mariana Martinez",
+      "original_hours": 22.53,
+      "capped_to_hours": 6.98,
+      "cost_avoided": 287.68
+    },
+    {
+      "id": "8N3G6EKXGG274",
+      "cafe": "NMWA",
+      "date": "2026-10-09",
+      "role": "FOH",
+      "who": "Opal Payne",
+      "original_hours": 24.0,
+      "capped_to_hours": 7.41,
+      "cost_avoided": 360.87
+    },
+    {
+      "id": "G362M0MA9NPQT",
+      "cafe": "1899 Penn",
+      "date": "2026-10-06",
+      "role": "Shift Lead",
+      "who": "Opal Payne",
+      "original_hours": 16.65,
+      "capped_to_hours": 8.07,
+      "cost_avoided": 186.69
+    }
+  ],
+  "bucket_overrides_applied": [],
+  "location_overrides_applied": [],
+  "short_punches": [],
+  "unmapped_location": [
+    {
+      "id": "1E1CN94AG1AVE",
+      "location_id": "LFXQF0X8CKYF5",
+      "location_name": "Slipstream Roasting",
+      "date": "2026-10-07",
+      "who": "Josias Michalko",
+      "hours": 8.5,
+      "role": "FOH",
+      "cost": 176.38,
+      "kind": "cafe_role_at_non_cafe"
+    }
+  ]
+}
