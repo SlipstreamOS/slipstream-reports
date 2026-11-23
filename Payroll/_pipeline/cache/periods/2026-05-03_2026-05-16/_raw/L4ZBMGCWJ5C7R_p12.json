@@ -1,0 +1,10 @@
+{"payments":[
+{"id":"nfwv","created_at":"2026-05-15T17:29:58.662Z","status":"COMPLETED","tip_money":{"amount":0},"location_id":"L4ZBMGCWJ5C7R"},
+{"id":"psSB","created_at":"2026-05-15T17:36:32.892Z","status":"COMPLETED","tip_money":{"amount":0},"location_id":"L4ZBMGCWJ5C7R"},
+{"id":"9q8L","created_at":"2026-05-15T17:51:11.838Z","status":"COMPLETED","tip_money":{"amount":0},"location_id":"L4ZBMGCWJ5C7R"},
+{"id":"9mYM","created_at":"2026-05-15T18:05:26.612Z","status":"COMPLETED","tip_money":{"amount":0},"location_id":"L4ZBMGCWJ5C7R"},
+{"id":"VczF","created_at":"2026-05-15T18:06:27.642Z","status":"COMPLETED","tip_money":{"amount":74},"location_id":"L4ZBMGCWJ5C7R"},
+{"id":"Bqdq","created_at":"2026-05-15T18:35:11.907Z","status":"COMPLETED","tip_money":{"amount":277},"location_id":"L4ZBMGCWJ5C7R"},
+{"id":"Rat8","created_at":"2026-05-15T18:37:16.478Z","status":"COMPLETED","tip_money":{"amount":89},"location_id":"L4ZBMGCWJ5C7R"},
+{"id":"9Wy3","created_at":"2026-05-15T18:43:06.902Z","status":"COMPLETED","tip_money":{"amount":50},"location_id":"L4ZBMGCWJ5C7R"}
+]}

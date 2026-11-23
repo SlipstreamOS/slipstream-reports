@@ -1,0 +1,5346 @@
+{
+ "rates": {
+  "SL": 21.0,
+  "PL": 19.0,
+  "PB": 19.0,
+  "B": 19.0,
+  "HR": 19.0,
+  "CL": 19.5,
+  "FOH": 20.5
+ },
+ "cap": 14.0,
+ "targets": {
+  "Downtown": {
+   "target": 0.32,
+   "ceiling": 0.36
+  },
+  "Studio": {
+   "target": 0.3,
+   "ceiling": 0.34
+  },
+  "1899 Penn": {
+   "target": 0.35,
+   "ceiling": 0.4
+  }
+ },
+ "cafes": {
+  "Downtown": {
+   "slow": {
+    "days": {
+     "Mon": {
+      "sales_typical": 984.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": "food prep, then bar support"
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "16:30",
+        "hours": 10.0,
+        "rate": 21.0,
+        "wages": 210.0,
+        "note": "open-to-close lead (10h option; alt: SL 6:30\u201314:30 + CL 12:30\u201316:30)"
+       }
+      ],
+      "template": {
+       "hours": 18.0,
+       "wages": 362.0,
+       "labor_pct": 36.8,
+       "splh": 54.7,
+       "peak_staff": 2,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 12.4,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 25.53,
+       "core_wages": 553.92,
+       "avg_rate": 21.7,
+       "labor_pct": 56.3,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -7.5,
+       "wages": -192.0
+      },
+      "ryan_first_cut": {
+       "hours": 24.3,
+       "wages": 520.95,
+       "labor_pct": 52.9,
+       "splh": 40.5,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 10.0,
+       "over_person_hours": 6.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -6.3,
+       "wages": -159.0
+      },
+      "sensitivity_minus10": 40.9
+     },
+     "Tue": {
+      "sales_typical": 1547.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:30",
+        "hours": 8.0,
+        "rate": 21.0,
+        "wages": 168.0,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.5,
+        "wages": 156.0,
+        "note": "rush 8:30\u201310 as 3rd, closes"
+       }
+      ],
+      "template": {
+       "hours": 24.0,
+       "wages": 476.0,
+       "labor_pct": 30.8,
+       "splh": 64.5,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 14.0,
+       "over_person_hours": 3.0
+      },
+      "actual_sampled": {
+       "core_hours": 31.03,
+       "core_wages": 629.16,
+       "avg_rate": 20.27,
+       "labor_pct": 40.7,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -7.0,
+       "wages": -153.0
+      },
+      "ryan_first_cut": {
+       "hours": 32.75,
+       "wages": 722.38,
+       "labor_pct": 46.7,
+       "splh": 47.2,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 11.3,
+       "over_person_hours": 12.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -8.75,
+       "wages": -246.0
+      },
+      "sensitivity_minus10": 34.2
+     },
+     "Wed": {
+      "sales_typical": 1670.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.5,
+        "wages": 156.0,
+        "note": "rush as 3rd, closes"
+       }
+      ],
+      "template": {
+       "hours": 24.5,
+       "wages": 486.5,
+       "labor_pct": 29.1,
+       "splh": 68.2,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 13.5,
+       "over_person_hours": 3.5
+      },
+      "actual_sampled": {
+       "core_hours": 35.04,
+       "core_wages": 702.31,
+       "avg_rate": 20.04,
+       "labor_pct": 42.1,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -10.5,
+       "wages": -216.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 40.2,
+       "splh": 52.6,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 13.5,
+       "over_person_hours": 11.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -7.25,
+       "wages": -185.0
+      },
+      "sensitivity_minus10": 32.4
+     },
+     "Thu": {
+      "sales_typical": 1592.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.5,
+        "wages": 156.0,
+        "note": "rush as 3rd, closes"
+       }
+      ],
+      "template": {
+       "hours": 24.5,
+       "wages": 486.5,
+       "labor_pct": 30.6,
+       "splh": 65.0,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 13.5,
+       "over_person_hours": 3.5
+      },
+      "actual_sampled": {
+       "core_hours": 34.75,
+       "core_wages": 697.7,
+       "avg_rate": 20.08,
+       "labor_pct": 43.8,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -10.2,
+       "wages": -211.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 42.2,
+       "splh": 50.1,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 13.1,
+       "over_person_hours": 11.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -7.25,
+       "wages": -185.0
+      },
+      "sensitivity_minus10": 34.0
+     },
+     "Fri": {
+      "sales_typical": 773.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "13:00",
+        "hours": 7.0,
+        "rate": 19.0,
+        "wages": 133.0,
+        "note": "prep + rush; leaves after lunch"
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "16:30",
+        "hours": 10.0,
+        "rate": 21.0,
+        "wages": 210.0,
+        "note": "open-to-close lead (10h option); Admin covers 8\u201310 if scheduled"
+       }
+      ],
+      "template": {
+       "hours": 17.0,
+       "wages": 343.0,
+       "labor_pct": 44.4,
+       "splh": 45.5,
+       "peak_staff": 2,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 8.8,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 25.87,
+       "core_wages": 515.01,
+       "avg_rate": 19.91,
+       "labor_pct": 66.6,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -8.9,
+       "wages": -172.0
+      },
+      "ryan_first_cut": {
+       "hours": 23.75,
+       "wages": 471.69,
+       "labor_pct": 61.0,
+       "splh": 32.5,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 8.8,
+       "over_person_hours": 5.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -6.75,
+       "wages": -129.0
+      },
+      "sensitivity_minus10": 49.3
+     }
+    },
+    "week": {
+     "sales_typical": 6566.0,
+     "hours": 108.0,
+     "wages": 2154.0,
+     "labor_pct": 32.8,
+     "splh": 60.8,
+     "labor_pct_minus10": 36.5,
+     "actual_sampled_hours": 152.2,
+     "actual_sampled_wages": 3098.0,
+     "actual_sampled_labor_pct": 47.2,
+     "ryan_first_cut_hours": 144.3,
+     "ryan_first_cut_wages": 3058.0,
+     "ryan_first_cut_labor_pct": 46.6,
+     "target_wages": 2101.0,
+     "ceiling_wages": 2364.0,
+     "ceiling_trigger_sales": 5983.0,
+     "target_trigger_sales": 6731.0
+    }
+   },
+   "mid": {
+    "days": {
+     "Mon": {
+      "sales_typical": 1173.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "9:00",
+        "end": "16:30",
+        "hours": 7.5,
+        "rate": 19.5,
+        "wages": 146.25,
+        "note": "3rd through rush/lunch, closes"
+       }
+      ],
+      "template": {
+       "hours": 24.0,
+       "wages": 476.75,
+       "labor_pct": 40.6,
+       "splh": 48.9,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 13.1,
+       "over_person_hours": 5.0
+      },
+      "actual_sampled": {
+       "core_hours": 27.12,
+       "core_wages": 602.32,
+       "avg_rate": 22.21,
+       "labor_pct": 51.3,
+       "n_days": 6
+      },
+      "delta_vs_actual": {
+       "hours": -3.1,
+       "wages": -126.0
+      },
+      "ryan_first_cut": {
+       "hours": 24.3,
+       "wages": 520.95,
+       "labor_pct": 44.4,
+       "splh": 48.3,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 13.1,
+       "over_person_hours": 5.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.3,
+       "wages": -44.0
+      },
+      "sensitivity_minus10": 45.2
+     },
+     "Tue": {
+      "sales_typical": 1975.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "11:30",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista (4h); DROP when Admin covers 8\u201310"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.5,
+        "wages": 156.0,
+        "note": "4th through rush, closes"
+       }
+      ],
+      "template": {
+       "hours": 28.5,
+       "wages": 562.5,
+       "labor_pct": 28.5,
+       "splh": 69.3,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 19.8,
+       "over_person_hours": 5.5
+      },
+      "actual_sampled": {
+       "core_hours": 35.07,
+       "core_wages": 724.86,
+       "avg_rate": 20.67,
+       "labor_pct": 36.7,
+       "n_days": 6
+      },
+      "delta_vs_actual": {
+       "hours": -6.6,
+       "wages": -162.0
+      },
+      "ryan_first_cut": {
+       "hours": 32.75,
+       "wages": 722.38,
+       "labor_pct": 36.6,
+       "splh": 60.3,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 14.4,
+       "over_person_hours": 9.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -4.25,
+       "wages": -160.0
+      },
+      "sensitivity_minus10": 31.6
+     },
+     "Wed": {
+      "sales_typical": 2161.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "12:00",
+        "hours": 4.5,
+        "rate": 19.0,
+        "wages": 85.5,
+        "note": "rush barista; DROP when Admin covers 8\u201310"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.5,
+        "wages": 156.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 29.0,
+       "wages": 572.0,
+       "labor_pct": 26.5,
+       "splh": 74.5,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 18.8,
+       "over_person_hours": 5.0
+      },
+      "actual_sampled": {
+       "core_hours": 34.71,
+       "core_wages": 717.61,
+       "avg_rate": 20.68,
+       "labor_pct": 33.2,
+       "n_days": 6
+      },
+      "delta_vs_actual": {
+       "hours": -5.7,
+       "wages": -146.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 31.1,
+       "splh": 68.1,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 15.4,
+       "over_person_hours": 7.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.75,
+       "wages": -100.0
+      },
+      "sensitivity_minus10": 29.4
+     },
+     "Thu": {
+      "sales_typical": 2017.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "11:30",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista (4h); DROP when Admin covers 8\u201310"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.5,
+        "wages": 156.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 28.5,
+       "wages": 562.5,
+       "labor_pct": 27.9,
+       "splh": 70.8,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 15.6,
+       "over_person_hours": 6.0
+      },
+      "actual_sampled": {
+       "core_hours": 34.0,
+       "core_wages": 695.9,
+       "avg_rate": 20.47,
+       "labor_pct": 34.5,
+       "n_days": 6
+      },
+      "delta_vs_actual": {
+       "hours": -5.5,
+       "wages": -133.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 33.3,
+       "splh": 63.5,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 14.7,
+       "over_person_hours": 9.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.25,
+       "wages": -109.0
+      },
+      "sensitivity_minus10": 31.0
+     },
+     "Fri": {
+      "sales_typical": 940.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "13:00",
+        "hours": 7.0,
+        "rate": 19.0,
+        "wages": 133.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "9:00",
+        "end": "16:30",
+        "hours": 7.5,
+        "rate": 19.5,
+        "wages": 146.25,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 23.0,
+       "wages": 457.75,
+       "labor_pct": 48.7,
+       "splh": 40.9,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.3,
+       "over_person_hours": 4.5
+      },
+      "actual_sampled": {
+       "core_hours": 25.01,
+       "core_wages": 514.28,
+       "avg_rate": 20.56,
+       "labor_pct": 54.7,
+       "n_days": 6
+      },
+      "delta_vs_actual": {
+       "hours": -2.0,
+       "wages": -57.0
+      },
+      "ryan_first_cut": {
+       "hours": 23.75,
+       "wages": 471.69,
+       "labor_pct": 50.2,
+       "splh": 39.6,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 10.3,
+       "over_person_hours": 5.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.75,
+       "wages": -14.0
+      },
+      "sensitivity_minus10": 54.1
+     }
+    },
+    "week": {
+     "sales_typical": 8266.0,
+     "hours": 133.0,
+     "wages": 2632.0,
+     "labor_pct": 31.8,
+     "splh": 62.2,
+     "labor_pct_minus10": 35.4,
+     "actual_sampled_hours": 155.9,
+     "actual_sampled_wages": 3255.0,
+     "actual_sampled_labor_pct": 39.4,
+     "ryan_first_cut_hours": 144.3,
+     "ryan_first_cut_wages": 3058.0,
+     "ryan_first_cut_labor_pct": 37.0,
+     "target_wages": 2645.0,
+     "ceiling_wages": 2976.0,
+     "ceiling_trigger_sales": 7310.0,
+     "target_trigger_sales": 8223.0
+    }
+   },
+   "slow_lean": {
+    "days": {
+     "Mon": {
+      "sales_typical": 984.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "16:30",
+        "hours": 10.0,
+        "rate": 21.0,
+        "wages": 210.0,
+        "note": "open-to-close lead (10h option)"
+       }
+      ],
+      "template": {
+       "hours": 18.0,
+       "wages": 362.0,
+       "labor_pct": 36.8,
+       "splh": 54.7,
+       "peak_staff": 2,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 12.4,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 25.53,
+       "core_wages": 553.92,
+       "avg_rate": 21.7,
+       "labor_pct": 56.3,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -7.5,
+       "wages": -192.0
+      },
+      "ryan_first_cut": {
+       "hours": 24.3,
+       "wages": 520.95,
+       "labor_pct": 52.9,
+       "splh": 40.5,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 10.0,
+       "over_person_hours": 6.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -6.3,
+       "wages": -159.0
+      },
+      "sensitivity_minus10": 40.9
+     },
+     "Tue": {
+      "sales_typical": 1547.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "16:30",
+        "hours": 6.5,
+        "rate": 19.5,
+        "wages": 126.75,
+        "note": "2 people through the 8:30\u201310 rush; Admin covers rush when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 23.0,
+       "wages": 457.25,
+       "labor_pct": 29.6,
+       "splh": 67.3,
+       "peak_staff": 3,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 21.0,
+       "over_person_hours": 3.5
+      },
+      "actual_sampled": {
+       "core_hours": 31.03,
+       "core_wages": 629.16,
+       "avg_rate": 20.27,
+       "labor_pct": 40.7,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -8.0,
+       "wages": -172.0
+      },
+      "ryan_first_cut": {
+       "hours": 32.75,
+       "wages": 722.38,
+       "labor_pct": 46.7,
+       "splh": 47.2,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 11.3,
+       "over_person_hours": 12.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -9.75,
+       "wages": -265.0
+      },
+      "sensitivity_minus10": 32.8
+     },
+     "Wed": {
+      "sales_typical": 1670.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "16:30",
+        "hours": 6.5,
+        "rate": 19.5,
+        "wages": 126.75,
+        "note": "Admin covers rush when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 23.0,
+       "wages": 457.25,
+       "labor_pct": 27.4,
+       "splh": 72.6,
+       "peak_staff": 3,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 20.2,
+       "over_person_hours": 3.5
+      },
+      "actual_sampled": {
+       "core_hours": 35.04,
+       "core_wages": 702.31,
+       "avg_rate": 20.04,
+       "labor_pct": 42.1,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -12.0,
+       "wages": -245.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 40.2,
+       "splh": 52.6,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 13.5,
+       "over_person_hours": 11.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -8.75,
+       "wages": -214.0
+      },
+      "sensitivity_minus10": 30.4
+     },
+     "Thu": {
+      "sales_typical": 1592.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "16:30",
+        "hours": 6.5,
+        "rate": 19.5,
+        "wages": 126.75,
+        "note": "Admin covers rush when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 23.0,
+       "wages": 457.25,
+       "labor_pct": 28.7,
+       "splh": 69.2,
+       "peak_staff": 3,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 20.2,
+       "over_person_hours": 3.5
+      },
+      "actual_sampled": {
+       "core_hours": 34.75,
+       "core_wages": 697.7,
+       "avg_rate": 20.08,
+       "labor_pct": 43.8,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -11.8,
+       "wages": -240.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 42.2,
+       "splh": 50.1,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 13.1,
+       "over_person_hours": 11.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -8.75,
+       "wages": -214.0
+      },
+      "sensitivity_minus10": 31.9
+     },
+     "Fri": {
+      "sales_typical": 773.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "12:00",
+        "hours": 6.0,
+        "rate": 19.0,
+        "wages": 114.0,
+        "note": "prep + rush only"
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "16:30",
+        "hours": 10.0,
+        "rate": 21.0,
+        "wages": 210.0,
+        "note": "open-to-close lead (10h option)"
+       }
+      ],
+      "template": {
+       "hours": 16.0,
+       "wages": 324.0,
+       "labor_pct": 41.9,
+       "splh": 48.3,
+       "peak_staff": 2,
+       "under_halfhours": 5,
+       "under_person_hours": 2.5,
+       "max_tph": 9.2,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 25.87,
+       "core_wages": 515.01,
+       "avg_rate": 19.91,
+       "labor_pct": 66.6,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -9.9,
+       "wages": -191.0
+      },
+      "ryan_first_cut": {
+       "hours": 23.75,
+       "wages": 471.69,
+       "labor_pct": 61.0,
+       "splh": 32.5,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 8.8,
+       "over_person_hours": 5.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -7.75,
+       "wages": -148.0
+      },
+      "sensitivity_minus10": 46.6
+     }
+    },
+    "week": {
+     "sales_typical": 6566.0,
+     "hours": 103.0,
+     "wages": 2058.0,
+     "labor_pct": 31.3,
+     "splh": 63.7,
+     "labor_pct_minus10": 34.8,
+     "actual_sampled_hours": 152.2,
+     "actual_sampled_wages": 3098.0,
+     "actual_sampled_labor_pct": 47.2,
+     "ryan_first_cut_hours": 144.3,
+     "ryan_first_cut_wages": 3058.0,
+     "ryan_first_cut_labor_pct": 46.6,
+     "target_wages": 2101.0,
+     "ceiling_wages": 2364.0,
+     "ceiling_trigger_sales": 5716.0,
+     "target_trigger_sales": 6430.0
+    }
+   },
+   "busy": {
+    "days": {
+     "Mon": {
+      "sales_typical": 1511.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "11:30",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "16:30",
+        "hours": 6.5,
+        "rate": 19.5,
+        "wages": 126.75,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 27.0,
+       "wages": 533.25,
+       "labor_pct": 35.3,
+       "splh": 56.0,
+       "peak_staff": 4,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.4,
+       "over_person_hours": 6.0
+      },
+      "actual_sampled": {
+       "core_hours": 25.43,
+       "core_wages": 555.66,
+       "avg_rate": 21.85,
+       "labor_pct": 36.8,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": 1.6,
+       "wages": -22.0
+      },
+      "ryan_first_cut": {
+       "hours": 24.3,
+       "wages": 520.95,
+       "labor_pct": 34.5,
+       "splh": 62.2,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 14.6,
+       "over_person_hours": 4.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 2.7,
+       "wages": 12.0
+      },
+      "sensitivity_minus10": 39.2
+     },
+     "Tue": {
+      "sales_typical": 2296.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "12:00",
+        "hours": 4.5,
+        "rate": 19.0,
+        "wages": 85.5,
+        "note": "rush barista"
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "15:30",
+        "hours": 7.5,
+        "rate": 19.0,
+        "wages": 142.5,
+        "note": "4th: rush + lunch + 2\u20133:30p (26\u201329/hr)"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "16:30",
+        "hours": 6.5,
+        "rate": 19.5,
+        "wages": 126.75,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 35.0,
+       "wages": 685.25,
+       "labor_pct": 29.8,
+       "splh": 65.6,
+       "peak_staff": 5,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 14.2,
+       "over_person_hours": 10.0
+      },
+      "actual_sampled": {
+       "core_hours": 35.43,
+       "core_wages": 728.91,
+       "avg_rate": 20.57,
+       "labor_pct": 31.7,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -0.4,
+       "wages": -44.0
+      },
+      "ryan_first_cut": {
+       "hours": 32.75,
+       "wages": 722.38,
+       "labor_pct": 31.5,
+       "splh": 70.1,
+       "peak_staff": 4,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 16.3,
+       "over_person_hours": 8.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 2.25,
+       "wages": -37.0
+      },
+      "sensitivity_minus10": 33.2
+     },
+     "Wed": {
+      "sales_typical": 2495.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:00",
+        "end": "12:00",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "rush barista"
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "15:30",
+        "hours": 7.5,
+        "rate": 19.0,
+        "wages": 142.5,
+        "note": "4th: rush + lunch + afternoon"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "16:30",
+        "hours": 6.5,
+        "rate": 19.5,
+        "wages": 126.75,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 35.5,
+       "wages": 694.75,
+       "labor_pct": 27.8,
+       "splh": 70.3,
+       "peak_staff": 5,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 14.6,
+       "over_person_hours": 9.0
+      },
+      "actual_sampled": {
+       "core_hours": 31.73,
+       "core_wages": 656.32,
+       "avg_rate": 20.69,
+       "labor_pct": 26.3,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": 3.8,
+       "wages": 38.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 26.9,
+       "splh": 78.6,
+       "peak_staff": 4,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 17.9,
+       "over_person_hours": 6.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 3.75,
+       "wages": 23.0
+      },
+      "sensitivity_minus10": 30.9
+     },
+     "Thu": {
+      "sales_typical": 2305.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:00",
+        "end": "12:00",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "rush barista"
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "15:30",
+        "hours": 7.5,
+        "rate": 19.0,
+        "wages": 142.5,
+        "note": "4th: rush + lunch + afternoon"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "16:30",
+        "hours": 6.5,
+        "rate": 19.5,
+        "wages": 126.75,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 35.5,
+       "wages": 694.75,
+       "labor_pct": 30.1,
+       "splh": 64.9,
+       "peak_staff": 5,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 13.7,
+       "over_person_hours": 10.5
+      },
+      "actual_sampled": {
+       "core_hours": 34.04,
+       "core_wages": 704.53,
+       "avg_rate": 20.7,
+       "labor_pct": 30.6,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": 1.5,
+       "wages": -10.0
+      },
+      "ryan_first_cut": {
+       "hours": 31.75,
+       "wages": 671.56,
+       "labor_pct": 29.1,
+       "splh": 72.6,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 17.3,
+       "over_person_hours": 7.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 3.75,
+       "wages": 23.0
+      },
+      "sensitivity_minus10": 33.5
+     },
+     "Fri": {
+      "sales_typical": 1128.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "13:00",
+        "hours": 7.0,
+        "rate": 19.0,
+        "wages": 133.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "9:00",
+        "end": "16:30",
+        "hours": 7.5,
+        "rate": 19.5,
+        "wages": 146.25,
+        "note": "3 people 9\u20131 covers the 30/hr Friday peak"
+       }
+      ],
+      "template": {
+       "hours": 23.0,
+       "wages": 457.75,
+       "labor_pct": 40.6,
+       "splh": 49.0,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 12.9,
+       "over_person_hours": 4.0
+      },
+      "actual_sampled": {
+       "core_hours": 26.62,
+       "core_wages": 540.31,
+       "avg_rate": 20.3,
+       "labor_pct": 47.9,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -3.6,
+       "wages": -83.0
+      },
+      "ryan_first_cut": {
+       "hours": 23.75,
+       "wages": 471.69,
+       "labor_pct": 41.8,
+       "splh": 47.5,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 14.9,
+       "over_person_hours": 5.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.75,
+       "wages": -14.0
+      },
+      "sensitivity_minus10": 45.1
+     }
+    },
+    "week": {
+     "sales_typical": 9735.0,
+     "hours": 156.0,
+     "wages": 3066.0,
+     "labor_pct": 31.5,
+     "splh": 62.4,
+     "labor_pct_minus10": 35.0,
+     "actual_sampled_hours": 153.2,
+     "actual_sampled_wages": 3186.0,
+     "actual_sampled_labor_pct": 32.7,
+     "ryan_first_cut_hours": 144.3,
+     "ryan_first_cut_wages": 3058.0,
+     "ryan_first_cut_labor_pct": 31.4,
+     "target_wages": 3115.0,
+     "ceiling_wages": 3505.0,
+     "ceiling_trigger_sales": 8516.0,
+     "target_trigger_sales": 9580.0
+    }
+   }
+  },
+  "Studio": {
+   "slow": {
+    "days": {
+     "Mon": {
+      "sales_typical": 977.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "6:30",
+        "end": "10:30",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "3rd at open for catering delivery; DROP when Admin (Manager) is on the floor at open"
+       }
+      ],
+      "template": {
+       "hours": 20.25,
+       "wages": 401.25,
+       "labor_pct": 41.1,
+       "splh": 48.2,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 10.8,
+       "over_person_hours": 2.0
+      },
+      "actual_sampled": {
+       "core_hours": 23.6,
+       "core_wages": 456.27,
+       "avg_rate": 19.33,
+       "labor_pct": 46.7,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -3.4,
+       "wages": -55.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.75,
+       "wages": 442.12,
+       "labor_pct": 45.3,
+       "splh": 42.9,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.5,
+       "max_tph": 8.5,
+       "over_person_hours": 5.0,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.5,
+       "wages": -41.0
+      },
+      "sensitivity_minus10": 45.6
+     },
+     "Tue": {
+      "sales_typical": 896.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": "2-person day; Admin covers 8\u201310 rush when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 16.25,
+       "wages": 325.25,
+       "labor_pct": 36.3,
+       "splh": 55.1,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.2,
+       "over_person_hours": 1.5
+      },
+      "actual_sampled": {
+       "core_hours": 24.45,
+       "core_wages": 505.9,
+       "avg_rate": 20.69,
+       "labor_pct": 56.5,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -8.2,
+       "wages": -181.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.25,
+       "wages": 469.88,
+       "labor_pct": 52.4,
+       "splh": 40.3,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 7.5,
+       "over_person_hours": 8.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -6.0,
+       "wages": -145.0
+      },
+      "sensitivity_minus10": 40.3
+     },
+     "Wed": {
+      "sales_typical": 990.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": "2-person day; Admin covers 8\u201310 rush when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 16.25,
+       "wages": 325.25,
+       "labor_pct": 32.9,
+       "splh": 60.9,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 13.1,
+       "over_person_hours": 1.5
+      },
+      "actual_sampled": {
+       "core_hours": 24.63,
+       "core_wages": 484.45,
+       "avg_rate": 19.67,
+       "labor_pct": 48.9,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -8.4,
+       "wages": -159.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.25,
+       "wages": 446.75,
+       "labor_pct": 45.1,
+       "splh": 44.5,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 8.7,
+       "over_person_hours": 8.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -6.0,
+       "wages": -122.0
+      },
+      "sensitivity_minus10": 36.5
+     },
+     "Thu": {
+      "sales_typical": 1100.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": "2-person day; Admin covers 8\u201310 rush when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 16.25,
+       "wages": 325.25,
+       "labor_pct": 29.6,
+       "splh": 67.7,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 12.1,
+       "over_person_hours": 1.5
+      },
+      "actual_sampled": {
+       "core_hours": 24.6,
+       "core_wages": 513.31,
+       "avg_rate": 20.86,
+       "labor_pct": 46.7,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -8.4,
+       "wages": -188.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.75,
+       "wages": 477.75,
+       "labor_pct": 43.4,
+       "splh": 48.4,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 8.1,
+       "over_person_hours": 8.5,
+       "admin_hours": 5.0
+      },
+      "delta_vs_ryan": {
+       "hours": -6.5,
+       "wages": -152.0
+      },
+      "sensitivity_minus10": 32.9
+     },
+     "Fri": {
+      "sales_typical": 1511.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "9:00",
+        "end": "17:30",
+        "hours": 8.5,
+        "rate": 19.5,
+        "wages": 165.75,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 25.0,
+       "wages": 496.25,
+       "labor_pct": 32.8,
+       "splh": 60.4,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 13.6,
+       "over_person_hours": 4.5
+      },
+      "actual_sampled": {
+       "core_hours": 31.21,
+       "core_wages": 621.24,
+       "avg_rate": 19.9,
+       "labor_pct": 41.1,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -6.2,
+       "wages": -125.0
+      },
+      "ryan_first_cut": {
+       "hours": 30.0,
+       "wages": 621.25,
+       "labor_pct": 41.1,
+       "splh": 50.4,
+       "peak_staff": 4,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 10.3,
+       "over_person_hours": 10.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -5.0,
+       "wages": -125.0
+      },
+      "sensitivity_minus10": 36.5
+     },
+     "Sat": {
+      "sales_typical": 2272.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "7:00",
+        "end": "15:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "7:30",
+        "end": "15:30",
+        "hours": 8.0,
+        "rate": 21.0,
+        "wages": 168.0,
+        "note": ""
+       },
+       {
+        "role": "Hospitality Register",
+        "code": "HR",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:30",
+        "end": "17:30",
+        "hours": 7.0,
+        "rate": 19.5,
+        "wages": 136.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 31.0,
+       "wages": 608.5,
+       "labor_pct": 26.8,
+       "splh": 73.3,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 11.0,
+       "over_person_hours": 7.0
+      },
+      "actual_sampled": {
+       "core_hours": 36.83,
+       "core_wages": 752.0,
+       "avg_rate": 20.42,
+       "labor_pct": 33.1,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -5.8,
+       "wages": -144.0
+      },
+      "ryan_first_cut": {
+       "hours": 34.75,
+       "wages": 685.0,
+       "labor_pct": 30.1,
+       "splh": 65.4,
+       "peak_staff": 5,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 14.8,
+       "over_person_hours": 11.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.75,
+       "wages": -76.0
+      },
+      "sensitivity_minus10": 29.8
+     },
+     "Sun": {
+      "sales_typical": 1988.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "7:00",
+        "end": "15:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "7:30",
+        "end": "15:30",
+        "hours": 8.0,
+        "rate": 21.0,
+        "wages": 168.0,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "9:00",
+        "end": "14:00",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "mid-morning/lunch 3rd"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "17:30",
+        "hours": 7.5,
+        "rate": 19.5,
+        "wages": 146.25,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 28.5,
+       "wages": 561.25,
+       "labor_pct": 28.2,
+       "splh": 69.8,
+       "peak_staff": 4,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 12.0,
+       "over_person_hours": 7.5
+      },
+      "actual_sampled": {
+       "core_hours": 34.95,
+       "core_wages": 712.67,
+       "avg_rate": 20.39,
+       "labor_pct": 35.8,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -6.5,
+       "wages": -151.0
+      },
+      "ryan_first_cut": {
+       "hours": 28.75,
+       "wages": 575.62,
+       "labor_pct": 29.0,
+       "splh": 69.1,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 12.0,
+       "over_person_hours": 8.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.25,
+       "wages": -14.0
+      },
+      "sensitivity_minus10": 31.4
+     }
+    },
+    "week": {
+     "sales_typical": 9734.0,
+     "hours": 153.5,
+     "wages": 3043.0,
+     "labor_pct": 31.3,
+     "splh": 63.4,
+     "labor_pct_minus10": 34.7,
+     "actual_sampled_hours": 200.3,
+     "actual_sampled_wages": 4046.0,
+     "actual_sampled_labor_pct": 41.6,
+     "ryan_first_cut_hours": 183.5,
+     "ryan_first_cut_wages": 3718.0,
+     "ryan_first_cut_labor_pct": 38.2,
+     "target_wages": 2920.0,
+     "ceiling_wages": 3310.0,
+     "ceiling_trigger_sales": 8950.0,
+     "target_trigger_sales": 10143.0
+    }
+   },
+   "mid": {
+    "days": {
+     "Mon": {
+      "sales_typical": 1031.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "6:30",
+        "end": "11:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "3rd at open (catering) + rush; DROP to 8\u201311:30 when Admin is on at open"
+       }
+      ],
+      "template": {
+       "hours": 21.25,
+       "wages": 420.25,
+       "labor_pct": 40.8,
+       "splh": 48.5,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 10.5,
+       "over_person_hours": 2.5
+      },
+      "actual_sampled": {
+       "core_hours": 18.85,
+       "core_wages": 376.52,
+       "avg_rate": 19.97,
+       "labor_pct": 36.5,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": 2.4,
+       "wages": 44.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.75,
+       "wages": 442.12,
+       "labor_pct": 42.9,
+       "splh": 45.3,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.5,
+       "max_tph": 10.5,
+       "over_person_hours": 4.5,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.5,
+       "wages": -22.0
+      },
+      "sensitivity_minus10": 45.3
+     },
+     "Tue": {
+      "sales_typical": 1040.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": "2-person day; Admin covers 8\u201310 rush when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 16.25,
+       "wages": 325.25,
+       "labor_pct": 31.3,
+       "splh": 64.0,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.6,
+       "over_person_hours": 1.0
+      },
+      "actual_sampled": {
+       "core_hours": 24.36,
+       "core_wages": 505.2,
+       "avg_rate": 20.74,
+       "labor_pct": 48.6,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -8.1,
+       "wages": -180.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.25,
+       "wages": 469.88,
+       "labor_pct": 45.2,
+       "splh": 46.7,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 7.7,
+       "over_person_hours": 7.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -6.0,
+       "wages": -145.0
+      },
+      "sensitivity_minus10": 34.7
+     },
+     "Wed": {
+      "sales_typical": 1179.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista; DROP when Admin covers 8\u201310"
+       }
+      ],
+      "template": {
+       "hours": 20.25,
+       "wages": 401.25,
+       "labor_pct": 34.0,
+       "splh": 58.2,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.1,
+       "over_person_hours": 4.5
+      },
+      "actual_sampled": {
+       "core_hours": 22.19,
+       "core_wages": 445.96,
+       "avg_rate": 20.1,
+       "labor_pct": 37.8,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -1.9,
+       "wages": -45.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.25,
+       "wages": 446.75,
+       "labor_pct": 37.9,
+       "splh": 53.0,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 10.1,
+       "over_person_hours": 7.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.0,
+       "wages": -46.0
+      },
+      "sensitivity_minus10": 37.8
+     },
+     "Thu": {
+      "sales_typical": 1163.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista; DROP when Admin covers 8\u201310"
+       }
+      ],
+      "template": {
+       "hours": 20.25,
+       "wages": 401.25,
+       "labor_pct": 34.5,
+       "splh": 57.4,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 9.8,
+       "over_person_hours": 4.0
+      },
+      "actual_sampled": {
+       "core_hours": 24.07,
+       "core_wages": 489.39,
+       "avg_rate": 20.33,
+       "labor_pct": 42.1,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -3.8,
+       "wages": -88.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.75,
+       "wages": 477.75,
+       "labor_pct": 41.1,
+       "splh": 51.1,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 9.8,
+       "over_person_hours": 7.0,
+       "admin_hours": 5.0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.5,
+       "wages": -76.0
+      },
+      "sensitivity_minus10": 38.3
+     },
+     "Fri": {
+      "sales_typical": 1830.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "8:00",
+        "end": "13:00",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "rush + lunch"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:30",
+        "end": "17:30",
+        "hours": 7.0,
+        "rate": 19.5,
+        "wages": 136.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 28.5,
+       "wages": 562.0,
+       "labor_pct": 30.7,
+       "splh": 64.2,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 11.1,
+       "over_person_hours": 6.0
+      },
+      "actual_sampled": {
+       "core_hours": 30.52,
+       "core_wages": 616.29,
+       "avg_rate": 20.19,
+       "labor_pct": 33.7,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -2.0,
+       "wages": -54.0
+      },
+      "ryan_first_cut": {
+       "hours": 30.0,
+       "wages": 621.25,
+       "labor_pct": 33.9,
+       "splh": 61.0,
+       "peak_staff": 4,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 11.1,
+       "over_person_hours": 8.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.5,
+       "wages": -59.0
+      },
+      "sensitivity_minus10": 34.1
+     },
+     "Sat": {
+      "sales_typical": 2782.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "7:00",
+        "end": "15:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "7:30",
+        "end": "15:30",
+        "hours": 8.0,
+        "rate": 21.0,
+        "wages": 168.0,
+        "note": ""
+       },
+       {
+        "role": "Hospitality Register",
+        "code": "HR",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "peak 4th"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:30",
+        "end": "17:30",
+        "hours": 7.0,
+        "rate": 19.5,
+        "wages": 136.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 36.0,
+       "wages": 703.5,
+       "labor_pct": 25.3,
+       "splh": 77.3,
+       "peak_staff": 5,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 10.3,
+       "over_person_hours": 10.0
+      },
+      "actual_sampled": {
+       "core_hours": 34.88,
+       "core_wages": 699.15,
+       "avg_rate": 20.04,
+       "labor_pct": 25.1,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": 1.1,
+       "wages": 4.0
+      },
+      "ryan_first_cut": {
+       "hours": 34.75,
+       "wages": 685.0,
+       "labor_pct": 24.6,
+       "splh": 80.1,
+       "peak_staff": 5,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 16.4,
+       "over_person_hours": 9.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 1.25,
+       "wages": 18.0
+      },
+      "sensitivity_minus10": 28.1
+     },
+     "Sun": {
+      "sales_typical": 2335.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "7:00",
+        "end": "15:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "7:30",
+        "end": "15:30",
+        "hours": 8.0,
+        "rate": 21.0,
+        "wages": 168.0,
+        "note": ""
+       },
+       {
+        "role": "Hospitality Register",
+        "code": "HR",
+        "start": "8:30",
+        "end": "13:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "peak 4th"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "17:30",
+        "hours": 7.5,
+        "rate": 19.5,
+        "wages": 146.25,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 33.5,
+       "wages": 656.25,
+       "labor_pct": 28.1,
+       "splh": 69.7,
+       "peak_staff": 5,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 12.8,
+       "over_person_hours": 10.0
+      },
+      "actual_sampled": {
+       "core_hours": 34.77,
+       "core_wages": 709.81,
+       "avg_rate": 20.41,
+       "labor_pct": 30.4,
+       "n_days": 4
+      },
+      "delta_vs_actual": {
+       "hours": -1.3,
+       "wages": -54.0
+      },
+      "ryan_first_cut": {
+       "hours": 28.75,
+       "wages": 575.62,
+       "labor_pct": 24.7,
+       "splh": 81.2,
+       "peak_staff": 4,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 12.8,
+       "over_person_hours": 5.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 4.75,
+       "wages": 81.0
+      },
+      "sensitivity_minus10": 31.2
+     }
+    },
+    "week": {
+     "sales_typical": 11360.0,
+     "hours": 176.0,
+     "wages": 3470.0,
+     "labor_pct": 30.5,
+     "splh": 64.5,
+     "labor_pct_minus10": 33.9,
+     "actual_sampled_hours": 189.6,
+     "actual_sampled_wages": 3842.0,
+     "actual_sampled_labor_pct": 33.8,
+     "ryan_first_cut_hours": 183.5,
+     "ryan_first_cut_wages": 3718.0,
+     "ryan_first_cut_labor_pct": 32.7,
+     "target_wages": 3408.0,
+     "ceiling_wages": 3862.0,
+     "ceiling_trigger_sales": 10205.0,
+     "target_trigger_sales": 11566.0
+    }
+   },
+   "busy": {
+    "days": {
+     "Mon": {
+      "sales_typical": 1324.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "6:30",
+        "end": "12:30",
+        "hours": 6.0,
+        "rate": 19.0,
+        "wages": 114.0,
+        "note": "3rd at open (catering) + rush/lunch; 8\u201312:30 when Admin is on at open"
+       }
+      ],
+      "template": {
+       "hours": 22.25,
+       "wages": 439.25,
+       "labor_pct": 33.2,
+       "splh": 59.5,
+       "peak_staff": 3,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 9.7,
+       "over_person_hours": 2.5
+      },
+      "actual_sampled": {
+       "core_hours": 20.88,
+       "core_wages": 417.54,
+       "avg_rate": 19.99,
+       "labor_pct": 31.5,
+       "n_days": 2
+      },
+      "delta_vs_actual": {
+       "hours": 1.4,
+       "wages": 22.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.75,
+       "wages": 442.12,
+       "labor_pct": 33.4,
+       "splh": 58.2,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.5,
+       "max_tph": 9.7,
+       "over_person_hours": 3.5,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.5,
+       "wages": -3.0
+      },
+      "sensitivity_minus10": 36.9
+     },
+     "Tue": {
+      "sales_typical": 1215.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "11:30",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista"
+       }
+      ],
+      "template": {
+       "hours": 20.25,
+       "wages": 401.25,
+       "labor_pct": 33.0,
+       "splh": 60.0,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.1,
+       "over_person_hours": 4.0
+      },
+      "actual_sampled": {
+       "core_hours": 24.53,
+       "core_wages": 506.15,
+       "avg_rate": 20.64,
+       "labor_pct": 41.7,
+       "n_days": 2
+      },
+      "delta_vs_actual": {
+       "hours": -4.3,
+       "wages": -105.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.25,
+       "wages": 469.88,
+       "labor_pct": 38.7,
+       "splh": 54.6,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 10.1,
+       "over_person_hours": 6.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.0,
+       "wages": -69.0
+      },
+      "sensitivity_minus10": 36.7
+     },
+     "Wed": {
+      "sales_typical": 1284.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "11:30",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista"
+       }
+      ],
+      "template": {
+       "hours": 20.25,
+       "wages": 401.25,
+       "labor_pct": 31.2,
+       "splh": 63.4,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.1,
+       "over_person_hours": 3.5
+      },
+      "actual_sampled": {
+       "core_hours": 24.0,
+       "core_wages": 472.63,
+       "avg_rate": 19.69,
+       "labor_pct": 36.8,
+       "n_days": 2
+      },
+      "delta_vs_actual": {
+       "hours": -3.8,
+       "wages": -71.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.25,
+       "wages": 446.75,
+       "labor_pct": 34.8,
+       "splh": 57.7,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 11.1,
+       "over_person_hours": 6.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.0,
+       "wages": -46.0
+      },
+      "sensitivity_minus10": 34.7
+     },
+     "Thu": {
+      "sales_typical": 1351.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "14:45",
+        "hours": 8.25,
+        "rate": 21.0,
+        "wages": 173.25,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "11:30",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush barista"
+       }
+      ],
+      "template": {
+       "hours": 20.25,
+       "wages": 401.25,
+       "labor_pct": 29.7,
+       "splh": 66.7,
+       "peak_staff": 3,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.3,
+       "over_person_hours": 4.5
+      },
+      "actual_sampled": {
+       "core_hours": 24.89,
+       "core_wages": 534.37,
+       "avg_rate": 21.47,
+       "labor_pct": 39.6,
+       "n_days": 2
+      },
+      "delta_vs_actual": {
+       "hours": -4.6,
+       "wages": -133.0
+      },
+      "ryan_first_cut": {
+       "hours": 22.75,
+       "wages": 477.75,
+       "labor_pct": 35.4,
+       "splh": 59.4,
+       "peak_staff": 3,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 11.3,
+       "over_person_hours": 7.5,
+       "admin_hours": 5.0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.5,
+       "wages": -76.0
+      },
+      "sensitivity_minus10": 33.0
+     },
+     "Fri": {
+      "sales_typical": 2146.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 21.0,
+        "wages": 178.5,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "7:30",
+        "end": "12:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "rush barista"
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:30",
+        "end": "13:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "peak 4th"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:30",
+        "end": "17:30",
+        "hours": 7.0,
+        "rate": 19.5,
+        "wages": 136.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 33.5,
+       "wages": 657.0,
+       "labor_pct": 30.6,
+       "splh": 64.1,
+       "peak_staff": 5,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 12.2,
+       "over_person_hours": 9.5
+      },
+      "actual_sampled": {
+       "core_hours": 24.19,
+       "core_wages": 471.34,
+       "avg_rate": 19.48,
+       "labor_pct": 22.0,
+       "n_days": 2
+      },
+      "delta_vs_actual": {
+       "hours": 9.3,
+       "wages": 186.0
+      },
+      "ryan_first_cut": {
+       "hours": 30.0,
+       "wages": 621.25,
+       "labor_pct": 28.9,
+       "splh": 71.5,
+       "peak_staff": 4,
+       "under_halfhours": 5,
+       "under_person_hours": 2.5,
+       "max_tph": 14.2,
+       "over_person_hours": 7.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 3.5,
+       "wages": 36.0
+      },
+      "sensitivity_minus10": 34.0
+     },
+     "Sat": {
+      "sales_typical": 3115.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "7:00",
+        "end": "15:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "7:30",
+        "end": "15:30",
+        "hours": 8.0,
+        "rate": 21.0,
+        "wages": 168.0,
+        "note": ""
+       },
+       {
+        "role": "Hospitality Register",
+        "code": "HR",
+        "start": "8:00",
+        "end": "16:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "9:00",
+        "end": "14:00",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": "peak 5th"
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:30",
+        "end": "17:30",
+        "hours": 7.0,
+        "rate": 19.5,
+        "wages": 136.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 41.0,
+       "wages": 798.5,
+       "labor_pct": 25.6,
+       "splh": 76.0,
+       "peak_staff": 6,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 14.0,
+       "over_person_hours": 15.0
+      },
+      "actual_sampled": {
+       "core_hours": 38.22,
+       "core_wages": 749.57,
+       "avg_rate": 19.61,
+       "labor_pct": 24.1,
+       "n_days": 2
+      },
+      "delta_vs_actual": {
+       "hours": 2.8,
+       "wages": 49.0
+      },
+      "ryan_first_cut": {
+       "hours": 34.75,
+       "wages": 685.0,
+       "labor_pct": 22.0,
+       "splh": 89.6,
+       "peak_staff": 5,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 14.0,
+       "over_person_hours": 9.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 6.25,
+       "wages": 114.0
+      },
+      "sensitivity_minus10": 28.5
+     },
+     "Sun": {
+      "sales_typical": 2772.0,
+      "shifts": [
+       {
+        "role": "Production Line",
+        "code": "PL",
+        "start": "7:00",
+        "end": "15:00",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "7:30",
+        "end": "15:30",
+        "hours": 8.0,
+        "rate": 21.0,
+        "wages": 168.0,
+        "note": ""
+       },
+       {
+        "role": "Hospitality Register",
+        "code": "HR",
+        "start": "8:30",
+        "end": "16:30",
+        "hours": 8.0,
+        "rate": 19.0,
+        "wages": 152.0,
+        "note": ""
+       },
+       {
+        "role": "Barista",
+        "code": "B",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": ""
+       },
+       {
+        "role": "Closer (keyholder barista)",
+        "code": "CL",
+        "start": "10:00",
+        "end": "17:30",
+        "hours": 7.5,
+        "rate": 19.5,
+        "wages": 146.25,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 36.5,
+       "wages": 713.25,
+       "labor_pct": 25.7,
+       "splh": 75.9,
+       "peak_staff": 5,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 9.7,
+       "over_person_hours": 11.5
+      },
+      "actual_sampled": {
+       "core_hours": 39.16,
+       "core_wages": 757.59,
+       "avg_rate": 19.35,
+       "labor_pct": 27.3,
+       "n_days": 2
+      },
+      "delta_vs_actual": {
+       "hours": -2.7,
+       "wages": -44.0
+      },
+      "ryan_first_cut": {
+       "hours": 28.75,
+       "wages": 575.62,
+       "labor_pct": 20.8,
+       "splh": 96.4,
+       "peak_staff": 4,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 17.0,
+       "over_person_hours": 4.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 7.75,
+       "wages": 138.0
+      },
+      "sensitivity_minus10": 28.6
+     }
+    },
+    "week": {
+     "sales_typical": 13207.0,
+     "hours": 194.0,
+     "wages": 3812.0,
+     "labor_pct": 28.9,
+     "splh": 68.1,
+     "labor_pct_minus10": 32.1,
+     "actual_sampled_hours": 195.9,
+     "actual_sampled_wages": 3909.0,
+     "actual_sampled_labor_pct": 29.6,
+     "ryan_first_cut_hours": 183.5,
+     "ryan_first_cut_wages": 3718.0,
+     "ryan_first_cut_labor_pct": 28.2,
+     "target_wages": 3962.0,
+     "ceiling_wages": 4490.0,
+     "ceiling_trigger_sales": 11211.0,
+     "target_trigger_sales": 12706.0
+    }
+   }
+  },
+  "1899 Penn": {
+   "slow": {
+    "days": {
+     "Mon": {
+      "sales_typical": 381.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush only (4h); Admin covers lunch 12:30\u20132 when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 13.0,
+       "wages": 265.0,
+       "labor_pct": 69.6,
+       "splh": 29.3,
+       "peak_staff": 2,
+       "under_halfhours": 6,
+       "under_person_hours": 3.0,
+       "max_tph": 9.2,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 15.14,
+       "core_wages": 305.34,
+       "avg_rate": 20.16,
+       "labor_pct": 80.1,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -2.1,
+       "wages": -40.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 343.75,
+       "labor_pct": 90.2,
+       "splh": 23.8,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 7.2,
+       "over_person_hours": 0.0,
+       "admin_hours": 6.0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.0,
+       "wages": -79.0
+      },
+      "sensitivity_minus10": 77.3
+     },
+     "Tue": {
+      "sales_typical": 608.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "14:00",
+        "hours": 6.5,
+        "rate": 19.0,
+        "wages": 123.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 15.5,
+       "wages": 312.5,
+       "labor_pct": 51.4,
+       "splh": 39.2,
+       "peak_staff": 2,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 13.0,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 18.66,
+       "core_wages": 375.83,
+       "avg_rate": 20.14,
+       "labor_pct": 61.8,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -3.2,
+       "wages": -63.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 351.0,
+       "labor_pct": 57.7,
+       "splh": 33.8,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 9.2,
+       "over_person_hours": 1.5,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.5,
+       "wages": -38.0
+      },
+      "sensitivity_minus10": 57.1
+     },
+     "Wed": {
+      "sales_typical": 739.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "14:00",
+        "hours": 6.5,
+        "rate": 19.0,
+        "wages": 123.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 15.5,
+       "wages": 312.5,
+       "labor_pct": 42.3,
+       "splh": 47.7,
+       "peak_staff": 2,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 20.2,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 15.89,
+       "core_wages": 329.48,
+       "avg_rate": 20.73,
+       "labor_pct": 44.6,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -0.4,
+       "wages": -17.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 353.25,
+       "labor_pct": 47.8,
+       "splh": 41.1,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.4,
+       "over_person_hours": 1.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.5,
+       "wages": -41.0
+      },
+      "sensitivity_minus10": 47.0
+     },
+     "Thu": {
+      "sales_typical": 738.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "14:00",
+        "hours": 6.5,
+        "rate": 19.0,
+        "wages": 123.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 15.5,
+       "wages": 312.5,
+       "labor_pct": 42.3,
+       "splh": 47.6,
+       "peak_staff": 2,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 15.2,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 16.74,
+       "core_wages": 337.88,
+       "avg_rate": 20.18,
+       "labor_pct": 45.8,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -1.2,
+       "wages": -25.0
+      },
+      "ryan_first_cut": {
+       "hours": 17.5,
+       "wages": 362.0,
+       "labor_pct": 49.1,
+       "splh": 42.2,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.4,
+       "over_person_hours": 0.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.0,
+       "wages": -50.0
+      },
+      "sensitivity_minus10": 47.0
+     },
+     "Fri": {
+      "sales_typical": 406.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush only (4h)"
+       }
+      ],
+      "template": {
+       "hours": 13.0,
+       "wages": 265.0,
+       "labor_pct": 65.3,
+       "splh": 31.2,
+       "peak_staff": 2,
+       "under_halfhours": 6,
+       "under_person_hours": 3.0,
+       "max_tph": 10.8,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 14.04,
+       "core_wages": 289.6,
+       "avg_rate": 20.62,
+       "labor_pct": 71.3,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -1.0,
+       "wages": -25.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 346.0,
+       "labor_pct": 85.2,
+       "splh": 25.4,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 7.2,
+       "over_person_hours": 0.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.0,
+       "wages": -81.0
+      },
+      "sensitivity_minus10": 72.5
+     }
+    },
+    "week": {
+     "sales_typical": 2872.0,
+     "hours": 72.5,
+     "wages": 1468.0,
+     "labor_pct": 51.1,
+     "splh": 39.6,
+     "labor_pct_minus10": 56.8,
+     "actual_sampled_hours": 80.5,
+     "actual_sampled_wages": 1638.0,
+     "actual_sampled_labor_pct": 57.0,
+     "ryan_first_cut_hours": 85.5,
+     "ryan_first_cut_wages": 1756.0,
+     "ryan_first_cut_labor_pct": 61.1,
+     "target_wages": 1005.0,
+     "ceiling_wages": 1149.0,
+     "ceiling_trigger_sales": 3669.0,
+     "target_trigger_sales": 4193.0
+    }
+   },
+   "slow_lean": {
+    "days": {
+     "Mon": {
+      "sales_typical": 381.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": "1-person day; Admin covers 8:30\u201310 and 12:30\u20132 when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 9.0,
+       "wages": 189.0,
+       "labor_pct": 49.6,
+       "splh": 42.3,
+       "peak_staff": 1,
+       "under_halfhours": 14,
+       "under_person_hours": 7.0,
+       "max_tph": 13.4,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 15.14,
+       "core_wages": 305.34,
+       "avg_rate": 20.16,
+       "labor_pct": 80.1,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -6.1,
+       "wages": -116.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 343.75,
+       "labor_pct": 90.2,
+       "splh": 23.8,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 7.2,
+       "over_person_hours": 0.0,
+       "admin_hours": 6.0
+      },
+      "delta_vs_ryan": {
+       "hours": -7.0,
+       "wages": -155.0
+      },
+      "sensitivity_minus10": 55.1
+     },
+     "Tue": {
+      "sales_typical": 608.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush only"
+       }
+      ],
+      "template": {
+       "hours": 13.0,
+       "wages": 265.0,
+       "labor_pct": 43.6,
+       "splh": 46.8,
+       "peak_staff": 2,
+       "under_halfhours": 7,
+       "under_person_hours": 3.5,
+       "max_tph": 18.4,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 18.66,
+       "core_wages": 375.83,
+       "avg_rate": 20.14,
+       "labor_pct": 61.8,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -5.7,
+       "wages": -111.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 351.0,
+       "labor_pct": 57.7,
+       "splh": 33.8,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 9.2,
+       "over_person_hours": 1.5,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -5.0,
+       "wages": -86.0
+      },
+      "sensitivity_minus10": 48.4
+     },
+     "Wed": {
+      "sales_typical": 739.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush only"
+       }
+      ],
+      "template": {
+       "hours": 13.0,
+       "wages": 265.0,
+       "labor_pct": 35.9,
+       "splh": 56.8,
+       "peak_staff": 2,
+       "under_halfhours": 8,
+       "under_person_hours": 4.0,
+       "max_tph": 20.8,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 15.89,
+       "core_wages": 329.48,
+       "avg_rate": 20.73,
+       "labor_pct": 44.6,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -2.9,
+       "wages": -64.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 353.25,
+       "labor_pct": 47.8,
+       "splh": 41.1,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.4,
+       "over_person_hours": 1.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -5.0,
+       "wages": -88.0
+      },
+      "sensitivity_minus10": 39.8
+     },
+     "Thu": {
+      "sales_typical": 738.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush only"
+       }
+      ],
+      "template": {
+       "hours": 13.0,
+       "wages": 265.0,
+       "labor_pct": 35.9,
+       "splh": 56.8,
+       "peak_staff": 2,
+       "under_halfhours": 8,
+       "under_person_hours": 4.0,
+       "max_tph": 20.8,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 16.74,
+       "core_wages": 337.88,
+       "avg_rate": 20.18,
+       "labor_pct": 45.8,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -3.7,
+       "wages": -73.0
+      },
+      "ryan_first_cut": {
+       "hours": 17.5,
+       "wages": 362.0,
+       "labor_pct": 49.1,
+       "splh": 42.2,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.4,
+       "over_person_hours": 0.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -4.5,
+       "wages": -97.0
+      },
+      "sensitivity_minus10": 39.9
+     },
+     "Fri": {
+      "sales_typical": 406.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": "1-person day; Admin covers rush/lunch when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 9.0,
+       "wages": 189.0,
+       "labor_pct": 46.6,
+       "splh": 45.1,
+       "peak_staff": 1,
+       "under_halfhours": 14,
+       "under_person_hours": 7.0,
+       "max_tph": 10.8,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 14.04,
+       "core_wages": 289.6,
+       "avg_rate": 20.62,
+       "labor_pct": 71.3,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -5.0,
+       "wages": -101.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 346.0,
+       "labor_pct": 85.2,
+       "splh": 25.4,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 7.2,
+       "over_person_hours": 0.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -7.0,
+       "wages": -157.0
+      },
+      "sensitivity_minus10": 51.7
+     }
+    },
+    "week": {
+     "sales_typical": 2872.0,
+     "hours": 57.0,
+     "wages": 1173.0,
+     "labor_pct": 40.8,
+     "splh": 50.4,
+     "labor_pct_minus10": 45.4,
+     "actual_sampled_hours": 80.5,
+     "actual_sampled_wages": 1638.0,
+     "actual_sampled_labor_pct": 57.0,
+     "ryan_first_cut_hours": 85.5,
+     "ryan_first_cut_wages": 1756.0,
+     "ryan_first_cut_labor_pct": 61.1,
+     "target_wages": 1005.0,
+     "ceiling_wages": 1149.0,
+     "ceiling_trigger_sales": 2932.0,
+     "target_trigger_sales": 3351.0
+    }
+   },
+   "mid": {
+    "days": {
+     "Mon": {
+      "sales_typical": 601.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "13:30",
+        "hours": 6.0,
+        "rate": 19.0,
+        "wages": 114.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 15.0,
+       "wages": 303.0,
+       "labor_pct": 50.4,
+       "splh": 40.1,
+       "peak_staff": 2,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 16.0,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 16.12,
+       "core_wages": 344.86,
+       "avg_rate": 21.39,
+       "labor_pct": 57.4,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -1.1,
+       "wages": -42.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 343.75,
+       "labor_pct": 57.2,
+       "splh": 37.6,
+       "peak_staff": 2,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 16.0,
+       "over_person_hours": 0.0,
+       "admin_hours": 6.0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.0,
+       "wages": -41.0
+      },
+      "sensitivity_minus10": 56.0
+     },
+     "Tue": {
+      "sales_typical": 857.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "14:30",
+        "hours": 7.0,
+        "rate": 19.0,
+        "wages": 133.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 16.0,
+       "wages": 322.0,
+       "labor_pct": 37.6,
+       "splh": 53.6,
+       "peak_staff": 2,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 11.1,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 17.75,
+       "core_wages": 367.95,
+       "avg_rate": 20.73,
+       "labor_pct": 42.9,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -1.8,
+       "wages": -46.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 351.0,
+       "labor_pct": 41.0,
+       "splh": 47.6,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.1,
+       "over_person_hours": 1.0,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.0,
+       "wages": -29.0
+      },
+      "sensitivity_minus10": 41.7
+     },
+     "Wed": {
+      "sales_typical": 912.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "14:30",
+        "hours": 7.0,
+        "rate": 19.0,
+        "wages": 133.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 16.0,
+       "wages": 322.0,
+       "labor_pct": 35.3,
+       "splh": 57.0,
+       "peak_staff": 2,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 12.6,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 17.77,
+       "core_wages": 368.98,
+       "avg_rate": 20.77,
+       "labor_pct": 40.5,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -1.8,
+       "wages": -47.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 353.25,
+       "labor_pct": 38.7,
+       "splh": 50.7,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 12.5,
+       "over_person_hours": 1.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.0,
+       "wages": -31.0
+      },
+      "sensitivity_minus10": 39.2
+     },
+     "Thu": {
+      "sales_typical": 933.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "14:30",
+        "hours": 7.0,
+        "rate": 19.0,
+        "wages": 133.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 16.0,
+       "wages": 322.0,
+       "labor_pct": 34.5,
+       "splh": 58.3,
+       "peak_staff": 2,
+       "under_halfhours": 2,
+       "under_person_hours": 1.0,
+       "max_tph": 13.6,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 18.92,
+       "core_wages": 395.62,
+       "avg_rate": 20.91,
+       "labor_pct": 42.4,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -2.9,
+       "wages": -74.0
+      },
+      "ryan_first_cut": {
+       "hours": 17.5,
+       "wages": 362.0,
+       "labor_pct": 38.8,
+       "splh": 53.3,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.2,
+       "over_person_hours": 0.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.5,
+       "wages": -40.0
+      },
+      "sensitivity_minus10": 38.3
+     },
+     "Fri": {
+      "sales_typical": 456.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush only (4h); Admin covers lunch when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 13.0,
+       "wages": 265.0,
+       "labor_pct": 58.1,
+       "splh": 35.1,
+       "peak_staff": 2,
+       "under_halfhours": 6,
+       "under_person_hours": 3.0,
+       "max_tph": 9.8,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 15.2,
+       "core_wages": 324.64,
+       "avg_rate": 21.36,
+       "labor_pct": 71.2,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -2.2,
+       "wages": -60.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 346.0,
+       "labor_pct": 75.9,
+       "splh": 28.5,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 8.8,
+       "over_person_hours": 0.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.0,
+       "wages": -81.0
+      },
+      "sensitivity_minus10": 64.6
+     }
+    },
+    "week": {
+     "sales_typical": 3759.0,
+     "hours": 76.0,
+     "wages": 1534.0,
+     "labor_pct": 40.8,
+     "splh": 49.5,
+     "labor_pct_minus10": 45.3,
+     "actual_sampled_hours": 85.8,
+     "actual_sampled_wages": 1802.0,
+     "actual_sampled_labor_pct": 47.9,
+     "ryan_first_cut_hours": 85.5,
+     "ryan_first_cut_wages": 1756.0,
+     "ryan_first_cut_labor_pct": 46.7,
+     "target_wages": 1316.0,
+     "ceiling_wages": 1504.0,
+     "ceiling_trigger_sales": 3835.0,
+     "target_trigger_sales": 4383.0
+    }
+   },
+   "mid_lean": {
+    "days": {
+     "Mon": {
+      "sales_typical": 601.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "rate": 19.0,
+        "wages": 76.0,
+        "note": "rush only; Admin covers lunch when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 13.0,
+       "wages": 265.0,
+       "labor_pct": 44.1,
+       "splh": 46.2,
+       "peak_staff": 2,
+       "under_halfhours": 7,
+       "under_person_hours": 3.5,
+       "max_tph": 18.2,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 16.12,
+       "core_wages": 344.86,
+       "avg_rate": 21.39,
+       "labor_pct": 57.4,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -3.1,
+       "wages": -80.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 343.75,
+       "labor_pct": 57.2,
+       "splh": 37.6,
+       "peak_staff": 2,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 16.0,
+       "over_person_hours": 0.0,
+       "admin_hours": 6.0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.0,
+       "wages": -79.0
+      },
+      "sensitivity_minus10": 49.0
+     },
+     "Tue": {
+      "sales_typical": 857.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "13:30",
+        "hours": 6.0,
+        "rate": 19.0,
+        "wages": 114.0,
+        "note": "rush + lunch; SL alone 1:30\u20133:30 (13\u201322/hr)"
+       }
+      ],
+      "template": {
+       "hours": 15.0,
+       "wages": 303.0,
+       "labor_pct": 35.4,
+       "splh": 57.1,
+       "peak_staff": 2,
+       "under_halfhours": 4,
+       "under_person_hours": 2.0,
+       "max_tph": 22.2,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 17.75,
+       "core_wages": 367.95,
+       "avg_rate": 20.73,
+       "labor_pct": 42.9,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -2.8,
+       "wages": -65.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 351.0,
+       "labor_pct": 41.0,
+       "splh": 47.6,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.1,
+       "over_person_hours": 1.0,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.0,
+       "wages": -48.0
+      },
+      "sensitivity_minus10": 39.3
+     },
+     "Wed": {
+      "sales_typical": 912.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "13:30",
+        "hours": 6.0,
+        "rate": 19.0,
+        "wages": 114.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 15.0,
+       "wages": 303.0,
+       "labor_pct": 33.2,
+       "splh": 60.8,
+       "peak_staff": 2,
+       "under_halfhours": 4,
+       "under_person_hours": 2.0,
+       "max_tph": 25.0,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 17.77,
+       "core_wages": 368.98,
+       "avg_rate": 20.77,
+       "labor_pct": 40.5,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -2.8,
+       "wages": -66.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 353.25,
+       "labor_pct": 38.7,
+       "splh": 50.7,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 12.5,
+       "over_person_hours": 1.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -3.0,
+       "wages": -50.0
+      },
+      "sensitivity_minus10": 36.9
+     },
+     "Thu": {
+      "sales_typical": 933.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "13:30",
+        "hours": 6.0,
+        "rate": 19.0,
+        "wages": 114.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 15.0,
+       "wages": 303.0,
+       "labor_pct": 32.5,
+       "splh": 62.2,
+       "peak_staff": 2,
+       "under_halfhours": 4,
+       "under_person_hours": 2.0,
+       "max_tph": 22.4,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 18.92,
+       "core_wages": 395.62,
+       "avg_rate": 20.91,
+       "labor_pct": 42.4,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -3.9,
+       "wages": -93.0
+      },
+      "ryan_first_cut": {
+       "hours": 17.5,
+       "wages": 362.0,
+       "labor_pct": 38.8,
+       "splh": 53.3,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 11.2,
+       "over_person_hours": 0.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.5,
+       "wages": -59.0
+      },
+      "sensitivity_minus10": 36.1
+     },
+     "Fri": {
+      "sales_typical": 456.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": "1-person Friday (61 txns/day); Admin covers 8:30\u201310 & 12:30\u20131:30 when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 9.0,
+       "wages": 189.0,
+       "labor_pct": 41.4,
+       "splh": 50.7,
+       "peak_staff": 1,
+       "under_halfhours": 14,
+       "under_person_hours": 7.0,
+       "max_tph": 11.2,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 15.2,
+       "core_wages": 324.64,
+       "avg_rate": 21.36,
+       "labor_pct": 71.2,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -6.2,
+       "wages": -136.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 346.0,
+       "labor_pct": 75.9,
+       "splh": 28.5,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 8.8,
+       "over_person_hours": 0.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -7.0,
+       "wages": -157.0
+      },
+      "sensitivity_minus10": 46.1
+     }
+    },
+    "week": {
+     "sales_typical": 3759.0,
+     "hours": 67.0,
+     "wages": 1363.0,
+     "labor_pct": 36.3,
+     "splh": 56.1,
+     "labor_pct_minus10": 40.3,
+     "actual_sampled_hours": 85.8,
+     "actual_sampled_wages": 1802.0,
+     "actual_sampled_labor_pct": 47.9,
+     "ryan_first_cut_hours": 85.5,
+     "ryan_first_cut_wages": 1756.0,
+     "ryan_first_cut_labor_pct": 46.7,
+     "target_wages": 1316.0,
+     "ceiling_wages": 1504.0,
+     "ceiling_trigger_sales": 3408.0,
+     "target_trigger_sales": 3894.0
+    }
+   },
+   "busy": {
+    "days": {
+     "Mon": {
+      "sales_typical": 698.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "14:00",
+        "hours": 6.5,
+        "rate": 19.0,
+        "wages": 123.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 15.5,
+       "wages": 312.5,
+       "labor_pct": 44.8,
+       "splh": 45.0,
+       "peak_staff": 2,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 15.6,
+       "over_person_hours": 0.5
+      },
+      "actual_sampled": {
+       "core_hours": 17.94,
+       "core_wages": 370.41,
+       "avg_rate": 20.64,
+       "labor_pct": 53.1,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -2.4,
+       "wages": -58.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 343.75,
+       "labor_pct": 49.2,
+       "splh": 43.6,
+       "peak_staff": 2,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 15.6,
+       "over_person_hours": 0.0,
+       "admin_hours": 6.0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.5,
+       "wages": -31.0
+      },
+      "sensitivity_minus10": 49.7
+     },
+     "Tue": {
+      "sales_typical": 1130.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 19.0,
+        "wages": 161.5,
+        "note": "1p peak 37/hr is at 2-person capacity; Admin covers 12:30\u20132 when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 17.5,
+       "wages": 350.5,
+       "labor_pct": 31.0,
+       "splh": 64.6,
+       "peak_staff": 2,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 18.6,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 18.27,
+       "core_wages": 379.78,
+       "avg_rate": 20.79,
+       "labor_pct": 33.6,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -0.8,
+       "wages": -29.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 351.0,
+       "labor_pct": 31.1,
+       "splh": 62.8,
+       "peak_staff": 2,
+       "under_halfhours": 1,
+       "under_person_hours": 0.5,
+       "max_tph": 18.6,
+       "over_person_hours": 0.5,
+       "admin_hours": 7.0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.5,
+       "wages": -0.0
+      },
+      "sensitivity_minus10": 34.5
+     },
+     "Wed": {
+      "sales_typical": 1183.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 19.0,
+        "wages": 161.5,
+        "note": "1p peak 30/hr; Admin covers 12:30\u20132 when scheduled"
+       }
+      ],
+      "template": {
+       "hours": 17.5,
+       "wages": 350.5,
+       "labor_pct": 29.6,
+       "splh": 67.6,
+       "peak_staff": 2,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 15.1,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 20.43,
+       "core_wages": 432.93,
+       "avg_rate": 21.19,
+       "labor_pct": 36.6,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -2.9,
+       "wages": -82.0
+      },
+      "ryan_first_cut": {
+       "hours": 18.0,
+       "wages": 353.25,
+       "labor_pct": 29.9,
+       "splh": 65.7,
+       "peak_staff": 2,
+       "under_halfhours": 3,
+       "under_person_hours": 1.5,
+       "max_tph": 15.1,
+       "over_person_hours": 0.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -0.5,
+       "wages": -3.0
+      },
+      "sensitivity_minus10": 32.9
+     },
+     "Thu": {
+      "sales_typical": 1026.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "6:30",
+        "end": "15:00",
+        "hours": 8.5,
+        "rate": 19.0,
+        "wages": 161.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 17.5,
+       "wages": 350.5,
+       "labor_pct": 34.2,
+       "splh": 58.6,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 13.2,
+       "over_person_hours": 0.5
+      },
+      "actual_sampled": {
+       "core_hours": 20.56,
+       "core_wages": 420.1,
+       "avg_rate": 20.44,
+       "labor_pct": 40.9,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -3.1,
+       "wages": -70.0
+      },
+      "ryan_first_cut": {
+       "hours": 17.5,
+       "wages": 362.0,
+       "labor_pct": 35.3,
+       "splh": 58.6,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 13.2,
+       "over_person_hours": 0.5,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": 0.0,
+       "wages": -12.0
+      },
+      "sensitivity_minus10": 38.0
+     },
+     "Fri": {
+      "sales_typical": 561.0,
+      "shifts": [
+       {
+        "role": "Shift Lead",
+        "code": "SL",
+        "start": "6:30",
+        "end": "15:30",
+        "hours": 9.0,
+        "rate": 21.0,
+        "wages": 189.0,
+        "note": ""
+       },
+       {
+        "role": "Production Barista",
+        "code": "PB",
+        "start": "7:30",
+        "end": "12:30",
+        "hours": 5.0,
+        "rate": 19.0,
+        "wages": 95.0,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 14.0,
+       "wages": 284.0,
+       "labor_pct": 50.6,
+       "splh": 40.1,
+       "peak_staff": 2,
+       "under_halfhours": 4,
+       "under_person_hours": 2.0,
+       "max_tph": 10.6,
+       "over_person_hours": 0.0
+      },
+      "actual_sampled": {
+       "core_hours": 16.71,
+       "core_wages": 356.91,
+       "avg_rate": 21.36,
+       "labor_pct": 63.6,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": -2.7,
+       "wages": -73.0
+      },
+      "ryan_first_cut": {
+       "hours": 16.0,
+       "wages": 346.0,
+       "labor_pct": 61.7,
+       "splh": 35.1,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 10.6,
+       "over_person_hours": 0.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -2.0,
+       "wages": -62.0
+      },
+      "sensitivity_minus10": 56.2
+     }
+    },
+    "week": {
+     "sales_typical": 4598.0,
+     "hours": 82.0,
+     "wages": 1648.0,
+     "labor_pct": 35.8,
+     "splh": 56.1,
+     "labor_pct_minus10": 39.8,
+     "actual_sampled_hours": 93.9,
+     "actual_sampled_wages": 1960.0,
+     "actual_sampled_labor_pct": 42.6,
+     "ryan_first_cut_hours": 85.5,
+     "ryan_first_cut_wages": 1756.0,
+     "ryan_first_cut_labor_pct": 38.2,
+     "target_wages": 1609.0,
+     "ceiling_wages": 1839.0,
+     "ceiling_trigger_sales": 4120.0,
+     "target_trigger_sales": 4709.0
+    }
+   }
+  },
+  "NMWA": {
+   "slow": {
+    "days": {
+     "Wed": {
+      "sales_typical": 457.0,
+      "shifts": [
+       {
+        "role": "FOH",
+        "code": "FOH",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 20.5,
+        "wages": 102.5,
+        "note": "2nd Wednesday community day only: add 2nd FOH 10\u201314"
+       },
+       {
+        "role": "FOH",
+        "code": "FOH",
+        "start": "10:00",
+        "end": "14:00",
+        "hours": 4.0,
+        "rate": 20.5,
+        "wages": 82.0,
+        "note": "community-day 2nd person"
+       }
+      ],
+      "template": {
+       "hours": 9.0,
+       "wages": 184.5,
+       "labor_pct": 40.4,
+       "splh": 50.8,
+       "peak_staff": 2,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 1.0
+      },
+      "actual_sampled": {
+       "core_hours": 6.4,
+       "core_wages": 143.24,
+       "avg_rate": 22.38,
+       "labor_pct": 31.3,
+       "n_days": 3
+      },
+      "delta_vs_actual": {
+       "hours": 2.6,
+       "wages": 41.0
+      },
+      "sensitivity_minus10": 44.9
+     },
+     "Thu": {
+      "sales_typical": 167.0,
+      "shifts": [
+       {
+        "role": "FOH",
+        "code": "FOH",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 20.5,
+        "wages": 102.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 5.0,
+       "wages": 102.5,
+       "labor_pct": 61.4,
+       "splh": 33.4,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 1.0
+      },
+      "actual_sampled": {
+       "core_hours": 7.62,
+       "core_wages": 166.24,
+       "avg_rate": 21.82,
+       "labor_pct": 99.5,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -2.6,
+       "wages": -64.0
+      },
+      "ryan_first_cut": {
+       "hours": 6.0,
+       "wages": 123.0,
+       "labor_pct": 73.7,
+       "splh": 27.8,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 2.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.0,
+       "wages": -20.0
+      },
+      "sensitivity_minus10": 68.2
+     },
+     "Fri": {
+      "sales_typical": 175.0,
+      "shifts": [
+       {
+        "role": "FOH",
+        "code": "FOH",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 20.5,
+        "wages": 102.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 5.0,
+       "wages": 102.5,
+       "labor_pct": 58.6,
+       "splh": 35.0,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 1.0
+      },
+      "actual_sampled": {
+       "core_hours": 5.72,
+       "core_wages": 118.66,
+       "avg_rate": 20.75,
+       "labor_pct": 67.8,
+       "n_days": 9
+      },
+      "delta_vs_actual": {
+       "hours": -0.7,
+       "wages": -16.0
+      },
+      "ryan_first_cut": {
+       "hours": 6.0,
+       "wages": 136.5,
+       "labor_pct": 78.0,
+       "splh": 29.2,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 2.0,
+       "admin_hours": 4.0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.0,
+       "wages": -34.0
+      },
+      "sensitivity_minus10": 65.1
+     },
+     "Sat": {
+      "sales_typical": 81.0,
+      "shifts": [
+       {
+        "role": "FOH",
+        "code": "FOH",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 20.5,
+        "wages": 102.5,
+        "note": ""
+       }
+      ],
+      "template": {
+       "hours": 5.0,
+       "wages": 102.5,
+       "labor_pct": 126.5,
+       "splh": 16.2,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 1.0
+      },
+      "actual_sampled": {
+       "core_hours": 5.36,
+       "core_wages": 109.35,
+       "avg_rate": 20.4,
+       "labor_pct": 135.0,
+       "n_days": 7
+      },
+      "delta_vs_actual": {
+       "hours": -0.4,
+       "wages": -7.0
+      },
+      "ryan_first_cut": {
+       "hours": 6.0,
+       "wages": 123.0,
+       "labor_pct": 151.9,
+       "splh": 13.5,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 2.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.0,
+       "wages": -20.0
+      },
+      "sensitivity_minus10": 140.6
+     },
+     "Sun": {
+      "sales_typical": 180.0,
+      "shifts": [
+       {
+        "role": "FOH",
+        "code": "FOH",
+        "start": "9:30",
+        "end": "14:30",
+        "hours": 5.0,
+        "rate": 20.5,
+        "wages": 102.5,
+        "note": "1st Sunday community day: add 2nd FOH 10\u201314"
+       }
+      ],
+      "template": {
+       "hours": 5.0,
+       "wages": 102.5,
+       "labor_pct": 56.9,
+       "splh": 36.0,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 1.0
+      },
+      "actual_sampled": {
+       "core_hours": 7.85,
+       "core_wages": 161.55,
+       "avg_rate": 20.59,
+       "labor_pct": 89.8,
+       "n_days": 8
+      },
+      "delta_vs_actual": {
+       "hours": -2.8,
+       "wages": -59.0
+      },
+      "ryan_first_cut": {
+       "hours": 6.0,
+       "wages": 121.5,
+       "labor_pct": 67.5,
+       "splh": 30.0,
+       "peak_staff": 1,
+       "under_halfhours": 0,
+       "under_person_hours": 0.0,
+       "max_tph": 0.0,
+       "over_person_hours": 2.0,
+       "admin_hours": 0
+      },
+      "delta_vs_ryan": {
+       "hours": -1.0,
+       "wages": -19.0
+      },
+      "sensitivity_minus10": 63.3
+     }
+    },
+    "week": {
+     "sales_typical": 1060.0,
+     "hours": 29.0,
+     "wages": 594.0,
+     "labor_pct": 56.1,
+     "splh": 36.6,
+     "labor_pct_minus10": 62.3,
+     "actual_sampled_hours": 32.9,
+     "actual_sampled_wages": 699.0,
+     "actual_sampled_labor_pct": 65.9,
+     "ryan_first_cut_hours": 24.0,
+     "ryan_first_cut_wages": 504.0,
+     "ryan_first_cut_labor_pct": 47.5
+    }
+   }
+  }
+ }
+}

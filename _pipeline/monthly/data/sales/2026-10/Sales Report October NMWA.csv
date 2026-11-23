@@ -1,0 +1,78 @@
+Key Stats
+Filtered By Location: NMWA
+Sales,518
+Avg. Gross Sale,$42.81
+Gross Sales,"$22,174.75"
+Total Collected,"$21,608.91"
+
+Sales Summary
+Filtered By Location: NMWA
+Sales
+Gross Sales,"$22,174.75"
+Items,"$22,174.75"
+Service Charges,$0.00
+Returns,$0.00
+Discounts & Comps,"-$1,468.35"
+Net Sales,"$20,706.40"
+Gift Card Sales,$0.00
+Tax,$405.96
+Tip,$499.55
+Refunds by Amount,-$3.00
+Total,"$21,608.91"
+
+Payments
+Total Collected,"$21,608.91"
+Cash,$71.71
+Card,"$5,031.45"
+Check,"$16,505.75"
+Other,$0.00
+Gift Card,$0.00
+Fees,-$151.27
+Net Total,"$21,457.64"
+
+Category Sales
+Filtered By Location: NMWA
+Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Catering and Events,63,"$9,926.00",0,$0.00,"-$1,240.48","$8,685.52",$42.08
+Coffee,520,"$2,564.25",0,$0.00,-$150.01,"$2,414.24",$241.20
+Food,167,"$1,109.50",0,$0.00,-$64.79,"$1,044.71",$104.46
+Retail,2,$6.00,0,$0.00,-$0.60,$5.40,$0.54
+Other Categories,65,$328.00,0,$0.00,-$12.47,$315.53,$17.68
+Services,5,"$8,241.00",0,$0.00,$0.00,"$8,241.00",$0.00
+
+Category Sales
+Display By Source
+Filtered By Location: NMWA
+Source,Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Point of Sale,Catering and Events,28,$263.00,0,$0.00,-$1.10,$261.90,$26.19
+Register,Catering and Events,34,$163.00,0,$0.00,-$4.13,$158.87,$15.89
+Register,Coffee,520,"$2,564.25",0,$0.00,-$150.01,"$2,414.24",$241.20
+Register,Food,167,"$1,109.50",0,$0.00,-$64.79,"$1,044.71",$104.46
+Register,Retail,2,$6.00,0,$0.00,-$0.60,$5.40,$0.54
+Register,Other Categories,65,$328.00,0,$0.00,-$12.47,$315.53,$17.68
+Invoices,Catering and Events,1,"$9,500.00",0,$0.00,"-$1,235.25","$8,264.75",$0.00
+Invoices,Services,5,"$8,241.00",0,$0.00,$0.00,"$8,241.00",$0.00
+
+Category Sales
+Display By Dining Option
+Filtered By Location: NMWA
+Dining Option,Category,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+No Dining Option,Catering and Event,1,"$9,500.00",0,$0.00,"-$1,235.25","$8,264.75",$0.00
+No Dining Option,Services,5,"$8,241.00",0,$0.00,$0.00,"$8,241.00",$0.00
+For Here,Espresso and Specialty,3,$20.00,0,$0.00,$0.00,$20.00,$2.00
+To Go,Uncategorized,40,$157.00,0,$0.00,-$8.75,$148.25,$0.95
+To Go,All-Day Food,48,$511.00,0,$0.00,-$26.42,$484.58,$48.46
+To Go,Catering and Event,62,$426.00,0,$0.00,-$5.23,$420.77,$42.08
+To Go,Coffee Drinks,4,$24.00,0,$0.00,-$0.60,$23.40,$2.34
+To Go,Espresso and Specialty,248,"$1,375.50",0,$0.00,-$90.44,"$1,285.06",$128.47
+To Go,Filter Coffee,110,$558.25,0,$0.00,-$47.44,$510.81,$51.19
+To Go,Grab and Go,21,$147.00,0,$0.00,-$3.12,$143.88,$14.39
+To Go,Pastry,119,$598.50,0,$0.00,-$38.37,$560.13,$56.00
+To Go,Retail,2,$6.00,0,$0.00,-$0.60,$5.40,$0.54
+To Go,Tea and Other Drinks,159,$610.50,0,$0.00,-$12.13,$598.37,$59.54
+
+Invoice Payments by Tender
+Filtered By Location: NMWA
+Tender,Payments,Refunds,Amount
+Check,5,0,"$16,505.75"
+Total,5,0,"$16,505.75"

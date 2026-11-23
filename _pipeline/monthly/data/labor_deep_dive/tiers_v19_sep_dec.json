@@ -1,0 +1,308 @@
+{
+ "Downtown": [
+  {
+   "week": "2026-08-31",
+   "proj": 7713,
+   "days": 4,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-07",
+   "proj": 7735,
+   "days": 4,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-14",
+   "proj": 8426,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-21",
+   "proj": 7698,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-28",
+   "proj": 7881,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-05",
+   "proj": 8367,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-12",
+   "proj": 9265,
+   "days": 4,
+   "tier": "busy"
+  },
+  {
+   "week": "2026-10-19",
+   "proj": 8632,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-26",
+   "proj": 7929,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-11-02",
+   "proj": 8934,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-11-09",
+   "proj": 7270,
+   "days": 5,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-11-16",
+   "proj": 9466,
+   "days": 5,
+   "tier": "busy"
+  },
+  {
+   "week": "2026-11-23",
+   "proj": 4041,
+   "days": 3,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-11-30",
+   "proj": 7721,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-12-07",
+   "proj": 8921,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-12-14",
+   "proj": 7753,
+   "days": 5,
+   "tier": "mid"
+  }
+ ],
+ "Studio": [
+  {
+   "week": "2026-08-31",
+   "proj": 9504,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-09-07",
+   "proj": 10143,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-09-14",
+   "proj": 10116,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-09-21",
+   "proj": 10331,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-09-28",
+   "proj": 11446,
+   "days": 7,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-05",
+   "proj": 11289,
+   "days": 7,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-12",
+   "proj": 10828,
+   "days": 7,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-19",
+   "proj": 10654,
+   "days": 7,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-26",
+   "proj": 10585,
+   "days": 7,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-11-02",
+   "proj": 10764,
+   "days": 7,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-11-09",
+   "proj": 11225,
+   "days": 7,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-11-16",
+   "proj": 9626,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-11-23",
+   "proj": 6029,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-11-30",
+   "proj": 9071,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-12-07",
+   "proj": 9559,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-12-14",
+   "proj": 7992,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-12-21",
+   "proj": 4638,
+   "days": 7,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-12-28",
+   "proj": 6640,
+   "days": 4,
+   "tier": "slow"
+  }
+ ],
+ "1899 Penn": [
+  {
+   "week": "2026-08-31",
+   "proj": 3625,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-07",
+   "proj": 3688,
+   "days": 4,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-14",
+   "proj": 3925,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-21",
+   "proj": 3950,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-09-28",
+   "proj": 4050,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-05",
+   "proj": 4050,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-10-12",
+   "proj": 4312,
+   "days": 4,
+   "tier": "busy"
+  },
+  {
+   "week": "2026-10-19",
+   "proj": 4300,
+   "days": 5,
+   "tier": "busy"
+  },
+  {
+   "week": "2026-10-26",
+   "proj": 4300,
+   "days": 5,
+   "tier": "busy"
+  },
+  {
+   "week": "2026-11-02",
+   "proj": 4300,
+   "days": 5,
+   "tier": "busy"
+  },
+  {
+   "week": "2026-11-09",
+   "proj": 3900,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-11-16",
+   "proj": 4250,
+   "days": 5,
+   "tier": "busy"
+  },
+  {
+   "week": "2026-11-23",
+   "proj": 2750,
+   "days": 3,
+   "tier": "slow"
+  },
+  {
+   "week": "2026-11-30",
+   "proj": 3600,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-12-07",
+   "proj": 4050,
+   "days": 5,
+   "tier": "mid"
+  },
+  {
+   "week": "2026-12-14",
+   "proj": 4000,
+   "days": 5,
+   "tier": "mid"
+  }
+ ]
+}

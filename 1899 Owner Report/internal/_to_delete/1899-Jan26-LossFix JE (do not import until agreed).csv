@@ -1,0 +1,4 @@
+﻿*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+1899-Jan26-LossFix,1/31/26,Due to Owner / Pass-through Liability,1069.53,,"Jan 2026 1899 loss $1,069.53 passed to owner; $421.99 incentive reversed (no incentive in a loss month)",,USD,Cafe Management,
+1899-Jan26-LossFix,,Sales:Management Income:Incentive Fees,421.99,,"Jan 2026 1899 loss $1,069.53 passed to owner; $421.99 incentive reversed (no incentive in a loss month)",,,Cafe Management,
+1899-Jan26-LossFix,,Owner Profit Share / Loss Coverage,,1491.52,"Jan 2026 1899 loss $1,069.53 passed to owner; $421.99 incentive reversed (no incentive in a loss month)",,,GHC6 - 1899,

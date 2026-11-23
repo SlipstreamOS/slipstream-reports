@@ -1,0 +1,7 @@
+﻿*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+Combine-Cash-CC-Sep26,9/30/26,GHC5 Cash on Hand,126.43,,Combine GHC5 cash on hand into GHC3 account,,USD,GHC5 - Studio,
+,,GHC3 Cash on hand,,126.43,Combine GHC5 cash on hand into GHC3 account,,,GHC5 - Studio,
+,,GHC5 Credit Card Receivables,776924.77,,Combine GHC5 CC receivables into GHC3 account,,,GHC5 - Studio,
+,,GHC3 Credit Card Receivables,,776924.77,Combine GHC5 CC receivables into GHC3 account,,,GHC5 - Studio,
+NMWA-FeePmt-Fix-Sep26,9/30/26,Management Income Clearing,5041.00,,"NMWA fee inv #6 was paid in Aug, not Sept - reverse Sept cash side",,USD,NMWA,
+,,GHC3 Cash on hand,,5041.00,"NMWA fee inv #6 was paid in Aug, not Sept - reverse Sept cash side",,,NMWA,

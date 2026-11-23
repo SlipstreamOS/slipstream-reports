@@ -1,6 +1,6 @@
-# Slipstream weekly report (cloud runbook)
+# Slipstream reports, month close and payroll (cloud runbook)
 
-This repo builds Slipstream's Sun-Sat weekly business report with no dependency on Ryan's computer.
+This repo holds everything that used to live in the "Weekly and Monthly Reports" folder on Ryan's Mac. The repo root has the same layout as that folder, so every script runs from a clone with no dependency on Ryan's computer: the weekly report (below), month close, monthly and owner reports, and payroll (sections at the end).
 Four cafes: Downtown (LXM7V1QWDHKZJ), Studio (LGVKCKX9B9DZT), 1899 Penn (L4ZBMGCWJ5C7R), NMWA (LV2D18H0DD9ES).
 Report rules, bands and history: `_pipeline/weekly/README.md`. Read it before writing a narrative.
 
@@ -39,3 +39,21 @@ Upload the report PDF to Drive folder "Slipstream Weekly Reports" (id 1KBE76KkH4
 - `Slipstream Weekly Data.xlsx` long-format history workbook (updated each run, committed).
 - `deltas/` the week's sales bundle, kept for audit.
 - `reports/<week start>/` the PDFs sent to Ryan.
+
+## Month close, monthly reports, payroll (cloud, no Mac)
+Moved off Ryan's Mac on 2026-11-22. Do not use device_bash or the Mac folder for any of this; work in the clone and push.
+
+**Setup each session:** `git pull`. LibreOffice (`soffice`), python-docx, python-pptx and openpyxl are in the cloud container. For PDF renders of the owner reports install the fonts first: `mkdir -p ~/.fonts && cp _pipeline/fonts/*.otf ~/.fonts/ && fc-cache -f` (Noyh Black is not in the repo; ask Ryan for the file if a render needs it).
+
+**Month close** (skill `slipstream-month-close`; process of record is `Month Close Playbook.md` at the repo root, read the version notes first):
+- Inputs come from Drive folder "Month Close Files" (id 13tCRuMoMcybgZ-z2r1MmCFcWw2nxHtBZ) / `<Month YYYY>`, plus anything Ryan attaches. Save the Square sales CSVs to `_pipeline/monthly/data/sales/<YYYY-MM>/`.
+- `python3 _pipeline/monthly/scripts/build_jes.py` (edit its CONFIG block). Outputs: `<Month> Sales JEs/` and `<Month> Sales JEs CSV/` at the repo root. No CLOSE_BASE / CLOSE_UP needed.
+- Model: `sync_model.py <v_in> <v_out> <YYYY-MM>`, `recalc_copy.py <ver>` (recalculated copy in `~/rc/`), `validate_model.py <ver> <YYYY-MM> ~/rc`. Only the current model version is on `main`; add the new version, and `git rm` the one before last once the new one validates (old versions stay in history and on `mac-archive`).
+- `Coefficient Output 2026.xlsx`: Ryan refreshes it in Excel (Coefficient add-in) and puts the refreshed file in the Drive month folder or the chat. Copy it over the repo copy byte for byte. Never openpyxl-save it.
+- Reports: `analyze_patterns.py <YYYY-MM>`, `analyze_loyalty.py <YYYY-MM>`, `extract_fin.py`, `build_monthly_report_v2.py`, `MODEL_XLSX=~/rc/<model> build_1899_owner_report.py <ver> <YYYY-MM>`, `build_nmwa_report.py <YYYY-MM>`.
+- Deliver to Ryan with SendUserFile and upload to the Drive month folder. Never share or send to anyone else without his OK in chat.
+- Commit and push at the end of every working session, even mid-close, so nothing lives only in a container.
+
+**Payroll** (skill `slipstream-payroll`; mechanics in `Payroll/_pipeline/README.md`): run `Payroll/_pipeline/payroll/run_pull.py`, `v2/populate_v2.py`, `v2/finalize_v2.py` from the clone. Deliverables go in `Payroll/<start>_to_<end>/`, to Ryan by SendUserFile, and to the private Drive folder "Slipstream Payroll (Ryan only)". Payroll files are confidential: never share that folder or this repo.
+
+**Archive:** branch `mac-archive` is a complete copy of the Mac folder as of 2026-11-22 (1,129 files: Consolidated Model v6 to v19, pre-merge backups, raw pulls, old weekly report files). Fetch a file from it with `git fetch --depth 1 origin mac-archive && git show FETCH_HEAD:"<path>" > <file>`. Do not merge it into main.

@@ -1,0 +1,4 @@
+﻿*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+IncentFee-Pass-Sep26,9/30/26,Owner Profit Share / Loss Coverage,3412.83,,"1899 Sept profit pass: NI $3,412.83 = incentive $1,010.01 + owner share $2,402.82",,USD,GHC6 - 1899,
+IncentFee-Pass-Sep26,,Inter-company AP - GHC6,,1010.01,"1899 Sept profit pass: NI $3,412.83 = incentive $1,010.01 + owner share $2,402.82",,,Cafe Management,
+IncentFee-Pass-Sep26,,Due to Owner / Pass-through Liability,,2402.82,"1899 Sept profit pass: NI $3,412.83 = incentive $1,010.01 + owner share $2,402.82",,,Cafe Management,

@@ -1,0 +1,253 @@
+{
+ "basis": "August 2026 roster (core + admin + training hours), each person's band \u2192 scenario rate; no one is cut",
+ "avg_rate_now": 20.65,
+ "core_hours_aug": 2306,
+ "peer_avg_all_in": 24.25,
+ "hours_mix_aug": {
+  "all": 0.304,
+  "certified": 0.206,
+  "sl": 0.237,
+  "trainee": 0.254
+ },
+ "roster_hours_aug_all_buckets": 2466,
+ "scenarios": {
+  "parity_floors": {
+   "rates": {
+    "trainee": 18.5,
+    "certified": 0,
+    "sl": 22.5,
+    "all": 25.5
+   },
+   "cost_month": 2351,
+   "cost_year": 28217,
+   "avg_rate": 21.75,
+   "uplift_pct": 4.6,
+   "by_band": {
+    "trainee": {
+     "people": 6,
+     "avg_now": 18.5,
+     "to": 18.5
+    },
+    "certified": {
+     "people": 4,
+     "avg_now": 19.38,
+     "to": 0
+    },
+    "sl": {
+     "people": 4,
+     "avg_now": 20.94,
+     "to": 22.5
+    },
+    "all": {
+     "people": 5,
+     "avg_now": 23.65,
+     "to": 25.5
+    }
+   }
+  },
+  "full_curve": {
+   "rates": {
+    "trainee": 18.5,
+    "certified": 20.5,
+    "sl": 23.5,
+    "all": 27.0
+   },
+   "cost_month": 4640,
+   "cost_year": 55678,
+   "avg_rate": 22.68,
+   "uplift_pct": 9.0,
+   "by_band": {
+    "trainee": {
+     "people": 6,
+     "avg_now": 18.5,
+     "to": 18.5
+    },
+    "certified": {
+     "people": 4,
+     "avg_now": 19.38,
+     "to": 20.5
+    },
+    "sl": {
+     "people": 4,
+     "avg_now": 20.94,
+     "to": 23.5
+    },
+    "all": {
+     "people": 5,
+     "avg_now": 23.65,
+     "to": 27.0
+    }
+   }
+  },
+  "peer": {
+   "rates": {
+    "trainee": 23.0,
+    "certified": 24.0,
+    "sl": 25.5,
+    "all": 27.0
+   },
+   "cost_month": 10399,
+   "cost_year": 124792,
+   "avg_rate": 25.01,
+   "uplift_pct": 20.3,
+   "by_band": {
+    "trainee": {
+     "people": 6,
+     "avg_now": 18.5,
+     "to": 23.0
+    },
+    "certified": {
+     "people": 4,
+     "avg_now": 19.38,
+     "to": 24.0
+    },
+    "sl": {
+     "people": 4,
+     "avg_now": 20.94,
+     "to": 25.5
+    },
+    "all": {
+     "people": 5,
+     "avg_now": 23.65,
+     "to": 27.0
+    }
+   }
+  },
+  "peer_plus5": {
+   "rates": {
+    "trainee": 24.15,
+    "certified": 25.2,
+    "sl": 26.78,
+    "all": 28.35
+   },
+   "cost_month": 13486,
+   "cost_year": 161832,
+   "avg_rate": 26.26,
+   "uplift_pct": 26.3,
+   "by_band": {
+    "trainee": {
+     "people": 6,
+     "avg_now": 18.5,
+     "to": 24.15
+    },
+    "certified": {
+     "people": 4,
+     "avg_now": 19.38,
+     "to": 25.2
+    },
+    "sl": {
+     "people": 4,
+     "avg_now": 20.94,
+     "to": 26.78
+    },
+    "all": {
+     "people": 5,
+     "avg_now": 23.65,
+     "to": 28.35
+    }
+   }
+  },
+  "curve_a": {
+   "rates": {
+    "trainee": 18.5,
+    "certified": 21.0,
+    "sl": 24.5,
+    "all": 28.0
+   },
+   "cost_month": 6226,
+   "cost_year": 74712,
+   "avg_rate": 23.32,
+   "uplift_pct": 12.1,
+   "by_band": {
+    "trainee": {
+     "people": 6,
+     "avg_now": 18.5,
+     "to": 18.5
+    },
+    "certified": {
+     "people": 4,
+     "avg_now": 19.38,
+     "to": 21.0
+    },
+    "sl": {
+     "people": 4,
+     "avg_now": 20.94,
+     "to": 24.5
+    },
+    "all": {
+     "people": 5,
+     "avg_now": 23.65,
+     "to": 28.0
+    }
+   }
+  },
+  "peer_avg_curve": {
+   "rates": {
+    "trainee": 18.5,
+    "certified": 21.5,
+    "sl": 26.0,
+    "all": 29.5
+   },
+   "cost_month": 8478,
+   "cost_year": 101742,
+   "avg_rate": 24.23,
+   "uplift_pct": 16.5,
+   "by_band": {
+    "trainee": {
+     "people": 6,
+     "avg_now": 18.5,
+     "to": 18.5
+    },
+    "certified": {
+     "people": 4,
+     "avg_now": 19.38,
+     "to": 21.5
+    },
+    "sl": {
+     "people": 4,
+     "avg_now": 20.94,
+     "to": 26.0
+    },
+    "all": {
+     "people": 5,
+     "avg_now": 23.65,
+     "to": 29.5
+    }
+   }
+  },
+  "peer_avg_curve_plus5": {
+   "rates": {
+    "trainee": 18.5,
+    "certified": 22.57,
+    "sl": 27.3,
+    "all": 30.98
+   },
+   "cost_month": 10888,
+   "cost_year": 130660,
+   "avg_rate": 25.21,
+   "uplift_pct": 21.2,
+   "by_band": {
+    "trainee": {
+     "people": 6,
+     "avg_now": 18.5,
+     "to": 18.5
+    },
+    "certified": {
+     "people": 4,
+     "avg_now": 19.38,
+     "to": 22.57
+    },
+    "sl": {
+     "people": 4,
+     "avg_now": 20.94,
+     "to": 27.3
+    },
+    "all": {
+     "people": 5,
+     "avg_now": 23.65,
+     "to": 30.98
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,969 @@
+"""Build a clean v2 payroll workbook from scratch.
+
+Tabs:
+  Inputs           — period start, daily CC tips, shifts CSV (paste here)
+  Roster           — employee directory: ADP name, standard wage, primary location
+  Roles            — Square job title → role group + tipped flag
+  Calc             — auto-aggregated per (employee × location × role)
+  Output (ADP)     — alphabetical entry list, ADP-column-ordered
+  Location Totals  — per-location hours/labor/tips
+  Checks           — reconciliation: hours match, tips match, min wage holds
+  README           — how to use
+
+Design principles:
+  • Single source of truth for each input (paste once)
+  • SUMIFS / SUMPRODUCT, not CSE array formulas with hardcoded ranges
+  • Adding/removing a location = edit Roster, Calc auto-updates
+  • Adding/removing a job title = edit Roles, no formula changes
+  • Output tab is what the user types into ADP, sorted to match ADP's order
+"""
+from __future__ import annotations
+import datetime as dt
+from pathlib import Path
+
+import openpyxl
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.table import Table, TableStyleInfo
+from openpyxl.workbook.defined_name import DefinedName
+from openpyxl.formatting.rule import CellIsRule, FormulaRule
+from openpyxl.styles.differential import DifferentialStyle
+
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT / "template_v2.xlsx"
+
+# Slipstream's color protocol (per memory): blue=input, green=pull, black=formula
+COL_INPUT  = "1F4E78"   # dark blue
+COL_PULL   = "548235"   # green
+COL_HEADER = "1F4E78"
+COL_LABEL  = "2F2F2F"
+
+FILL_INPUT_BG  = PatternFill("solid", fgColor="D9E1F2")  # light blue
+FILL_LOOKUP_BG = PatternFill("solid", fgColor="E2EFDA")  # light green
+FILL_HEADER    = PatternFill("solid", fgColor="305496")  # dark navy
+FILL_BAND      = PatternFill("solid", fgColor="F2F2F2")  # light gray
+FILL_WARN      = PatternFill("solid", fgColor="FFE699")  # warm yellow
+FILL_OK        = PatternFill("solid", fgColor="C6EFCE")  # green pass
+FILL_FAIL      = PatternFill("solid", fgColor="FFC7CE")  # red fail
+
+FONT_HEADER  = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
+FONT_LABEL   = Font(name="Calibri", size=11, bold=True)
+FONT_INPUT   = Font(name="Calibri", size=11, color="1F4E78", bold=False)
+FONT_PULL    = Font(name="Calibri", size=11, color="548235", bold=False)
+FONT_FORMULA = Font(name="Calibri", size=11)
+
+THIN = Side(border_style="thin", color="BFBFBF")
+THICK = Side(border_style="medium", color="305496")
+
+
+# =============================================================================
+# Constants — locations, default roles, default roster
+# =============================================================================
+
+LOCATIONS = [
+    # (Display name in Square CSV, Short code, Tipped (Y/N))
+    ("Slipstream Studio",        "Studio",   True),
+    ("Slipstream Downtown",      "Downtown", True),
+    ("Slipstream 1899 Penn",     "1899",     True),
+    ("Slipstream NMWA",          "NMWA",     True),
+    ("Slipstream Commissary (Food)",     "CR Comm",  False),  # kitchen, no tips
+    ("Slipstream Roasting",      "SRP",      False),  # roastery, no tips
+]
+
+# Per Slipstream's tip-credit system: tipped employees get the tipped minimum
+# wage ($12 in DC) and the employer makes up the difference if (tipped wage +
+# tips/hr) doesn't reach the regular minimum ($18).
+MIN_TIPPED_WAGE = 12.00   # DC tipped min wage
+MIN_WAGE        = 18.50   # DC regular min wage (effective 2026-07-01)
+
+# All possible role groups that show up on ADP
+ROLE_GROUPS = ["Barista", "Admin", "Cook", "Training", "Event", "KA"]
+
+# Square job title -> (Role Group, Tipped) AT A CAFE LOCATION.
+# Location overrides apply: at CR Commissary, all roles become "Cook"; at
+# Slipstream Roasting, all roles become "Admin". So in this base table, kitchen-
+# adjacent jobs (Cook, Prep, Production Line, Commissary) map to "Barista" —
+# they pick up tips when worked at a cafe, and only get reclassified at the
+# commissary via location override.
+JOB_ROLES = [
+    ("Kitchen Admin",                 "KA",       False),
+    ("AM Bar",                        "Barista",  True),
+    ("AM Quickserve",                 "Barista",  True),
+    ("AM Register",                   "Barista",  True),
+    ("Admin",                         "Admin",    False),
+    ("BOH",                           "Barista",  True),
+    ("Barista",                       "Barista",  True),
+    ("Bartender",                     "Barista",  True),
+    ("COMMISSARY ",                   "Barista",  True),
+    ("Commissary",                    "Barista",  True),
+    ("Commissary Driver ",            "Barista",  True),
+    ("Cook",                          "Barista",  True),
+    ("EVENT",                         "Event",    True),
+    ("Event",                         "Event",    True),
+    ("Expo",                          "Barista",  True),
+    ("Expo / Bus / Run",              "Barista",  True),
+    ("FOH",                           "Barista",  True),
+    ("Float",                         "Barista",  True),
+    ("Floor Manager",                 "Admin",    False),
+    ("Hospitality Expo (buss/run)",   "Barista",  True),
+    ("Hospitality Register",          "Barista",  True),
+    ("Hospitality/Expo",              "Barista",  True),
+    ("Hospitality/Reg",               "Barista",  True),
+    ("Location Lead",                 "Admin",    False),
+    ("Location Manager",              "Admin",    False),
+    ("Location Manager + Admin",      "Admin",    False),
+    ("Manager",                       "Admin",    False),
+    ("PM Bartender",                  "Barista",  True),
+    ("Prep",                          "Barista",  True),
+    ("Production Barista",            "Barista",  True),
+    ("Production Line",               "Barista",  True),
+    ("Production/Barista",            "Barista",  True),
+    ("Production/Line",               "Barista",  True),
+    ("ROASTING PROJECT",              "Admin",    False),
+    ("SHIFT LEAD",                    "Barista",  True),
+    ("Shift Lead",                    "Barista",  True),
+    ("Special Project",               "Admin",    False),
+    ("Training",                      "Training", False),
+    ("admin",                         "Admin",    False),
+]
+
+# Roster: pre-populated with current Slipstream team. Ryan can edit this.
+# Cols: Last (Square), First (Square), ADP Name, Standard Wage, Primary
+# Location, Notes, ADP Employee Code, Rate 2 in ADP? (Y/N/? — "?" for unknown).
+# Rate 2 is the employee's regular hourly wage in ADP. It's required for
+# earnings codes REG/OVT/VAC/HOL/SPY/PERS — if not set, ADP silently drops
+# those rows. The Checks tab + finalize warning fail loudly when a period
+# generates RATE_2 rows for an employee flagged N or ?.
+ROSTER = [
+    ("Alcantara",       "Nely",        "Alcantara Hernandez, Nely",  19.25, "Downtown",   "", "27", "Y"),
+    ("Anders",          "Colin",       "Anders, Colin L",            24.75, "Studio",     "", "20", "Y"),
+    ("Brodnax",         "Sophia",      "Brodnax, Sophia",            19.00, "Studio",     "", "51", "?"),
+    ("Chavez",          "Ines",        "Chavez, Ines",               25.00, "Downtown",   "Salary; does not clock in. Excluded.", "14", "Y"),
+    ("Fleureton",       "Ella",        "Fleureton, Ella",            18.50, "Studio",     "Hired 2026-08", "60", "?"),
+    ("Guevara Orellana","Kathy",       "Guevara Orellana, Kathy M",  19.00, "Studio",     "19.00 per Asana 2026-09-21", "53", "Y"),
+    ("Gutierrez",       "Melvin",      "Gutierrez, Melvin",          22.75, "Studio",     "Production Line — 22.75 confirmed by Ryan 2026-07-27", "25", "?"),
+    ("Hand",            "Daisy",       "Hand, Daisy",                18.50, "Studio",     "Hired 2026-05-30", "57", "?"),
+    ("Harford",         "Kesi",        "Harford, Makesi K",          20.75, "1899",       "", "46", "?"),
+    ("Hernandez",       "Gricelda",    "Hernandez, Griselda",        25.25, "Downtown",   "ADP spells Griselda; Square Gricelda", "30", "Y"),
+    ("Jie",             "Christina",   "Xue, Jie",                   19.00, "1899",       "CONFIRM: ADP shows Xue, Jie (code 49)", "49", "?"),
+    ("Latronica",       "Greg",        "Latronica, Greg P",          20.25, "Studio",     "INACTIVE — departed 2026-07", "50", "Y"),
+    ("Manners",         "Ella",        "Manners, Ella R",            21.25, "Studio",     "INACTIVE in Square as of Apr 27 2026", "34", "Y"),
+    ("Martinez",        "Mariana",     "Martinez, Mariana",          18.50, "Studio",     "Hired 2026-05-31 — bumped to DC min $18.50 on 2026-07-01", "58", "?"),
+    ("Menjivar",        "Delmi",       "Aleman, Delmi A",            18.50, "Studio",     "ADP last name differs from Square", "44", "Y"),
+    ("Michalko",        "Josias",      "Michalko, Josias",           20.75, "Downtown",   "Active again (9/2026) — 20.75 per Asana", "52", "Y"),
+    ("Moore",           "Ryan",        "Moore, Ryan",                19.00, "Studio",     "Hired 2026-08 — 19.00 per Asana 2026-09-07", "59", "?"),
+    ("Nichols",         "Claire",      "Nichols, Claire M",          22.75, "Studio",     "", "47", "Y"),
+    ("Nolasco",         "Marleni",     "Nolasco, Marleni",           22.50, "Downtown",   "", "17", "Y"),
+    ("Pankow",          "Michelle",    "Pankow, Michelle L",         21.75, "Downtown",   "", "28", "Y"),
+    ("Payne",           "Opal",        "Payne, Christiana O",        21.75, "1899",       "CONFIRM: ADP shows Payne, Christiana O (code 48) — 21.75 per Asana 2026-09-21", "48", "?"),
+    ("Romero",          "Amy",         "Romero, Amy",                21.25, "Studio",     "21.25 per Asana 2026-09-07", "45", "Y"),
+    ("Sandroni",        "Aryana",      "Sandroni, Aryana",           18.50, "1899",       "", "54", "?"),
+    ("Schug",           "Eli",         "Schug, Elijah",              24.25, "1899",       "ADP spells Elijah; Square Eli — 24.25 per Asana 2026-10-05 (was 23.75)", "40", "Y"),
+    ("Singleton",       "Jay",         "Singleton, J'andre M",       20.75, "Studio",     "Square first name 'Jay'; ADP first name J'andre — 20.75 per Asana 2026-09-21", "56", "?"),
+    ("Sung",            "Kat",         "Sung, Katherine",            20.25, "1899",       "ADP spells Katherine; Square Kat", "55", "?"),
+]
+
+# Salaried employees (don't clock in, excluded from shift aggregation)
+SALARY_EMPLOYEES = ["Ines Chavez"]
+
+# Salaried workers — paid a fixed amount per period (annual / 26 biweekly).
+# Cols: (ADP Name, ADP Employee Code, Department, Annual Salary, Period Hours)
+SALARY_WORKERS = [
+    ("Koolphanich, Parichat", "23", "003", 77000, 80),   # Mo
+    ("Chavez, Ines",          "14", "003", 57000, 80),
+]
+BIWEEKLY_PERIODS = 26   # pay periods per year
+
+# ---- ADP Timesheet Import constants ------------------------------------------
+ADP_IID         = "21684235"        # company IID
+ADP_PAY_FREQ    = "B"               # Biweekly
+ADP_DEPT_FOH    = "001"             # FOH department (everyone except Mgmt)
+ADP_RATE_CODE   = "BASE"
+# Earnings codes (from ADP Earnings Codes report)
+EC_TIPPED_HRS   = "TIPHOURS"
+EC_TIP_OT       = "OTTIP"
+EC_REG_HRS      = "REG"
+EC_REG_OT       = "OVT"
+EC_CC_TIPS      = "CREDTIPP"
+EC_MISC         = "OTH"
+EC_PTO          = "VAC"
+
+
+# =============================================================================
+# Helpers
+# =============================================================================
+
+def write_header_row(ws, row, headers, fill=FILL_HEADER, font=FONT_HEADER):
+    for c, label in enumerate(headers, start=1):
+        cell = ws.cell(row=row, column=c, value=label)
+        cell.fill = fill
+        cell.font = font
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.border = Border(top=THICK, bottom=THICK, left=THIN, right=THIN)
+
+
+def set_col_widths(ws, widths):
+    for i, w in enumerate(widths, start=1):
+        ws.column_dimensions[get_column_letter(i)].width = w
+
+
+def add_named_range(wb, name, sheet, address):
+    dn = DefinedName(name=name, attr_text=f"'{sheet}'!{address}")
+    wb.defined_names[name] = dn
+
+
+# =============================================================================
+# Tab builders
+# =============================================================================
+
+def build_inputs(wb):
+    ws = wb.create_sheet("Inputs", 0)
+    set_col_widths(ws, [22, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18])
+
+    # === Period info ===
+    ws["A1"] = "PERIOD"
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws["A2"] = "Pay period start (Sunday):"
+    ws["A2"].font = FONT_LABEL
+    ws["B2"] = dt.date(2026, 4, 19)
+    ws["B2"].fill = FILL_INPUT_BG
+    ws["B2"].font = FONT_INPUT
+    ws["B2"].number_format = "mm/dd/yyyy"
+    ws["A3"] = "Pay period end (Saturday, +13 days):"
+    ws["A3"].font = FONT_LABEL
+    ws["B3"] = "=B2+13"
+    ws["B3"].font = FONT_PULL
+    ws["B3"].number_format = "mm/dd/yyyy"
+
+    # === Daily CC tips per location ===
+    ws["A6"] = "DAILY CC TIPS — paste from Square Sales Summary"
+    ws["A6"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A6:F6")
+
+    tip_headers = ["Day", "Date"] + [name for name, _, tipped in LOCATIONS if tipped]
+    write_header_row(ws, 8, tip_headers)
+    days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"] * 2
+    for i, day in enumerate(days):
+        r = 9 + i
+        ws.cell(row=r, column=1, value=day).font = FONT_LABEL
+        ws.cell(row=r, column=2, value=f"=$B$2+{i}").font = FONT_PULL
+        ws.cell(row=r, column=2).number_format = "m/d/yy"
+        # Tip cells = blue input
+        for c in range(3, 3 + sum(1 for _, _, t in LOCATIONS if t)):
+            cell = ws.cell(row=r, column=c, value=0)
+            cell.fill = FILL_INPUT_BG
+            cell.font = FONT_INPUT
+            cell.number_format = '"$"#,##0.00'
+
+    # Totals row
+    total_row = 9 + 14
+    ws.cell(row=total_row, column=1, value="TOTAL").font = FONT_LABEL
+    for c in range(3, 3 + sum(1 for _, _, t in LOCATIONS if t)):
+        col_letter = get_column_letter(c)
+        ws.cell(row=total_row, column=c, value=f"=SUM({col_letter}9:{col_letter}{total_row-1})").font = FONT_PULL
+        ws.cell(row=total_row, column=c).number_format = '"$"#,##0.00'
+        ws.cell(row=total_row, column=c).fill = FILL_LOOKUP_BG
+
+    # === Wage overrides (optional) ===
+    ws["A26"] = "WAGE OVERRIDES (optional) — overrides Roster wage for THIS period only"
+    ws["A26"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A26:D26")
+    write_header_row(ws, 28, ["ADP Name", "Override Rate ($/hr)"])
+    for r in range(29, 36):
+        for c in range(1, 3):
+            ws.cell(row=r, column=c).fill = FILL_INPUT_BG
+            ws.cell(row=r, column=c).font = FONT_INPUT
+        ws.cell(row=r, column=2).number_format = '"$"#,##0.00'
+
+    # === Shifts CSV paste area ===
+    ws["A38"] = "SHIFTS CSV — paste Square shifts export below (drop columns J,K,L,M before pasting; 16 cols A-P)"
+    ws["A38"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A38:P38")
+    ws["A39"] = "Header row at row 40. Data starts row 41. CSV columns must be: Employee#, First, Last, Job, Location, Clockin Date, Clockin Time, Clockout Date, Clockout Time, Unpaid Break, Paid Break, Reg Hrs, OT Hrs, DT Hrs, Total Hrs, Hourly Wage."
+    ws["A39"].font = Font(name="Calibri", size=10, italic=True, color="595959")
+    ws.merge_cells("A39:P39")
+
+    shift_headers = ["Employee #","First","Last","Job","Location","Clockin Date","Clockin Time","Clockout Date","Clockout Time","Unpaid Break","Paid Break","Reg Hrs","OT Hrs","DT Hrs","Total Hrs","Hourly Wage", "Role (auto)", "Tipped? (auto)"]
+    write_header_row(ws, 40, shift_headers)
+    # Helper columns Q & R headers — slightly different fill (lookup green)
+    for c in [17, 18]:
+        ws.cell(row=40, column=c).fill = PatternFill("solid", fgColor="548235")
+        ws.cell(row=40, column=c).font = FONT_HEADER
+    # Pre-format the paste area (rows 41-700) for clarity
+    for r in range(41, 700):
+        for c in range(1, 17):
+            ws.cell(row=r, column=c).fill = FILL_INPUT_BG
+            ws.cell(row=r, column=c).font = FONT_INPUT
+        # Numeric columns
+        for c in [10, 11, 12, 13, 14, 15]:
+            ws.cell(row=r, column=c).number_format = '0.00'
+        ws.cell(row=r, column=16).number_format = '"$"#,##0.00'
+        # Date columns
+        for c in [6, 8]:
+            ws.cell(row=r, column=c).number_format = "m/d/yy"
+        # Helper Q (Role): location overrides first (SRP→Admin, CR Comm→Cook),
+        # else look up the job in Roles.
+        ws.cell(row=r, column=17,
+                value=f'=IF(B{r}="","",'
+                      f'IF(E{r}="Slipstream Roasting","Admin",'
+                      f'IF(E{r}="Slipstream Commissary (Food)","Cook",'
+                      f'IFERROR(VLOOKUP(D{r},Roles!$A$4:$C${len(JOB_ROLES)+3},2,FALSE),"?"))))')
+        ws.cell(row=r, column=17).font = FONT_PULL
+        ws.cell(row=r, column=17).fill = FILL_LOOKUP_BG
+        # Helper R (Tipped): SRP and CR Comm always non-tipped; else lookup
+        ws.cell(row=r, column=18,
+                value=f'=IF(B{r}="","",'
+                      f'IF(OR(E{r}="Slipstream Roasting",E{r}="Slipstream Commissary (Food)"),"N",'
+                      f'IFERROR(VLOOKUP(D{r},Roles!$A$4:$C${len(JOB_ROLES)+3},3,FALSE),"N")))')
+        ws.cell(row=r, column=18).font = FONT_PULL
+        ws.cell(row=r, column=18).fill = FILL_LOOKUP_BG
+
+    ws.freeze_panes = "A41"
+
+    # Named ranges
+    add_named_range(wb, "PeriodStart", "Inputs", "$B$2")
+    add_named_range(wb, "ShiftFirst",  "Inputs", "$B$41:$B$700")
+    add_named_range(wb, "ShiftLast",   "Inputs", "$C$41:$C$700")
+    add_named_range(wb, "ShiftJob",    "Inputs", "$D$41:$D$700")
+    add_named_range(wb, "ShiftLoc",    "Inputs", "$E$41:$E$700")
+    add_named_range(wb, "ShiftDate",   "Inputs", "$F$41:$F$700")
+    add_named_range(wb, "ShiftRegHrs", "Inputs", "$L$41:$L$700")
+    add_named_range(wb, "ShiftOTHrs",  "Inputs", "$M$41:$M$700")
+    add_named_range(wb, "ShiftTotHrs", "Inputs", "$O$41:$O$700")
+    add_named_range(wb, "ShiftWage",   "Inputs", "$P$41:$P$700")
+    add_named_range(wb, "ShiftRole",   "Inputs", "$Q$41:$Q$700")
+    add_named_range(wb, "ShiftTipped", "Inputs", "$R$41:$R$700")
+    # Tip totals row (location columns C..F at row 23)
+    add_named_range(wb, "TipsByLoc",   "Inputs", "$C$23:$F$23")
+    add_named_range(wb, "OverrideName","Inputs", "$A$29:$A$35")
+    add_named_range(wb, "OverrideRate","Inputs", "$B$29:$B$35")
+
+    return ws
+
+
+def build_roster(wb):
+    ws = wb.create_sheet("Roster")
+    set_col_widths(ws, [16, 14, 30, 16, 14, 40, 14, 14])
+    ws["A1"] = "ROSTER — edit when employees join/leave or change rates"
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:H1")
+
+    write_header_row(ws, 3, ["Last (Square)", "First (Square)", "ADP Name",
+                             "Standard Wage", "Primary Location", "Notes",
+                             "ADP Emp Code", "Rate 2 in ADP?"])
+    for i, (last, first, adp, wage, loc, notes, code, rate2) in enumerate(ROSTER):
+        r = 4 + i
+        ws.cell(row=r, column=1, value=last).font = FONT_INPUT
+        ws.cell(row=r, column=2, value=first).font = FONT_INPUT
+        ws.cell(row=r, column=3, value=adp).font = FONT_INPUT
+        ws.cell(row=r, column=4, value=wage).font = FONT_INPUT
+        ws.cell(row=r, column=4).number_format = '"$"#,##0.00'
+        ws.cell(row=r, column=5, value=loc).font = FONT_INPUT
+        ws.cell(row=r, column=6, value=notes).font = FONT_INPUT
+        ws.cell(row=r, column=7, value=code).font = FONT_INPUT
+        ws.cell(row=r, column=8, value=rate2).font = FONT_INPUT
+        ws.cell(row=r, column=8).alignment = Alignment(horizontal="center")
+        for c in range(1, 9):
+            ws.cell(row=r, column=c).fill = FILL_INPUT_BG
+        # Highlight yellow if Rate 2 isn't confirmed
+        if rate2 != "Y":
+            ws.cell(row=r, column=8).fill = FILL_WARN
+
+    ws.freeze_panes = "A4"
+
+    last_row = 3 + len(ROSTER)
+    add_named_range(wb, "RosterLast",     "Roster", f"$A$4:$A${last_row}")
+    add_named_range(wb, "RosterFirst",    "Roster", f"$B$4:$B${last_row}")
+    add_named_range(wb, "RosterADP",      "Roster", f"$C$4:$C${last_row}")
+    add_named_range(wb, "RosterWage",     "Roster", f"$D$4:$D${last_row}")
+    add_named_range(wb, "RosterLoc",      "Roster", f"$E$4:$E${last_row}")
+    add_named_range(wb, "RosterCode",     "Roster", f"$G$4:$G${last_row}")
+    add_named_range(wb, "RosterRate2Ok",  "Roster", f"$H$4:$H${last_row}")
+    return ws
+
+
+def build_roles(wb):
+    ws = wb.create_sheet("Roles")
+    set_col_widths(ws, [32, 16, 12, 30])
+    ws["A1"] = "ROLES — Square job title to ADP role group + tipped flag"
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:D1")
+
+    write_header_row(ws, 3, ["Job Title (Square)", "Role Group", "Tipped?", "Notes"])
+    for i, (job, role, tipped) in enumerate(JOB_ROLES):
+        r = 4 + i
+        ws.cell(row=r, column=1, value=job).font = FONT_INPUT
+        ws.cell(row=r, column=2, value=role).font = FONT_INPUT
+        ws.cell(row=r, column=3, value="Y" if tipped else "N").font = FONT_INPUT
+        for c in range(1, 5):
+            ws.cell(row=r, column=c).fill = FILL_INPUT_BG
+
+    ws.freeze_panes = "A4"
+
+    last_row = 3 + len(JOB_ROLES)
+    add_named_range(wb, "JobTitle",  "Roles", f"$A$4:$A${last_row}")
+    add_named_range(wb, "JobRole",   "Roles", f"$B$4:$B${last_row}")
+    add_named_range(wb, "JobTipped", "Roles", f"$C$4:$C${last_row}")
+    return ws
+
+
+def build_calc(wb):
+    """Per-employee × role aggregation. One row per (ADP Name, Role)."""
+    ws = wb.create_sheet("Calc")
+    set_col_widths(ws, [28, 14, 12, 12, 10, 10, 12, 12, 12, 12, 12, 30, 14])
+
+    ws["A1"] = "CALC — auto-aggregated per (employee × role). Do not edit."
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:M1")
+
+    write_header_row(ws, 3, [
+        "ADP Name", "Role", "Tipped?", "Wage",
+        "Reg Hrs", "OT Hrs",
+        "Tipped Hrs", "Tip OT Hrs", "CC Tips (ADP)",
+        "Misc (Extra)",
+        "Effective Hrly", "Notes",
+        "CC Tips Allocated",
+    ])
+
+    # Tipped locations (these use $12 + tips); index in Inputs!TipsByLoc
+    TIPPED_LOCS = [name for name, _, t in LOCATIONS if t]  # Studio, Downtown, 1899, NMWA
+
+    # Rows: one per (employee, role). Always emit the Barista row plus rows for
+    # Admin / Cook / Training / Event so the layout is stable; SUMIFS will return
+    # 0 where the employee didn't actually work that role.
+    r = 4
+    for last, first, adp, std_wage, primary_loc, notes, emp_code, _rate2 in ROSTER:
+        if adp in ("Chavez, Ines",):
+            continue
+        # ===== Barista (tipped) row =====
+        ws.cell(row=r, column=1, value=adp).font = FONT_PULL
+        ws.cell(row=r, column=2, value="Barista").font = FONT_PULL
+        ws.cell(row=r, column=3, value="Y").font = FONT_PULL
+        ws.cell(row=r, column=4, value=MIN_TIPPED_WAGE).font = FONT_PULL
+        ws.cell(row=r, column=4).number_format = '"$"#,##0.00'
+        ws.cell(row=r, column=5, value=0).font = FONT_PULL
+        ws.cell(row=r, column=6, value=0).font = FONT_PULL
+        # Tipped Hrs / Tip OT — SUMIFS over Reg + OT where role tipped flag = "Y".
+        # Excludes Event role (Wage 3 — paid separately, not in ADP yet).
+        ws.cell(row=r, column=7,
+                value=f'=SUMIFS(ShiftRegHrs,ShiftLast,"{last}",ShiftFirst,"{first}",ShiftTipped,"Y",ShiftRole,"<>Event")').font = FONT_PULL
+        ws.cell(row=r, column=7).number_format = '0.00'
+        ws.cell(row=r, column=8,
+                value=f'=SUMIFS(ShiftOTHrs,ShiftLast,"{last}",ShiftFirst,"{first}",ShiftTipped,"Y",ShiftRole,"<>Event")').font = FONT_PULL
+        ws.cell(row=r, column=8).number_format = '0.00'
+        # CC Tips Allocated (col M) = sum over tipped locations of
+        # (emp_share × loc_tips). emp_share = emp's tipped hrs at loc / total
+        # tipped hrs at loc. Inputs!C23..F23 = period-total tips per tipped
+        # location (in TIPPED_LOCS order). This is the RAW allocation of CC
+        # tips actually collected — see col I for the value sent to ADP.
+        # Event hours are excluded — Event workers are paid via Wage 3, not the
+        # tipped-barista pool, so they don't draw CC tips here.
+        cc_tips_parts = []
+        tip_cols = ["C", "D", "E", "F"]  # Inputs row 23 — totals for tipped locs
+        for idx, loc_name in enumerate(TIPPED_LOCS):
+            cc_tips_parts.append(
+                f'IFERROR(SUMIFS(ShiftRegHrs,ShiftLast,"{last}",ShiftFirst,"{first}",ShiftLoc,"{loc_name}",ShiftTipped,"Y",ShiftRole,"<>Event")'
+                f'/SUMIFS(ShiftRegHrs,ShiftLoc,"{loc_name}",ShiftTipped,"Y",ShiftRole,"<>Event")*Inputs!${tip_cols[idx]}$23,0)'
+            )
+        ws.cell(row=r, column=13, value="=" + "+".join(cc_tips_parts)).font = FONT_PULL
+        ws.cell(row=r, column=13).number_format = '"$"#,##0.00'
+        # CC Tips (ADP) — col I. Min-wage tip adjustment: the allocated CC tips
+        # are bumped up (if needed) so $12 base + tips/hr reaches the $18 regular
+        # minimum BEFORE any Misc/Extra. $6 = MIN_WAGE - MIN_TIPPED_WAGE, so the
+        # floor is $6 × tipped_hrs. The bump is taken back out of Misc below, so
+        # total pay is unchanged — it just shows min-wage compliance on the
+        # paystub. This is the value typed into ADP's CREDTIPP.
+        ws.cell(row=r, column=9,
+                value=f'=MAX(M{r},{MIN_WAGE - MIN_TIPPED_WAGE}*G{r})').font = FONT_PULL
+        ws.cell(row=r, column=9).number_format = '"$"#,##0.00'
+        # Misc / Extra: tip-credit make-up so the employee earns their full
+        # agreed (Asana/Square) rate for tipped hours. The $12 tipped wage plus
+        # CC tips plus this Misc must total agreed_rate × tipped_hrs.
+        #   base Misc = MAX(0, (agreed_rate - $12) * tipped_hrs - allocated_tips)
+        # The min-wage tip bump (col I above allocated col M) is then subtracted
+        # back out, so I + J always equals allocated_tips + base Misc.
+        # agreed_rate is the employee's Roster Standard Wage.
+        ws.cell(row=r, column=10,
+                value=(f'=MAX(0,(IFERROR(INDEX(RosterWage,MATCH(A{r},RosterADP,0)),'
+                       f'{MIN_WAGE})-{MIN_TIPPED_WAGE})*G{r} - M{r}) - (I{r}-M{r})')).font = FONT_PULL
+        ws.cell(row=r, column=10).number_format = '"$"#,##0.00'
+        ws.cell(row=r, column=11,
+                value=f'=IFERROR(({MIN_TIPPED_WAGE}*G{r} + I{r} + J{r}) / G{r}, 0)').font = FONT_PULL
+        ws.cell(row=r, column=11).number_format = '"$"#,##0.00'
+        ws.cell(row=r, column=12, value=notes).font = FONT_LABEL
+        r += 1
+
+        # ===== Non-Barista rows (one per role group) =====
+        # Admin / Cook / Training / Event all feed into the ADP import via
+        # finalize_v2. Event rows go in at rate code RATE_3 (Wage 3) — Ryan
+        # confirms in ADP that Wage 3 is set up for each employee with Event
+        # hours before uploading. The Event row is yellow-highlighted on Calc
+        # and the Checks tab flags total Event hours so they don't get missed.
+        for role in ["Admin", "Cook", "Training", "Event"]:
+            is_event = (role == "Event")
+            ws.cell(row=r, column=1, value=adp).font = FONT_PULL
+            ws.cell(row=r, column=2, value=role).font = FONT_PULL
+            ws.cell(row=r, column=3, value="N").font = FONT_PULL
+            # Wage: Admin/Cook/Training use override-or-roster. Event uses
+            # Wage 3 which lives in ADP per-employee; show a label here.
+            if is_event:
+                ws.cell(row=r, column=4, value="Wage 3").font = Font(
+                    name="Calibri", size=11, bold=True, color="C00000")
+            else:
+                ws.cell(row=r, column=4,
+                        value=f'=IFERROR(INDEX(OverrideRate,MATCH(A{r},OverrideName,0)),'
+                              f'IFERROR(INDEX(RosterWage,MATCH(A{r},RosterADP,0)),0))').font = FONT_PULL
+                ws.cell(row=r, column=4).number_format = '"$"#,##0.00'
+            ws.cell(row=r, column=5,
+                    value=f'=SUMIFS(ShiftRegHrs,ShiftLast,"{last}",ShiftFirst,"{first}",ShiftRole,"{role}")').font = FONT_PULL
+            ws.cell(row=r, column=5).number_format = '0.00'
+            ws.cell(row=r, column=6,
+                    value=f'=SUMIFS(ShiftOTHrs,ShiftLast,"{last}",ShiftFirst,"{first}",ShiftRole,"{role}")').font = FONT_PULL
+            ws.cell(row=r, column=6).number_format = '0.00'
+            for c in [7, 8, 9, 10, 13]:
+                ws.cell(row=r, column=c, value=0).font = FONT_PULL
+                ws.cell(row=r, column=c).number_format = '0.00' if c in (7, 8) else '"$"#,##0.00'
+            if is_event:
+                ws.cell(row=r, column=11, value=None).font = FONT_PULL
+                ws.cell(row=r, column=12,
+                        value="Wage 3 — confirm set up in ADP").font = Font(
+                            name="Calibri", size=11, bold=True, color="C00000")
+                # Light yellow fill on the whole Event row so it's hard to miss
+                for c in range(1, 14):
+                    ws.cell(row=r, column=c).fill = FILL_WARN
+            else:
+                ws.cell(row=r, column=11, value=f'=D{r}').font = FONT_PULL
+                ws.cell(row=r, column=11).number_format = '"$"#,##0.00'
+            r += 1
+
+    last_row = r - 1
+    ws.freeze_panes = "A4"
+
+    add_named_range(wb, "CalcADPName",  "Calc", f"$A$4:$A${last_row}")
+    add_named_range(wb, "CalcRole",     "Calc", f"$B$4:$B${last_row}")
+    add_named_range(wb, "CalcWage",     "Calc", f"$D$4:$D${last_row}")
+    add_named_range(wb, "CalcReg",      "Calc", f"$E$4:$E${last_row}")
+    add_named_range(wb, "CalcOT",       "Calc", f"$F$4:$F${last_row}")
+    add_named_range(wb, "CalcTipHrs",   "Calc", f"$G$4:$G${last_row}")
+    add_named_range(wb, "CalcTipOT",    "Calc", f"$H$4:$H${last_row}")
+    add_named_range(wb, "CalcCCTips",   "Calc", f"$I$4:$I${last_row}")
+    add_named_range(wb, "CalcMisc",     "Calc", f"$J$4:$J${last_row}")
+    add_named_range(wb, "CalcCCTipsActual", "Calc", f"$M$4:$M${last_row}")
+    return ws, last_row
+
+
+def build_output_adp(wb, calc_last_row):
+    """ADP entry list — one row per (employee, role) where they have hours."""
+    ws = wb.create_sheet("Output (ADP)")
+    set_col_widths(ws, [28, 12, 12, 14, 14, 14, 14, 12, 14])
+
+    ws["A1"] = "OUTPUT (ADP) — type these into ADP. Sorted by ADP last name. Skip rows where all hours are 0."
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:I1")
+
+    write_header_row(ws, 3, [
+        "ADP Name", "Role", "Rate",
+        "Tipped Hrs", "Tip OT Hrs", "CC Tips Owed", "Misc Amount",
+        "Reg Hrs", "OT Hrs",
+    ])
+
+    # Each output row mirrors a Calc row by INDEX-ing into the Calc table sorted
+    # by ADP last name. We just pull straight from Calc (which is already in
+    # roster order which matches ADP if Roster is sorted by last name).
+    # Generate one Output row per Calc row.
+    out_r = 4
+    for calc_r in range(4, calc_last_row + 1):
+        ws.cell(row=out_r, column=1, value=f"=Calc!A{calc_r}").font = FONT_PULL
+        ws.cell(row=out_r, column=2, value=f"=Calc!B{calc_r}").font = FONT_PULL
+        ws.cell(row=out_r, column=3, value=f"=Calc!D{calc_r}").font = FONT_PULL
+        ws.cell(row=out_r, column=3).number_format = '"$"#,##0.00'
+        # For Barista rows, fill Tipped Hrs / Tip OT / CC Tips / Misc; blank Reg/OT
+        # For non-Barista rows, the opposite.
+        # Determine via Role column.
+        ws.cell(row=out_r, column=4, value=f'=IF(Calc!C{calc_r}="Y", Calc!G{calc_r}, "")').font = FONT_PULL
+        ws.cell(row=out_r, column=4).number_format = '0.00'
+        ws.cell(row=out_r, column=5, value=f'=IF(Calc!C{calc_r}="Y", Calc!H{calc_r}, "")').font = FONT_PULL
+        ws.cell(row=out_r, column=5).number_format = '0.00'
+        ws.cell(row=out_r, column=6, value=f'=IF(Calc!C{calc_r}="Y", Calc!I{calc_r}, "")').font = FONT_PULL
+        ws.cell(row=out_r, column=6).number_format = '"$"#,##0.00'
+        ws.cell(row=out_r, column=7, value=f'=IF(Calc!C{calc_r}="Y", Calc!J{calc_r}, "")').font = FONT_PULL
+        ws.cell(row=out_r, column=7).number_format = '"$"#,##0.00'
+        ws.cell(row=out_r, column=8, value=f'=IF(Calc!C{calc_r}="N", Calc!E{calc_r}, "")').font = FONT_PULL
+        ws.cell(row=out_r, column=8).number_format = '0.00'
+        ws.cell(row=out_r, column=9, value=f'=IF(Calc!C{calc_r}="N", Calc!F{calc_r}, "")').font = FONT_PULL
+        ws.cell(row=out_r, column=9).number_format = '0.00'
+        out_r += 1
+
+    ws.freeze_panes = "A4"
+
+    # Conditional formatting:
+    #  1. Event rows with hours → yellow highlight + bold so Ryan sees that
+    #     Wage 3 manual handling is needed; these do NOT go to ADP via import.
+    #  2. Rows where all hours = 0 → grayed font (skip these in ADP).
+    last_out = out_r - 1
+    from openpyxl.formatting.rule import Rule
+    event_dxf = DifferentialStyle(fill=FILL_WARN,
+                                   font=Font(name="Calibri", size=11, bold=True))
+    event_rule = Rule(type="expression",
+                      formula=[f'AND($B4="Event", OR($H4>0, $I4>0))'],
+                      dxf=event_dxf, stopIfTrue=True)
+    ws.conditional_formatting.add(f"A4:I{last_out}", event_rule)
+    fade_dxf = DifferentialStyle(font=Font(color="BFBFBF"))
+    fade_rule = Rule(type="expression", formula=[f'AND(IFERROR($D4=0,TRUE), IFERROR($E4=0,TRUE), IFERROR($H4=0,TRUE), IFERROR($I4=0,TRUE))'], dxf=fade_dxf)
+    ws.conditional_formatting.add(f"A4:I{last_out}", fade_rule)
+
+    return ws
+
+
+def build_location_totals(wb):
+    ws = wb.create_sheet("Location Totals")
+    set_col_widths(ws, [22, 14, 14, 14, 14, 14, 16])
+    ws["A1"] = "LOCATION TOTALS — for reconciliation"
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:G1")
+
+    # Tax/Benefits rate input — used to compute the "Gross + Tax/Benefits"
+    # column at the end, which Ryan uses for intercompany bank transfers.
+    ws["E2"] = "Tax/Benefits Rate:"
+    ws["E2"].font = FONT_LABEL
+    ws["E2"].alignment = Alignment(horizontal="right")
+    ws.merge_cells("E2:F2")
+    ws["G2"] = 0.12
+    ws["G2"].font = FONT_INPUT
+    ws["G2"].fill = FILL_INPUT_BG
+    ws["G2"].number_format = "0.0%"
+
+    write_header_row(ws, 3, ["Location", "Total Reg Hrs", "Total OT Hrs", "Total Hrs",
+                             "Total Labor Cost", "Total CC Tips", "Gross + Tax/Benefits"])
+    for i, (loc_name, short, tipped) in enumerate(LOCATIONS):
+        r = 4 + i
+        ws.cell(row=r, column=1, value=loc_name).font = FONT_LABEL
+        ws.cell(row=r, column=2, value=f'=SUMIF(ShiftLoc,"{loc_name}",ShiftRegHrs)').font = FONT_PULL
+        ws.cell(row=r, column=3, value=f'=SUMIF(ShiftLoc,"{loc_name}",ShiftOTHrs)').font = FONT_PULL
+        ws.cell(row=r, column=4, value=f'=SUMIF(ShiftLoc,"{loc_name}",ShiftTotHrs)').font = FONT_PULL
+        # Labor cost = regular hours at straight rate + OT hours at 1.5×.
+        # Per DC/FLSA, tipped OT is 1.5× the full regular rate (the agreed
+        # wage here), not the $12 cash wage.
+        ws.cell(row=r, column=5, value=(
+            f'=SUMPRODUCT((ShiftLoc="{loc_name}")*ShiftRegHrs*ShiftWage)'
+            f'+SUMPRODUCT((ShiftLoc="{loc_name}")*ShiftOTHrs*ShiftWage*1.5)')).font = FONT_PULL
+        # Tips: from Inputs tab daily tips totals
+        if tipped:
+            # find which col on Inputs has this loc
+            tipped_locs = [n for n, s, t in LOCATIONS if t]
+            col_idx = tipped_locs.index(loc_name) + 3  # cols start at C (3)
+            col_letter = get_column_letter(col_idx)
+            ws.cell(row=r, column=6, value=f"=Inputs!{col_letter}23").font = FONT_PULL
+        else:
+            ws.cell(row=r, column=6, value=0).font = FONT_PULL
+        # Gross + Tax/Benefits = labor cost × (1 + tax/benefits rate). What the
+        # location owes to the master account on intercompany bank transfers.
+        ws.cell(row=r, column=7, value=f"=E{r}*(1+$G$2)").font = FONT_PULL
+        for c in [2, 3, 4]:
+            ws.cell(row=r, column=c).number_format = '0.00'
+        for c in [5, 6, 7]:
+            ws.cell(row=r, column=c).number_format = '"$"#,##0.00'
+
+    # Grand total
+    total_r = 4 + len(LOCATIONS)
+    ws.cell(row=total_r, column=1, value="GRAND TOTAL").font = Font(bold=True)
+    for c in [2, 3, 4]:
+        col = get_column_letter(c)
+        ws.cell(row=total_r, column=c, value=f"=SUM({col}4:{col}{total_r-1})").font = FONT_PULL
+        ws.cell(row=total_r, column=c).number_format = '0.00'
+    for c in [5, 6, 7]:
+        col = get_column_letter(c)
+        ws.cell(row=total_r, column=c, value=f"=SUM({col}4:{col}{total_r-1})").font = FONT_PULL
+        ws.cell(row=total_r, column=c).number_format = '"$"#,##0.00'
+
+    ws.freeze_panes = "A4"
+    return ws
+
+
+def build_checks(wb):
+    ws = wb.create_sheet("Checks")
+    set_col_widths(ws, [40, 14, 14, 14, 36])
+    ws["A1"] = "CHECKS — should all be PASS"
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:E1")
+
+    write_header_row(ws, 3, ["Check", "Expected", "Actual", "Δ", "Status"])
+    checks = [
+        # 1. Total hours match: Inputs.shifts total == Calc all four buckets
+        # (reg + tipped reg + reg OT + tipped OT).
+        ("Total Hrs from shifts == Calc Reg+Tipped+OT (all buckets)",
+         "='Location Totals'!D{tot}",
+         "=SUM(CalcReg)+SUM(CalcTipHrs)+SUM(CalcOT)+SUM(CalcTipOT)",
+         "Should be 0 if all jobs are mapped in Roles tab"),
+        # 2. Total OT
+        ("Total OT Hrs from shifts == Calc OT + Tip OT",
+         "=SUM(ShiftOTHrs)",
+         "=SUM(CalcOT)+SUM(CalcTipOT)",
+         "Should be 0"),
+        # 3. Min wage check — by construction, the Misc column makes up any
+        # shortfall, so we just confirm no row has a NEGATIVE shortfall (which
+        # would indicate a formula bug).
+        ("Min wage rule holds (no negative misc / no underpayment)",
+         f"=0",
+         "=MIN(CalcMisc)",
+         "If FAIL: Misc went negative — formula bug"),
+        # 4. Tips collected match tips ALLOCATED (col M, pre min-wage bump).
+        # Note: CC Tips (ADP) col I is intentionally >= allocated, so we
+        # reconcile against the raw allocation, not the ADP figure.
+        ("Tips collected (Inputs) == Tips allocated (Calc col M)",
+         f"=SUM(Inputs!C9:F22)",
+         "=SUM(CalcCCTipsActual)",
+         "If non-zero: tip allocation formula needs review"),
+        # 5. Min-wage tip adjustment: every tipped row clears the DC regular
+        # min wage from $12 base + CC Tips (ADP) alone, before any Misc.
+        # By construction col I >= (MIN_WAGE-MIN_TIPPED_WAGE) × tipped hrs, so
+        # this should always be 0.
+        (f"Pre-extra wage >= ${MIN_WAGE:.2f} for all tipped rows",
+         "=0",
+         f"=SUMPRODUCT((CalcTipHrs>0)*(CalcCCTips<{MIN_WAGE - MIN_TIPPED_WAGE}*CalcTipHrs-0.01)*1)",
+         f"Count of tipped rows under ${MIN_WAGE:.2f} before Misc — should be 0"),
+        # 6. Event hours flag — Event rows ARE included in the import at rate
+        # code RATE_3 (Wage 3). Not a failure; surface as a FLAG so Ryan
+        # confirms Wage 3 is set up in ADP for each affected employee.
+        ("Event hours (Wage 3 — in import at RATE_3)",
+         "=0",
+         '=SUMPRODUCT((CalcRole="Event")*(CalcReg+CalcOT))',
+         "If non-zero: confirm Wage 3 is set up in ADP for each Event employee"),
+        # 7. RATE_2 safety — count REG/OVT hours on Calc for anyone whose
+        # Roster "Rate 2 in ADP?" is not "Y". Those rows silently drop in
+        # ADP if Rate 2 isn't configured. Set Roster col H to Y once Rate 2
+        # is confirmed in ADP for the employee.
+        ("RATE_2 Calc hours for unconfirmed employees",
+         "=0",
+         ('=SUMPRODUCT((CalcRole<>"Barista")*(CalcRole<>"Event")'
+          '*(CalcReg+CalcOT>0)'
+          '*(IFERROR(INDEX(RosterRate2Ok,MATCH(CalcADPName,RosterADP,0)),"?")<>"Y"))'),
+         "If non-zero: set up Rate 2 in ADP for these employees, then flip Roster col H to Y"),
+        # 8. Same but for Adjustments rows with RATE_2 earnings codes.
+        ("RATE_2 Adjustments for unconfirmed employees",
+         "=0",
+         ('=SUMPRODUCT(((AdjCode="REG")+(AdjCode="OVT")+(AdjCode="VAC")'
+          '+(AdjCode="HOL")+(AdjCode="SPY")+(AdjCode="PERS"))'
+          '*(AdjName<>"")'
+          '*(IFERROR(INDEX(RosterRate2Ok,MATCH(AdjName,RosterADP,0)),"?")<>"Y"))'),
+         "If non-zero: set up Rate 2 in ADP for these employees, then flip Roster col H to Y"),
+    ]
+    grand_total_row = 4 + len(LOCATIONS)
+    for i, (label, expected, actual, note) in enumerate(checks):
+        r = 4 + i
+        # substitute {tot} placeholder for Location Totals grand-total row
+        expected = expected.replace("{tot}", str(grand_total_row))
+        ws.cell(row=r, column=1, value=label).font = FONT_LABEL
+        ws.cell(row=r, column=2, value=expected).font = FONT_PULL
+        ws.cell(row=r, column=2).number_format = '0.00'
+        ws.cell(row=r, column=3, value=actual).font = FONT_PULL
+        ws.cell(row=r, column=3).number_format = '0.00'
+        ws.cell(row=r, column=4, value=f"=B{r}-C{r}").font = FONT_PULL
+        ws.cell(row=r, column=4).number_format = '0.0000'
+        # Status: PASS if |Δ| < 0.05, else FAIL.
+        # The Event-hours check is informational — use "FLAG" instead of FAIL so
+        # the user knows there are Event hours but it's not a math failure.
+        is_event_check = label.startswith("Event hours")
+        if is_event_check:
+            ws.cell(row=r, column=5,
+                    value=f'=IF(ABS(D{r})<0.05, "OK — no Event hours", "FLAG — confirm Wage 3 set up in ADP")').font = FONT_PULL
+        else:
+            ws.cell(row=r, column=5,
+                    value=f'=IF(ABS(D{r})<0.05, "PASS", "FAIL — review")').font = FONT_PULL
+        # Add note as another row beneath
+        ws.cell(row=r, column=5).fill = FILL_OK  # default; overwrite via CF
+    # Conditional fill on col E
+    from openpyxl.formatting.rule import Rule
+    flag_rule = Rule(type="expression", formula=[f'LEFT($E4,4)="FLAG"'],
+                     dxf=DifferentialStyle(fill=FILL_WARN), stopIfTrue=True)
+    ws.conditional_formatting.add(f"E4:E{4+len(checks)-1}", flag_rule)
+    fail_rule = Rule(type="expression", formula=[f'LEFT($E4,4)="FAIL"'],
+                     dxf=DifferentialStyle(fill=FILL_FAIL), stopIfTrue=True)
+    pass_rule = Rule(type="expression", formula=[f'$E4="PASS"'],
+                     dxf=DifferentialStyle(fill=FILL_OK), stopIfTrue=True)
+    ws.conditional_formatting.add(f"E4:E{4+len(checks)-1}", fail_rule)
+    ws.conditional_formatting.add(f"E4:E{4+len(checks)-1}", pass_rule)
+    ws.freeze_panes = "A4"
+    return ws
+
+
+def build_readme(wb):
+    ws = wb.create_sheet("README", 0)
+    set_col_widths(ws, [110])
+    text = [
+        ("Slipstream Payroll Template — v2", Font(name="Calibri", size=18, bold=True, color="305496")),
+        ("", None),
+        ("WORKFLOW (every pay period):", Font(name="Calibri", size=13, bold=True)),
+        ("1. Open Inputs tab. Set 'Pay period start' (a Sunday) at B2.", None),
+        ("2. Pull daily CC tips per location from Square Sales Summary. Paste into the Daily CC Tips grid (rows 9–22).", None),
+        ("3. Export shifts CSV from Square. Drop columns J/K/L/M (break date/times). Paste into the SHIFTS area starting at row 41.", None),
+        ("4. (Optional) Use the Wage Overrides table on Inputs to override standard wages for this period only.", None),
+        ("5. Open Checks tab — confirm all rows say PASS.", None),
+        ("6. Open Output (ADP) tab — type each row into ADP RUN, in order. Skip rows where all hours = 0 (they show grayed out).", None),
+        ("", None),
+        ("TAB GUIDE:", Font(name="Calibri", size=13, bold=True)),
+        ("• Inputs           — Three things you paste each period: period start, daily tips, shifts CSV.", None),
+        ("• Roster           — Edit when employees join/leave or change rates. ADP Name must match ADP exactly.", None),
+        ("• Roles            — Edit when Square adds new job titles. Maps each Square job to a role group + tipped flag.", None),
+        ("• Calc             — Auto-computed per (employee × role). Don't edit; review for correctness.", None),
+        ("• Output (ADP)     — Sorted to match ADP. Type each non-empty row into ADP one by one.", None),
+        ("• Location Totals  — Reconciliation: per-location reg/OT/total hours, labor cost, tips.", None),
+        ("• Checks           — Should all show PASS. If FAIL: drill down via Calc / Location Totals.", None),
+        ("", None),
+        ("DIFFERENCES FROM V1 (the prior template):", Font(name="Calibri", size=13, bold=True)),
+        ("• ONE place to paste shifts. The v1 had 5 separate Schedule Hours tabs that all needed the same paste. v2 has one Inputs tab.", None),
+        ("• Drop columns J/K/L/M (break date/times) before pasting, same as before. The v2 Inputs columns are exactly A-P from the Square export.", None),
+        ("• The lookup table (Job → Role) lives in ONE Roles tab, not duplicated per location. CR Commissary and Slipstream Roasting use location overrides (everyone there is Cook / Admin respectively).", None),
+        ("• Tip allocation uses period-totals × tipped-hours-share PER LOCATION. v1 allocated per-shift by AM/PM bucket. The TOTAL tips paid out matches v1 to the penny, but individual employee CC Tips can differ. v2 is simpler and easier to audit.", None),
+        ("• Min-wage tip adjustment: each tipped employee's CC Tips (ADP) figure is bumped up — if needed — so $12 base + tips reaches $18/hr BEFORE any Misc/Extra. The bump is taken straight back out of Misc, so total pay is identical; it just shows min-wage compliance cleanly on the paystub. The Calc tab keeps the raw figure in the 'CC Tips Allocated' column (M) for reconciliation against tips actually collected.", None),
+        ("• The Output (ADP) tab replaces the Tip Pay Summary (ADP) tab. It's sorted alphabetically to match ADP RUN's row order, and rows where all hours = 0 are grayed out (skip those when typing into ADP).", None),
+        ("", None),
+        ("WHEN A NEW HIRE STARTS:", Font(name="Calibri", size=13, bold=True)),
+        ("• Add them to Roster with their ADP-system last/first names and standard wage. That's it — Calc + Output rebuild automatically.", None),
+        ("", None),
+        ("WHEN SQUARE ADDS A NEW JOB TITLE:", Font(name="Calibri", size=13, bold=True)),
+        ("• Add a row to Roles with the exact Square job title and the corresponding role group.", None),
+        ("", None),
+        ("COLOR PROTOCOL:", Font(name="Calibri", size=13, bold=True)),
+        ("Blue text on light-blue fill = direct input (paste / type here).", Font(name="Calibri", size=11, color="1F4E78")),
+        ("Green text = derived / pulled from formulas.", Font(name="Calibri", size=11, color="548235")),
+        ("Black text on dark-navy fill = section/column headers.", None),
+    ]
+    for i, (line, font) in enumerate(text):
+        cell = ws.cell(row=i + 1, column=1, value=line)
+        if font:
+            cell.font = font
+        cell.alignment = Alignment(wrap_text=True, vertical="top")
+    return ws
+
+
+def build_salary(wb):
+    """Salary tab — salaried workers paid a fixed biweekly amount.
+
+    Feeds the ADP Import as REG rows carrying both hours and dollars."""
+    ws = wb.create_sheet("Salary")
+    set_col_widths(ws, [26, 14, 13, 16, 14, 16, 36])
+    ws["A1"] = "SALARY WORKERS — fixed biweekly pay (Annual ÷ 26)"
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:G1")
+
+    write_header_row(ws, 3, ["ADP Name", "ADP Emp Code", "Department",
+                             "Annual Salary", "Period Hours", "Period Pay", "Notes"])
+    for i, (name, code, dept, salary, hrs) in enumerate(SALARY_WORKERS):
+        r = 4 + i
+        ws.cell(row=r, column=1, value=name).font = FONT_INPUT
+        ws.cell(row=r, column=2, value=code).font = FONT_INPUT
+        ws.cell(row=r, column=3, value=dept).font = FONT_INPUT
+        ws.cell(row=r, column=4, value=salary).font = FONT_INPUT
+        ws.cell(row=r, column=4).number_format = '"$"#,##0'
+        ws.cell(row=r, column=5, value=hrs).font = FONT_INPUT
+        # Period Pay = Annual / 26  (green = derived)
+        ws.cell(row=r, column=6, value=f"=D{r}/{BIWEEKLY_PERIODS}").font = FONT_PULL
+        ws.cell(row=r, column=6).number_format = '"$"#,##0.00'
+        for c in range(1, 6):
+            ws.cell(row=r, column=c).fill = FILL_INPUT_BG
+        ws.cell(row=r, column=6).fill = FILL_LOOKUP_BG
+
+    last_row = 3 + len(SALARY_WORKERS)
+    add_named_range(wb, "SalaryName", "Salary", f"$A$4:$A${last_row}")
+    add_named_range(wb, "SalaryCode", "Salary", f"$B$4:$B${last_row}")
+    add_named_range(wb, "SalaryDept", "Salary", f"$C$4:$C${last_row}")
+    add_named_range(wb, "SalaryHrs",  "Salary", f"$E$4:$E${last_row}")
+    add_named_range(wb, "SalaryPay",  "Salary", f"$F$4:$F${last_row}")
+    ws.freeze_panes = "A4"
+    return ws
+
+
+def build_adjustments(wb):
+    """Adjustments tab — one-off per-period entries (PTO, extra misc, bonuses).
+
+    Each row is appended to the ADP Import as-is. Ryan fills this each period
+    as needed; leave blank if nothing to add."""
+    ws = wb.create_sheet("Adjustments")
+    set_col_widths(ws, [26, 16, 12, 12, 13, 40])
+    ws["A1"] = "ADJUSTMENTS — one-off entries for THIS period (PTO, extra pay, bonuses)"
+    ws["A1"].font = Font(name="Calibri", size=14, bold=True, color="305496")
+    ws.merge_cells("A1:F1")
+    ws["A2"] = ("Earnings Code examples: VAC (PTO), OTH (misc/extra pay), "
+                "BON (bonus), HOL (holiday), SPY (sick), PERS (personal). "
+                "Fill Hours OR Dollars depending on the code.")
+    ws["A2"].font = Font(name="Calibri", size=10, italic=True, color="595959")
+    ws.merge_cells("A2:F2")
+
+    write_header_row(ws, 4, ["ADP Name", "Earnings Code", "Hours", "Dollars",
+                             "Department", "Note"])
+    for r in range(5, 25):
+        for c in range(1, 7):
+            ws.cell(row=r, column=c).fill = FILL_INPUT_BG
+            ws.cell(row=r, column=c).font = FONT_INPUT
+        ws.cell(row=r, column=3).number_format = '0.00'
+        ws.cell(row=r, column=4).number_format = '"$"#,##0.00'
+
+    add_named_range(wb, "AdjName",  "Adjustments", "$A$5:$A$24")
+    add_named_range(wb, "AdjCode",  "Adjustments", "$B$5:$B$24")
+    add_named_range(wb, "AdjHrs",   "Adjustments", "$C$5:$C$24")
+    add_named_range(wb, "AdjDol",   "Adjustments", "$D$5:$D$24")
+    add_named_range(wb, "AdjDept",  "Adjustments", "$E$5:$E$24")
+    ws.freeze_panes = "A5"
+    return ws
+
+
+def build_adp_import(wb):
+    """ADP Timesheet Import tab — ##GENERIC## V2.0 format.
+
+    Header rows only (1-2). The finalize step writes the detail rows (3+) as
+    static values from the recalculated Calc tab, and also exports a .csv."""
+    ws = wb.create_sheet("ADP Import")
+    set_col_widths(ws, [14, 12, 16, 16, 12, 14, 11, 11, 13, 16, 11, 10])
+
+    # Row 1: file identifier (must be exactly this for ADP to accept the file)
+    ws["A1"] = "##GENERIC## V2.0"
+    ws["A1"].font = Font(name="Calibri", size=11, bold=True)
+
+    # Row 2: column headers (exact labels from the ADP template)
+    headers = ["IID","Pay Frequency","Pay Period Start","Pay Period End",
+               "Employee Id","Earnings Code","Pay Hours","Dollars",
+               "Separate Check","Department Number","Rate Code","Job Code"]
+    for c, label in enumerate(headers, start=1):
+        cell = ws.cell(row=2, column=c, value=label)
+        cell.fill = FILL_HEADER
+        cell.font = FONT_HEADER
+        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+
+    # Note for the user
+    ws["A4"] = ("Detail rows are written here by the finalize step (one row per "
+                "employee × earnings code with a non-zero value). A ready-to-import "
+                ".csv is also exported alongside the workbook.")
+    ws["A4"].font = Font(name="Calibri", size=10, italic=True, color="595959")
+    ws.merge_cells("A4:L4")
+    ws.freeze_panes = "A3"
+    return ws
+
+
+# =============================================================================
+# Main
+# =============================================================================
+
+def main():
+    wb = openpyxl.Workbook()
+    # remove default
+    wb.remove(wb.active)
+
+    build_readme(wb)
+    build_inputs(wb)
+    build_roster(wb)
+    build_roles(wb)
+    calc_ws, calc_last_row = build_calc(wb)
+    build_output_adp(wb, calc_last_row)
+    build_location_totals(wb)
+    build_checks(wb)
+    build_salary(wb)
+    build_adjustments(wb)
+    build_adp_import(wb)
+
+    wb.save(OUT)
+    print(f"Wrote {OUT}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,38 @@
+# Timecard review — period 2026-05-03_2026-05-16
+# threshold for late clock-out: 30 minutes past scheduled end
+
+## Missing clock-ins (6)
+  - Opal Payne                 Slipstream Studio                 Sun 05/03 7:30 AM → 3:00 PM
+  - Colin Anders               Slipstream Commissary (Food)      Mon 05/04 2:30 PM → 4:30 PM
+  - Gricelda Hernandez         Slipstream Downtown               Thu 05/07 8:00 AM → 2:00 PM
+  - Colin Anders               Slipstream Commissary (Food)      Thu 05/07 2:30 PM → 4:30 PM
+  - Colin Anders               Slipstream Commissary (Food)      Mon 05/11 2:30 PM → 4:30 PM
+  - Colin Anders               Slipstream Commissary (Food)      Thu 05/14 2:30 PM → 4:30 PM
+
+## Late clock-outs >30min (24)
+  - Claire Nichols             Slipstream Downtown               Wed 05/06  scheduled 2:30 PM → actual 4:30 PM  (+120 min)
+  - Nely Alcantara             Slipstream Commissary (Food)      Mon 05/04  scheduled 3:00 PM → actual 4:20 PM  (+80 min)
+  - Kathy Guevara Orellana     Slipstream Downtown               Tue 05/05  scheduled 3:00 PM → actual 4:16 PM  (+76 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Thu 05/07  scheduled 3:00 PM → actual 4:00 PM  (+60 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Thu 05/14  scheduled 3:00 PM → actual 3:48 PM  (+48 min)
+  - Opal Payne                 Slipstream 1899 Penn              Mon 05/04  scheduled 3:30 PM → actual 4:00 PM  (+30 min)
+  - Michelle Pankow            Slipstream Downtown               Tue 05/05  scheduled 2:30 PM → actual 3:00 PM  (+30 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Tue 05/05  scheduled 3:00 PM → actual 3:30 PM  (+30 min)
+  - Nely Alcantara             Slipstream Downtown               Wed 05/06  scheduled 3:00 PM → actual 3:30 PM  (+30 min)
+  - Opal Payne                 Slipstream 1899 Penn              Wed 05/06  scheduled 3:30 PM → actual 4:00 PM  (+30 min)
+  - Opal Payne                 Slipstream 1899 Penn              Fri 05/08  scheduled 3:30 PM → actual 4:00 PM  (+30 min)
+  - Michelle Pankow            Slipstream Studio                 Fri 05/08  scheduled 5:15 PM → actual 5:45 PM  (+30 min)
+  - Kathy Guevara Orellana     Slipstream Studio                 Sat 05/09  scheduled 3:00 PM → actual 3:30 PM  (+30 min)
+  - Nely Alcantara             Slipstream Commissary (Food)      Mon 05/11  scheduled 3:00 PM → actual 3:30 PM  (+30 min)
+  - Eli Schug                  Slipstream 1899 Penn              Tue 05/12  scheduled 3:30 PM → actual 4:00 PM  (+30 min)
+  - Christina Jie              Slipstream Studio                 Tue 05/12  scheduled 2:30 PM → actual 3:00 PM  (+30 min)
+  - Michelle Pankow            Slipstream Downtown               Tue 05/12  scheduled 4:30 PM → actual 5:00 PM  (+30 min)
+  - Nely Alcantara             Slipstream Downtown               Wed 05/13  scheduled 3:00 PM → actual 3:30 PM  (+30 min)
+  - Michelle Pankow            Slipstream Downtown               Wed 05/13  scheduled 2:30 PM → actual 3:00 PM  (+30 min)
+  - Kathy Guevara Orellana     Slipstream Studio                 Thu 05/14  scheduled 2:30 PM → actual 3:00 PM  (+30 min)
+  - Michelle Pankow            Slipstream Studio                 Thu 05/14  scheduled 2:30 PM → actual 3:00 PM  (+30 min)
+  - Eli Schug                  Slipstream 1899 Penn              Thu 05/14  scheduled 3:30 PM → actual 4:00 PM  (+30 min)
+  - Opal Payne                 Slipstream NMWA                   Thu 05/14  scheduled 3:00 PM → actual 3:30 PM  (+30 min)
+  - Colin Anders               Slipstream Studio                 Sat 05/16  scheduled 3:30 PM → actual 4:00 PM  (+30 min)
+
+## Unscheduled shifts (actual without a matching schedule entry) (0)

@@ -1,0 +1,397 @@
+{
+  "coffee_top5": [
+    {
+      "Item Name": "Latte",
+      "units": 2173,
+      "gross": 11599.0
+    },
+    {
+      "Item Name": "Tahitian Vanilla Latte",
+      "units": 1822,
+      "gross": 11550.0
+    },
+    {
+      "Item Name": "Cappuccino",
+      "units": 1461,
+      "gross": 6907.5
+    },
+    {
+      "Item Name": "Americano",
+      "units": 739,
+      "gross": 3009.0
+    },
+    {
+      "Item Name": "Cortado",
+      "units": 616,
+      "gross": 2900.5
+    }
+  ],
+  "coffee_bot5": [
+    {
+      "Item Name": "Galvanina Organic Soda",
+      "units": 39,
+      "gross": 156.0
+    },
+    {
+      "Item Name": "Red Jacket Orchard Apple Juice",
+      "units": 43,
+      "gross": 172.0
+    },
+    {
+      "Item Name": "Mexican Coke",
+      "units": 45,
+      "gross": 157.5
+    },
+    {
+      "Item Name": "Topo Chico",
+      "units": 91,
+      "gross": 318.5
+    },
+    {
+      "Item Name": "Carrot Ginger Tea",
+      "units": 92,
+      "gross": 460.0
+    }
+  ],
+  "food_top5": [
+    {
+      "Item Name": "Slipstream Breakfast Sandwich",
+      "units": 530,
+      "gross": 5145.5
+    },
+    {
+      "Item Name": "Jammy Bacon and Egg Sandwich",
+      "units": 332,
+      "gross": 3066.5
+    },
+    {
+      "Item Name": "Avocado Toast",
+      "units": 230,
+      "gross": 2741.5
+    },
+    {
+      "Item Name": "Bacon and Egg Biscuit Sandwich",
+      "units": 225,
+      "gross": 2038.0
+    },
+    {
+      "Item Name": "Breakfast Bowl",
+      "units": 219,
+      "gross": 2444.0
+    }
+  ],
+  "food_bot5": [
+    {
+      "Item Name": "Turkey Club Sandwich",
+      "units": 112,
+      "gross": 1575.5
+    },
+    {
+      "Item Name": "Chicken and Rice Bowl",
+      "units": 127,
+      "gross": 1736.5
+    },
+    {
+      "Item Name": "Smoked Salmon Toast",
+      "units": 136,
+      "gross": 1899.5
+    },
+    {
+      "Item Name": "Yogurt Parfait",
+      "units": 198,
+      "gross": 1485.0
+    },
+    {
+      "Item Name": "Breakfast Bowl",
+      "units": 219,
+      "gross": 2444.0
+    }
+  ],
+  "coffee_top10": [
+    {
+      "Item Name": "Latte",
+      "units": 2173,
+      "gross": 11599.0
+    },
+    {
+      "Item Name": "Tahitian Vanilla Latte",
+      "units": 1822,
+      "gross": 11550.0
+    },
+    {
+      "Item Name": "Cappuccino",
+      "units": 1461,
+      "gross": 6907.5
+    },
+    {
+      "Item Name": "Americano",
+      "units": 739,
+      "gross": 3009.0
+    },
+    {
+      "Item Name": "Cortado",
+      "units": 616,
+      "gross": 2900.5
+    },
+    {
+      "Item Name": "Chai",
+      "units": 609,
+      "gross": 3753.0
+    },
+    {
+      "Item Name": "Magic Matcha",
+      "units": 558,
+      "gross": 3617.0
+    },
+    {
+      "Item Name": "Espresso",
+      "units": 408,
+      "gross": 1582.75
+    },
+    {
+      "Item Name": "Thoughtful Mocha",
+      "units": 378,
+      "gross": 2382.0
+    },
+    {
+      "Item Name": "Snow Jasmine Tea",
+      "units": 267,
+      "gross": 1336.0
+    }
+  ],
+  "coffee_bot10": [
+    {
+      "Item Name": "One and One",
+      "units": 16,
+      "gross": 72.5
+    },
+    {
+      "Item Name": "Cup of Milk",
+      "units": 19,
+      "gross": 57.0
+    },
+    {
+      "Item Name": "Natalie's Strawberry Lemonade",
+      "units": 25,
+      "gross": 125.0
+    },
+    {
+      "Item Name": "Blood Orange Lavender Matcha",
+      "units": 29,
+      "gross": 188.5
+    },
+    {
+      "Item Name": "Macchiato",
+      "units": 37,
+      "gross": 144.75
+    },
+    {
+      "Item Name": "Galvanina Organic Soda",
+      "units": 39,
+      "gross": 156.0
+    },
+    {
+      "Item Name": "Red Jacket Orchard Apple Juice",
+      "units": 43,
+      "gross": 172.0
+    },
+    {
+      "Item Name": "Mexican Coke",
+      "units": 45,
+      "gross": 157.5
+    },
+    {
+      "Item Name": "Topo Chico",
+      "units": 91,
+      "gross": 318.5
+    },
+    {
+      "Item Name": "Carrot Ginger Tea",
+      "units": 92,
+      "gross": 460.0
+    }
+  ],
+  "food_top10": [
+    {
+      "Item Name": "Slipstream Breakfast Sandwich",
+      "units": 530,
+      "gross": 5145.5
+    },
+    {
+      "Item Name": "Jammy Bacon and Egg Sandwich",
+      "units": 332,
+      "gross": 3066.5
+    },
+    {
+      "Item Name": "Avocado Toast",
+      "units": 230,
+      "gross": 2741.5
+    },
+    {
+      "Item Name": "Bacon and Egg Biscuit Sandwich",
+      "units": 225,
+      "gross": 2038.0
+    },
+    {
+      "Item Name": "Breakfast Bowl",
+      "units": 219,
+      "gross": 2444.0
+    },
+    {
+      "Item Name": "Yogurt Parfait",
+      "units": 198,
+      "gross": 1485.0
+    },
+    {
+      "Item Name": "Smoked Salmon Toast",
+      "units": 136,
+      "gross": 1899.5
+    },
+    {
+      "Item Name": "Chicken and Rice Bowl",
+      "units": 127,
+      "gross": 1736.5
+    },
+    {
+      "Item Name": "Turkey Club Sandwich",
+      "units": 112,
+      "gross": 1575.5
+    },
+    {
+      "Item Name": "Cajun chicken Sandwich",
+      "units": 91,
+      "gross": 1192.0
+    }
+  ],
+  "food_bot10": [
+    {
+      "Item Name": "Quinoa Squash Salad",
+      "units": 8,
+      "gross": 96.0
+    },
+    {
+      "Item Name": "Mylk Labs oatmeal",
+      "units": 18,
+      "gross": 92.5
+    },
+    {
+      "Item Name": "Smashed Chickpea Sandwich",
+      "units": 46,
+      "gross": 595.5
+    },
+    {
+      "Item Name": "Spinach & Parmesan Quiche",
+      "units": 53,
+      "gross": 503.5
+    },
+    {
+      "Item Name": "Cajun chicken Sandwich",
+      "units": 91,
+      "gross": 1192.0
+    },
+    {
+      "Item Name": "Turkey Club Sandwich",
+      "units": 112,
+      "gross": 1575.5
+    },
+    {
+      "Item Name": "Chicken and Rice Bowl",
+      "units": 127,
+      "gross": 1736.5
+    },
+    {
+      "Item Name": "Smoked Salmon Toast",
+      "units": 136,
+      "gross": 1899.5
+    },
+    {
+      "Item Name": "Yogurt Parfait",
+      "units": 198,
+      "gross": 1485.0
+    },
+    {
+      "Item Name": "Breakfast Bowl",
+      "units": 219,
+      "gross": 2444.0
+    }
+  ],
+  "pastry_over3": [
+    {
+      "Item Name": "Banana Bread",
+      "units": 727,
+      "gross": 3998.5
+    },
+    {
+      "Item Name": "Blueberry Gluten Free Muffin",
+      "units": 409,
+      "gross": 1840.5
+    },
+    {
+      "Item Name": "Brown Butter Chocolate Chip Cookie",
+      "units": 284,
+      "gross": 1278.0
+    },
+    {
+      "Item Name": "Glorious Morning Bread",
+      "units": 271,
+      "gross": 1490.5
+    },
+    {
+      "Item Name": "Apple Cider Muffin",
+      "units": 269,
+      "gross": 1210.5
+    },
+    {
+      "Item Name": "Humming Bird Bread",
+      "units": 76,
+      "gross": 418.0
+    },
+    {
+      "Item Name": "Donut Muffin",
+      "units": 61,
+      "gross": 274.5
+    },
+    {
+      "Item Name": "Pepper Jack Biscuit with butter",
+      "units": 52,
+      "gross": 286.0
+    },
+    {
+      "Item Name": "Herbs & Sun dried tomato muffin",
+      "units": 47,
+      "gross": 211.5
+    },
+    {
+      "Item Name": "English Muffin & Butter",
+      "units": 45,
+      "gross": 180.0
+    }
+  ],
+  "filter_by_loc": {
+    "Comfort (Cruise Control)": {
+      "Downtown": 856,
+      "Studio": 837,
+      "1899": 218
+    },
+    "Daily Selection": {
+      "Downtown": 139,
+      "Studio": 171,
+      "1899": 88
+    },
+    "Nitro": {
+      "Downtown": 387,
+      "Studio": 511,
+      "1899": 89
+    },
+    "Other Filter": {
+      "Downtown": 26,
+      "Studio": 35,
+      "1899": 18
+    }
+  },
+  "retail_total_by_loc": {
+    "Downtown": 43,
+    "Studio": 60,
+    "1899": 23
+  }
+}

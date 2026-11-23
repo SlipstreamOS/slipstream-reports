@@ -1,0 +1,182 @@
+NARRATIVE = dict(
+    masthead=(
+        f"Prepared {PREPARED}  |  {VERSION}: October results from Consolidated Model {MODEL_VER}. Changes this issue: "
+        "(1) timecards cover the full month, so every Section 3 ratio is on all 31 days; (2) the transactions read now "
+        "includes October 1 to 3, which sit in the September store file (earlier months read slightly short); "
+        "(3) inventory counts started: October 31 counts are booked as a $14,767 opening balance (no P&L effect this "
+        "month; from November the monthly change in counts flows into COGS); (4) prior months are restated slightly for "
+        "late bank-feed categorizations and the FNB line of credit cleanup (Jan to Sep total net income +$830)."
+    ),
+    exec_para=(
+        "October was a strong sales month and an expensive labor month, and the labor half is partly an accounting "
+        "echo of September. Total net income across all entities was $21,429 (September restated to $27,788), "
+        "bringing 2026 to $132.9K. Open-cafe core sales rose 8.8% to $112.7K, the third-best month of the year, led "
+        "by Studio at $56.0K (+18.9%, within $300 of its April high). Prime cost rose from 58.7% to 63.7% blended, "
+        "and all of it was labor (27.6% to 32.5%); COGS held at 31.2%. Part of that swing is timing: September's "
+        "payroll accrual ran about $3.1K light at Downtown and Studio, and that cost landed in October when the "
+        "accrual reversed. Read the two months together and the open cafes ran 30.2% labor on $216K of core sales, "
+        "against a ~31% weighted target. The real October issues are narrower: Downtown's coffee COGS jumped to "
+        "32.6%, Downtown's week is mis-staffed at both ends (Wednesday short, Monday and Friday heavy), and Studio's "
+        "weekend is still under-staffed on its two biggest days. NMWA had its best month: $15.3K net income from "
+        "$9.9K of events and $8.2K of management and closure fees, with walk-in sales nearly doubling."
+    ),
+    exec_bullets=[
+        ("Studio carried the month.",
+         "Core $47.1K → $56.0K (+18.9%), 14% over its projection and its second-best month of 2026. Weekday "
+         "transactions 141 → 159/day and weekend 229 → 275/day; ticket up to $9.50. Sales per core labor hour "
+         "crossed $60 ($62)."),
+        ("Labor: read September and October together.",
+         "Blended labor 27.6% → 32.5%. September's accrual was a proration that came in ~$1.6K light at Downtown and "
+         "~$1.5K light at Studio; the October reversal put that cost here. Two-month labor: Downtown 33.5% (target "
+         "32), Studio 26.0% (target 30), 1899 34.6% (target 35). From this close the accrual is booked from the "
+         "actual next payroll, so this swing should not repeat."),
+        ("Downtown: coffee COGS and the shape of the week.",
+         "Prime cost 58.7% → 72.9%. Labor explains most of it, but coffee COGS rose from 28.2% to 32.6% of coffee "
+         "sales on flat sales. Wednesday ($2,482/day, the best day) is 7.2 points under-staffed while Friday "
+         "($1,068) is +4.9 and Monday ($945) +1.9."),
+        ("1899 improved on cost.",
+         "Prime 70.8% → 66.0%: coffee COGS 31.9% → 24.2% and food COGS 71.5% → 58.9%. Core sales $19.5K (−2%) "
+         "were still 11% over projection. Food COGS remains the one number above its band."),
+        ("NMWA: best month yet, and the café is growing.",
+         "Walk-in core $1.3K → $2.5K and weekday transactions 18 → 30/day. Events ($9.9K) and $8.2K of management "
+         "and closure fees drove $15.3K net income. Walk-in is still half of its $5K projection."),
+        ("Support entities cost more.",
+         "Commissary ($4.6K) on $11.5K of sales as labor rose to $6.9K; Central ($14.6K) including a one-time "
+         "$857 cash on hand write-off and higher payroll. SRP near break-even; Cafe Management $6.0K."),
+        ("Guests: bigger baskets, steady loyalty.",
+         "Walk-in ticket $8.60 → $8.82 at the open cafes and attach 38.6% → 40.4%. Loyalty: 4,758 visits from "
+         "1,816 members (2.62 visits each), 663 of them new to the ledger."),
+    ],
+    cav_1a=("1899 Net Income is a pass-through (owner profit share) and shows $0 at the entity level; its operating result "
+            "is in Prime Margin. NMWA ratios sit on a $2.5K walk-in base next to $9.9K of events; see 1f."),
+    callout_1a=("Labor drove the whole move this month (32.5% of core vs 27.6%) and includes about $3.1K of September cost "
+                "that landed in October through the accrual reversal; COGS was flat at 31.2%."),
+    cav_1b=("October catering was $15,213 company-wide: NMWA $9,926 (museum events), Downtown $3,906, Studio $962 and "
+            "1899 $419. Catering is excluded from every core ratio above."),
+    cav_1c=("Labor % rose 27.6% → 32.5% blended while COGS % held at 31.2% (September 31.1%). September was flattered "
+            "by a light accrual and October carries the catch-up; the two-month blend is 30.2%. Prime cost 63.7% is in "
+            "the warning band; the two-month blend is 61.3%."),
+    cav_1d=("Studio's +18.9% is the story: its second-best month of 2026 after April. Downtown held its September level; "
+            "1899 eased 2% on slightly fewer weekday transactions (132 → 129/day)."),
+    src_1e=("Source: 2026 Projections v1.10, sales projection column. September to December were reset in v1.9 at the "
+            "summer run-rate (Studio −13% YoY), which proved too low; November and December were raised this week "
+            "(Studio −1%, Downtown +5%, holiday days set individually). Labor target compliance is in Section 1a."),
+    cav_1e=("All three established cafes beat projection: Studio +$6.7K (+13.7%), 1899 +$1.9K (+10.9%), Downtown +$2.2K "
+            "(+6.2%). Studio's gap is mostly the projection, not the month: October ran about 2% below last October. "
+            "NMWA walk-in was $2.5K against a $5.0K projection."),
+    cav_1f=("NMWA's best month: $15.3K net income, built on $9.9K of events and $8.2K of management and closure fees "
+            "(booked at NMWA by convention). The café itself grew: walk-in core $1,323 → $2,536 and weekday "
+            "transactions 18 → 30/day. P&L labor ($1.8K) is understated by accrual timing; timecards show $3.4K."),
+    cav_2a=("Ticket rose at Downtown ($8.57 → $8.81) and Studio ($9.28 → $9.50), the first move up since spring; 1899 "
+            "steady at $7.34. October was a traffic month at Studio and a ticket month at Downtown."),
+    cav_2c=("Studio weekend 229 → 275 transactions/day, its strongest weekend since April. Weekday traffic: "
+            "Downtown 194 → 202, Studio 141 → 159, 1899 132 → 129, NMWA 18 → 30."),
+    src_3_coverage=("Timecards cover the full month at every cafe (all open days matched), so these ratios are complete "
+                    "this month."),
+    cav_3a=("Share of the month's walk-in net sales by daypart. The 7–10a window is 40.5% at Downtown and 34.8% at Studio; "
+            "Studio's peak is 10a–12p (32.9%) and 1899's lunch (29.8%) is as large as its rush (30.2%)."),
+    insights_3a=(
+        "The daypart shapes held for a third month, which confirms they are structural. Downtown is a morning cafe "
+        "(36% in the 8–10a rush, 14% after 2p). Studio peaks mid-morning (33%) and carries lunch (24%). 1899 splits "
+        "evenly between rush and lunch. NMWA does 85% of its sales between 10a and 2p. Each cafe needs its own "
+        "staffing curve, and the tier templates from the deep dive already reflect these shapes."
+    ),
+    insights_3b=(
+        "With a full month of timecards the alignment picture is clean. Studio's weekday gaps closed (Tue/Wed +2.1/+2.6, "
+        "from +5.1/+4.4 in September) but the weekend gap did not move: Saturday −5.4 and Sunday −2.5 on its two "
+        "$2,650–2,850 days. Downtown flipped: Friday improved (+4.9 from +9.2) but Wednesday, its best day at "
+        "$2,482, is now 7.2 points short while Monday ($945) and Friday ($1,068) run heavy. 1899 is close to "
+        "aligned except Friday (+4.9) and Thursday (−4.3). Sales per core hour: Studio $62, 1899 $57, Downtown $53."
+    ),
+    insights_3c=(
+        "The basket moved for the first time in months: attach proxy 38.6% → 40.4% blended, walk-in ticket up "
+        "$0.24 at Downtown and $0.22 at Studio. Studio's pickup share rose from 49% to 56% with the traffic gain. "
+        "The $5–8 single-coffee band is still 40% of all tickets, so the 10a–2p attach prompt remains the cheapest "
+        "sales lever."
+    ),
+    cav_4=("Send the October Square Item Sales CSVs (Downtown / Studio / 1899 / NMWA) and this section gains the full "
+           "top/bottom-10 by category, pastry detail and the Filter Coffee view."),
+    loyalty_bullets=[
+        ("Visits flat, members up.",
+         "4,758 loyalty visits (September 4,726) from 1,816 members (1,750). Studio drove it: 2,164 visits (+10%) and "
+         "864 members (+12%), matching its traffic gain."),
+        ("Frequency eased slightly.",
+         "2.62 visits per member (2.70). More new and occasional members in a growth month pull the average down; the "
+         "5+ visit core held at 256 members (14%)."),
+        ("New members: 663.",
+         "Downtown 205, Studio 346, 1899 119, down from 854 as the ledger's history builds (members first seen in "
+         "August or September now count as repeat)."),
+        ("About 38% of walk-in tickets carry loyalty.",
+         "Downtown 39%, Studio 37%, 1899 36%. From October the ticket count is month-exact, so this is the baseline "
+         "going forward; September's 41% used a slightly different ticket base."),
+    ],
+    cav_6b=("Spend per visit ($8.16 / $8.78 / $6.81) sits at each cafe's walk-in ticket, so members do not out-spend "
+            "other guests per visit; their value is frequency (2.5–2.6 visits a month)."),
+    cav_6c=("Measured directly from the ledger (members who visited in the month). 5-yr = annualized × 5, no retention "
+            "decay. A member at today's 2.6 visits a month is worth about $1,280 over five years."),
+    cav_6d=("Same buckets every month. The 5+ visit regulars are 14% of members (256); Downtown and 1899 "
+            "each keep about 15% of members in that group, Studio 12.5%."),
+    cav_7a=("Studio passed $60 sales per core hour ($62) at $20.78 loaded cost per hour. Downtown fell "
+            "to $53 at $21.74, the result of Monday and Friday hours, and 1899 is $57 at $22.09, the highest cost per "
+            "hour of the three. Average ticket sits below the $9 to $12 range at Downtown ($8.81) and 1899 ($7.34), and transactions per labor hour trail the range at all three."),
+    actions=[
+        ("Rebalance Downtown's week toward Wednesday.",
+         "Wednesday is the best day ($2,482) and 7.2 points short on labor; Monday ($945) and Friday ($1,068) are "
+         "+1.9 and +4.9 heavy. Moving one shift from Monday and the Friday third start to Wednesday is labor-neutral "
+         "and protects the highest-volume day.",
+         "labor-neutral; revenue-protective"),
+        ("Find the Downtown coffee COGS jump.",
+         "Coffee COGS 28.2% → 32.6% on flat coffee sales is about $1.2K in one month. Check October's SRP, IGF and "
+         "Baldor beverage purchases against usage; the November inventory change will show whether it was stock "
+         "build or real usage.",
+         "$800–1,200 / mo"),
+        ("Staff Studio's weekend to its sales.",
+         "Saturday −5.4 and Sunday −2.5 on $2,650–2,850 days, with weekend traffic up to 275/day. Move 6–8 hours a "
+         "week from Tue–Thu to Sat/Sun. Studio's $62 per hour shows the room.",
+         "labor-neutral; throughput on the best days"),
+        ("Look at Commissary labor against volume.",
+         "Labor $6.9K on $11.5K of sales (60%), up $2.8K on September while sales rose $1.8K. Some is accrual timing; "
+         "check production hours against the October invoice volume.",
+         "$1,000–2,000 / mo"),
+        ("Finish the 1899 Friday template.",
+         "Friday is +4.9 at both weekday cafes (better than September's +7 to +9 but still the widest positive gap at "
+         "1899).",
+         "$300–500 / mo"),
+        ("Set NMWA café targets separate from events.",
+         "The café nearly doubled but is at half its projection. A transactions-per-day ramp target for November and "
+         "December keeps strong event months from hiding the café trend.",
+         "decision"),
+    ],
+    data_caveats=[
+        f"Financials from Consolidated Model {MODEL_VER}, recalculated before reading; every location's October net income "
+        "ties to QuickBooks to the cent (Cafe Management within $0.01 of rounding). Four accounts with October activity were "
+        "added to the Income Statement tabs (Studio Travel & Entertainment, Central Legal Services, Cash Over/Short and "
+        "Interest Expense, Commissary Bank Charges). Two #N/A cells in the Pro-forma tabs are not used here.",
+        "Prior months restated in QuickBooks: bank-feed catch-up (Studio card charges Jan–Sep), FNB line of credit interest "
+        "(Central, Jan–Apr), coffee bags moved from paper goods into SRP inventory (July, +$1,428) and a January 1899 fix. "
+        "Jan–Sep total net income moved from $110,610 to $111,440.",
+        "Payroll accrual: September's accrual was a proration and ran light (Downtown ~$1.6K, Studio ~$1.5K vs the payroll "
+        "bridge); October absorbed it when the accrual reversed. October's own accrual was booked from the actual 11/6 "
+        "payroll (10/18–10/31), so November should not carry a swing.",
+        "Section 3 labor % (timecard cost / walk-in sales: Downtown 41%, Studio 34%, 1899 39%) is higher than the P&L "
+        "because timecards are gross wages, while P&L labor nets out card tips paid through payroll and adds employer taxes. "
+        "Use the P&L for the target test and Section 3 for the shape of the week.",
+        "Transactions store vs QuickBooks walk-in sales: Studio −1.0%, 1899 −0.5%, NMWA 0.0%, Downtown −3.5% (Square Online "
+        "and mobile orders missing from the feed; flagged for the weekly assembler).",
+        "Square exports since July truncate multi-item descriptions to the first item: attach is a calibrated proxy (3c) and "
+        "Section 4 counts lead items, not units. Section 5 (Discounts) on hold.",
+    ],
+    watch=[
+        ("Downtown coffee COGS.", "32.6% in October. November's inventory change will separate stock build from usage."),
+        ("Labor without the accrual noise.", "November is the first clean month on the new accrual; the targets test is Downtown ≤32%, Studio ≤30%, 1899 ≤35%."),
+        ("Inventory COGS starts.", "From November each cafe's COGS includes the change in its month-end count. Expect one-month swings while the counting settles."),
+        ("Holiday weeks.", "Veterans Day (Wed 11/11, open) and Thanksgiving week (Downtown and 1899 closed Thu–Sat) are set day by day in the projections."),
+        ("Commissary.", "Two months of losses (−$2.1K, −$4.6K) as labor climbs; Action 4."),
+        ("NMWA café ramp.", "30 weekday transactions a day in October; the November read with events stripped out is the one to watch."),
+    ],
+    cav_A1=("Commissary ($2.1K) → ($4.6K): sales +18% but labor +$2.8K, part of it September accrual catch-up. Central "
+            "($10.6K) → ($14.6K): payroll +$4.0K (same accrual effect), the one-time $857 cash on hand write-off, offset by "
+            "an $800 legal refund. SRP ($0.6K) and Cafe Management $6.0K steady."),
+    cav_B=("Total net income $21,429, down $6.4K from a restated September ($27,788). Cafes contributed $35,149, of which "
+           "NMWA $15,334; support entities ($13,720). Jan–Oct total: $132,869."),
+)

@@ -1,0 +1,133 @@
+{
+ "month": "2026-10",
+ "prior_months_in_store": 2,
+ "first_time_note": "first-time = no prior event in store",
+ "cafes": {
+  "Downtown": {
+   "visits": 1642,
+   "members": 639,
+   "avg_visits_per_member": 2.57,
+   "first_time_members": 205,
+   "repeat_members": 434,
+   "first_time_visits": 286,
+   "repeat_visits": 1356,
+   "buckets": {
+    "1 visit": 327,
+    "2 visits": 114,
+    "3\u20134 visits": 105,
+    "5\u20137 visits": 51,
+    "8+ visits": 42
+   },
+   "points": 93821,
+   "loyalty_spend_pretax": 13403.0,
+   "avg_spend_per_member": 20.97,
+   "avg_spend_per_visit": 8.16,
+   "redemptions": 142,
+   "walkin_tickets": 4199,
+   "loyalty_share_of_tickets": 39.1,
+   "days_with_events": 22
+  },
+  "Studio": {
+   "visits": 2164,
+   "members": 864,
+   "avg_visits_per_member": 2.5,
+   "first_time_members": 346,
+   "repeat_members": 518,
+   "first_time_visits": 486,
+   "repeat_visits": 1678,
+   "buckets": {
+    "1 visit": 491,
+    "2 visits": 152,
+    "3\u20134 visits": 113,
+    "5\u20137 visits": 60,
+    "8+ visits": 48
+   },
+   "points": 133042,
+   "loyalty_spend_pretax": 19006.0,
+   "avg_spend_per_member": 22.0,
+   "avg_spend_per_visit": 8.78,
+   "redemptions": 189,
+   "walkin_tickets": 5827,
+   "loyalty_share_of_tickets": 37.1,
+   "days_with_events": 31
+  },
+  "1899": {
+   "visits": 952,
+   "members": 361,
+   "avg_visits_per_member": 2.64,
+   "first_time_members": 119,
+   "repeat_members": 242,
+   "first_time_visits": 172,
+   "repeat_visits": 780,
+   "buckets": {
+    "1 visit": 184,
+    "2 visits": 70,
+    "3\u20134 visits": 54,
+    "5\u20137 visits": 21,
+    "8+ visits": 32
+   },
+   "points": 45353,
+   "loyalty_spend_pretax": 6479.0,
+   "avg_spend_per_member": 17.95,
+   "avg_spend_per_visit": 6.81,
+   "redemptions": 51,
+   "walkin_tickets": 2627,
+   "loyalty_share_of_tickets": 36.2,
+   "days_with_events": 21
+  },
+  "NMWA": {
+   "visits": 0,
+   "members": 0,
+   "avg_visits_per_member": null,
+   "first_time_members": 0,
+   "repeat_members": 0,
+   "first_time_visits": 0,
+   "repeat_visits": 0,
+   "buckets": {
+    "1 visit": 0,
+    "2 visits": 0,
+    "3\u20134 visits": 0,
+    "5\u20137 visits": 0,
+    "8+ visits": 0
+   },
+   "points": 0,
+   "loyalty_spend_pretax": 0.0,
+   "avg_spend_per_member": null,
+   "avg_spend_per_visit": null,
+   "redemptions": 0,
+   "walkin_tickets": 518,
+   "loyalty_share_of_tickets": 0.0,
+   "days_with_events": 0
+  }
+ },
+ "open3": {
+  "visits": 4758,
+  "members": 1816,
+  "avg_visits_per_member": 2.62,
+  "first_time_members": 663,
+  "repeat_members": 1153,
+  "first_time_visits": 944,
+  "repeat_visits": 3814,
+  "buckets": {
+   "1 visit": 945,
+   "2 visits": 338,
+   "3\u20134 visits": 277,
+   "5\u20137 visits": 132,
+   "8+ visits": 124
+  },
+  "points": 272216,
+  "loyalty_spend_pretax": 38888.0,
+  "avg_spend_per_member": 21.41,
+  "avg_spend_per_visit": 8.17,
+  "redemptions": 382,
+  "walkin_tickets": 12653,
+  "loyalty_share_of_tickets": 37.6,
+  "days_with_events": 31
+ },
+ "all": null,
+ "coverage": {
+  "events": 5152,
+  "min": "2026-10-01T11:14:34Z",
+  "max": "2026-10-31T20:05:31Z"
+ }
+}

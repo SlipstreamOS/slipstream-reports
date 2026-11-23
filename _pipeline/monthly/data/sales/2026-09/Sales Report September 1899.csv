@@ -1,0 +1,89 @@
+Key Stats
+Filtered By Location: Slipstream 1899 Penn
+Sales,2773
+Avg. Gross Sale,$7.45
+Gross Sales,"$20,672.65"
+Total Collected,"$24,428.90"
+
+Sales Summary
+Filtered By Location: Slipstream 1899 Penn
+Sales
+Gross Sales,"$20,672.65"
+Items,"$20,672.65"
+Service Charges,$0.00
+Returns,-$55.25
+Discounts & Comps,-$417.26
+Net Sales,"$20,200.14"
+Gift Card Sales,$0.00
+Tax,"$2,002.95"
+Tip,"$2,225.81"
+Refunds by Amount,$0.00
+Total,"$24,428.90"
+
+Payments
+Total Collected,"$24,428.90"
+Cash,$200.49
+Card,"$24,215.41"
+Other,$0.00
+Gift Card,$13.00
+Fees,-$739.93
+Net Total,"$23,688.97"
+
+Category Sales
+Filtered By Location: Slipstream 1899 Penn
+Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Catering and Events,16,$276.00,0,$0.00,-$0.35,$275.65,$14.77
+Coffee,3363,"$16,922.75",-4,-$18.25,-$294.21,"$16,610.29","$1,656.74"
+Food,466,"$2,759.50",0,$0.00,-$112.78,"$2,646.72",$264.68
+Retail,26,$582.40,-1,-$37.00,-$9.92,$535.48,$53.56
+Other Categories,18,$132.00,0,$0.00,$0.00,$132.00,$13.20
+
+Labor vs Sales
+Display By Employee Role
+Filtered By Location: Slipstream 1899 Penn
+"",Labor Percentage of Net Sales,Labor Cost,Regular Labor Cost,Overtime Labor Cost,Double Time Labor Cost
+Location Manager + Admin,0.93%,$186.93,$186.93,$0.00,$0.00
+Location Lead,23.15%,"$4,675.45","$4,675.45",$0.00,$0.00
+FOH,6.13%,"$1,238.12","$1,238.12",$0.00,$0.00
+Team Permissions,9.16%,"$1,850.29","$1,850.29",$0.00,$0.00
+Total,39.36%,"$7,950.79","$7,950.79",$0.00,$0.00
+
+Category Sales
+Display By Source
+Filtered By Location: Slipstream 1899 Penn
+Source,Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Register,Catering and Events,16,$276.00,0,$0.00,-$0.35,$275.65,$14.77
+Register,Coffee,3356,"$16,879.75",-4,-$18.25,-$294.21,"$16,567.29","$1,652.44"
+Register,Food,465,"$2,755.00",0,$0.00,-$112.78,"$2,642.22",$264.23
+Register,Retail,26,$582.40,-1,-$37.00,-$9.92,$535.48,$53.56
+Register,Other Categories,18,$132.00,0,$0.00,$0.00,$132.00,$13.20
+Square Online,Coffee,7,$43.00,0,$0.00,$0.00,$43.00,$4.30
+Square Online,Food,1,$4.50,0,$0.00,$0.00,$4.50,$0.45
+
+Category Sales
+Display By Dining Option
+Filtered By Location: Slipstream 1899 Penn
+Dining Option,Category,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+No Dining Option,Espresso and Specialty,7,$43.00,-1,-$4.50,$0.00,$38.50,$3.85
+No Dining Option,Filter Coffee,0,$0.00,-2,-$10.25,$0.00,-$10.25,-$1.02
+No Dining Option,Pastry,1,$4.50,0,$0.00,$0.00,$4.50,$0.45
+No Dining Option,Retail,0,$0.00,-1,-$37.00,$0.00,-$37.00,-$3.70
+No Dining Option,Tea and Other Drinks,0,$0.00,-1,-$3.50,$0.00,-$3.50,-$0.35
+For Here,All-Day Food,92,$756.50,0,$0.00,$0.00,$756.50,$75.65
+For Here,Catering and Event,13,$186.00,0,$0.00,-$0.35,$185.65,$5.77
+For Here,Coffee Drinks,9,$54.00,0,$0.00,$0.00,$54.00,$5.40
+For Here,Espresso and Specialty,1402,"$7,044.00",0,$0.00,-$150.60,"$6,893.40",$688.80
+For Here,Filter Coffee,381,"$1,820.50",0,$0.00,-$15.96,"$1,804.54",$179.42
+For Here,Grab and Go,3,$36.00,0,$0.00,$0.00,$36.00,$3.60
+For Here,Pastry,243,"$1,246.00",0,$0.00,-$83.23,"$1,162.77",$116.28
+For Here,Retail,21,$444.90,0,$0.00,-$9.92,$434.98,$43.51
+For Here,Tea and Other Drinks,211,$903.00,0,$0.00,-$0.70,$902.30,$89.24
+To Go,All-Day Food,29,$232.00,0,$0.00,-$0.25,$231.75,$23.18
+To Go,Catering and Event,3,$90.00,0,$0.00,$0.00,$90.00,$9.00
+To Go,Coffee Drinks,5,$30.00,0,$0.00,$0.00,$30.00,$3.00
+To Go,Espresso and Specialty,1135,"$6,012.75",0,$0.00,-$121.47,"$5,891.28",$587.31
+To Go,Filter Coffee,163,$815.50,0,$0.00,-$5.48,$810.02,$81.09
+To Go,Grab and Go,1,$12.00,0,$0.00,$0.00,$12.00,$1.20
+To Go,Pastry,101,$520.50,0,$0.00,-$29.30,$491.20,$49.12
+To Go,Retail,5,$137.50,0,$0.00,$0.00,$137.50,$13.75
+To Go,Tea and Other Drinks,64,$284.00,0,$0.00,$0.00,$284.00,$28.40

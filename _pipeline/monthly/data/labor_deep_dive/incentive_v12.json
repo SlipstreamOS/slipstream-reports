@@ -1,0 +1,650 @@
+{
+ "definitions": {
+  "opt1": "Open-cafe pool \u2014 DT+Studio beat share 50%, cap 1.5% of DT+Studio sales; all core hours share",
+  "opt2": "Own-metric pool \u2014 Option 1 + 1899 adds $200 when NI \u2265 5% of sales + NMWA adds $100 when at/under staffing-rule hours",
+  "opt3": "Template beat \u2014 50% of \u03a3(template wages \u2212 actual core wages) over all cafes, cap 1.5% of all-cafe core sales",
+  "opt4": "On-template + beat \u2014 $300/$300/$150/$75 per cafe-month at or under template (1% tolerance) + 50% of the beat, cap 1.5%",
+  "split": "payout \u00f7 total core wages of all participants = bonus %; each person receives that % of own core wages"
+ },
+ "backtest_2026": [
+  {
+   "month": "Apr",
+   "cafes": [
+    {
+     "cafe": "Downtown",
+     "tier": "busy",
+     "sales": 43482,
+     "wages": 14753,
+     "core_pct": 33.9,
+     "tmpl_wages": 13179,
+     "ni_ok": true,
+     "ni_pct": 15.1
+    },
+    {
+     "cafe": "Studio",
+     "tier": "busy",
+     "sales": 56232,
+     "wages": 17277,
+     "core_pct": 30.7,
+     "tmpl_wages": 16543,
+     "ni_ok": true,
+     "ni_pct": 24.8
+    },
+    {
+     "cafe": "1899 Penn",
+     "tier": "mid",
+     "sales": 19291,
+     "wages": 9110,
+     "core_pct": 47.2,
+     "tmpl_wages": 6896,
+     "ni_ok": true,
+     "ni_pct": 8.7
+    }
+   ],
+   "opt1": 0,
+   "opt2": 200,
+   "opt3": 0,
+   "opt4": 0,
+   "beat_dt_studio": -1246,
+   "beat_template": -4522,
+   "bonus_pct_of_wages": {
+    "opt1": 0.0,
+    "opt2": 0.49,
+    "opt3": 0.0,
+    "opt4": 0.0
+   }
+  },
+  {
+   "month": "May",
+   "cafes": [
+    {
+     "cafe": "Downtown",
+     "tier": "busy",
+     "sales": 37010,
+     "wages": 12612,
+     "core_pct": 34.1,
+     "tmpl_wages": 13618,
+     "ni_ok": true,
+     "ni_pct": 28.1
+    },
+    {
+     "cafe": "Studio",
+     "tier": "busy",
+     "sales": 54283,
+     "wages": 18173,
+     "core_pct": 33.5,
+     "tmpl_wages": 17094,
+     "ni_ok": true,
+     "ni_pct": 30.9
+    },
+    {
+     "cafe": "1899 Penn",
+     "tier": "mid",
+     "sales": 15106,
+     "wages": 7321,
+     "core_pct": 48.5,
+     "tmpl_wages": 7126,
+     "ni_ok": true,
+     "ni_pct": 6.1
+    }
+   ],
+   "opt1": 0,
+   "opt2": 200,
+   "opt3": 0,
+   "opt4": 300,
+   "beat_dt_studio": -2657,
+   "beat_template": -268,
+   "bonus_pct_of_wages": {
+    "opt1": 0.0,
+    "opt2": 0.52,
+    "opt3": 0.0,
+    "opt4": 0.79
+   }
+  },
+  {
+   "month": "Jun",
+   "cafes": [
+    {
+     "cafe": "Downtown",
+     "tier": "busy",
+     "sales": 41137,
+     "wages": 14132,
+     "core_pct": 34.4,
+     "tmpl_wages": 13179,
+     "ni_ok": true,
+     "ni_pct": 17.3
+    },
+    {
+     "cafe": "Studio",
+     "tier": "busy",
+     "sales": 53083,
+     "wages": 17768,
+     "core_pct": 33.5,
+     "tmpl_wages": 16543,
+     "ni_ok": true,
+     "ni_pct": 17.8
+    },
+    {
+     "cafe": "1899 Penn",
+     "tier": "busy",
+     "sales": 19039,
+     "wages": 7916,
+     "core_pct": 41.6,
+     "tmpl_wages": 7200,
+     "ni_ok": true,
+     "ni_pct": 8.4
+    }
+   ],
+   "opt1": 0,
+   "opt2": 200,
+   "opt3": 0,
+   "opt4": 0,
+   "beat_dt_studio": -2811,
+   "beat_template": -2894,
+   "bonus_pct_of_wages": {
+    "opt1": 0.0,
+    "opt2": 0.5,
+    "opt3": 0.0,
+    "opt4": 0.0
+   }
+  },
+  {
+   "month": "Jul",
+   "cafes": [
+    {
+     "cafe": "Downtown",
+     "tier": "mid",
+     "sales": 39356,
+     "wages": 15674,
+     "core_pct": 39.8,
+     "tmpl_wages": 12639,
+     "ni_ok": true,
+     "ni_pct": 16.7
+    },
+    {
+     "cafe": "Studio",
+     "tier": "slow",
+     "sales": 44656,
+     "wages": 16931,
+     "core_pct": 37.9,
+     "tmpl_wages": 14570,
+     "ni_ok": true,
+     "ni_pct": 15.9
+    },
+    {
+     "cafe": "1899 Penn",
+     "tier": "busy",
+     "sales": 17881,
+     "wages": 8347,
+     "core_pct": 46.7,
+     "tmpl_wages": 7440,
+     "ni_ok": false,
+     "ni_pct": 2.4
+    }
+   ],
+   "opt1": 0,
+   "opt2": 0,
+   "opt3": 0,
+   "opt4": 0,
+   "beat_dt_studio": -6614,
+   "beat_template": -6303,
+   "bonus_pct_of_wages": {
+    "opt1": 0.0,
+    "opt2": 0.0,
+    "opt3": 0.0,
+    "opt4": 0.0
+   }
+  },
+  {
+   "month": "Aug",
+   "cafes": [
+    {
+     "cafe": "Downtown",
+     "tier": "slow",
+     "sales": 29782,
+     "wages": 13409,
+     "core_pct": 45.0,
+     "tmpl_wages": 10828,
+     "ni_ok": false,
+     "ni_pct": -9.6
+    },
+    {
+     "cafe": "Studio",
+     "tier": "slow",
+     "sales": 48077,
+     "wages": 18393,
+     "core_pct": 38.3,
+     "tmpl_wages": 14570,
+     "ni_ok": true,
+     "ni_pct": 15.9
+    },
+    {
+     "cafe": "1899 Penn",
+     "tier": "mid",
+     "sales": 15699,
+     "wages": 7434,
+     "core_pct": 47.4,
+     "tmpl_wages": 7126,
+     "ni_ok": false,
+     "ni_pct": -3.6
+    }
+   ],
+   "opt1": 0,
+   "opt2": 0,
+   "opt3": 0,
+   "opt4": 0,
+   "beat_dt_studio": -7849,
+   "beat_template": -6712,
+   "bonus_pct_of_wages": {
+    "opt1": 0.0,
+    "opt2": 0.0,
+    "opt3": 0.0,
+    "opt4": 0.0
+   }
+  }
+ ],
+ "backtest_summary": {
+  "opt1": {
+   "months_paying": 0,
+   "total": 0,
+   "avg_month": 0
+  },
+  "opt2": {
+   "months_paying": 3,
+   "total": 600,
+   "avg_month": 120
+  },
+  "opt3": {
+   "months_paying": 0,
+   "total": 0,
+   "avg_month": 0
+  },
+  "opt4": {
+   "months_paying": 1,
+   "total": 300,
+   "avg_month": 60
+  }
+ },
+ "calendar_2027": {
+  "Downtown": [
+   "slow",
+   "mid",
+   "mid",
+   "busy",
+   "busy",
+   "busy",
+   "mid",
+   "slow",
+   "mid",
+   "mid",
+   "slow",
+   "slow"
+  ],
+  "Studio": [
+   "slow",
+   "slow",
+   "mid",
+   "busy",
+   "busy",
+   "busy",
+   "slow",
+   "slow",
+   "slow",
+   "mid",
+   "slow",
+   "slow"
+  ],
+  "1899 Penn": [
+   "slow",
+   "slow",
+   "mid",
+   "mid",
+   "mid",
+   "busy",
+   "busy",
+   "mid",
+   "mid",
+   "mid",
+   "mid",
+   "slow"
+  ]
+ },
+ "simulation_2027": {
+  "runs": 2000,
+  "labor_saving_vs_aprAug_run_rate": {
+   "p10": 23696,
+   "p50": 27937,
+   "p90": 32229
+  },
+  "options": {
+   "opt1": {
+    "p10": 0,
+    "p50": 644,
+    "p90": 1544,
+    "months_paying_p50": 2,
+    "share_of_saving_p50": 2.3
+   },
+   "opt2": {
+    "p10": 772,
+    "p50": 1426,
+    "p90": 2325,
+    "months_paying_p50": 7,
+    "share_of_saving_p50": 5.1
+   },
+   "opt3": {
+    "p10": 858,
+    "p50": 2174,
+    "p90": 3860,
+    "months_paying_p50": 4,
+    "share_of_saving_p50": 7.8
+   },
+   "opt4": {
+    "p10": 4691,
+    "p50": 6537,
+    "p90": 8588,
+    "months_paying_p50": 11,
+    "share_of_saving_p50": 23.4
+   }
+  }
+ },
+ "per_person_30h_year_p50": {
+  "opt1": 43,
+  "opt2": 96,
+  "opt3": 146,
+  "opt4": 439
+ },
+ "margins_v12": {
+  "Downtown": {
+   "slow": {
+    "core_sales_month": 28453,
+    "actual_sampled": {
+     "core_wage_pct": 47.2,
+     "labor_pct": 42.8,
+     "prime_pct": 79.6,
+     "noi": -2930,
+     "noi_pct": -10.3
+    },
+    "v12_template": {
+     "core_wage_pct": 37.2,
+     "labor_pct": 31.7,
+     "prime_pct": 68.5,
+     "noi": 239,
+     "noi_pct": 0.8
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 36.9,
+     "labor_pct": 32.6,
+     "prime_pct": 69.4,
+     "noi": -38,
+     "noi_pct": -0.1
+    },
+    "at_target": {
+     "core_wage_pct": 32.0,
+     "labor_pct": 25.8,
+     "prime_pct": 62.6,
+     "noi": 1908,
+     "noi_pct": 6.7
+    }
+   },
+   "mid": {
+    "core_sales_month": 35819,
+    "actual_sampled": {
+     "core_wage_pct": 39.4,
+     "labor_pct": 34.1,
+     "prime_pct": 70.9,
+     "noi": 1703,
+     "noi_pct": 4.8
+    },
+    "v12_template": {
+     "core_wage_pct": 34.5,
+     "labor_pct": 28.6,
+     "prime_pct": 65.4,
+     "noi": 3649,
+     "noi_pct": 10.2
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 34.2,
+     "labor_pct": 29.4,
+     "prime_pct": 66.2,
+     "noi": 3383,
+     "noi_pct": 9.4
+    },
+    "at_target": {
+     "core_wage_pct": 32.0,
+     "labor_pct": 25.8,
+     "prime_pct": 62.6,
+     "noi": 4663,
+     "noi_pct": 13.0
+    }
+   },
+   "busy": {
+    "core_sales_month": 42185,
+    "actual_sampled": {
+     "core_wage_pct": 32.7,
+     "labor_pct": 26.6,
+     "prime_pct": 63.4,
+     "noi": 6700,
+     "noi_pct": 15.9
+    },
+    "v12_template": {
+     "core_wage_pct": 31.6,
+     "labor_pct": 25.3,
+     "prime_pct": 62.1,
+     "noi": 7239,
+     "noi_pct": 17.2
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 31.3,
+     "labor_pct": 26.0,
+     "prime_pct": 62.8,
+     "noi": 6978,
+     "noi_pct": 16.5
+    },
+    "at_target": {
+     "core_wage_pct": 32.0,
+     "labor_pct": 25.8,
+     "prime_pct": 62.6,
+     "noi": 7044,
+     "noi_pct": 16.7
+    }
+   }
+  },
+  "Studio": {
+   "slow": {
+    "core_sales_month": 42181,
+    "actual_sampled": {
+     "core_wage_pct": 41.6,
+     "labor_pct": 39.3,
+     "prime_pct": 68.5,
+     "noi": 2772,
+     "noi_pct": 6.6
+    },
+    "v12_template": {
+     "core_wage_pct": 33.8,
+     "labor_pct": 30.6,
+     "prime_pct": 59.8,
+     "noi": 6441,
+     "noi_pct": 15.3
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 33.5,
+     "labor_pct": 31.2,
+     "prime_pct": 60.4,
+     "noi": 6185,
+     "noi_pct": 14.7
+    },
+    "at_target": {
+     "core_wage_pct": 30.0,
+     "labor_pct": 26.3,
+     "prime_pct": 55.5,
+     "noi": 8236,
+     "noi_pct": 19.5
+    }
+   },
+   "mid": {
+    "core_sales_month": 49227,
+    "actual_sampled": {
+     "core_wage_pct": 33.8,
+     "labor_pct": 30.6,
+     "prime_pct": 59.8,
+     "noi": 9264,
+     "noi_pct": 18.8
+    },
+    "v12_template": {
+     "core_wage_pct": 31.8,
+     "labor_pct": 28.3,
+     "prime_pct": 57.5,
+     "noi": 10371,
+     "noi_pct": 21.1
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 31.5,
+     "labor_pct": 28.9,
+     "prime_pct": 58.1,
+     "noi": 10122,
+     "noi_pct": 20.6
+    },
+    "at_target": {
+     "core_wage_pct": 30.0,
+     "labor_pct": 26.3,
+     "prime_pct": 55.5,
+     "noi": 11370,
+     "noi_pct": 23.1
+    }
+   },
+   "busy": {
+    "core_sales_month": 57230,
+    "actual_sampled": {
+     "core_wage_pct": 29.6,
+     "labor_pct": 25.9,
+     "prime_pct": 55.1,
+     "noi": 15189,
+     "noi_pct": 26.5
+    },
+    "v12_template": {
+     "core_wage_pct": 29.2,
+     "labor_pct": 25.4,
+     "prime_pct": 54.6,
+     "noi": 15426,
+     "noi_pct": 27.0
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 28.9,
+     "labor_pct": 25.9,
+     "prime_pct": 55.1,
+     "noi": 15184,
+     "noi_pct": 26.5
+    },
+    "at_target": {
+     "core_wage_pct": 30.0,
+     "labor_pct": 26.3,
+     "prime_pct": 55.5,
+     "noi": 14931,
+     "noi_pct": 26.1
+    }
+   }
+  },
+  "1899 Penn": {
+   "slow": {
+    "core_sales_month": 12445,
+    "actual_sampled": {
+     "core_wage_pct": 57.0,
+     "labor_pct": 57.2,
+     "prime_pct": 95.4,
+     "noi": -2113,
+     "noi_pct": -17.0
+    },
+    "v12_template": {
+     "core_wage_pct": 43.3,
+     "labor_pct": 41.8,
+     "prime_pct": 80.0,
+     "noi": -200,
+     "noi_pct": -1.6
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 42.9,
+     "labor_pct": 42.9,
+     "prime_pct": 81.1,
+     "noi": -338,
+     "noi_pct": -2.7
+    },
+    "at_target": {
+     "core_wage_pct": 35.0,
+     "labor_pct": 32.5,
+     "prime_pct": 70.7,
+     "noi": 959,
+     "noi_pct": 7.7
+    }
+   },
+   "mid": {
+    "core_sales_month": 16289,
+    "actual_sampled": {
+     "core_wage_pct": 47.9,
+     "labor_pct": 47.0,
+     "prime_pct": 85.2,
+     "noi": -276,
+     "noi_pct": -1.7
+    },
+    "v12_template": {
+     "core_wage_pct": 42.8,
+     "labor_pct": 41.2,
+     "prime_pct": 79.4,
+     "noi": 661,
+     "noi_pct": 4.1
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 42.4,
+     "labor_pct": 42.0,
+     "prime_pct": 80.2,
+     "noi": 532,
+     "noi_pct": 3.3
+    },
+    "at_target": {
+     "core_wage_pct": 35.0,
+     "labor_pct": 32.5,
+     "prime_pct": 70.7,
+     "noi": 2085,
+     "noi_pct": 12.8
+    }
+   },
+   "busy": {
+    "core_sales_month": 19925,
+    "actual_sampled": {
+     "core_wage_pct": 42.6,
+     "labor_pct": 41.0,
+     "prime_pct": 79.2,
+     "noi": 1447,
+     "noi_pct": 7.3
+    },
+    "v12_template": {
+     "core_wage_pct": 36.5,
+     "labor_pct": 34.2,
+     "prime_pct": 72.4,
+     "noi": 2806,
+     "noi_pct": 14.1
+    },
+    "v12_template_opt4_month": {
+     "core_wage_pct": 36.2,
+     "labor_pct": 34.9,
+     "prime_pct": 73.1,
+     "noi": 2679,
+     "noi_pct": 13.4
+    },
+    "at_target": {
+     "core_wage_pct": 35.0,
+     "labor_pct": 32.5,
+     "prime_pct": 70.7,
+     "noi": 3149,
+     "noi_pct": 15.8
+    }
+   }
+  }
+ },
+ "profit_share_v12": {
+  "open_cafe_noi_year_v12_templates": 162664,
+  "support_burden_year": -87196,
+  "consolidated_ni_year_v12": 75468,
+  "share_5pct": 3773,
+  "share_10pct": 7547
+ }
+}

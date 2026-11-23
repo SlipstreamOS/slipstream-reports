@@ -1,0 +1,22 @@
+name_asana,name_square,asana_location,asana_pay,square_pay,delta,status
+J'Andre Singleton,Jay Singleton,Downtown,18.5,18.5,0.0,OK
+Mariana Martinez,Mariana Martinez,Studio Theater ,18.0,18.5,-0.5,MISMATCH
+Daisy Hand,Daisy Hand,Studio Theater ,18.5,18.5,0.0,OK
+Ines Chavez,Ines Chavez,Downtown,17.5,,,NO_PAY_IN_SQUARE
+Colin Anders,Colin Anders,Studio Theater ,24.75,24.75,0.0,OK
+Amy Romero,Amy Romero,Studio Theater ,20.75,20.75,0.0,OK
+Claire Nichols,Claire Nichols,Studio Theater ,22.75,22.75,0.0,OK
+Kathy Guevara,Kathy Guevara Orellana,Studio Theater ,18.5,18.5,0.0,OK
+Delmi Aleman,Delmi Menjivar,Studio Theater ,18.5,18.5,0.0,OK
+Greg Latronica,,Studio Theater ,20.25,,,MISSING_IN_SQUARE
+Griselda Romero,Gricelda Hernandez,Downtown,25.25,25.25,0.0,OK
+Michelle Pankow,Michelle Pankow,Downtown,21.75,21.75,0.0,OK
+Nely Alcantara,Nely Alcantara,Downtown,19.25,19.25,0.0,OK
+Elijah R Schug,Eli Schug,1899,22.75,22.75,0.0,OK
+Kesi Harford,Kesi Harford,1899,20.75,20.75,0.0,OK
+Christina Jie,Christina Jie,1899,19.0,19.0,0.0,OK
+Opal Payne,Opal Payne,1899,20.5,20.5,0.0,OK
+Aryana Sandroni,,1899,18.5,,,MISSING_IN_SQUARE
+Marleni Nolasco,Marleni Nolasco,Downtown,22.5,22.5,0.0,OK
+Melvin Gutierrez,Melvin Gutierrez,Downtown,22.75,21.25,1.5,MISMATCH
+Katherine Sung,Kat Sung,1899,20.25,20.25,0.0,OK

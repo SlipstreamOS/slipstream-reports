@@ -1,0 +1,1135 @@
+{
+ "assumptions": {
+  "weeks_per_month": 4.333333333333333,
+  "load_factor": 1.12,
+  "tip_rate": {
+   "Downtown": 0.121,
+   "Studio": 0.12,
+   "1899 Penn": 0.104
+  },
+  "targets": {
+   "Downtown": 0.32,
+   "Studio": 0.3,
+   "1899 Penn": 0.35
+  }
+ },
+ "headroom_by_tier": {
+  "Downtown": {
+   "slow": {
+    "core_sales_month": 28453,
+    "actual_wages_month": 13425,
+    "actual_pct": 47.2,
+    "target_wages_month": 9105,
+    "headroom_actual_vs_target": 4320,
+    "template_wages_month": 9334,
+    "template_pct": 32.8,
+    "template_saving_vs_actual": 4091,
+    "core_hours_month_template": 468
+   },
+   "mid": {
+    "core_sales_month": 35819,
+    "actual_wages_month": 14105,
+    "actual_pct": 39.4,
+    "target_wages_month": 11462,
+    "headroom_actual_vs_target": 2643,
+    "template_wages_month": 11405,
+    "template_pct": 31.8,
+    "template_saving_vs_actual": 2700,
+    "core_hours_month_template": 576
+   },
+   "busy": {
+    "core_sales_month": 42185,
+    "actual_wages_month": 13806,
+    "actual_pct": 32.7,
+    "target_wages_month": 13499,
+    "headroom_actual_vs_target": 307,
+    "template_wages_month": 13286,
+    "template_pct": 31.5,
+    "template_saving_vs_actual": 520,
+    "core_hours_month_template": 676
+   }
+  },
+  "Studio": {
+   "slow": {
+    "core_sales_month": 42181,
+    "actual_wages_month": 17533,
+    "actual_pct": 41.6,
+    "target_wages_month": 12654,
+    "headroom_actual_vs_target": 4878,
+    "template_wages_month": 13186,
+    "template_pct": 31.3,
+    "template_saving_vs_actual": 4346,
+    "core_hours_month_template": 665
+   },
+   "mid": {
+    "core_sales_month": 49227,
+    "actual_wages_month": 16649,
+    "actual_pct": 33.8,
+    "target_wages_month": 14768,
+    "headroom_actual_vs_target": 1881,
+    "template_wages_month": 15037,
+    "template_pct": 30.5,
+    "template_saving_vs_actual": 1612,
+    "core_hours_month_template": 763
+   },
+   "busy": {
+    "core_sales_month": 57230,
+    "actual_wages_month": 16939,
+    "actual_pct": 29.6,
+    "target_wages_month": 17169,
+    "headroom_actual_vs_target": -230,
+    "template_wages_month": 16519,
+    "template_pct": 28.9,
+    "template_saving_vs_actual": 420,
+    "core_hours_month_template": 841
+   }
+  },
+  "1899 Penn": {
+   "slow": {
+    "core_sales_month": 12445,
+    "actual_wages_month": 7098,
+    "actual_pct": 57.0,
+    "target_wages_month": 4356,
+    "headroom_actual_vs_target": 2742,
+    "template_wages_month": 6361,
+    "template_pct": 51.1,
+    "template_saving_vs_actual": 737,
+    "core_hours_month_template": 314
+   },
+   "mid": {
+    "core_sales_month": 16289,
+    "actual_wages_month": 7809,
+    "actual_pct": 47.9,
+    "target_wages_month": 5701,
+    "headroom_actual_vs_target": 2108,
+    "template_wages_month": 6647,
+    "template_pct": 40.8,
+    "template_saving_vs_actual": 1161,
+    "core_hours_month_template": 329
+   },
+   "busy": {
+    "core_sales_month": 19925,
+    "actual_wages_month": 8493,
+    "actual_pct": 42.6,
+    "target_wages_month": 6974,
+    "headroom_actual_vs_target": 1520,
+    "template_wages_month": 7141,
+    "template_pct": 35.8,
+    "template_saving_vs_actual": 1352,
+    "core_hours_month_template": 355
+   }
+  }
+ },
+ "headroom_actual_months": {
+  "Downtown Apr": 839,
+  "Downtown May": 769,
+  "Downtown Jun": 968,
+  "Downtown Jul": 3080,
+  "Downtown Aug": 3879,
+  "Studio Apr": 407,
+  "Studio May": 1889,
+  "Studio Jun": 1843,
+  "Studio Jul": 3534,
+  "Studio Aug": 3970,
+  "1899 Penn Apr": 2358,
+  "1899 Penn May": 2033,
+  "1899 Penn Jun": 1252,
+  "1899 Penn Jul": 2089,
+  "1899 Penn Aug": 1939
+ },
+ "headroom_aug_total": 9788,
+ "headroom_aprjun_avg_total": 4119,
+ "plan_comparison_mid_tier": {
+  "Downtown": {
+   "mid_month_sales": 35819,
+   "mid_month_core_hours": 576,
+   "scenarios": {
+    "2 pts OVER target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 0
+     }
+    },
+    "AT target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 576,
+      "pct_of_sales": 1.61,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 645,
+      "net_labor_pct_after": 33.6,
+      "slipstream_keeps_of_beat": -576
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 615,
+      "pct_of_sales": 1.72,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 689,
+      "net_labor_pct_after": 33.7,
+      "slipstream_keeps_of_beat": -615
+     }
+    },
+    "1 pt under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 179,
+      "pct_of_sales": 0.5,
+      "per_core_hour": 0.31,
+      "employer_cost_incl_load": 201,
+      "net_labor_pct_after": 31.5,
+      "slipstream_keeps_of_beat": 179
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 31.0,
+      "slipstream_keeps_of_beat": 358
+     },
+     "B_dollar_per_hour": {
+      "payout": 576,
+      "pct_of_sales": 1.61,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 645,
+      "net_labor_pct_after": 32.6,
+      "slipstream_keeps_of_beat": -218
+     },
+     "C_prime_gainshare_20": {
+      "payout": 72,
+      "pct_of_sales": 0.2,
+      "per_core_hour": 0.12,
+      "employer_cost_incl_load": 80,
+      "net_labor_pct_after": 31.2,
+      "slipstream_keeps_of_beat": 287
+     },
+     "D_shift_bonus_8": {
+      "payout": 615,
+      "pct_of_sales": 1.72,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 689,
+      "net_labor_pct_after": 32.7,
+      "slipstream_keeps_of_beat": -257
+     }
+    },
+    "2 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 358,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.62,
+      "employer_cost_incl_load": 401,
+      "net_labor_pct_after": 31.0,
+      "slipstream_keeps_of_beat": 358
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 358,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.62,
+      "employer_cost_incl_load": 401,
+      "net_labor_pct_after": 31.0,
+      "slipstream_keeps_of_beat": 358
+     },
+     "B_dollar_per_hour": {
+      "payout": 864,
+      "pct_of_sales": 2.41,
+      "per_core_hour": 1.5,
+      "employer_cost_incl_load": 968,
+      "net_labor_pct_after": 32.4,
+      "slipstream_keeps_of_beat": -148
+     },
+     "C_prime_gainshare_20": {
+      "payout": 143,
+      "pct_of_sales": 0.4,
+      "per_core_hour": 0.25,
+      "employer_cost_incl_load": 160,
+      "net_labor_pct_after": 30.4,
+      "slipstream_keeps_of_beat": 573
+     },
+     "D_shift_bonus_8": {
+      "payout": 615,
+      "pct_of_sales": 1.72,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 689,
+      "net_labor_pct_after": 31.7,
+      "slipstream_keeps_of_beat": 102
+     }
+    },
+    "4 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 537,
+      "pct_of_sales": 1.5,
+      "per_core_hour": 0.93,
+      "employer_cost_incl_load": 602,
+      "net_labor_pct_after": 29.5,
+      "slipstream_keeps_of_beat": 895
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 716,
+      "pct_of_sales": 2.0,
+      "per_core_hour": 1.24,
+      "employer_cost_incl_load": 802,
+      "net_labor_pct_after": 30.0,
+      "slipstream_keeps_of_beat": 716
+     },
+     "B_dollar_per_hour": {
+      "payout": 1153,
+      "pct_of_sales": 3.22,
+      "per_core_hour": 2.0,
+      "employer_cost_incl_load": 1291,
+      "net_labor_pct_after": 31.2,
+      "slipstream_keeps_of_beat": 280
+     },
+     "C_prime_gainshare_20": {
+      "payout": 287,
+      "pct_of_sales": 0.8,
+      "per_core_hour": 0.5,
+      "employer_cost_incl_load": 321,
+      "net_labor_pct_after": 28.8,
+      "slipstream_keeps_of_beat": 1146
+     },
+     "D_shift_bonus_8": {
+      "payout": 615,
+      "pct_of_sales": 1.72,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 689,
+      "net_labor_pct_after": 29.7,
+      "slipstream_keeps_of_beat": 818
+     }
+    }
+   }
+  },
+  "Studio": {
+   "mid_month_sales": 49227,
+   "mid_month_core_hours": 763,
+   "scenarios": {
+    "2 pts OVER target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 32.0,
+      "slipstream_keeps_of_beat": 0
+     }
+    },
+    "AT target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 30.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 30.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 763,
+      "pct_of_sales": 1.55,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 854,
+      "net_labor_pct_after": 31.5,
+      "slipstream_keeps_of_beat": -763
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 30.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 814,
+      "pct_of_sales": 1.65,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 911,
+      "net_labor_pct_after": 31.7,
+      "slipstream_keeps_of_beat": -814
+     }
+    },
+    "1 pt under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 246,
+      "pct_of_sales": 0.5,
+      "per_core_hour": 0.32,
+      "employer_cost_incl_load": 276,
+      "net_labor_pct_after": 29.5,
+      "slipstream_keeps_of_beat": 246
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 29.0,
+      "slipstream_keeps_of_beat": 492
+     },
+     "B_dollar_per_hour": {
+      "payout": 763,
+      "pct_of_sales": 1.55,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 854,
+      "net_labor_pct_after": 30.5,
+      "slipstream_keeps_of_beat": -270
+     },
+     "C_prime_gainshare_20": {
+      "payout": 98,
+      "pct_of_sales": 0.2,
+      "per_core_hour": 0.13,
+      "employer_cost_incl_load": 110,
+      "net_labor_pct_after": 29.2,
+      "slipstream_keeps_of_beat": 394
+     },
+     "D_shift_bonus_8": {
+      "payout": 814,
+      "pct_of_sales": 1.65,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 911,
+      "net_labor_pct_after": 30.7,
+      "slipstream_keeps_of_beat": -321
+     }
+    },
+    "2 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 492,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.65,
+      "employer_cost_incl_load": 551,
+      "net_labor_pct_after": 29.0,
+      "slipstream_keeps_of_beat": 492
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 492,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.65,
+      "employer_cost_incl_load": 551,
+      "net_labor_pct_after": 29.0,
+      "slipstream_keeps_of_beat": 492
+     },
+     "B_dollar_per_hour": {
+      "payout": 1144,
+      "pct_of_sales": 2.32,
+      "per_core_hour": 1.5,
+      "employer_cost_incl_load": 1281,
+      "net_labor_pct_after": 30.3,
+      "slipstream_keeps_of_beat": -159
+     },
+     "C_prime_gainshare_20": {
+      "payout": 197,
+      "pct_of_sales": 0.4,
+      "per_core_hour": 0.26,
+      "employer_cost_incl_load": 221,
+      "net_labor_pct_after": 28.4,
+      "slipstream_keeps_of_beat": 788
+     },
+     "D_shift_bonus_8": {
+      "payout": 814,
+      "pct_of_sales": 1.65,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 911,
+      "net_labor_pct_after": 29.7,
+      "slipstream_keeps_of_beat": 171
+     }
+    },
+    "4 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 738,
+      "pct_of_sales": 1.5,
+      "per_core_hour": 0.97,
+      "employer_cost_incl_load": 827,
+      "net_labor_pct_after": 27.5,
+      "slipstream_keeps_of_beat": 1231
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 985,
+      "pct_of_sales": 2.0,
+      "per_core_hour": 1.29,
+      "employer_cost_incl_load": 1103,
+      "net_labor_pct_after": 28.0,
+      "slipstream_keeps_of_beat": 985
+     },
+     "B_dollar_per_hour": {
+      "payout": 1525,
+      "pct_of_sales": 3.1,
+      "per_core_hour": 2.0,
+      "employer_cost_incl_load": 1708,
+      "net_labor_pct_after": 29.1,
+      "slipstream_keeps_of_beat": 444
+     },
+     "C_prime_gainshare_20": {
+      "payout": 394,
+      "pct_of_sales": 0.8,
+      "per_core_hour": 0.52,
+      "employer_cost_incl_load": 441,
+      "net_labor_pct_after": 26.8,
+      "slipstream_keeps_of_beat": 1575
+     },
+     "D_shift_bonus_8": {
+      "payout": 814,
+      "pct_of_sales": 1.65,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 911,
+      "net_labor_pct_after": 27.7,
+      "slipstream_keeps_of_beat": 1156
+     }
+    }
+   }
+  },
+  "1899 Penn": {
+   "mid_month_sales": 16289,
+   "mid_month_core_hours": 329,
+   "scenarios": {
+    "2 pts OVER target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 37.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 37.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 37.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 37.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 37.0,
+      "slipstream_keeps_of_beat": 0
+     }
+    },
+    "AT target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 35.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 35.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 329,
+      "pct_of_sales": 2.02,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 369,
+      "net_labor_pct_after": 37.0,
+      "slipstream_keeps_of_beat": -329
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 35.0,
+      "slipstream_keeps_of_beat": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 351,
+      "pct_of_sales": 2.16,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 393,
+      "net_labor_pct_after": 37.2,
+      "slipstream_keeps_of_beat": -351
+     }
+    },
+    "1 pt under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 81,
+      "pct_of_sales": 0.5,
+      "per_core_hour": 0.25,
+      "employer_cost_incl_load": 91,
+      "net_labor_pct_after": 34.5,
+      "slipstream_keeps_of_beat": 81
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 163
+     },
+     "B_dollar_per_hour": {
+      "payout": 329,
+      "pct_of_sales": 2.02,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 369,
+      "net_labor_pct_after": 36.0,
+      "slipstream_keeps_of_beat": -166
+     },
+     "C_prime_gainshare_20": {
+      "payout": 33,
+      "pct_of_sales": 0.2,
+      "per_core_hour": 0.1,
+      "employer_cost_incl_load": 36,
+      "net_labor_pct_after": 34.2,
+      "slipstream_keeps_of_beat": 130
+     },
+     "D_shift_bonus_8": {
+      "payout": 351,
+      "pct_of_sales": 2.16,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 393,
+      "net_labor_pct_after": 36.2,
+      "slipstream_keeps_of_beat": -188
+     }
+    },
+    "2 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 163,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.49,
+      "employer_cost_incl_load": 182,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 163
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 163,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.49,
+      "employer_cost_incl_load": 182,
+      "net_labor_pct_after": 34.0,
+      "slipstream_keeps_of_beat": 163
+     },
+     "B_dollar_per_hour": {
+      "payout": 494,
+      "pct_of_sales": 3.03,
+      "per_core_hour": 1.5,
+      "employer_cost_incl_load": 553,
+      "net_labor_pct_after": 36.0,
+      "slipstream_keeps_of_beat": -168
+     },
+     "C_prime_gainshare_20": {
+      "payout": 65,
+      "pct_of_sales": 0.4,
+      "per_core_hour": 0.2,
+      "employer_cost_incl_load": 73,
+      "net_labor_pct_after": 33.4,
+      "slipstream_keeps_of_beat": 261
+     },
+     "D_shift_bonus_8": {
+      "payout": 351,
+      "pct_of_sales": 2.16,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 393,
+      "net_labor_pct_after": 35.2,
+      "slipstream_keeps_of_beat": -26
+     }
+    },
+    "4 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 244,
+      "pct_of_sales": 1.5,
+      "per_core_hour": 0.74,
+      "employer_cost_incl_load": 274,
+      "net_labor_pct_after": 32.5,
+      "slipstream_keeps_of_beat": 407
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 326,
+      "pct_of_sales": 2.0,
+      "per_core_hour": 0.99,
+      "employer_cost_incl_load": 365,
+      "net_labor_pct_after": 33.0,
+      "slipstream_keeps_of_beat": 326
+     },
+     "B_dollar_per_hour": {
+      "payout": 659,
+      "pct_of_sales": 4.04,
+      "per_core_hour": 2.0,
+      "employer_cost_incl_load": 738,
+      "net_labor_pct_after": 35.0,
+      "slipstream_keeps_of_beat": -7
+     },
+     "C_prime_gainshare_20": {
+      "payout": 130,
+      "pct_of_sales": 0.8,
+      "per_core_hour": 0.4,
+      "employer_cost_incl_load": 146,
+      "net_labor_pct_after": 31.8,
+      "slipstream_keeps_of_beat": 521
+     },
+     "D_shift_bonus_8": {
+      "payout": 351,
+      "pct_of_sales": 2.16,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 393,
+      "net_labor_pct_after": 33.2,
+      "slipstream_keeps_of_beat": 300
+     }
+    }
+   }
+  },
+  "Open Cafes": {
+   "mid_month_sales": 101335,
+   "mid_month_core_hours": 1668,
+   "scenarios": {
+    "2 pts OVER target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     }
+    },
+    "AT target": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 1668,
+      "pct_of_sales": 1.65,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 1868,
+      "per_person_month_30h": 130
+     },
+     "C_prime_gainshare_20": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "D_shift_bonus_8": {
+      "payout": 1779,
+      "pct_of_sales": 1.76,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 1993,
+      "per_person_month_30h": 139
+     }
+    },
+    "1 pt under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 507,
+      "pct_of_sales": 0.5,
+      "per_core_hour": 0.3,
+      "employer_cost_incl_load": 567,
+      "per_person_month_30h": 39
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 0,
+      "pct_of_sales": 0.0,
+      "per_core_hour": 0.0,
+      "employer_cost_incl_load": 0,
+      "per_person_month_30h": 0
+     },
+     "B_dollar_per_hour": {
+      "payout": 1668,
+      "pct_of_sales": 1.65,
+      "per_core_hour": 1.0,
+      "employer_cost_incl_load": 1868,
+      "per_person_month_30h": 130
+     },
+     "C_prime_gainshare_20": {
+      "payout": 203,
+      "pct_of_sales": 0.2,
+      "per_core_hour": 0.12,
+      "employer_cost_incl_load": 227,
+      "per_person_month_30h": 16
+     },
+     "D_shift_bonus_8": {
+      "payout": 1779,
+      "pct_of_sales": 1.76,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 1993,
+      "per_person_month_30h": 139
+     }
+    },
+    "2 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 1013,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.61,
+      "employer_cost_incl_load": 1135,
+      "per_person_month_30h": 79
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 1013,
+      "pct_of_sales": 1.0,
+      "per_core_hour": 0.61,
+      "employer_cost_incl_load": 1135,
+      "per_person_month_30h": 79
+     },
+     "B_dollar_per_hour": {
+      "payout": 2502,
+      "pct_of_sales": 2.47,
+      "per_core_hour": 1.5,
+      "employer_cost_incl_load": 2802,
+      "per_person_month_30h": 195
+     },
+     "C_prime_gainshare_20": {
+      "payout": 405,
+      "pct_of_sales": 0.4,
+      "per_core_hour": 0.24,
+      "employer_cost_incl_load": 454,
+      "per_person_month_30h": 32
+     },
+     "D_shift_bonus_8": {
+      "payout": 1779,
+      "pct_of_sales": 1.76,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 1993,
+      "per_person_month_30h": 139
+     }
+    },
+    "4 pts under": {
+     "A_beat_share_50_cap1.5": {
+      "payout": 1520,
+      "pct_of_sales": 1.5,
+      "per_core_hour": 0.91,
+      "employer_cost_incl_load": 1702,
+      "per_person_month_30h": 118
+     },
+     "A2_ryan_2pt_gate": {
+      "payout": 2027,
+      "pct_of_sales": 2.0,
+      "per_core_hour": 1.22,
+      "employer_cost_incl_load": 2270,
+      "per_person_month_30h": 158
+     },
+     "B_dollar_per_hour": {
+      "payout": 3336,
+      "pct_of_sales": 3.29,
+      "per_core_hour": 2.0,
+      "employer_cost_incl_load": 3736,
+      "per_person_month_30h": 260
+     },
+     "C_prime_gainshare_20": {
+      "payout": 811,
+      "pct_of_sales": 0.8,
+      "per_core_hour": 0.49,
+      "employer_cost_incl_load": 908,
+      "per_person_month_30h": 63
+     },
+     "D_shift_bonus_8": {
+      "payout": 1779,
+      "pct_of_sales": 1.76,
+      "per_core_hour": 1.07,
+      "employer_cost_incl_load": 1993,
+      "per_person_month_30h": 139
+     }
+    }
+   }
+  }
+ },
+ "margin_view_august": {
+  "Downtown": {
+   "aug_core_sales": 29782,
+   "cogs_pct": 37.6,
+   "opex_pct": 24.1,
+   "admin_train_pct_of_sales": 1.8,
+   "rows": {
+    "August actual (booked)": {
+     "labor_pl": 14296,
+     "labor_pct": 48.0,
+     "prime_pct": 85.6,
+     "noi": -2891,
+     "noi_pct": -9.7,
+     "incentive_paid": 0
+    },
+    "August at wage-basis est.": {
+     "labor_pl": 12022,
+     "labor_pct": 40.4,
+     "prime_pct": 77.9,
+     "noi": -616,
+     "noi_pct": -2.1,
+     "incentive_paid": 0
+    },
+    "At target, no incentive": {
+     "labor_pl": 7685,
+     "labor_pct": 25.8,
+     "prime_pct": 63.4,
+     "noi": 3721,
+     "noi_pct": 12.5,
+     "incentive_paid": 0
+    },
+    "2 pts under target, Plan A (50% beat share)": {
+     "labor_pl": 7352,
+     "labor_pct": 24.7,
+     "prime_pct": 62.3,
+     "noi": 4054,
+     "noi_pct": 13.6,
+     "incentive_paid": 298
+    },
+    "2 pts under target, Plan B ($1.50/hr)": {
+     "labor_pl": 8068,
+     "labor_pct": 27.1,
+     "prime_pct": 64.7,
+     "noi": 3338,
+     "noi_pct": 11.2,
+     "incentive_paid": 937
+    }
+   }
+  },
+  "Studio": {
+   "aug_core_sales": 48077,
+   "cogs_pct": 29.0,
+   "opex_pct": 20.0,
+   "admin_train_pct_of_sales": 4.2,
+   "rows": {
+    "August actual (booked)": {
+     "labor_pl": 16936,
+     "labor_pct": 35.2,
+     "prime_pct": 64.2,
+     "noi": 7595,
+     "noi_pct": 15.8,
+     "incentive_paid": 0
+    },
+    "August at wage-basis est.": {
+     "labor_pl": 17120,
+     "labor_pct": 35.6,
+     "prime_pct": 64.6,
+     "noi": 7412,
+     "noi_pct": 15.4,
+     "incentive_paid": 0
+    },
+    "At target, no incentive": {
+     "labor_pl": 12650,
+     "labor_pct": 26.3,
+     "prime_pct": 55.3,
+     "noi": 11881,
+     "noi_pct": 24.7,
+     "incentive_paid": 0
+    },
+    "2 pts under target, Plan A (50% beat share)": {
+     "labor_pl": 12112,
+     "labor_pct": 25.2,
+     "prime_pct": 54.2,
+     "noi": 12419,
+     "noi_pct": 25.8,
+     "incentive_paid": 481
+    },
+    "2 pts under target, Plan B ($1.50/hr)": {
+     "labor_pl": 13007,
+     "labor_pct": 27.1,
+     "prime_pct": 56.0,
+     "noi": 11525,
+     "noi_pct": 24.0,
+     "incentive_paid": 1280
+    }
+   }
+  },
+  "1899 Penn": {
+   "aug_core_sales": 15699,
+   "cogs_pct": 36.9,
+   "opex_pct": 14.2,
+   "admin_train_pct_of_sales": 3.3,
+   "rows": {
+    "August actual (booked)": {
+     "labor_pl": 8277,
+     "labor_pct": 52.7,
+     "prime_pct": 89.6,
+     "noi": -601,
+     "noi_pct": -3.8,
+     "incentive_paid": 0
+    },
+    "August at wage-basis est.": {
+     "labor_pl": 7283,
+     "labor_pct": 46.4,
+     "prime_pct": 83.3,
+     "noi": 393,
+     "noi_pct": 2.5,
+     "incentive_paid": 0
+    },
+    "At target, no incentive": {
+     "labor_pl": 5103,
+     "labor_pct": 32.5,
+     "prime_pct": 69.4,
+     "noi": 2573,
+     "noi_pct": 16.4,
+     "incentive_paid": 0
+    },
+    "2 pts under target, Plan A (50% beat share)": {
+     "labor_pl": 4927,
+     "labor_pct": 31.4,
+     "prime_pct": 68.3,
+     "noi": 2749,
+     "noi_pct": 17.5,
+     "incentive_paid": 157
+    },
+    "2 pts under target, Plan B ($1.50/hr)": {
+     "labor_pl": 5319,
+     "labor_pct": 33.9,
+     "prime_pct": 70.8,
+     "noi": 2356,
+     "noi_pct": 15.0,
+     "incentive_paid": 507
+    }
+   }
+  }
+ },
+ "annual_profit_share_sizing": {
+  "open_cafe_noi_at_target_annualized_on_aug_sales": 218100,
+  "5pct": 10905,
+  "10pct": 21810,
+  "note": "Annualized from August (slowest month) sales \u2014 a floor. Consolidated NI is lower after Commissary/SRP/Central (~$14\u201316K/mo normalized)."
+ }
+}

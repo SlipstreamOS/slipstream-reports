@@ -1,0 +1,210 @@
+{
+  "Ella Manners": {
+    "LGVKCKX9B9DZT": {
+      "Float": 83.83,
+      "Shift Lead": 15.07,
+      "Hospitality Register": 20.47,
+      "Production Barista": 7.93
+    },
+    "LXM7V1QWDHKZJ": {
+      "Production Barista": 51.75,
+      "Float": 59.77,
+      "Shift Lead": 7.02,
+      "Event": 5.15,
+      "Hospitality Register": 39.05
+    },
+    "L4ZBMGCWJ5C7R": {
+      "FOH": 7.05
+    }
+  },
+  "Amy Romero": {
+    "LGVKCKX9B9DZT": {
+      "Hospitality Register": 47.13,
+      "Training": 16.08
+    },
+    "L4ZBMGCWJ5C7R": {
+      "FOH": 7.75
+    }
+  },
+  "Eli Schug": {
+    "L4ZBMGCWJ5C7R": {
+      "Shift Lead": 41.23,
+      "FOH": 178.58
+    },
+    "LGVKCKX9B9DZT": {
+      "FOH": 21.63,
+      "Hospitality Register": 59.85
+    },
+    "LXM7V1QWDHKZJ": {
+      "Hospitality Register": 8.13,
+      "Float": 16.33,
+      "FOH": 6.47
+    }
+  },
+  "Celae Lynn": {
+    "LGVKCKX9B9DZT": {
+      "Shift Lead": 6.28,
+      "Production Barista": 7.05,
+      "Hospitality Register": 63.68
+    },
+    "LXM7V1QWDHKZJ": {
+      "Production Barista": 16.32,
+      "Event": 10.65,
+      "Hospitality Register": 24.93,
+      "Float": 12.42,
+      "FOH": 6.47
+    }
+  },
+  "Melvin Gutierrez": {
+    "LGVKCKX9B9DZT": {
+      "Production Line": 350.65
+    }
+  },
+  "Melissa Salgado": {
+    "LXM7V1QWDHKZJ": {
+      "Production Line": 340.48
+    }
+  },
+  "Michelle Pankow": {
+    "LXM7V1QWDHKZJ": {
+      "Shift Lead": 26.75,
+      "Float": 64.95,
+      "Hospitality Register": 69.4,
+      "Production Barista": 15.78
+    },
+    "LGVKCKX9B9DZT": {
+      "Float": 78.12,
+      "Shift Lead": 55.72,
+      "Hospitality Expo (buss/run)": 7.1,
+      "Hospitality Register": 24.47
+    }
+  },
+  "Nely Alcantara": {
+    "LZCA3EY4GB7BM": {
+      "Commissary Driver": 27.97,
+      "Commissary": 190.07
+    },
+    "LGVKCKX9B9DZT": {
+      "Production Line": 101.28
+    }
+  },
+  "Grace Iltis": {
+    "LXM7V1QWDHKZJ": {
+      "Production Barista": 5.88,
+      "Hospitality Register": 6.83,
+      "FOH": 10.63
+    },
+    "LGVKCKX9B9DZT": {
+      "Hospitality Register": 138.53,
+      "Training": 13.88
+    }
+  },
+  "Keyla Correia": {
+    "LXM7V1QWDHKZJ": {
+      "Hospitality Register": 5.5,
+      "Shift Lead": 7.2,
+      "Float": 33.55,
+      "FOH": 7.98
+    },
+    "LGVKCKX9B9DZT": {
+      "Shift Lead": 135.97,
+      "Float": 14.67,
+      "Production Barista": 30.25,
+      "FOH": 7.02,
+      "Hospitality Register": 56.88
+    },
+    "L4ZBMGCWJ5C7R": {
+      "FOH": 15.32
+    }
+  },
+  "Colin Anders": {
+    "LGVKCKX9B9DZT": {
+      "Production Barista": 29.12,
+      "Shift Lead": 222.95,
+      "Manager": 39.68,
+      "Float": 8.13
+    },
+    "LXM7V1QWDHKZJ": {
+      "Event": 11.78,
+      "Float": 8.57
+    },
+    "LZCA3EY4GB7BM": {
+      "Commissary Driver": 0.0
+    }
+  },
+  "Marleni Nolasco": {
+    "LZCA3EY4GB7BM": {
+      "Commissary": 112.58
+    },
+    "LXM7V1QWDHKZJ": {
+      "Production Line": 59.37
+    }
+  },
+  "Ines Chavez": {
+    "LZCA3EY4GB7BM": {
+      "Commissary": 174.32,
+      "Cook": 34.78
+    }
+  },
+  "Kesi Harford": {
+    "LGVKCKX9B9DZT": {
+      "Hospitality Register": 6.03,
+      "FOH": 6.42
+    },
+    "L4ZBMGCWJ5C7R": {
+      "Hospitality Register": 8.0,
+      "FOH": 8.42
+    },
+    "LXM7V1QWDHKZJ": {
+      "FOH": 6.0
+    }
+  },
+  "Steven James": {
+    "L4ZBMGCWJ5C7R": {
+      "Production Barista": 23.9,
+      "FOH": 98.48
+    }
+  },
+  "Ann Kushnir": {
+    "LGVKCKX9B9DZT": {
+      "Production Barista": 7.72,
+      "Float": 14.93,
+      "Hospitality Register": 13.87,
+      "Shift Lead": 6.55
+    },
+    "L4ZBMGCWJ5C7R": {
+      "FOH": 15.4
+    },
+    "LXM7V1QWDHKZJ": {
+      "Float": 9.05,
+      "Production Barista": 7.62
+    }
+  },
+  "Delmi Menjivar": {
+    "LGVKCKX9B9DZT": {
+      "Production Line": 48.77,
+      "Cook": 24.45
+    }
+  },
+  "Andrew Moten": {
+    "LXM7V1QWDHKZJ": {
+      "Float": 57.53,
+      "Shift Lead": 200.45
+    }
+  },
+  "Gricelda Hernandez": {
+    "L4ZBMGCWJ5C7R": {
+      "Manager": 274.75,
+      "Shift Lead": 8.23
+    },
+    "LGVKCKX9B9DZT": {
+      "Shift Lead": 6.92
+    }
+  },
+  "Hailey Spencer": {
+    "LGVKCKX9B9DZT": {
+      "Hospitality Register": 28.28,
+      "Training": 13.05
+    }
+  }
+}

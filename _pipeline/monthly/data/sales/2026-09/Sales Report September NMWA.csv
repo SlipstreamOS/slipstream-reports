@@ -1,0 +1,87 @@
+Key Stats
+Filtered By Location: Slipstream NMWA
+Sales,327
+Avg. Gross Sale,$75.70
+Gross Sales,"$24,753.50"
+Total Collected,"$23,915.77"
+
+Sales Summary
+Filtered By Location: Slipstream NMWA
+Sales
+Gross Sales,"$24,753.50"
+Items,"$24,753.50"
+Service Charges,$0.00
+Returns,$0.00
+Discounts & Comps,"-$1,479.14"
+Net Sales,"$23,274.36"
+Gift Card Sales,$0.00
+Tax,$273.36
+Tip,$368.05
+Refunds by Amount,$0.00
+Total,"$23,915.77"
+
+Payments
+Total Collected,"$23,915.77"
+Cash,$0.00
+Card,"$4,673.77"
+Other,"$19,242.00"
+Gift Card,$0.00
+Fees,-$140.87
+Net Total,"$23,774.90"
+
+Category Sales
+Filtered By Location: Slipstream NMWA
+Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Catering and Events,141,"$11,069.50",0,$0.00,"-$1,280.30","$9,789.20",$18.72
+Coffee,326,"$1,700.25",0,$0.00,-$118.85,"$1,581.40",$158.19
+Food,113,$670.50,0,$0.00,-$45.55,$624.95,$62.50
+Retail,4,$73.50,0,$0.00,-$10.90,$62.60,$6.26
+Other Categories,63,"$11,239.75",0,$0.00,-$23.54,"$11,216.21",$27.69
+
+Labor vs Sales
+Display By Employee Role
+Filtered By Location: Slipstream NMWA
+"",Labor Percentage of Net Sales,Labor Cost,Regular Labor Cost,Overtime Labor Cost,Double Time Labor Cost
+Location Manager + Admin,3.45%,$803.04,$803.04,$0.00,$0.00
+Location Lead,4.85%,"$1,129.03","$1,129.03",$0.00,$0.00
+FOH,1.37%,$318.61,$318.61,$0.00,$0.00
+Team Permissions,2.03%,$473.24,$473.24,$0.00,$0.00
+Total,11.70%,"$2,723.92","$2,723.92",$0.00,$0.00
+
+Category Sales
+Display By Source
+Filtered By Location: Slipstream NMWA
+Source,Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Point of Sale,Catering and Events,14,$130.00,0,$0.00,$0.00,$130.00,$13.00
+Point of Sale,Coffee,9,$46.00,0,$0.00,-$6.00,$40.00,$4.00
+Point of Sale,Retail,2,$35.00,0,$0.00,-$7.00,$28.00,$2.80
+Point of Sale,Other Categories,3,$14.50,0,$0.00,-$1.00,$13.50,$0.95
+Invoices,Catering and Events,116,"$10,880.00",0,$0.00,"-$1,278.00","$9,602.00",$0.00
+Invoices,Other Categories,5,"$10,882.00",0,$0.00,$0.00,"$10,882.00",$0.00
+Register,Catering and Events,11,$59.50,0,$0.00,-$2.30,$57.20,$5.72
+Register,Coffee,317,"$1,654.25",0,$0.00,-$112.85,"$1,541.40",$154.19
+Register,Food,113,$670.50,0,$0.00,-$45.55,$624.95,$62.50
+Register,Retail,2,$38.50,0,$0.00,-$3.90,$34.60,$3.46
+Register,Other Categories,55,$343.25,0,$0.00,-$22.54,$320.71,$26.74
+
+Category Sales
+Display By Dining Option
+Filtered By Location: Slipstream NMWA
+Dining Option,Category,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+No Dining Option,Catering and Event,116,"$10,880.00",0,$0.00,"-$1,278.00","$9,602.00",$0.00
+No Dining Option,Services,5,"$10,882.00",0,$0.00,$0.00,"$10,882.00",$0.00
+For Here,Uncategorized,1,$6.50,0,$0.00,$0.00,$6.50,$0.65
+For Here,All-Day Food,3,$27.00,0,$0.00,-$1.50,$25.50,$2.55
+For Here,Espresso and Specialty,28,$156.50,0,$0.00,-$4.10,$152.40,$15.24
+For Here,Filter Coffee,2,$7.50,0,$0.00,$0.00,$7.50,$0.76
+For Here,Pastry,14,$74.00,0,$0.00,-$0.90,$73.10,$7.31
+To Go,Uncategorized,25,$111.25,0,$0.00,-$4.85,$106.40,$4.90
+To Go,All-Day Food,23,$185.50,0,$0.00,-$12.40,$173.10,$17.31
+To Go,Catering and Event,25,$189.50,0,$0.00,-$2.30,$187.20,$18.72
+To Go,Coffee Drinks,1,$6.00,0,$0.00,$0.00,$6.00,$0.60
+To Go,Espresso and Specialty,203,"$1,156.75",0,$0.00,-$94.45,"$1,062.30",$106.23
+To Go,Filter Coffee,26,$124.50,0,$0.00,-$10.25,$114.25,$11.45
+To Go,Grab and Go,31,$234.00,0,$0.00,-$18.69,$215.31,$21.54
+To Go,Pastry,73,$384.00,0,$0.00,-$30.75,$353.25,$35.33
+To Go,Retail,4,$73.50,0,$0.00,-$10.90,$62.60,$6.26
+To Go,Tea and Other Drinks,67,$255.00,0,$0.00,-$10.05,$244.95,$24.51

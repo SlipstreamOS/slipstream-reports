@@ -1,0 +1,196 @@
+{
+ "dc_minimum": 18.4,
+ "peers": [
+  {
+   "who": "DC minimum + tips (Ryan's rule of thumb)",
+   "base": "$18.40",
+   "tips": "$4\u20136",
+   "all_in": "$22.50\u201324.50",
+   "sl": "+$1\u20132 \u2192 $24\u201326",
+   "src": "DC DOES; tips = Slipstream's own $4.50\u20135.60 per core hour"
+  },
+  {
+   "who": "Compass Coffee (DC)",
+   "base": "$17.75\u201319.75",
+   "tips": "~$6",
+   "all_in": "$24\u201326",
+   "sl": "n/a",
+   "src": "Glassdoor job postings / hourly pay, 2025\u201326"
+  },
+  {
+   "who": "Tatte (DC)",
+   "base": "$15\u201316.75 (tipped wage)",
+   "tips": "$5\u20138",
+   "all_in": "$20\u201324",
+   "sl": "n/a",
+   "src": "ZipRecruiter / Glassdoor postings, 2026"
+  },
+  {
+   "who": "Blue Bottle (DC)",
+   "base": "$20.20 listed for Shift Lead",
+   "tips": "$2\u20134",
+   "all_in": "$22\u201325",
+   "sl": "$23 avg (Glassdoor)",
+   "src": "Glassdoor, 2026"
+  },
+  {
+   "who": "DC barista, all employers",
+   "base": "$19.43 avg (Indeed) / $17.62 (ZipRecruiter)",
+   "tips": "$3\u20136 ($20/day reported)",
+   "all_in": "$22\u201325",
+   "sl": "+$1\u20133",
+   "src": "Indeed / ZipRecruiter / Glassdoor, 2026"
+  }
+ ],
+ "slipstream_now": {
+  "avg_core_rate_aug": 20.65,
+  "core_hours_aug": 2306,
+  "bands": [
+   {
+    "band": "$18.50 (trainee / base)",
+    "people": 6,
+    "share_hours": 29,
+    "avg_rate": 18.5,
+    "hours_month": 675
+   },
+   {
+    "band": "$19\u201320.49 (certified barista)",
+    "people": 4,
+    "share_hours": 18,
+    "avg_rate": 19.43,
+    "hours_month": 421
+   },
+   {
+    "band": "$20.50\u201322.49 (Shift Lead)",
+    "people": 4,
+    "share_hours": 26,
+    "avg_rate": 21.06,
+    "hours_month": 600
+   },
+   {
+    "band": "$22.75\u201325.25 (ALL)",
+    "people": 5,
+    "share_hours": 26,
+    "avg_rate": 23.46,
+    "hours_month": 610
+   }
+  ],
+  "tips": {
+   "1899 Penn": {
+    "tips": 1634,
+    "tips_per_core_hour": 3.82,
+    "tip_pct_of_net": 10.4
+   },
+   "Downtown": {
+    "tips": 3416,
+    "tips_per_core_hour": 4.47,
+    "tip_pct_of_net": 12.1
+   },
+   "NMWA": {
+    "tips": 490,
+    "tips_per_core_hour": 3.64,
+    "tip_pct_of_net": 13.3
+   },
+   "Studio": {
+    "tips": 5499,
+    "tips_per_core_hour": 5.62,
+    "tip_pct_of_net": 12.0
+   }
+  },
+  "note": "Tips are applied toward the guaranteed rate (ADP: $12 tipped base + CC tips + top-up), so a team member's effective pay is the guaranteed rate; Slipstream's own tip pool is $4.50\u20135.60 per core hour"
+ },
+ "ladder_now": [
+  {
+   "level": "Trainee / new (< 90 days)",
+   "low": 18.5,
+   "high": 18.5
+  },
+  {
+   "level": "Certified barista",
+   "low": 19.0,
+   "high": 20.5
+  },
+  {
+   "level": "Shift Lead (SL-1 \u2192 SL-3)",
+   "low": 20.5,
+   "high": 22.5
+  },
+  {
+   "level": "Assistant Location Lead",
+   "low": 22.75,
+   "high": 25.25
+  }
+ ],
+ "ladder_proposed": [
+  {
+   "level": "Trainee / new (< 90 days)",
+   "low": 18.5,
+   "high": 18.5,
+   "note": "DC minimum $18.40 \u2014 below peers by design; short and time-boxed"
+  },
+  {
+   "level": "Certified barista (Essentials + 2 primaries)",
+   "low": 20.0,
+   "high": 21.0,
+   "note": "~$2\u20133 below a peer barista's all-in; guaranteed, no tip volatility"
+  },
+  {
+   "level": "Shift Lead SL-1 / SL-2 / SL-3",
+   "low": 22.5,
+   "high": 24.5,
+   "note": "parity with a peer barista at a busy cafe; SL-3 above"
+  },
+  {
+   "level": "Assistant Location Lead",
+   "low": 26.0,
+   "high": 28.0,
+   "note": "above any peer hourly role; the 'take on more, make more' promise"
+  },
+  {
+   "level": "+ incentive in on-template months",
+   "low": 0.5,
+   "high": 1.5,
+   "note": "the upside tips used to provide"
+  }
+ ],
+ "cost_step1": {
+  "month": 2179,
+  "year": 26153,
+  "pct_of_core_sales_aug": 2.2,
+  "per_core_hour": 0.94,
+  "note": "Step 1 = parity floors only: every Shift Lead to at least $22.50, every ALL to at least $25.50; baristas unchanged"
+ },
+ "cost_of_proposed": {
+  "month": 4299,
+  "year": 51589,
+  "pct_of_core_sales_aug": 4.4,
+  "per_core_hour": 1.86,
+  "by_band": {
+   "$18.50 (trainee / base)": {
+    "people": 6,
+    "avg_now": 18.5,
+    "proposed": 18.5,
+    "cost_month": 0
+   },
+   "$19\u201320.49 (certified barista)": {
+    "people": 4,
+    "avg_now": 19.38,
+    "proposed": 20.5,
+    "cost_month": 581
+   },
+   "$20.50\u201322.49 (Shift Lead)": {
+    "people": 4,
+    "avg_now": 20.94,
+    "proposed": 23.5,
+    "cost_month": 1358
+   },
+   "$22.75\u201325.25 (ALL)": {
+    "people": 5,
+    "avg_now": 23.65,
+    "proposed": 27.0,
+    "cost_month": 2360
+   }
+  },
+  "note": "Applied to the August roster at each person's current band midpoint \u2192 proposed midpoint; everyone at $18.50 stays (trainee rate); certified $19\u201320.49 \u2192 $20.50; SL $20.50\u201322.49 \u2192 $23.50; ALL \u2192 $27.00"
+ }
+}

@@ -1,0 +1,13 @@
+*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+6,4/30/26,62130,,650,,,USD,GHC3 - Downtown,
+6,,62130,400,,,,,GHC5 - Studio,
+6,,62130,250,,,,,GHC6 - 1899,
+6,,62160,,650,,,,GHC3 - Downtown,
+6,,62160,325,,,,,GHC5 - Studio,
+6,,62160,325,,,,,GHC6 - 1899,
+6,,61112,,100,,,,GHC3 - Downtown,
+6,,61112,100,,,,,GHC6 - 1899,
+6,,50170,,350,,,,GHC3 - Downtown,
+6,,50170,350,,,,,GHC6 - 1899,
+6,,18350,1025,,,,,GHC3 - Downtown,
+6,,23650,,1025,,,,GHC6 - 1899,

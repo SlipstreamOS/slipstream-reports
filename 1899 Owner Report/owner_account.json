@@ -1,0 +1,163 @@
+{
+ "_about": "Owner (MRP) account for 1899 Penn = QuickBooks 24700 Due to Owner / Pass-through Liability. One row per register entry. Add each month's entries here after the profit pass posts. kind: contribution | startup | share. Amounts: positive = owed to owner goes up.",
+ "reserve": 7500,
+ "reserve_confirmed": true,
+ "entries": [
+  {
+   "date": "2025-03-31",
+   "kind": "startup",
+   "amount": -55.0,
+   "memo": "Startup expenses"
+  },
+  {
+   "date": "2025-04-30",
+   "kind": "startup",
+   "amount": -704.0,
+   "memo": "Startup expenses"
+  },
+  {
+   "date": "2025-05-08",
+   "kind": "contribution",
+   "amount": 10037.19,
+   "memo": "Deposit"
+  },
+  {
+   "date": "2025-05-31",
+   "kind": "startup",
+   "amount": -9165.12,
+   "memo": "Startup expenses"
+  },
+  {
+   "date": "2025-06-16",
+   "kind": "contribution",
+   "amount": 14979.28,
+   "memo": "Deposit"
+  },
+  {
+   "date": "2025-06-30",
+   "kind": "startup",
+   "amount": -4081.31,
+   "memo": "Startup expenses"
+  },
+  {
+   "date": "2025-06-30",
+   "kind": "share",
+   "amount": -3179.52,
+   "memo": "June loss"
+  },
+  {
+   "date": "2025-06-30",
+   "kind": "share",
+   "amount": 1589.76,
+   "memo": "Slipstream covers 50% of June loss (invoice 001285)"
+  },
+  {
+   "date": "2025-07-31",
+   "kind": "startup",
+   "amount": -4413.58,
+   "memo": "Startup expenses"
+  },
+  {
+   "date": "2025-07-31",
+   "kind": "startup",
+   "amount": -4657.91,
+   "memo": "Opening equipment purchased July 2025 (posted in QuickBooks 9/30/26)"
+  },
+  {
+   "date": "2025-07-31",
+   "kind": "share",
+   "amount": -2416.2,
+   "memo": "July loss"
+  },
+  {
+   "date": "2025-08-31",
+   "kind": "share",
+   "amount": -1701.22,
+   "memo": "August loss"
+  },
+  {
+   "date": "2025-09-16",
+   "kind": "contribution",
+   "amount": 3994.91,
+   "memo": "Deposit"
+  },
+  {
+   "date": "2025-09-30",
+   "kind": "share",
+   "amount": -1800.51,
+   "memo": "September loss"
+  },
+  {
+   "date": "2025-11-30",
+   "kind": "share",
+   "amount": -1581.92,
+   "memo": "November loss"
+  },
+  {
+   "date": "2025-12-22",
+   "kind": "contribution",
+   "amount": 1800.51,
+   "memo": "Deposit"
+  },
+  {
+   "date": "2025-12-31",
+   "kind": "share",
+   "amount": -1204.84,
+   "memo": "December loss"
+  },
+  {
+   "date": "2026-01-31",
+   "kind": "share",
+   "amount": -1069.53,
+   "memo": "January loss"
+  },
+  {
+   "date": "2026-03-02",
+   "kind": "contribution",
+   "amount": 1204.84,
+   "memo": "December loss coverage, paid by check with invoice 001320"
+  },
+  {
+   "date": "2026-03-25",
+   "kind": "contribution",
+   "amount": 1581.92,
+   "memo": "November loss coverage, paid by card with invoice 001317"
+  },
+  {
+   "date": "2026-04-30",
+   "kind": "share",
+   "amount": 235.92,
+   "memo": "April profit share"
+  },
+  {
+   "date": "2026-05-31",
+   "kind": "share",
+   "amount": 156.54,
+   "memo": "May profit share"
+  },
+  {
+   "date": "2026-06-30",
+   "kind": "share",
+   "amount": 627.21,
+   "memo": "June profit share"
+  },
+  {
+   "date": "2026-08-31",
+   "kind": "share",
+   "amount": -567.73,
+   "memo": "August loss"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "share",
+   "amount": 2402.82,
+   "memo": "September profit share"
+  },
+  {
+   "date": "2026-10-31",
+   "kind": "share",
+   "amount": 1398.97,
+   "memo": "October profit share"
+  }
+ ]
+}

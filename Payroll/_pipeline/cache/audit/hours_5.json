@@ -1,0 +1,281 @@
+{
+  "Amy Romero": {
+    "LGVKCKX9B9DZT": {
+      "Barista": 12.4,
+      "Shift Lead": 72.25,
+      "Training": 31.78
+    }
+  },
+  "Aryana Sandroni": {
+    "L4ZBMGCWJ5C7R": {
+      "Barista": 43.48,
+      "Hospitality Register": 36.0
+    },
+    "LGVKCKX9B9DZT": {
+      "Barista": 47.03,
+      "Hospitality Expo (buss/run)": 15.02,
+      "Hospitality Register": 16.47,
+      "Production Barista": 7.93
+    }
+  },
+  "Christina Jie": {
+    "L4ZBMGCWJ5C7R": {
+      "Production Barista": 25.5
+    },
+    "LGVKCKX9B9DZT": {
+      "Barista": 16.03,
+      "Production Barista": 83.05
+    }
+  },
+  "Claire Nichols": {
+    "L4ZBMGCWJ5C7R": {
+      "FOH": 6.0,
+      "Production Barista": 18.27
+    },
+    "LGVKCKX9B9DZT": {
+      "Manager": 15.03,
+      "Production Barista": 15.97,
+      "Shift Lead": 197.88
+    },
+    "LV2D18H0DD9ES": {
+      "Barista": 5.02,
+      "Event": 6.17,
+      "FOH": 36.48
+    },
+    "LXM7V1QWDHKZJ": {
+      "Barista": 8.12,
+      "Production Barista": 7.93,
+      "Shift Lead": 26.28
+    }
+  },
+  "Colin Anders": {
+    "LFXQF0X8CKYF5": {
+      "Manager": 7.0
+    },
+    "LGVKCKX9B9DZT": {
+      "Barista": 33.6,
+      "Float": 7.53,
+      "Manager": 42.4,
+      "Production Barista": 88.85,
+      "Shift Lead": 118.67
+    },
+    "LV2D18H0DD9ES": {
+      "Event": 6.48
+    }
+  },
+  "Daisy Hand": {
+    "LGVKCKX9B9DZT": {
+      "Barista": 33.38,
+      "Hospitality Register": 7.03,
+      "Production Barista": 47.32,
+      "Shift Lead": 7.93,
+      "Training": 20.53
+    },
+    "LXM7V1QWDHKZJ": {
+      "Barista": 30.33,
+      "Training": 11.23
+    }
+  },
+  "Delmi Menjivar": {
+    "LGVKCKX9B9DZT": {
+      "Production Line": 344.7
+    },
+    "LXM7V1QWDHKZJ": {
+      "Production Line": 10.12
+    }
+  },
+  "Eli Schug": {
+    "L4ZBMGCWJ5C7R": {
+      "FOH": 3.18,
+      "Manager": 49.13,
+      "Production Barista": 104.72,
+      "Shift Lead": 136.5
+    },
+    "LGVKCKX9B9DZT": {
+      "FOH": 7.95,
+      "Float": 7.57,
+      "Shift Lead": 16.22
+    },
+    "LXM7V1QWDHKZJ": {
+      "Barista": 3.88
+    }
+  },
+  "Greg Latronica": {
+    "LFXQF0X8CKYF5": {
+      "FOH": 6.42
+    },
+    "LGVKCKX9B9DZT": {
+      "FOH": 7.82,
+      "Production Barista": 13.8,
+      "Shift Lead": 44.83
+    },
+    "LV2D18H0DD9ES": {
+      "Event": 4.6
+    },
+    "LXM7V1QWDHKZJ": {
+      "Shift Lead": 5.0
+    }
+  },
+  "Gricelda Hernandez": {
+    "LGVKCKX9B9DZT": {
+      "Hospitality Register": 6.47,
+      "Production Barista": 6.57
+    },
+    "LXM7V1QWDHKZJ": {
+      "Barista": 51.48,
+      "Float": 2.47,
+      "Manager": 39.88,
+      "Production Barista": 82.97,
+      "Production Line": 8.75,
+      "Shift Lead": 105.1
+    }
+  },
+  "Jay Singleton": {
+    "LGVKCKX9B9DZT": {
+      "Barista": 33.87,
+      "Hospitality Expo (buss/run)": 7.68,
+      "Production Barista": 16.25,
+      "Training": 4.7
+    },
+    "LXM7V1QWDHKZJ": {
+      "Barista": 75.68,
+      "FOH": 1.38,
+      "Production Barista": 40.3,
+      "Training": 18.78
+    }
+  },
+  "Josias Michalko": {
+    "LGVKCKX9B9DZT": {
+      "Production Barista": 23.27
+    },
+    "LXM7V1QWDHKZJ": {
+      "Production Barista": 60.08,
+      "Shift Lead": 15.87
+    }
+  },
+  "Kat Sung": {
+    "L4ZBMGCWJ5C7R": {
+      "Barista": 0.17,
+      "Production Barista": 55.77,
+      "Shift Lead": 17.72
+    },
+    "LGVKCKX9B9DZT": {
+      "Barista": 4.67,
+      "Production Barista": 16.07,
+      "Shift Lead": 8.53
+    },
+    "LV2D18H0DD9ES": {
+      "FOH": 23.73
+    },
+    "LXM7V1QWDHKZJ": {
+      "Barista": 33.23,
+      "Float": 9.1
+    }
+  },
+  "Kathy Guevara Orellana": {
+    "LGVKCKX9B9DZT": {
+      "Cook": 23.62,
+      "Production Line": 134.93
+    },
+    "LXM7V1QWDHKZJ": {
+      "Production Line": 79.7
+    }
+  },
+  "Kesi Harford": {
+    "L4ZBMGCWJ5C7R": {
+      "FOH": 8.83,
+      "Production Barista": 25.38,
+      "Shift Lead": 98.13
+    },
+    "LFXQF0X8CKYF5": {
+      "FOH": 12.87
+    },
+    "LGVKCKX9B9DZT": {
+      "Barista": 7.93,
+      "FOH": 16.27,
+      "Shift Lead": 16.75
+    },
+    "LXM7V1QWDHKZJ": {
+      "Barista": 5.3,
+      "Production Barista": 7.72
+    }
+  },
+  "Mariana Martinez": {
+    "LGVKCKX9B9DZT": {
+      "Barista": 17.02,
+      "FOH": 5.55,
+      "Hospitality Expo (buss/run)": 6.58,
+      "Hospitality Register": 14.05,
+      "Training": 19.17
+    }
+  },
+  "Marleni Nolasco": {
+    "LXM7V1QWDHKZJ": {
+      "Production Line": 78.17
+    },
+    "LZCA3EY4GB7BM": {
+      "Commissary": 152.15
+    }
+  },
+  "Melvin Gutierrez": {
+    "LXM7V1QWDHKZJ": {
+      "Barista": 63.47,
+      "Production Line": 18.87,
+      "Training": 18.6
+    }
+  },
+  "Michelle Pankow": {
+    "LGVKCKX9B9DZT": {
+      "Barista": 8.12,
+      "Hospitality Expo (buss/run)": 8.07,
+      "Production Barista": 7.5,
+      "Shift Lead": 90.0
+    },
+    "LXM7V1QWDHKZJ": {
+      "Float": 7.58,
+      "Production Barista": 60.45,
+      "Shift Lead": 162.67
+    }
+  },
+  "Nely Alcantara": {
+    "LGVKCKX9B9DZT": {
+      "Commissary": 9.47,
+      "Commissary Driver": 3.35,
+      "Production Line": 6.05
+    },
+    "LXM7V1QWDHKZJ": {
+      "Production Line": 216.5
+    },
+    "LZCA3EY4GB7BM": {
+      "Commissary": 62.65
+    }
+  },
+  "Opal Payne": {
+    "L4ZBMGCWJ5C7R": {
+      "Barista": 8.57,
+      "FOH": 7.72,
+      "Production Barista": 24.1,
+      "Shift Lead": 107.38
+    },
+    "LGVKCKX9B9DZT": {
+      "Production Barista": 6.02
+    },
+    "LV2D18H0DD9ES": {
+      "Barista": 15.45,
+      "FOH": 90.88
+    },
+    "LXM7V1QWDHKZJ": {
+      "FOH": 8.0,
+      "Production Barista": 15.13,
+      "Shift Lead": 8.88
+    }
+  },
+  "Sophia Brodnax": {
+    "L4ZBMGCWJ5C7R": {
+      "Production Barista": 11.77
+    },
+    "LGVKCKX9B9DZT": {
+      "Production Barista": 27.5
+    }
+  }
+}
