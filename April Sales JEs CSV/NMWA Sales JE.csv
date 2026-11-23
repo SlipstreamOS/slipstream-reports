@@ -1,0 +1,7 @@
+*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+3,4/30/26,40111,,72.25,Coffee,,USD,NMWA,
+3,,23100,,6.80,Sales Tax,,,NMWA,
+3,,24200,,11.34,Tips,,,NMWA,
+3,,40800,4.30,,Discounts,,,NMWA,
+3,,62120,2.63,,merchant fees,,,NMWA,
+3,,12500,83.46,,,,,NMWA,

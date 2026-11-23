@@ -1,0 +1,10 @@
+﻿*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+SRP-Adj-Jun26,6/30/26,Rent Liability,950.5,,Green coffee bag applied to SRP rent,,USD,SRP,
+SRP-Adj-Jun26,,Cost of Goods Sold:Roasting COGS:Green Coffee COGS,,950.5,Reverse overstated COGS,,,SRP,
+NMWA-Jun26,6/30/26,GHC3 Cash on hand,5041,,NMWA mgmt+equip fee received,,USD,NMWA,
+NMWA-Jun26,,Sales:Management Income:Management Fees,,3950,Mgmt Fee (NMWA),,,NMWA,
+NMWA-Jun26,,Sales:Management Income:Management Fees,,1091,Equip Fee (NMWA),,,NMWA,
+GenSup-1899-Jun26,6/30/26,Operating Expenses:Operating Supplies:General Supplies,,430.24,Move DT general supplies to 1899,,USD,GHC3 - Downtown,
+GenSup-1899-Jun26,,Operating Expenses:Operating Supplies:General Supplies,430.24,,Move DT general supplies to 1899,,,GHC6 - 1899,
+GenSup-1899-Jun26,,Inter-company AR - GHC3,430.24,,1899 share (DT paid),,,GHC3 - Downtown,
+GenSup-1899-Jun26,,Inter-company AP - GHC6,,430.24,1899 share (DT paid),,,GHC6 - 1899,

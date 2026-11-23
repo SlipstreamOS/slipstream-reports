@@ -1,0 +1,5 @@
+﻿*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+NMWA-EvtDisc-Sep26,9/30/26,Sales:Core Location Sales:Catering and Event Sales,1280.30,,"Sep NMWA event-invoice discounts (NMWA Night 1140, Friends of Slipstream 138, staff 2.30) to event sales",,USD,NMWA,
+NMWA-EvtDisc-Sep26,,Sales:Core Location Sales:Discounts,,1280.30,"Sep NMWA event-invoice discounts (NMWA Night 1140, Friends of Slipstream 138, staff 2.30) to event sales",,,NMWA,
+NMWA-EvtDisc-Oct26,10/31/26,Sales:Core Location Sales:Catering and Event Sales,1240.48,,"Oct NMWA event-invoice discounts (NMWA Night 1140, Sept food revenue share 95.25, staff 4.90, mug 0.33) to event sales",,USD,NMWA,
+NMWA-EvtDisc-Oct26,,Sales:Core Location Sales:Discounts,,1240.48,"Oct NMWA event-invoice discounts (NMWA Night 1140, Sept food revenue share 95.25, staff 4.90, mug 0.33) to event sales",,,NMWA,

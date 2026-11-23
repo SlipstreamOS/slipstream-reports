@@ -1,0 +1,31 @@
+# Timecard review — period 2026-04-05_2026-04-18
+# threshold for late clock-out: 30 minutes past scheduled end
+
+## Missing clock-ins (6)
+  - Colin Anders               Slipstream Commissary (Food)      Mon 04/06 2:30 PM → 4:30 PM
+  - Colin Anders               Slipstream Commissary (Food)      Thu 04/09 2:30 PM → 4:30 PM
+  - Aryana Sandroni            Slipstream Studio                 Sun 04/12 8:30 AM → 3:30 PM
+  - Colin Anders               Slipstream Commissary (Food)      Mon 04/13 2:30 PM → 4:30 PM
+  - Aryana Sandroni            Slipstream 1899 Penn              Tue 04/14 7:00 AM → 2:00 PM
+  - Colin Anders               Slipstream Commissary (Food)      Thu 04/16 2:30 PM → 4:30 PM
+
+## Late clock-outs >30min (17)
+  - Opal Payne                 Slipstream 1899 Penn              Fri 04/17  scheduled 3:30 PM → actual 6:04 PM  (+154 min)
+  - Nely Alcantara             Slipstream Commissary (Food)      Mon 04/13  scheduled 3:00 PM → actual 4:45 PM  (+105 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Mon 04/06  scheduled 3:00 PM → actual 4:29 PM  (+89 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Tue 04/07  scheduled 3:00 PM → actual 4:16 PM  (+76 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Thu 04/09  scheduled 3:00 PM → actual 4:13 PM  (+73 min)
+  - Nely Alcantara             Slipstream Commissary (Food)      Mon 04/06  scheduled 3:00 PM → actual 4:06 PM  (+66 min)
+  - Josias Michalko            Slipstream Downtown               Mon 04/06  scheduled 2:00 PM → actual 3:03 PM  (+63 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Tue 04/14  scheduled 3:00 PM → actual 3:59 PM  (+59 min)
+  - Marleni Nolasco            Slipstream Commissary (Food)      Thu 04/16  scheduled 3:00 PM → actual 3:57 PM  (+57 min)
+  - Opal Payne                 Slipstream NMWA                   Thu 04/09  scheduled 3:00 PM → actual 3:44 PM  (+44 min)
+  - Colin Anders               Slipstream Studio                 Mon 04/13  scheduled 2:00 PM → actual 2:40 PM  (+40 min)
+  - Eli Schug                  Slipstream 1899 Penn              Mon 04/06  scheduled 3:00 PM → actual 3:38 PM  (+38 min)
+  - Gricelda Hernandez         Slipstream Downtown               Thu 04/09  scheduled 2:30 PM → actual 3:08 PM  (+38 min)
+  - Michelle Pankow            Slipstream Studio                 Thu 04/16  scheduled 2:30 PM → actual 3:06 PM  (+36 min)
+  - Nely Alcantara             Slipstream Downtown               Thu 04/16  scheduled 3:00 PM → actual 3:34 PM  (+34 min)
+  - Gricelda Hernandez         Slipstream Downtown               Wed 04/08  scheduled 2:30 PM → actual 3:03 PM  (+33 min)
+  - Opal Payne                 Slipstream Studio                 Sun 04/12  scheduled 4:00 PM → actual 4:30 PM  (+30 min)
+
+## Unscheduled shifts (actual without a matching schedule entry) (0)

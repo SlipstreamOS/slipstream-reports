@@ -1,0 +1,1031 @@
+{
+ "team_members": [
+  {
+   "id": "FyFHlz5BvISXTZ_WwVwR",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Gricelda",
+   "family_name": "Hernandez",
+   "email_address": "griselda.romero@rocketmail.com",
+   "phone_number": "+13013793431",
+   "created_at": "2019-12-20T15:27:33Z",
+   "updated_at": "2026-06-30T17:59:22Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LV2D18H0DD9ES",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+    "job_assignments": [
+     {
+      "job_title": "Shift Lead",
+      "pay_type": "HOURLY",
+      "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+      "hourly_rate": {
+       "amount": 2525,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Barista",
+      "pay_type": "HOURLY",
+      "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+      "hourly_rate": {
+       "amount": 2525,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Line",
+      "pay_type": "HOURLY",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "hourly_rate": {
+       "amount": 2525,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 5,
+    "created_at": "2019-12-20T15:27:43+00:00",
+    "updated_at": "2026-05-31T01:40:27+00:00"
+   }
+  },
+  {
+   "id": "NQDCEk9_tCyBpZy9uzp5",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Ines",
+   "family_name": "Chavez",
+   "email_address": "ineschavez1527@gmail.com",
+   "phone_number": "+12027020478",
+   "created_at": "2019-12-20T13:25:05Z",
+   "updated_at": "2025-07-15T14:50:27Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "LZCA3EY4GB7BM",
+     "LW5RCZWPJEDWD",
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+    "job_assignments": [
+     {
+      "job_title": "Cook",
+      "pay_type": "NONE",
+      "job_id": "7z7hG8cKXnk2KyooLGqBX9jJ"
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 0,
+    "created_at": "2019-12-20T13:25:44+00:00",
+    "updated_at": "2019-12-20T13:25:44+00:00"
+   }
+  },
+  {
+   "id": "TM0AhuauYAv5yIyx",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Amy",
+   "family_name": "Romero",
+   "email_address": "amyromero1234@gmail.com",
+   "phone_number": "+12028202668",
+   "created_at": "2025-09-26T18:20:51Z",
+   "updated_at": "2025-09-27T01:20:10Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TM0AhuauYAv5yIyx",
+    "job_assignments": [
+     {
+      "job_title": "Training",
+      "pay_type": "HOURLY",
+      "job_id": "dGSXcH8yKejhLYNDGrPNauje",
+      "hourly_rate": {
+       "amount": 2125,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 6,
+    "created_at": "2025-09-26T18:20:52+00:00",
+    "updated_at": "2026-05-06T22:48:38+00:00"
+   }
+  },
+  {
+   "id": "TM3l-YfJCWgDn4TB",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Opal",
+   "family_name": "Payne",
+   "email_address": "christiana.payne26@gmail.com",
+   "phone_number": "+12024004505",
+   "created_at": "2025-10-26T16:14:28Z",
+   "updated_at": "2026-08-28T17:05:49Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LV2D18H0DD9ES",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TM3l-YfJCWgDn4TB",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 8,
+    "created_at": "2025-10-26T16:14:29+00:00",
+    "updated_at": "2026-05-06T22:49:30+00:00"
+   }
+  },
+  {
+   "id": "TM4Z716OULJCoyYW",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Colin",
+   "family_name": "Anders",
+   "email_address": "colinanders00@gmail.com",
+   "phone_number": "+15672396819",
+   "created_at": "2022-07-22T15:07:31Z",
+   "updated_at": "2026-06-24T18:19:34Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "LZCA3EY4GB7BM",
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LV2D18H0DD9ES",
+     "LFXQF0X8CKYF5",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TM4Z716OULJCoyYW",
+    "job_assignments": [
+     {
+      "job_title": "Shift Lead",
+      "pay_type": "HOURLY",
+      "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+      "hourly_rate": {
+       "amount": 2475,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Barista",
+      "pay_type": "HOURLY",
+      "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+      "hourly_rate": {
+       "amount": 2475,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Line",
+      "pay_type": "HOURLY",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "hourly_rate": {
+       "amount": 2475,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Event",
+      "pay_type": "HOURLY",
+      "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+      "hourly_rate": {
+       "amount": 3400,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 5,
+    "created_at": "2022-07-22T15:07:32+00:00",
+    "updated_at": "2025-07-14T20:52:36+00:00"
+   }
+  },
+  {
+   "id": "TMCNy0xlXf33zKEh",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Jay",
+   "family_name": "Singleton",
+   "email_address": "ymajandre@gmail.com",
+   "created_at": "2026-05-06T19:45:36Z",
+   "updated_at": "2026-05-06T19:53:17Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMCNy0xlXf33zKEh",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 2075,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 4,
+    "created_at": "2026-05-06T19:45:37+00:00",
+    "updated_at": "2026-08-15T20:02:39+00:00"
+   }
+  },
+  {
+   "id": "TMHlgTma8wlChZCJ",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Josias",
+   "family_name": "Michalko",
+   "email_address": "jgmichalko@gmail.com",
+   "phone_number": "+15092808095",
+   "created_at": "2026-02-26T17:16:28Z",
+   "updated_at": "2026-08-24T17:49:40Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LFXQF0X8CKYF5",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMHlgTma8wlChZCJ",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 2075,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 6,
+    "created_at": "2026-02-26T17:16:29+00:00",
+    "updated_at": "2026-05-06T22:48:08+00:00"
+   }
+  },
+  {
+   "id": "TMJudwU02O9X9Y9X",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Kathy",
+   "family_name": "Guevara Orellana",
+   "email_address": "kathygvra@gmail.com",
+   "phone_number": "+12028198791",
+   "created_at": "2026-03-04T18:19:42Z",
+   "updated_at": "2026-03-04T19:07:13Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMJudwU02O9X9Y9X",
+    "job_assignments": [
+     {
+      "job_title": "Cook",
+      "pay_type": "HOURLY",
+      "job_id": "7z7hG8cKXnk2KyooLGqBX9jJ",
+      "hourly_rate": {
+       "amount": 1900,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 3,
+    "created_at": "2026-03-04T18:19:43+00:00",
+    "updated_at": "2026-06-17T17:59:28+00:00"
+   }
+  },
+  {
+   "id": "TMUIPXfgx6WLxFRf",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Kat",
+   "family_name": "Sung",
+   "email_address": "katsung2000@gmail.com",
+   "phone_number": "+17347075258",
+   "created_at": "2024-07-04T17:08:13Z",
+   "updated_at": "2026-03-26T19:36:42Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LV2D18H0DD9ES",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMUIPXfgx6WLxFRf",
+    "job_assignments": [
+     {
+      "job_title": "Barista",
+      "pay_type": "HOURLY",
+      "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+      "hourly_rate": {
+       "amount": 2025,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 4,
+    "created_at": "2024-07-04T17:08:14+00:00",
+    "updated_at": "2026-06-18T14:13:53+00:00"
+   }
+  },
+  {
+   "id": "TMYXG8pwqNcSVEiL",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Melvin",
+   "family_name": "Gutierrez",
+   "email_address": "gutierrezmelvin998@gmail.com",
+   "phone_number": "+12026077824",
+   "created_at": "2022-11-05T16:52:24Z",
+   "updated_at": "2026-05-12T18:08:02Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMYXG8pwqNcSVEiL",
+    "job_assignments": [
+     {
+      "job_title": "Production Line",
+      "pay_type": "HOURLY",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "hourly_rate": {
+       "amount": 2275,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 8,
+    "created_at": "2022-11-05T16:52:25+00:00",
+    "updated_at": "2026-08-10T22:04:17+00:00"
+   }
+  },
+  {
+   "id": "TM_BFaBlF8VNX6xA",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Kesi",
+   "family_name": "Harford",
+   "email_address": "makesiharford10@gmail.com",
+   "phone_number": "+12096611161",
+   "created_at": "2025-10-10T15:20:47Z",
+   "updated_at": "2026-04-27T18:34:48Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LFXQF0X8CKYF5",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TM_BFaBlF8VNX6xA",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 2075,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 6,
+    "created_at": "2025-10-10T15:20:48+00:00",
+    "updated_at": "2026-03-08T21:08:01+00:00"
+   }
+  },
+  {
+   "id": "TM_xBZvN0PRlr-JC",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Delmi",
+   "family_name": "Menjivar",
+   "email_address": "aelmyareli09@gmail.com",
+   "phone_number": "+12023445934",
+   "created_at": "2024-07-18T13:52:15Z",
+   "updated_at": "2025-09-06T17:20:53Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TM_xBZvN0PRlr-JC",
+    "job_assignments": [
+     {
+      "job_title": "Cook",
+      "pay_type": "HOURLY",
+      "job_id": "7z7hG8cKXnk2KyooLGqBX9jJ",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 3,
+    "created_at": "2024-07-18T13:52:16+00:00",
+    "updated_at": "2026-05-06T22:46:11+00:00"
+   }
+  },
+  {
+   "id": "TMaAPF3ypgkaaAYJ",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Michelle",
+   "family_name": "Pankow",
+   "email_address": "pankowmichelle92@gmail.com",
+   "created_at": "2021-08-05T18:12:18Z",
+   "updated_at": "2025-02-01T00:14:48Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "LZCA3EY4GB7BM",
+     "LW5RCZWPJEDWD",
+     "WB5KX7B3J1AHJ",
+     "LXM7V1QWDHKZJ",
+     "SY5VA83PWNSY7",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMaAPF3ypgkaaAYJ",
+    "job_assignments": [
+     {
+      "job_title": "Production Barista",
+      "pay_type": "HOURLY",
+      "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Shift Lead",
+      "pay_type": "HOURLY",
+      "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Hospitality Register",
+      "pay_type": "HOURLY",
+      "job_id": "hUTern54xhgQYhRAkb3x25ff",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Hospitality Expo (buss/run)",
+      "pay_type": "HOURLY",
+      "job_id": "n9VdU59eBcFqGgDPkJuWTN6f",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 6,
+    "created_at": "2021-08-05T18:12:34+00:00",
+    "updated_at": "2026-03-08T21:10:43+00:00"
+   }
+  },
+  {
+   "id": "TMaxBNmmI05a7Di6",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Marleni",
+   "family_name": "Nolasco",
+   "email_address": "marleninolasco5@gmail.com",
+   "phone_number": "+12024876524",
+   "created_at": "2022-04-15T14:20:59Z",
+   "updated_at": "2025-04-14T17:29:20Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "LZCA3EY4GB7BM",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMaxBNmmI05a7Di6",
+    "job_assignments": [
+     {
+      "job_title": "Commissary",
+      "pay_type": "HOURLY",
+      "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+      "hourly_rate": {
+       "amount": 2250,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 2,
+    "created_at": "2022-04-15T14:21:00+00:00",
+    "updated_at": "2025-02-13T16:24:29+00:00"
+   }
+  },
+  {
+   "id": "TMd4sICOdOOSzDEg",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Ryan",
+   "family_name": "Moore",
+   "email_address": "moore1993ryan@gmail.com",
+   "created_at": "2026-08-03T18:48:11Z",
+   "updated_at": "2026-09-04T16:41:31Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LV2D18H0DD9ES",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMd4sICOdOOSzDEg",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Event",
+      "pay_type": "HOURLY",
+      "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+      "hourly_rate": {
+       "amount": 3000,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 4,
+    "created_at": "2026-08-03T18:48:11+00:00",
+    "updated_at": "2026-08-10T22:04:27+00:00"
+   }
+  },
+  {
+   "id": "TMfhXU6Qxg6ghm08",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Eli",
+   "family_name": "Schug",
+   "email_address": "elijahschug@gmail.com",
+   "phone_number": "+12402370548",
+   "created_at": "2025-06-05T23:07:36Z",
+   "updated_at": "2026-06-30T18:02:16Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMfhXU6Qxg6ghm08",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 2425,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 8,
+    "created_at": "2025-06-05T23:07:37+00:00",
+    "updated_at": "2026-09-07T21:07:26+00:00"
+   }
+  },
+  {
+   "id": "TMfkZprNitwd8Mej",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Claire",
+   "family_name": "Nichols",
+   "email_address": "claire.m.nichols.18@gmail.com",
+   "phone_number": "+14803184017",
+   "created_at": "2025-10-26T16:15:44Z",
+   "updated_at": "2026-06-01T14:10:08Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LV2D18H0DD9ES",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMfkZprNitwd8Mej",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 2275,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 8,
+    "created_at": "2025-10-26T16:15:45+00:00",
+    "updated_at": "2026-05-31T02:06:53+00:00"
+   }
+  },
+  {
+   "id": "TMgmyxnB3Bk_cmi1",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Daisy",
+   "family_name": "Hand",
+   "email_address": "daisyhand6@gmail.com",
+   "created_at": "2026-05-30T18:22:36Z",
+   "updated_at": "2026-05-30T18:48:50Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMgmyxnB3Bk_cmi1",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 3,
+    "created_at": "2026-05-30T18:22:37+00:00",
+    "updated_at": "2026-06-24T18:11:59+00:00"
+   }
+  },
+  {
+   "id": "TMkEStYYpfTgQeGR",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Mariana",
+   "family_name": "Martinez",
+   "email_address": "martunezmariana7@gmail.com",
+   "created_at": "2026-05-31T18:18:46Z",
+   "updated_at": "2026-05-31T18:24:05Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMkEStYYpfTgQeGR",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 3,
+    "created_at": "2026-05-31T18:18:47+00:00",
+    "updated_at": "2026-07-14T15:43:38+00:00"
+   }
+  },
+  {
+   "id": "TMr51xz2uJW9Nrph",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Nely",
+   "family_name": "Alcantara",
+   "email_address": "alcantaranely165@gmail.com",
+   "phone_number": "+12027092680",
+   "created_at": "2024-03-28T16:52:33Z",
+   "updated_at": "2025-02-07T19:49:42Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "LZCA3EY4GB7BM",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMr51xz2uJW9Nrph",
+    "job_assignments": [
+     {
+      "job_title": "Production Line",
+      "pay_type": "HOURLY",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "hourly_rate": {
+       "amount": 1925,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Commissary Driver ",
+      "pay_type": "HOURLY",
+      "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+      "hourly_rate": {
+       "amount": 1925,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 10,
+    "created_at": "2024-03-28T16:52:33+00:00",
+    "updated_at": "2025-12-10T20:33:03+00:00"
+   }
+  },
+  {
+   "id": "TMuCMhuRLTPXovMY",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Ella",
+   "family_name": "Fleureton",
+   "email_address": "ellafleureton@gmail.com",
+   "phone_number": "+14435436318",
+   "created_at": "2026-07-13T17:01:25Z",
+   "updated_at": "2026-08-18T18:16:19Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LV2D18H0DD9ES",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMuCMhuRLTPXovMY",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 3,
+    "created_at": "2026-07-13T17:01:26+00:00",
+    "updated_at": "2026-08-25T16:42:31+00:00"
+   }
+  },
+  {
+   "id": "TMxj0QzfO7xe9k4u",
+   "reference_id": "",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Christina",
+   "family_name": "Jie",
+   "email_address": "xjie22898@gmail.com",
+   "created_at": "2025-11-13T20:07:24Z",
+   "updated_at": "2026-03-16T23:14:26Z",
+   "assigned_locations": {
+    "assignment_type": "EXPLICIT_LOCATIONS",
+    "location_ids": [
+     "L4ZBMGCWJ5C7R",
+     "LXM7V1QWDHKZJ",
+     "LGVKCKX9B9DZT"
+    ]
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "TMxj0QzfO7xe9k4u",
+    "job_assignments": [
+     {
+      "job_title": "Training",
+      "pay_type": "HOURLY",
+      "job_id": "dGSXcH8yKejhLYNDGrPNauje",
+      "hourly_rate": {
+       "amount": 1900,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 3,
+    "created_at": "2025-11-13T20:07:25+00:00",
+    "updated_at": "2026-04-22T19:47:48+00:00"
+   }
+  },
+  {
+   "id": "UpAnA5WppGZ_NHQF0ykm",
+   "reference_id": "8503",
+   "is_owner": false,
+   "status": "ACTIVE",
+   "given_name": "Mo",
+   "family_name": "Koolphanich",
+   "email_address": "mkool@slipstreamdc.com",
+   "phone_number": "+15712327963",
+   "created_at": "2019-11-26T17:25:32Z",
+   "updated_at": "2020-04-14T18:34:27Z",
+   "assigned_locations": {
+    "assignment_type": "ALL_CURRENT_AND_FUTURE_LOCATIONS"
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "UpAnA5WppGZ_NHQF0ykm",
+    "job_assignments": [
+     {
+      "job_title": "Manager",
+      "pay_type": "NONE",
+      "job_id": "hNpzmUP6xJSamY1ir1wnZTMa"
+     },
+     {
+      "job_title": "FOH",
+      "pay_type": "HOURLY",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "hourly_rate": {
+       "amount": 2000,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "PM Bartender",
+      "pay_type": "HOURLY",
+      "job_id": "Kd1A8wtoDp3DCkcEZSqeYT93",
+      "hourly_rate": {
+       "amount": 1500,
+       "currency": "USD"
+      }
+     }
+    ],
+    "is_overtime_exempt": false,
+    "version": 0,
+    "created_at": "2019-11-26T17:26:55+00:00",
+    "updated_at": "2019-11-26T17:26:55+00:00"
+   }
+  },
+  {
+   "id": "WB5KX7B3J1AHJ",
+   "reference_id": "",
+   "is_owner": true,
+   "status": "ACTIVE",
+   "given_name": "Mark Ryan",
+   "family_name": "Fleming",
+   "email_address": "ryan@slipstreamdc.com",
+   "created_at": "2018-09-19T14:15:32Z",
+   "updated_at": "2026-02-23T21:08:31Z",
+   "assigned_locations": {
+    "assignment_type": "ALL_CURRENT_AND_FUTURE_LOCATIONS"
+   },
+   "merchant_id": "DK2X0CBE983GR",
+   "wage_setting": {
+    "team_member_id": "WB5KX7B3J1AHJ",
+    "job_assignments": [
+     {
+      "job_title": "Owner",
+      "pay_type": "NONE",
+      "job_id": "QeAr3DMafokGXQJ2fQhn7Aeu"
+     }
+    ],
+    "is_overtime_exempt": false
+   }
+  }
+ ]
+}

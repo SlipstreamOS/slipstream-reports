@@ -1,0 +1,5 @@
+﻿*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+Adj-1899-Fix-Sep26,9/30/26,Penn 1899 Payroll Clearing,975.00,,Labor shift to 1899: route $975 through IC AP-GHC6 / IC AR-GHC3 instead of payroll clearing,,USD,GHC6 - 1899,
+Adj-1899-Fix-Sep26,,Inter-company AP - GHC6,,975.00,Labor shift to 1899: route $975 through IC AP-GHC6 / IC AR-GHC3 instead of payroll clearing,,,GHC6 - 1899,
+Adj-1899-Fix-Sep26,,Inter-company AR - GHC3,975.00,,Labor shift to 1899: route $975 through IC AP-GHC6 / IC AR-GHC3 instead of payroll clearing,,,GHC3 - Downtown,
+Adj-1899-Fix-Sep26,,Payroll Clearing Account,,975.00,Labor shift to 1899: route $975 through IC AP-GHC6 / IC AR-GHC3 instead of payroll clearing,,,GHC3 - Downtown,

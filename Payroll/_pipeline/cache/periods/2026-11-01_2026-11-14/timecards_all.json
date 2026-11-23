@@ -1,0 +1,2506 @@
+{
+ "timecards": [
+  {
+   "id": "E2PBJQYR79YMA",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-01T06:56:00-05:00",
+   "end_at": "2026-11-01T14:11:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "BE6QHA21DH7X7",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-01T07:18:00-05:00",
+   "end_at": "2026-11-01T15:23:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMJudwU02O9X9Y9X"
+  },
+  {
+   "id": "SW5HFSXXQD641",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-01T07:50:00-05:00",
+   "end_at": "2026-11-01T15:22:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "G7NRY9R2KRRB7",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-01T08:59:00-05:00",
+   "end_at": "2026-11-01T16:03:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMkEStYYpfTgQeGR"
+  },
+  {
+   "id": "5W7ZYC4K8P4QX",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-01T09:15:00-05:00",
+   "end_at": "2026-11-01T17:05:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "S33CVKCD30TBH",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-01T10:02:00-05:00",
+   "end_at": "2026-11-01T17:24:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "MMCGF1J3RYNNN",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-01T11:00:00-05:00",
+   "end_at": "2026-11-01T16:00:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMd4sICOdOOSzDEg"
+  },
+  {
+   "id": "6RRC6AYPWVHN6",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T06:00:00-05:00",
+   "end_at": "2026-11-02T14:45:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_xBZvN0PRlr-JC"
+  },
+  {
+   "id": "HBCPJC87W34C6",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T06:21:00-05:00",
+   "end_at": "2026-11-02T16:35:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "V0AJYRWBZJFQ9",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T06:31:00-05:00",
+   "end_at": "2026-11-02T13:30:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMxj0QzfO7xe9k4u"
+  },
+  {
+   "id": "3Z0GCE86N5WX3",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T06:32:00-05:00",
+   "end_at": "2026-11-02T14:37:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM0AhuauYAv5yIyx"
+  },
+  {
+   "id": "XEFTWF8FHYVYF",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T06:40:00-05:00",
+   "end_at": "2026-11-02T16:42:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "Q74YTF2Z3562P",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T06:41:00-05:00",
+   "end_at": "2026-11-02T11:48:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_BFaBlF8VNX6xA"
+  },
+  {
+   "id": "V4M40H4CTBS5N",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T06:54:00-05:00",
+   "end_at": "2026-11-02T13:38:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "C7P4YVNP6S9F4",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T07:04:00-05:00",
+   "end_at": "2026-11-02T16:42:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 2250,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaxBNmmI05a7Di6"
+  },
+  {
+   "id": "3J5PZY2EWFQQY",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T07:22:00-05:00",
+   "end_at": "2026-11-02T11:48:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "SCZ1JTP6W01PW",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T07:24:00-05:00",
+   "end_at": "2026-11-02T14:17:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "T3XGR45TYK270",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-02T08:15:00-05:00",
+   "end_at": "2026-11-02T16:37:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "R5MYJCF9Y9GYW",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T05:59:00-05:00",
+   "end_at": "2026-11-03T14:45:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_xBZvN0PRlr-JC"
+  },
+  {
+   "id": "K81MJVYV04R5X",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T06:12:00-05:00",
+   "end_at": "2026-11-03T13:59:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "3RXTECJH1V66Q",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T06:18:00-05:00",
+   "end_at": "2026-11-03T15:22:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMJudwU02O9X9Y9X"
+  },
+  {
+   "id": "EN79DSYXJV58F",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T06:28:00-05:00",
+   "end_at": "2026-11-03T14:44:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "729DMAYQEVW7P",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T06:28:00-05:00",
+   "end_at": "2026-11-03T13:34:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMUIPXfgx6WLxFRf"
+  },
+  {
+   "id": "DEGGA1ZFB84FZ",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T06:30:00-05:00",
+   "end_at": "2026-11-03T14:02:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "F2ZYXPDNZT0AC",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T06:31:00-05:00",
+   "end_at": "2026-11-03T15:43:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "JDDDED95C7CYZ",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T07:00:00-05:00",
+   "end_at": "2026-11-03T14:07:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "T24H2BF13BGWW",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T07:07:00-05:00",
+   "end_at": "2026-11-03T15:52:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 2250,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaxBNmmI05a7Di6"
+  },
+  {
+   "id": "8Y68XCP4M8R08",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T07:33:00-05:00",
+   "end_at": "2026-11-03T15:42:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMd4sICOdOOSzDEg"
+  },
+  {
+   "id": "SGQSNA7CHVWQB",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T08:01:00-05:00",
+   "end_at": "2026-11-03T16:50:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "Y0KMPX1HZDT60",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-03T09:27:00-05:00",
+   "end_at": "2026-11-03T16:46:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2075,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMHlgTma8wlChZCJ"
+  },
+  {
+   "id": "DZGZV047143V0",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T05:59:00-05:00",
+   "end_at": "2026-11-04T14:45:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_xBZvN0PRlr-JC"
+  },
+  {
+   "id": "JSPXM4C457ZJ7",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T06:11:00-05:00",
+   "end_at": "2026-11-04T15:17:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "QN9A1WFJ8RCSA",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T06:18:00-05:00",
+   "end_at": "2026-11-04T15:59:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "5VS8WECACAARX",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T06:20:00-05:00",
+   "end_at": "2026-11-04T14:23:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "3AFX7NC7W0TJW",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T06:34:00-05:00",
+   "end_at": "2026-11-04T13:31:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMd4sICOdOOSzDEg"
+  },
+  {
+   "id": "WRGYXHWC69K1Y",
+   "location_id": "LFXQF0X8CKYF5",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T06:40:00-05:00",
+   "end_at": "2026-11-04T15:00:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "3SXXZE69BRAZZ",
+   "location_id": "LFXQF0X8CKYF5",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T06:40:00-05:00",
+   "end_at": "2026-11-04T15:35:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 2075,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMHlgTma8wlChZCJ"
+  },
+  {
+   "id": "6D976K6QVF06J",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T07:05:00-05:00",
+   "end_at": "2026-11-04T14:35:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "ZPXRP0QY6TM5C",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T07:35:00-05:00",
+   "end_at": "2026-11-04T15:55:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_BFaBlF8VNX6xA"
+  },
+  {
+   "id": "2EKDT2SAG202S",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T07:56:00-05:00",
+   "end_at": "2026-11-04T16:05:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "KYJBCV2W8H9MM",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-04T09:22:00-05:00",
+   "end_at": "2026-11-04T16:36:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "6GDD8VPNCT73P",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T06:14:00-05:00",
+   "end_at": "2026-11-05T15:18:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "9Q0GZ3SX4VW29",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T06:19:00-05:00",
+   "end_at": "2026-11-05T14:30:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMJudwU02O9X9Y9X"
+  },
+  {
+   "id": "6KMN37ABRFR2V",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T06:20:00-05:00",
+   "end_at": "2026-11-05T13:49:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "RF85PNTS5VX1R",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T06:32:00-05:00",
+   "end_at": "2026-11-05T15:39:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMd4sICOdOOSzDEg"
+  },
+  {
+   "id": "HBYPF2PPH4YYM",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T06:36:00-05:00",
+   "end_at": "2026-11-05T13:33:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "949XB8RRFZJVB",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T07:01:00-05:00",
+   "end_at": "2026-11-05T14:24:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMUIPXfgx6WLxFRf"
+  },
+  {
+   "id": "PJYTAGYKKXXQE",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T07:06:00-05:00",
+   "end_at": "2026-11-05T15:16:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 2250,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaxBNmmI05a7Di6"
+  },
+  {
+   "id": "X7HF5CB5E5T0S",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T07:26:00-05:00",
+   "end_at": "2026-11-05T15:35:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "GHN7EZDBKQ3GW",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T07:30:00-05:00",
+   "end_at": "2026-11-05T13:49:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "4NPFKWGA41XKZ",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T08:01:00-05:00",
+   "end_at": "2026-11-05T14:05:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "TRFCZVMEB8TFH",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T08:08:00-05:00",
+   "end_at": "2026-11-05T16:33:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "D3CKKCQ4ND9ZH",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T09:09:00-05:00",
+   "end_at": "2026-11-05T15:14:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "RDTWHJQNRWY2K",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-05T09:28:00-05:00",
+   "end_at": "2026-11-05T16:34:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2075,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMHlgTma8wlChZCJ"
+  },
+  {
+   "id": "3VK1R41DKTYD5",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T06:15:00-05:00",
+   "end_at": "2026-11-06T16:27:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "XCTK1NC66ZZGF",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T06:17:00-05:00",
+   "end_at": "2026-11-06T14:37:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "1DG60DV9M3574",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T06:22:00-05:00",
+   "end_at": "2026-11-06T13:24:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "60R9CTHY79PFY",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T06:30:00-05:00",
+   "end_at": "2026-11-06T15:34:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM0AhuauYAv5yIyx"
+  },
+  {
+   "id": "0ES13QFNKXE2Z",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T07:00:00-05:00",
+   "end_at": "2026-11-06T14:04:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMgmyxnB3Bk_cmi1"
+  },
+  {
+   "id": "72NB05JX5K5DY",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T07:12:00-05:00",
+   "end_at": "2026-11-06T15:49:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "K29G1WA0Q8WPT",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T07:33:00-05:00",
+   "end_at": "2026-11-06T15:35:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "7TDYX372BRXZ3",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T07:58:00-05:00",
+   "end_at": "2026-11-06T15:03:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "CMMB7MKWJP0HP",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T08:25:00-05:00",
+   "end_at": "2026-11-06T16:36:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "ZTHX633REVQGW",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T09:04:00-05:00",
+   "end_at": "2026-11-06T14:57:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMuCMhuRLTPXovMY"
+  },
+  {
+   "id": "ZZE8P2Z7E4SK2",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-06T09:35:00-05:00",
+   "end_at": "2026-11-06T17:00:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMUIPXfgx6WLxFRf"
+  },
+  {
+   "id": "4CXYW3CX341C9",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-07T07:11:00-05:00",
+   "end_at": "2026-11-07T14:59:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "Y7H55VWC6FPCH",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-07T07:20:00-05:00",
+   "end_at": "2026-11-07T15:33:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMJudwU02O9X9Y9X"
+  },
+  {
+   "id": "T0XJ638W637MB",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-07T08:36:00-05:00",
+   "end_at": "2026-11-07T15:40:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "1Y7WR314GZSCN",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-07T09:43:00-05:00",
+   "end_at": "2026-11-07T16:13:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_BFaBlF8VNX6xA"
+  },
+  {
+   "id": "9Z2DP6P3J1DFE",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-07T09:48:00-05:00",
+   "end_at": "2026-11-07T15:48:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "CFA7J7G6B79XM",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-07T10:30:00-05:00",
+   "end_at": "2026-11-07T17:32:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "0FV1MBZCBT016",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-08T06:55:00-05:00",
+   "end_at": "2026-11-08T15:42:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_xBZvN0PRlr-JC"
+  },
+  {
+   "id": "6NW0W6X2XRB3E",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-08T07:34:00-05:00",
+   "end_at": "2026-11-08T13:44:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMd4sICOdOOSzDEg"
+  },
+  {
+   "id": "82DCD642J558T",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-08T08:27:00-05:00",
+   "end_at": "2026-11-08T14:30:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMkEStYYpfTgQeGR"
+  },
+  {
+   "id": "0FHD53J3YFE7V",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-08T09:02:00-05:00",
+   "end_at": "2026-11-08T14:25:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMUIPXfgx6WLxFRf"
+  },
+  {
+   "id": "1PWGVK4CF9GMM",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-08T09:27:00-05:00",
+   "end_at": "2026-11-08T16:11:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMuCMhuRLTPXovMY"
+  },
+  {
+   "id": "3TRS0ZM499S6H",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-08T13:09:00-05:00",
+   "end_at": "2026-11-08T17:46:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "YWD81EGS2D187",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T05:59:00-05:00",
+   "end_at": "2026-11-09T14:45:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_xBZvN0PRlr-JC"
+  },
+  {
+   "id": "HFC3PSPJKMDWF",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T06:22:00-05:00",
+   "end_at": "2026-11-09T16:38:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "A3V6TYWZHP8DT",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T06:27:00-05:00",
+   "end_at": "2026-11-09T13:49:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "DM26FMWN8RVKG",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T06:30:00-05:00",
+   "end_at": "2026-11-09T14:38:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM0AhuauYAv5yIyx"
+  },
+  {
+   "id": "AHSSAG581PWEK",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T06:31:00-05:00",
+   "end_at": "2026-11-09T13:30:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMxj0QzfO7xe9k4u"
+  },
+  {
+   "id": "EE9XAMQNGX9A3",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T06:46:00-05:00",
+   "end_at": "2026-11-09T13:52:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_BFaBlF8VNX6xA"
+  },
+  {
+   "id": "JEC1RRADA2YXB",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T06:51:00-05:00",
+   "end_at": "2026-11-09T14:06:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "6RFR05ZKVY8VB",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T07:02:00-05:00",
+   "end_at": "2026-11-09T15:43:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 2250,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaxBNmmI05a7Di6"
+  },
+  {
+   "id": "W4C6D9TM6X8DD",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T07:50:00-05:00",
+   "end_at": "2026-11-09T16:00:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "JJA37274PFHRQ",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-09T08:18:00-05:00",
+   "end_at": "2026-11-09T16:48:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "85XFVTP341NWJ",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T05:59:00-05:00",
+   "end_at": "2026-11-10T13:38:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "JXFWJHDN7XVRE",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T05:59:00-05:00",
+   "end_at": "2026-11-10T14:45:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_xBZvN0PRlr-JC"
+  },
+  {
+   "id": "B51R9WE85HPA5",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T06:20:00-05:00",
+   "end_at": "2026-11-10T15:26:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMJudwU02O9X9Y9X"
+  },
+  {
+   "id": "JQ1X60NN3XXBA",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T06:31:00-05:00",
+   "end_at": "2026-11-10T13:44:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2075,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMHlgTma8wlChZCJ"
+  },
+  {
+   "id": "8JVSEFQAW33JE",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T06:59:00-05:00",
+   "end_at": "2026-11-10T14:32:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "GJP1JC3X4CQJ0",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T07:00:00-05:00",
+   "end_at": "2026-11-10T15:45:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "WJ5VH0GC1SB06",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T07:06:00-05:00",
+   "end_at": "2026-11-10T15:23:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 2250,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaxBNmmI05a7Di6"
+  },
+  {
+   "id": "CMRHVFX80WVG7",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T07:07:00-05:00",
+   "end_at": "2026-11-10T16:31:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "Z8NKXS6ME05G3",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T07:56:00-05:00",
+   "end_at": "2026-11-10T14:35:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "XA7H3BQRN113W",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T08:00:00-05:00",
+   "end_at": "2026-11-10T13:58:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "1ADR5JYY5AFBR",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T08:02:00-05:00",
+   "end_at": "2026-11-10T16:30:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "JD2ET76M5ZFAK",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-10T09:20:00-05:00",
+   "end_at": "2026-11-10T16:30:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "YQSBNJGHBM5XV",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T05:56:00-05:00",
+   "end_at": "2026-11-11T14:42:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_xBZvN0PRlr-JC"
+  },
+  {
+   "id": "YKB79C59B1R8V",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T06:17:00-05:00",
+   "end_at": "2026-11-11T13:53:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "9NVFP74G872WP",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T06:28:00-05:00",
+   "end_at": "2026-11-11T13:48:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "Q63QA2B76RV3F",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T06:59:00-05:00",
+   "end_at": "2026-11-11T14:41:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "6FZ80J9WYRJAP",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T07:15:00-05:00",
+   "end_at": "2026-11-11T15:42:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "0QG0X4G1MECRT",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T07:25:00-05:00",
+   "end_at": "2026-11-11T15:39:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "TTW4MZ257540T",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T08:24:00-05:00",
+   "end_at": "2026-11-11T16:10:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "CD439T8JCYFPY",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T08:32:00-05:00",
+   "end_at": "2026-11-11T17:20:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "W5SFTX4S3J8NV",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-11T08:46:00-05:00",
+   "end_at": "2026-11-11T15:59:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_BFaBlF8VNX6xA"
+  },
+  {
+   "id": "9443MG8GSCZ81",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T06:15:00-05:00",
+   "end_at": "2026-11-12T15:02:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "HFGTRM6K7PW76",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T06:20:00-05:00",
+   "end_at": "2026-11-12T13:53:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMJudwU02O9X9Y9X"
+  },
+  {
+   "id": "E88BA9W219TG6",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T06:22:00-05:00",
+   "end_at": "2026-11-12T13:52:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "1YMBR6SX93E2Y",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T06:32:00-05:00",
+   "end_at": "2026-11-12T13:30:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "DQPX941H8H3JR",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T06:33:00-05:00",
+   "end_at": "2026-11-12T15:29:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMd4sICOdOOSzDEg"
+  },
+  {
+   "id": "BN6VPZSKK3H0T",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T06:59:00-05:00",
+   "end_at": "2026-11-12T13:27:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMUIPXfgx6WLxFRf"
+  },
+  {
+   "id": "Q95XDED01R7MB",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T07:00:00-05:00",
+   "end_at": "2026-11-12T14:11:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2475,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM4Z716OULJCoyYW"
+  },
+  {
+   "id": "GJZF5NK563XKZ",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T07:12:00-05:00",
+   "end_at": "2026-11-12T16:36:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 2250,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaxBNmmI05a7Di6"
+  },
+  {
+   "id": "EEJF2H10SNMYY",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T07:13:00-05:00",
+   "end_at": "2026-11-12T14:32:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "DP8F8AP1F0B0K",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T07:16:00-05:00",
+   "end_at": "2026-11-12T15:32:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "JY6JDP5SNB281",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T08:01:00-05:00",
+   "end_at": "2026-11-12T16:39:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "911Z6RZD4DR6G",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T09:23:00-05:00",
+   "end_at": "2026-11-12T14:27:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMuCMhuRLTPXovMY"
+  },
+  {
+   "id": "7BC7816SGZF23",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-12T09:56:00-05:00",
+   "end_at": "2026-11-12T16:34:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2075,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMHlgTma8wlChZCJ"
+  },
+  {
+   "id": "D9AP4B1ENXW60",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T05:59:00-05:00",
+   "end_at": "2026-11-13T13:28:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMCNy0xlXf33zKEh"
+  },
+  {
+   "id": "VEB805BYKG16X",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T06:16:00-05:00",
+   "end_at": "2026-11-13T16:27:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "P3ZNG4KBFZR82",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T06:21:00-05:00",
+   "end_at": "2026-11-13T14:59:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMYXG8pwqNcSVEiL"
+  },
+  {
+   "id": "X1CYZ5NYE1RQG",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T06:28:00-05:00",
+   "end_at": "2026-11-13T13:30:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM3l-YfJCWgDn4TB"
+  },
+  {
+   "id": "BJE7WS2DHTWEN",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T06:36:00-05:00",
+   "end_at": "2026-11-13T13:31:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM0AhuauYAv5yIyx"
+  },
+  {
+   "id": "7Y0EV2R8XTVRN",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T07:07:00-05:00",
+   "end_at": "2026-11-13T13:06:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2525,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "FyFHlz5BvISXTZ_WwVwR"
+  },
+  {
+   "id": "M0GMV8BETDSE4",
+   "location_id": "L4ZBMGCWJ5C7R",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T07:26:00-05:00",
+   "end_at": "2026-11-13T15:29:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2425,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfhXU6Qxg6ghm08"
+  },
+  {
+   "id": "TYN4VC6WGF9ZS",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T07:32:00-05:00",
+   "end_at": "2026-11-13T15:29:00-05:00",
+   "wage": {
+    "title": "Barista",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMd4sICOdOOSzDEg"
+  },
+  {
+   "id": "G0EB9MJVXTNST",
+   "location_id": "LXM7V1QWDHKZJ",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T08:15:00-05:00",
+   "end_at": "2026-11-13T16:35:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  },
+  {
+   "id": "B2B5DB3QY4Q74",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T09:00:00-05:00",
+   "end_at": "2026-11-13T16:01:00-05:00",
+   "wage": {
+    "title": "Manager",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "HPKFPQEG00QJM",
+   "location_id": "LV2D18H0DD9ES",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T09:10:00-05:00",
+   "end_at": "2026-11-13T15:40:00-05:00",
+   "wage": {
+    "title": "FOH",
+    "hourly_rate": {
+     "amount": 1850,
+     "currency": "USD"
+    },
+    "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMuCMhuRLTPXovMY"
+  },
+  {
+   "id": "SNBAW31ZYYXKE",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-13T10:00:00-05:00",
+   "end_at": "2026-11-13T17:01:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMUIPXfgx6WLxFRf"
+  },
+  {
+   "id": "HT80G4ED92QQH",
+   "location_id": "LZCA3EY4GB7BM",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-14T07:01:00-05:00",
+   "end_at": "2026-11-14T15:06:00-05:00",
+   "wage": {
+    "title": "Commissary",
+    "hourly_rate": {
+     "amount": 1925,
+     "currency": "USD"
+    },
+    "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+    "tip_eligible": false
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMr51xz2uJW9Nrph"
+  },
+  {
+   "id": "H6QC78MFB88F8",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-14T07:17:00-05:00",
+   "end_at": "2026-11-14T15:23:00-05:00",
+   "wage": {
+    "title": "Production Line",
+    "hourly_rate": {
+     "amount": 1900,
+     "currency": "USD"
+    },
+    "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMJudwU02O9X9Y9X"
+  },
+  {
+   "id": "Z611K6AX6MYK8",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-14T07:35:00-05:00",
+   "end_at": "2026-11-14T13:38:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM_BFaBlF8VNX6xA"
+  },
+  {
+   "id": "4376QE1F0TFQ3",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-14T08:34:00-05:00",
+   "end_at": "2026-11-14T14:41:00-05:00",
+   "wage": {
+    "title": "Production Barista",
+    "hourly_rate": {
+     "amount": 2125,
+     "currency": "USD"
+    },
+    "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TM0AhuauYAv5yIyx"
+  },
+  {
+   "id": "2KVB1SPZYR56Y",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-14T09:27:00-05:00",
+   "end_at": "2026-11-14T16:00:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2275,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMfkZprNitwd8Mej"
+  },
+  {
+   "id": "K5RAQZ5TWHRQ6",
+   "location_id": "LGVKCKX9B9DZT",
+   "timezone": "America/New_York",
+   "start_at": "2026-11-14T10:50:00-05:00",
+   "end_at": "2026-11-14T17:35:00-05:00",
+   "wage": {
+    "title": "Shift Lead",
+    "hourly_rate": {
+     "amount": 2175,
+     "currency": "USD"
+    },
+    "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+    "tip_eligible": true
+   },
+   "status": "CLOSED",
+   "team_member_id": "TMaAPF3ypgkaaAYJ"
+  }
+ ]
+}

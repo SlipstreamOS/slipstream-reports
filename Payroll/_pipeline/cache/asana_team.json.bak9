@@ -1,0 +1,372 @@
+{
+ "data": [
+  {
+   "name": "Ines Chavez",
+   "gid": "1201137810973589",
+   "portfolio": "1219409576454414",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 17.5,
+     "display_value": "17.50"
+    }
+   ]
+  },
+  {
+   "name": "Colin Anders",
+   "gid": "1202591094877086",
+   "portfolio": "1219409576454414",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 24.75,
+     "display_value": "24.75"
+    }
+   ]
+  },
+  {
+   "name": "Claire Nichols",
+   "gid": "1211826413596942",
+   "portfolio": "1219409576454414",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 22.75,
+     "display_value": "22.75"
+    }
+   ]
+  },
+  {
+   "name": "Griselda Romero",
+   "gid": "1200336421616966",
+   "portfolio": "1219409576454414",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 25.25,
+     "display_value": "25.25"
+    }
+   ]
+  },
+  {
+   "name": "Elijah R Schug",
+   "gid": "1210571167478926",
+   "portfolio": "1219409576454414",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "1899"
+    },
+    {
+     "name": "Pay",
+     "number_value": 24.25,
+     "display_value": "24.25"
+    }
+   ]
+  },
+  {
+   "name": "Ella Fleureton",
+   "gid": "1217594360907425",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "1899"
+    },
+    {
+     "name": "Pay",
+     "number_value": 18.5,
+     "display_value": "18.50"
+    }
+   ]
+  },
+  {
+   "name": "Ryan Moore",
+   "gid": "1217335970282839",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 19,
+     "display_value": "19.00"
+    }
+   ]
+  },
+  {
+   "name": "J'Andre Singleton",
+   "gid": "1214989327058219",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 21.25,
+     "display_value": "21.25"
+    }
+   ]
+  },
+  {
+   "name": "Mariana Martinez",
+   "gid": "1215471735393255",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 18.5,
+     "display_value": "18.50"
+    }
+   ]
+  },
+  {
+   "name": "Daisy Hand",
+   "gid": "1215391339139958",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 18.5,
+     "display_value": "18.50"
+    }
+   ]
+  },
+  {
+   "name": "Amy Romero",
+   "gid": "1211496316199491",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 21.25,
+     "display_value": "21.25"
+    }
+   ]
+  },
+  {
+   "name": "Kathy Guevara",
+   "gid": "1213549935792198",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 19,
+     "display_value": "19.00"
+    }
+   ]
+  },
+  {
+   "name": "Delmi Aleman",
+   "gid": "1207916542648238",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 18.5,
+     "display_value": "18.50"
+    }
+   ]
+  },
+  {
+   "name": "Michelle Pankow",
+   "gid": "1200722474992263",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 21.75,
+     "display_value": "21.75"
+    }
+   ]
+  },
+  {
+   "name": "Josias Michalko",
+   "gid": "1213515246641830",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 20.75,
+     "display_value": "20.75"
+    }
+   ]
+  },
+  {
+   "name": "Nely Alcantara",
+   "gid": "1212257920292036",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 19.25,
+     "display_value": "19.25"
+    }
+   ]
+  },
+  {
+   "name": "Kesi Harford ",
+   "gid": "1211651561941620",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "1899"
+    },
+    {
+     "name": "Pay",
+     "number_value": 21.25,
+     "display_value": "21.25"
+    }
+   ]
+  },
+  {
+   "name": "Christina Jie",
+   "gid": "1211985891218047",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 19,
+     "display_value": "19.00"
+    }
+   ]
+  },
+  {
+   "name": "Opal Payne",
+   "gid": "1211826422796986",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "1899"
+    },
+    {
+     "name": "Pay",
+     "number_value": 21.75,
+     "display_value": "21.75"
+    }
+   ]
+  },
+  {
+   "name": "Development Tracker",
+   "gid": "1211816222656007",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": null
+    },
+    {
+     "name": "Pay",
+     "number_value": 17.5,
+     "display_value": "17.50"
+    }
+   ]
+  },
+  {
+   "name": "Marleni Nolasco",
+   "gid": "1202083634423466",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 22.5,
+     "display_value": "22.50"
+    }
+   ]
+  },
+  {
+   "name": "Melvin Gutierrez",
+   "gid": "1203336768403027",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Downtown"
+    },
+    {
+     "name": "Pay",
+     "number_value": 22.75,
+     "display_value": "22.75"
+    }
+   ]
+  },
+  {
+   "name": "Katherine Sung",
+   "gid": "1207751265424277",
+   "portfolio": "1211816222497942",
+   "custom_fields": [
+    {
+     "name": "Location",
+     "display_value": "Studio Theater "
+    },
+    {
+     "name": "Pay",
+     "number_value": 21.25,
+     "display_value": "21.25"
+    }
+   ]
+  }
+ ]
+}

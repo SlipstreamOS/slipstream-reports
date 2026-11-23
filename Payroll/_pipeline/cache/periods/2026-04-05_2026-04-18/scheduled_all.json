@@ -1,0 +1,3498 @@
+{
+  "scheduled_shifts": [
+    {
+      "id": "T9V91Q9HTGNP5",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-05T07:15:00-04:00",
+        "end_at": "2026-04-05T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-05T07:15:00-04:00",
+        "end_at": "2026-04-05T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "M2R8D8V9YA3MN",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-05T07:30:00-04:00",
+        "end_at": "2026-04-05T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-05T07:30:00-04:00",
+        "end_at": "2026-04-05T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "SXJA7KSVP9HZ1",
+      "draft_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-05T08:00:00-04:00",
+        "end_at": "2026-04-05T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-05T08:00:00-04:00",
+        "end_at": "2026-04-05T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "8XCNARKNSD8RR",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-05T09:00:00-04:00",
+        "end_at": "2026-04-05T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-05T09:00:00-04:00",
+        "end_at": "2026-04-05T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "6EAWYR3R6SX88",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-05T10:00:00-04:00",
+        "end_at": "2026-04-05T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-05T10:00:00-04:00",
+        "end_at": "2026-04-05T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "YM89Z3JA9JEP9",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-06T06:15:00-04:00",
+        "end_at": "2026-04-06T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-06T06:15:00-04:00",
+        "end_at": "2026-04-06T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "DBSD8ET6SHVW8",
+      "draft_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-06T06:15:00-04:00",
+        "end_at": "2026-04-06T14:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-06T06:15:00-04:00",
+        "end_at": "2026-04-06T14:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 2,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "QE4K3BA9VH57S",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-01T17:08:00.826Z"
+    },
+    {
+      "id": "K8K2BMTKNJXJZ",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "65S5C86X713VY",
+      "draft_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T14:30:00-04:00",
+        "notes": "Greg isnt B1 yet FYI",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T14:30:00-04:00",
+        "notes": "Greg isnt B1 yet FYI",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "AWYGN33GP924S",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T15:30:00-04:00",
+        "notes": "Christina's first shift at 1899",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T15:30:00-04:00",
+        "notes": "Christina's first shift at 1899",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "B4MV6DTPR4WHJ",
+      "draft_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T13:00:00-04:00",
+        "notes": "SHIFT AT 1899",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-06T06:30:00-04:00",
+        "end_at": "2026-04-06T13:00:00-04:00",
+        "notes": "SHIFT AT 1899",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 18,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "58VXRFCF8AK77",
+      "draft_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-06T07:00:00-04:00",
+        "end_at": "2026-04-06T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-06T07:00:00-04:00",
+        "end_at": "2026-04-06T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "VNGEZE5DNFJAV",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-06T07:00:00-04:00",
+        "end_at": "2026-04-06T14:00:00-04:00",
+        "notes": "BENTLEY EVENT",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-06T07:00:00-04:00",
+        "end_at": "2026-04-06T14:00:00-04:00",
+        "notes": "BENTLEY EVENT",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:15:41.693Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "XTRP2BRW8QEJS",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-06T07:00:00-04:00",
+        "end_at": "2026-04-06T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-06T07:00:00-04:00",
+        "end_at": "2026-04-06T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "DNPF93376SQ40",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-06T07:30:00-04:00",
+        "end_at": "2026-04-06T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-06T07:30:00-04:00",
+        "end_at": "2026-04-06T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "C6FGP59KDYVHF",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-06T09:00:00-04:00",
+        "end_at": "2026-04-06T15:00:00-04:00",
+        "notes": "ADMIN",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-06T09:00:00-04:00",
+        "end_at": "2026-04-06T15:00:00-04:00",
+        "notes": "ADMIN",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:39:09.550Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "KZ3VT3CYCE0YZ",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-06T14:30:00-04:00",
+        "end_at": "2026-04-06T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-06T14:30:00-04:00",
+        "end_at": "2026-04-06T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "QTB2T5MN2AAQY",
+      "draft_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-07T06:15:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-07T06:15:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 2,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "F3Z94WEWNNXV5",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-07T06:15:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-07T06:15:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "5KQTM316ZMYGZ",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "HGK6AA92K29YG",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "92NJ7SMSHG8VA",
+      "draft_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "dGSXcH8yKejhLYNDGrPNauje",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T13:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "dGSXcH8yKejhLYNDGrPNauje",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T13:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:11:51.990Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "7P1G06XTCD1RC",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T15:30:00-04:00",
+        "notes": "HAPPY HOUR EVENT FROM 2PM-3PM",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T15:30:00-04:00",
+        "notes": "HAPPY HOUR EVENT FROM 2PM-3PM",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "339QDJ4V2M495",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-07T06:30:00-04:00",
+        "end_at": "2026-04-07T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "2ANXTH70HQXD2",
+      "draft_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-07T07:00:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-07T07:00:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "ED1YYW4EAGHRW",
+      "draft_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-07T07:00:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-07T07:00:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "P1BXMVT8WSQQN",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-07T07:30:00-04:00",
+        "end_at": "2026-04-07T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-07T07:30:00-04:00",
+        "end_at": "2026-04-07T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "6NYJXWXJBN2BY",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-07T08:00:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-07T08:00:00-04:00",
+        "end_at": "2026-04-07T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "PRF7H887PMZSV",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-07T08:30:00-04:00",
+        "end_at": "2026-04-07T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-07T08:30:00-04:00",
+        "end_at": "2026-04-07T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "7VK51CW0EN1YV",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-08T06:15:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-08T06:15:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "08XM9NQF9D6DP",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-08T06:15:00-04:00",
+        "end_at": "2026-04-08T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-08T06:15:00-04:00",
+        "end_at": "2026-04-08T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "AVDQK9J5162BV",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-08T06:30:00-04:00",
+        "end_at": "2026-04-08T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-08T06:30:00-04:00",
+        "end_at": "2026-04-08T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "BNPNNSJ6EYVKK",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-08T06:30:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "notes": "Work with Sophia on B1 ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-08T06:30:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "notes": "Work with Sophia on B1 ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "Z5MH165HFDFTX",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-08T06:30:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-08T06:30:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "N53X40ZY5BSBX",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-08T07:00:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-08T07:00:00-04:00",
+        "end_at": "2026-04-08T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "82S0BDH94RNXT",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-08T07:30:00-04:00",
+        "end_at": "2026-04-08T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-08T07:30:00-04:00",
+        "end_at": "2026-04-08T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "YSTH7CQHGQZ7V",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-08T08:00:00-04:00",
+        "end_at": "2026-04-08T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-08T08:00:00-04:00",
+        "end_at": "2026-04-08T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "CW2Y8P26AXB0C",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-08T08:30:00-04:00",
+        "end_at": "2026-04-08T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-08T08:30:00-04:00",
+        "end_at": "2026-04-08T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "XMQZ1APGE59M1",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-08T10:00:00-04:00",
+        "end_at": "2026-04-08T15:00:00-04:00",
+        "notes": "COMMUNITY DAY",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-08T10:00:00-04:00",
+        "end_at": "2026-04-08T15:00:00-04:00",
+        "notes": "COMMUNITY DAY",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:35:00.883Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "5SVFX3APTZ354",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-08T10:00:00-04:00",
+        "end_at": "2026-04-08T15:00:00-04:00",
+        "notes": "COMMUNITY DAY",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-08T10:00:00-04:00",
+        "end_at": "2026-04-08T15:00:00-04:00",
+        "notes": "COMMUNITY DAY",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-30T18:34:03.246Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "6NTEVPGTX0D6N",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-09T06:15:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-09T06:15:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "H2NNVN1T0N73V",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-09T06:15:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-09T06:15:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "FYTAXE1J2NKYN",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 9,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "XQTS36WTAHKRW",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "02G4HV0VM0K2D",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "notes": "WHEN ELLA GETS IN, COME TO NMWA. ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "notes": "WHEN ELLA GETS IN, COME TO NMWA. ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 12,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "QXW80Y2VQJ6W0",
+      "draft_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "J8NSW76CW2EFY",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "notes": "Sophia leaves at 1pm",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-09T06:30:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "notes": "Sophia leaves at 1pm",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "FZYP4YACWHW2Z",
+      "draft_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-09T07:00:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-09T07:00:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "FTGHENFA2HNWM",
+      "draft_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-09T07:00:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-09T07:00:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "D9XVDA5H7TNG2",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-09T07:30:00-04:00",
+        "end_at": "2026-04-09T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-09T07:30:00-04:00",
+        "end_at": "2026-04-09T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "A0ZYK3RE2G1M0",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-09T08:30:00-04:00",
+        "end_at": "2026-04-09T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-09T08:30:00-04:00",
+        "end_at": "2026-04-09T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "1GCND2QG1AAMY",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-09T10:00:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "notes": "GO TO DOWNTOWN AND SWAP WITH GEE SO SHE CAN COME TO NMWA. ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-09T10:00:00-04:00",
+        "end_at": "2026-04-09T14:30:00-04:00",
+        "notes": "GO TO DOWNTOWN AND SWAP WITH GEE SO SHE CAN COME TO NMWA. ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "BJJTPA6Z9E58W",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-09T10:00:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-09T10:00:00-04:00",
+        "end_at": "2026-04-09T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-30T18:41:16.462Z",
+      "updated_at": "2026-04-09T12:05:39.258Z"
+    },
+    {
+      "id": "EKNQFYKYEQP5C",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-09T14:30:00-04:00",
+        "end_at": "2026-04-09T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-09T14:30:00-04:00",
+        "end_at": "2026-04-09T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "A2K77X4B9VXGJ",
+      "draft_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-10T06:15:00-04:00",
+        "end_at": "2026-04-10T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-10T06:15:00-04:00",
+        "end_at": "2026-04-10T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 2,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-03-30T18:55:31.599Z"
+    },
+    {
+      "id": "H2QKBVDPN01DD",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-10T06:15:00-04:00",
+        "end_at": "2026-04-10T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-10T06:15:00-04:00",
+        "end_at": "2026-04-10T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "N2YR8SKAM94ZX",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "4NCCSXBDAQ9FV",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T15:30:00-04:00",
+        "notes": "Let's teach Sophia how to do bake off! :) ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T15:30:00-04:00",
+        "notes": "Let's teach Sophia how to do bake off! :) ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 16,
+      "created_at": "2026-03-26T16:07:58.315Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "F4VCVBMQMGRWN",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T13:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T13:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 9,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "QYGRE00YF8S19",
+      "draft_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T13:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-10T06:30:00-04:00",
+        "end_at": "2026-04-10T13:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 14,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "BYG3F1D3MBAK0",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-10T07:00:00-04:00",
+        "end_at": "2026-04-10T13:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-10T07:00:00-04:00",
+        "end_at": "2026-04-10T13:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-04-08T18:08:06.049Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "4SM08R11VFYQ5",
+      "draft_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-10T08:00:00-04:00",
+        "end_at": "2026-04-10T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-10T08:00:00-04:00",
+        "end_at": "2026-04-10T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 11,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "C0FXC6F6FDEN6",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-10T08:30:00-04:00",
+        "end_at": "2026-04-10T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-10T08:30:00-04:00",
+        "end_at": "2026-04-10T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "5QGYBDMERE2H0",
+      "draft_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-10T09:00:00-04:00",
+        "end_at": "2026-04-10T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-10T09:00:00-04:00",
+        "end_at": "2026-04-10T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "1RBTN3NQH7ST9",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-11T07:15:00-04:00",
+        "end_at": "2026-04-11T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-11T07:15:00-04:00",
+        "end_at": "2026-04-11T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-02T15:29:07.860Z"
+    },
+    {
+      "id": "C76MR81MF0MF7",
+      "draft_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-11T07:30:00-04:00",
+        "end_at": "2026-04-11T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-11T07:30:00-04:00",
+        "end_at": "2026-04-11T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "V52M156BRF9T7",
+      "draft_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-11T08:00:00-04:00",
+        "end_at": "2026-04-11T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-11T08:00:00-04:00",
+        "end_at": "2026-04-11T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 11,
+      "created_at": "2026-03-26T15:08:08.441Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "0SX4X26RFG38W",
+      "draft_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-11T09:00:00-04:00",
+        "end_at": "2026-04-11T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-11T09:00:00-04:00",
+        "end_at": "2026-04-11T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:08.986Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "0SSKKS0RAAP57",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-11T09:30:00-04:00",
+        "end_at": "2026-04-11T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-11T09:30:00-04:00",
+        "end_at": "2026-04-11T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 6,
+      "created_at": "2026-03-26T15:08:09.487Z",
+      "updated_at": "2026-04-08T18:36:40.425Z"
+    },
+    {
+      "id": "2YBV17TTNGW8Q",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-12T07:15:00-04:00",
+        "end_at": "2026-04-12T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-12T07:15:00-04:00",
+        "end_at": "2026-04-12T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "WMJZQ18BQTTQV",
+      "draft_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-12T07:30:00-04:00",
+        "end_at": "2026-04-12T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-12T07:30:00-04:00",
+        "end_at": "2026-04-12T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "TCTJ68Q9XDCFB",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-12T08:00:00-04:00",
+        "end_at": "2026-04-12T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-12T08:00:00-04:00",
+        "end_at": "2026-04-12T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "Z912124T88ZJN",
+      "draft_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-12T08:30:00-04:00",
+        "end_at": "2026-04-12T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-12T08:30:00-04:00",
+        "end_at": "2026-04-12T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 9,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "X756Y09TXNE9K",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-12T09:30:00-04:00",
+        "end_at": "2026-04-12T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-12T09:30:00-04:00",
+        "end_at": "2026-04-12T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 9,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "Z1HPYVSZQYGJP",
+      "draft_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-13T06:15:00-04:00",
+        "end_at": "2026-04-13T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-13T06:15:00-04:00",
+        "end_at": "2026-04-13T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "MNGHVEWJSS04Y",
+      "draft_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-13T06:15:00-04:00",
+        "end_at": "2026-04-13T14:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-13T06:15:00-04:00",
+        "end_at": "2026-04-13T14:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "5S0A542RQEEYW",
+      "draft_shift_details": {
+        "team_member_id": "TMxj0QzfO7xe9k4u",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMxj0QzfO7xe9k4u",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "AJN924WZKYF55",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "H9TR5E443D96B",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "0MKR2XEEENFD4",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "10209DHSJ8FVP",
+      "draft_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-13T06:30:00-04:00",
+        "end_at": "2026-04-13T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "RD3866FZ566P0",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-13T07:00:00-04:00",
+        "end_at": "2026-04-13T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-13T07:00:00-04:00",
+        "end_at": "2026-04-13T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-03-30T20:04:28.620Z"
+    },
+    {
+      "id": "A99TXQ53HYYCJ",
+      "draft_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-13T07:00:00-04:00",
+        "end_at": "2026-04-13T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-13T07:00:00-04:00",
+        "end_at": "2026-04-13T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-03-30T20:04:28.620Z"
+    },
+    {
+      "id": "887TR2C44X28E",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-13T07:30:00-04:00",
+        "end_at": "2026-04-13T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-13T07:30:00-04:00",
+        "end_at": "2026-04-13T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "H29SHMDT8WYRS",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-13T08:00:00-04:00",
+        "end_at": "2026-04-13T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-13T08:00:00-04:00",
+        "end_at": "2026-04-13T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "EFHTXYS5BFPSC",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-13T09:00:00-04:00",
+        "end_at": "2026-04-13T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-13T09:00:00-04:00",
+        "end_at": "2026-04-13T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-04-07T18:50:19.595Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "Y7HZ6S2R816H3",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-13T14:30:00-04:00",
+        "end_at": "2026-04-13T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-13T14:30:00-04:00",
+        "end_at": "2026-04-13T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-04-07T18:51:19.761Z"
+    },
+    {
+      "id": "X3CKA54EE0YZ1",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-14T06:15:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-14T06:15:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "3VRG3BZV22M5F",
+      "draft_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-14T06:15:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-14T06:15:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "9N4R64TQSBM7S",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "8CRKPRDKFHQVB",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "2CM8PKVBGEW5B",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "CTM0CP8M1HSBN",
+      "draft_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "1E9NW9JVZ8RS6",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-14T06:30:00-04:00",
+        "end_at": "2026-04-14T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "YTKEN3W02H5M0",
+      "draft_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-14T07:00:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-14T07:00:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-03-30T20:04:28.620Z"
+    },
+    {
+      "id": "F5NKHMM3ASYBA",
+      "draft_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-14T07:00:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-14T07:00:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-03-30T20:04:28.620Z"
+    },
+    {
+      "id": "W5AR55WXH2087",
+      "draft_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-14T07:00:00-04:00",
+        "end_at": "2026-04-14T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMhC2UB_l9ZqJNxI",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-14T07:00:00-04:00",
+        "end_at": "2026-04-14T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-04-07T18:44:17.998Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "916PQ6P7HTFMW",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-14T07:30:00-04:00",
+        "end_at": "2026-04-14T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-14T07:30:00-04:00",
+        "end_at": "2026-04-14T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "QBFN023NHVQ3Q",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-14T08:30:00-04:00",
+        "end_at": "2026-04-14T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-14T08:30:00-04:00",
+        "end_at": "2026-04-14T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 4,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "S6FDS2HD85K7Z",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-14T09:00:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "notes": "ADMIN",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+        "start_at": "2026-04-14T09:00:00-04:00",
+        "end_at": "2026-04-14T15:00:00-04:00",
+        "notes": "ADMIN",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 2,
+      "created_at": "2026-04-09T17:33:59.177Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "8H58BM30YNQTS",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-15T06:15:00-04:00",
+        "end_at": "2026-04-15T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-15T06:15:00-04:00",
+        "end_at": "2026-04-15T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "9Y72FYSM1C7Z8",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-15T06:15:00-04:00",
+        "end_at": "2026-04-15T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-15T06:15:00-04:00",
+        "end_at": "2026-04-15T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "4E8PYEBRMSNGM",
+      "draft_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 12,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "DY1DV5V2AAH36",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 9,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "FWV9Z6404XS0D",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "2DVTZ36AH6K8S",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "SSXBBNXBW2WD7",
+      "draft_shift_details": {
+        "team_member_id": "TMxj0QzfO7xe9k4u",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMxj0QzfO7xe9k4u",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T06:30:00-04:00",
+        "end_at": "2026-04-15T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 13,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "KSXR85WWAGX8B",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-15T07:00:00-04:00",
+        "end_at": "2026-04-15T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-15T07:00:00-04:00",
+        "end_at": "2026-04-15T14:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 13,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "8M07DN0Y9K9HY",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-15T07:30:00-04:00",
+        "end_at": "2026-04-15T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-15T07:30:00-04:00",
+        "end_at": "2026-04-15T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "VPRTQVSJCAABF",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T08:30:00-04:00",
+        "end_at": "2026-04-15T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-15T08:30:00-04:00",
+        "end_at": "2026-04-15T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "T3W57KT29TWX3",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "notes": "NMWA NIGHT ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "notes": "NMWA NIGHT ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-04-14T20:33:33.682Z",
+      "updated_at": "2026-04-15T15:03:12.662Z"
+    },
+    {
+      "id": "22EZXQ4Q8G772",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 11,
+      "created_at": "2026-03-30T19:20:23.501Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "YASK45ZD11TY7",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "notes": "NMWA night",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "notes": "NMWA night",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T19:08:20.652Z",
+      "updated_at": "2026-04-14T20:34:04.106Z"
+    },
+    {
+      "id": "M46MM4TX55968",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LV2D18H0DD9ES",
+        "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+        "start_at": "2026-04-15T15:00:00-04:00",
+        "end_at": "2026-04-15T21:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T19:19:50.978Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "NZ6ZK498415R4",
+      "draft_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-16T06:15:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM_xBZvN0PRlr-JC",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-16T06:15:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "JY6HEFGQFNDA5",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-16T06:15:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-16T06:15:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "S7VR45Y8RNE7N",
+      "draft_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "A46XNR5S8WMKX",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 9,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "42M2E09AQ90JV",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "notes": "Sophia leaves at 1pm",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "notes": "Sophia leaves at 1pm",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "7S5A5Y2D6ZD3V",
+      "draft_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 11,
+      "created_at": "2026-04-07T18:46:35.036Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "5G8VBS6DWMMD5",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-16T06:30:00-04:00",
+        "end_at": "2026-04-16T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-15T15:03:12.662Z"
+    },
+    {
+      "id": "XHSV9DNCMWD3J",
+      "draft_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-16T07:00:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaxBNmmI05a7Di6",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-16T07:00:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-03-30T20:04:28.620Z"
+    },
+    {
+      "id": "ZTR09CYD0HMHN",
+      "draft_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-16T07:00:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+        "start_at": "2026-04-16T07:00:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-03-30T20:04:28.620Z"
+    },
+    {
+      "id": "PG52EWQ69S6TV",
+      "draft_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-16T07:30:00-04:00",
+        "end_at": "2026-04-16T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMoi_tK9q5iwHhT_",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-16T07:30:00-04:00",
+        "end_at": "2026-04-16T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T20:34:04.106Z"
+    },
+    {
+      "id": "M3B9AVPDRFSDP",
+      "draft_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-16T08:00:00-04:00",
+        "end_at": "2026-04-16T11:00:00-04:00",
+        "notes": "Thank you for your help :) ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TME3zx6xiRSqVmwG",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-16T08:00:00-04:00",
+        "end_at": "2026-04-16T11:00:00-04:00",
+        "notes": "Thank you for your help :) ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-04-14T22:09:11.963Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "JG08G393FVQKV",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-16T08:00:00-04:00",
+        "end_at": "2026-04-16T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-16T08:00:00-04:00",
+        "end_at": "2026-04-16T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 15,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-15T15:03:12.662Z"
+    },
+    {
+      "id": "9YWMSA3PJBFZZ",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LFXQF0X8CKYF5",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-16T08:00:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "notes": "WONKA SHIFT AT SMALL PLANES ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LFXQF0X8CKYF5",
+        "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+        "start_at": "2026-04-16T08:00:00-04:00",
+        "end_at": "2026-04-16T15:00:00-04:00",
+        "notes": "WONKA SHIFT AT SMALL PLANES ",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 7,
+      "created_at": "2026-03-30T19:16:51.007Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "9T9M7AT9Z0SBR",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-16T08:30:00-04:00",
+        "end_at": "2026-04-16T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-16T08:30:00-04:00",
+        "end_at": "2026-04-16T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "N3M8ZS23QCG5X",
+      "draft_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-16T14:30:00-04:00",
+        "end_at": "2026-04-16T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM4Z716OULJCoyYW",
+        "location_id": "LZCA3EY4GB7BM",
+        "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+        "start_at": "2026-04-16T14:30:00-04:00",
+        "end_at": "2026-04-16T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:50:53.882Z",
+      "updated_at": "2026-04-07T18:51:19.761Z"
+    },
+    {
+      "id": "E4GP76C874K02",
+      "draft_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-17T06:15:00-04:00",
+        "end_at": "2026-04-17T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMr51xz2uJW9Nrph",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-17T06:15:00-04:00",
+        "end_at": "2026-04-17T16:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "65NK6AJ1J2NKQ",
+      "draft_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-17T06:15:00-04:00",
+        "end_at": "2026-04-17T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-17T06:15:00-04:00",
+        "end_at": "2026-04-17T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 3,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "WD4VM9KR8KDV2",
+      "draft_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-17T06:30:00-04:00",
+        "end_at": "2026-04-17T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-17T06:30:00-04:00",
+        "end_at": "2026-04-17T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 12,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "Q0B9S0R7ME2MK",
+      "draft_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-17T06:30:00-04:00",
+        "end_at": "2026-04-17T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM3l-YfJCWgDn4TB",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-17T06:30:00-04:00",
+        "end_at": "2026-04-17T15:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 14,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-15T15:03:12.662Z"
+    },
+    {
+      "id": "PQ7FS9V5J4KKT",
+      "draft_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-17T06:30:00-04:00",
+        "end_at": "2026-04-17T13:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMHlgTma8wlChZCJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-17T06:30:00-04:00",
+        "end_at": "2026-04-17T13:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 9,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "QT9G1XVF4ENP0",
+      "draft_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-17T07:30:00-04:00",
+        "end_at": "2026-04-17T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfhXU6Qxg6ghm08",
+        "location_id": "L4ZBMGCWJ5C7R",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-17T07:30:00-04:00",
+        "end_at": "2026-04-17T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 14,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "JEYX6BBN4R0CF",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-17T07:30:00-04:00",
+        "end_at": "2026-04-17T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LXM7V1QWDHKZJ",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-17T07:30:00-04:00",
+        "end_at": "2026-04-17T16:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-15T15:03:12.662Z"
+    },
+    {
+      "id": "K4H19YZZ7N6KX",
+      "draft_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-17T08:00:00-04:00",
+        "end_at": "2026-04-17T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-17T08:00:00-04:00",
+        "end_at": "2026-04-17T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 11,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "6XS2QY0HMP3VM",
+      "draft_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-17T09:00:00-04:00",
+        "end_at": "2026-04-17T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMfkZprNitwd8Mej",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-17T09:00:00-04:00",
+        "end_at": "2026-04-17T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 10,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-15T15:03:12.662Z"
+    },
+    {
+      "id": "MPNXJAYFFAFYZ",
+      "draft_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-18T07:15:00-04:00",
+        "end_at": "2026-04-18T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMJudwU02O9X9Y9X",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+        "start_at": "2026-04-18T07:15:00-04:00",
+        "end_at": "2026-04-18T15:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 5,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-09T17:34:18.884Z"
+    },
+    {
+      "id": "966480YYC7X3W",
+      "draft_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-18T07:30:00-04:00",
+        "end_at": "2026-04-18T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMaAPF3ypgkaaAYJ",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "hUTern54xhgQYhRAkb3x25ff",
+        "start_at": "2026-04-18T07:30:00-04:00",
+        "end_at": "2026-04-18T14:30:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 11,
+      "created_at": "2026-03-30T18:57:46.692Z",
+      "updated_at": "2026-04-15T15:03:12.662Z"
+    },
+    {
+      "id": "2FN0HN4BQQ5EM",
+      "draft_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-18T08:00:00-04:00",
+        "end_at": "2026-04-18T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMUIPXfgx6WLxFRf",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "8ApUemPDihzq9qFjQgPLbCSg",
+        "start_at": "2026-04-18T08:00:00-04:00",
+        "end_at": "2026-04-18T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 8,
+      "created_at": "2026-03-30T18:57:45.679Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "G83336C18QMPM",
+      "draft_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-18T09:00:00-04:00",
+        "end_at": "2026-04-18T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TMisrhp11dNCppbN",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+        "start_at": "2026-04-18T09:00:00-04:00",
+        "end_at": "2026-04-18T16:00:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 12,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    },
+    {
+      "id": "6G6ES68PRPRE8",
+      "draft_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-18T09:30:00-04:00",
+        "end_at": "2026-04-18T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "published_shift_details": {
+        "team_member_id": "TM0AhuauYAv5yIyx",
+        "location_id": "LGVKCKX9B9DZT",
+        "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+        "start_at": "2026-04-18T09:30:00-04:00",
+        "end_at": "2026-04-18T17:15:00-04:00",
+        "is_deleted": false,
+        "timezone": "America/New_York"
+      },
+      "version": 11,
+      "created_at": "2026-03-30T18:57:46.211Z",
+      "updated_at": "2026-04-14T22:09:55.373Z"
+    }
+  ]
+}

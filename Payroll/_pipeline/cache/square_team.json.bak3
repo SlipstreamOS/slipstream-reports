@@ -1,0 +1,571 @@
+{
+ "team_members": [
+  {
+   "id": "FyFHlz5BvISXTZ_WwVwR",
+   "status": "ACTIVE",
+   "given_name": "Gricelda",
+   "family_name": "Hernandez",
+   "wage_setting": {
+    "team_member_id": "FyFHlz5BvISXTZ_WwVwR",
+    "job_assignments": [
+     {
+      "job_title": "Shift Lead",
+      "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2525,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Barista",
+      "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2525,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Line",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2525,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "NQDCEk9_tCyBpZy9uzp5",
+   "status": "ACTIVE",
+   "given_name": "Ines",
+   "family_name": "Chavez",
+   "wage_setting": {
+    "team_member_id": "NQDCEk9_tCyBpZy9uzp5",
+    "job_assignments": [
+     {
+      "job_title": "Cook",
+      "job_id": "7z7hG8cKXnk2KyooLGqBX9jJ",
+      "pay_type": "NONE"
+     }
+    ]
+   }
+  },
+  {
+   "id": "TM0AhuauYAv5yIyx",
+   "status": "ACTIVE",
+   "given_name": "Amy",
+   "family_name": "Romero",
+   "wage_setting": {
+    "team_member_id": "TM0AhuauYAv5yIyx",
+    "job_assignments": [
+     {
+      "job_title": "Training",
+      "job_id": "dGSXcH8yKejhLYNDGrPNauje",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2075,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TM3l-YfJCWgDn4TB",
+   "status": "ACTIVE",
+   "given_name": "Opal",
+   "family_name": "Payne",
+   "wage_setting": {
+    "team_member_id": "TM3l-YfJCWgDn4TB",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2050,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TM4Z716OULJCoyYW",
+   "status": "ACTIVE",
+   "given_name": "Colin",
+   "family_name": "Anders",
+   "wage_setting": {
+    "team_member_id": "TM4Z716OULJCoyYW",
+    "job_assignments": [
+     {
+      "job_title": "Shift Lead",
+      "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2475,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Barista",
+      "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2475,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Production Line",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2475,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Event",
+      "job_id": "JN42GNXRryZqVwEih7KRpiBR",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2475,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMCNy0xlXf33zKEh",
+   "status": "ACTIVE",
+   "given_name": "Jay",
+   "family_name": "Singleton",
+   "wage_setting": {
+    "team_member_id": "TMCNy0xlXf33zKEh",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1900,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMHlgTma8wlChZCJ",
+   "status": "ACTIVE",
+   "given_name": "Josias",
+   "family_name": "Michalko",
+   "wage_setting": {
+    "team_member_id": "TMHlgTma8wlChZCJ",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1900,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMJudwU02O9X9Y9X",
+   "status": "ACTIVE",
+   "given_name": "Kathy",
+   "family_name": "Guevara Orellana",
+   "wage_setting": {
+    "team_member_id": "TMJudwU02O9X9Y9X",
+    "job_assignments": [
+     {
+      "job_title": "Cook",
+      "job_id": "7z7hG8cKXnk2KyooLGqBX9jJ",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMUIPXfgx6WLxFRf",
+   "status": "ACTIVE",
+   "given_name": "Kat",
+   "family_name": "Sung",
+   "wage_setting": {
+    "team_member_id": "TMUIPXfgx6WLxFRf",
+    "job_assignments": [
+     {
+      "job_title": "Barista",
+      "job_id": "ExDuXAfxqdfRQ8BNfYVgEjez",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2025,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMYXG8pwqNcSVEiL",
+   "status": "ACTIVE",
+   "given_name": "Melvin",
+   "family_name": "Gutierrez",
+   "wage_setting": {
+    "team_member_id": "TMYXG8pwqNcSVEiL",
+    "job_assignments": [
+     {
+      "job_title": "Production Line",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2275,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TM_BFaBlF8VNX6xA",
+   "status": "ACTIVE",
+   "given_name": "Kesi",
+   "family_name": "Harford",
+   "wage_setting": {
+    "team_member_id": "TM_BFaBlF8VNX6xA",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2075,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TM_xBZvN0PRlr-JC",
+   "status": "ACTIVE",
+   "given_name": "Delmi",
+   "family_name": "Menjivar",
+   "wage_setting": {
+    "team_member_id": "TM_xBZvN0PRlr-JC",
+    "job_assignments": [
+     {
+      "job_title": "Cook",
+      "job_id": "7z7hG8cKXnk2KyooLGqBX9jJ",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMaAPF3ypgkaaAYJ",
+   "status": "ACTIVE",
+   "given_name": "Michelle",
+   "family_name": "Pankow",
+   "wage_setting": {
+    "team_member_id": "TMaAPF3ypgkaaAYJ",
+    "job_assignments": [
+     {
+      "job_title": "Production Barista",
+      "job_id": "FZP4AT3PDDfPFTH7w2uspqYS",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Shift Lead",
+      "job_id": "heQVjAW3zMEVAE58kWonjVm4",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Hospitality Register",
+      "job_id": "hUTern54xhgQYhRAkb3x25ff",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Hospitality Expo (buss/run)",
+      "job_id": "n9VdU59eBcFqGgDPkJuWTN6f",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2175,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMaxBNmmI05a7Di6",
+   "status": "ACTIVE",
+   "given_name": "Marleni",
+   "family_name": "Nolasco",
+   "wage_setting": {
+    "team_member_id": "TMaxBNmmI05a7Di6",
+    "job_assignments": [
+     {
+      "job_title": "Commissary",
+      "job_id": "6XtkSpdnfSvxga2Qj3fW2HYA",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2250,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMd4sICOdOOSzDEg",
+   "status": "ACTIVE",
+   "given_name": "Ryan",
+   "family_name": "Moore",
+   "wage_setting": {
+    "team_member_id": "TMd4sICOdOOSzDEg",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMfhXU6Qxg6ghm08",
+   "status": "ACTIVE",
+   "given_name": "Eli",
+   "family_name": "Schug",
+   "wage_setting": {
+    "team_member_id": "TMfhXU6Qxg6ghm08",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2275,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMfkZprNitwd8Mej",
+   "status": "ACTIVE",
+   "given_name": "Claire",
+   "family_name": "Nichols",
+   "wage_setting": {
+    "team_member_id": "TMfkZprNitwd8Mej",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2275,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMgmyxnB3Bk_cmi1",
+   "status": "ACTIVE",
+   "given_name": "Daisy",
+   "family_name": "Hand",
+   "wage_setting": {
+    "team_member_id": "TMgmyxnB3Bk_cmi1",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMkEStYYpfTgQeGR",
+   "status": "ACTIVE",
+   "given_name": "Mariana",
+   "family_name": "Martinez",
+   "wage_setting": {
+    "team_member_id": "TMkEStYYpfTgQeGR",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1850,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMr51xz2uJW9Nrph",
+   "status": "ACTIVE",
+   "given_name": "Nely",
+   "family_name": "Alcantara",
+   "wage_setting": {
+    "team_member_id": "TMr51xz2uJW9Nrph",
+    "job_assignments": [
+     {
+      "job_title": "Production Line",
+      "job_id": "KXxFKhK6jNbrRJ3fHRJtfWzn",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1925,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "Commissary Driver ",
+      "job_id": "WqRYaXrVUS6nR6HDbDTvLmSb",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1925,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMuCMhuRLTPXovMY",
+   "status": "ACTIVE",
+   "given_name": "Ella",
+   "family_name": "Fleureton",
+   "wage_setting": {
+    "team_member_id": "TMuCMhuRLTPXovMY",
+    "job_assignments": [
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1800,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "TMxj0QzfO7xe9k4u",
+   "status": "ACTIVE",
+   "given_name": "Christina",
+   "family_name": "Jie",
+   "wage_setting": {
+    "team_member_id": "TMxj0QzfO7xe9k4u",
+    "job_assignments": [
+     {
+      "job_title": "Training",
+      "job_id": "dGSXcH8yKejhLYNDGrPNauje",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1900,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "UpAnA5WppGZ_NHQF0ykm",
+   "status": "ACTIVE",
+   "given_name": "Mo",
+   "family_name": "Koolphanich",
+   "wage_setting": {
+    "team_member_id": "UpAnA5WppGZ_NHQF0ykm",
+    "job_assignments": [
+     {
+      "job_title": "Manager",
+      "job_id": "hNpzmUP6xJSamY1ir1wnZTMa",
+      "pay_type": "NONE"
+     },
+     {
+      "job_title": "FOH",
+      "job_id": "KYJyg12xyk4njfAvWvhQBaB9",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 2000,
+       "currency": "USD"
+      }
+     },
+     {
+      "job_title": "PM Bartender",
+      "job_id": "Kd1A8wtoDp3DCkcEZSqeYT93",
+      "pay_type": "HOURLY",
+      "hourly_rate": {
+       "amount": 1500,
+       "currency": "USD"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "WB5KX7B3J1AHJ",
+   "status": "ACTIVE",
+   "given_name": "Mark Ryan",
+   "family_name": "Fleming",
+   "wage_setting": {
+    "team_member_id": "WB5KX7B3J1AHJ",
+    "job_assignments": [
+     {
+      "job_title": "Owner",
+      "job_id": "QeAr3DMafokGXQJ2fQhn7Aeu",
+      "pay_type": "NONE"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "community_days": [
+  "2026-07-05",
+  "2026-07-08",
+  "2026-08-02",
+  "2026-08-12",
+  "2026-09-06",
+  "2026-09-09",
+  "2026-10-04",
+  "2026-10-14"
+ ],
+ "open_from": "2026-07-09",
+ "closed_days": {
+  "2026-10-10": "Cafe closed for museum event",
+  "2026-10-11": "Cafe closed for museum event"
+ },
+ "headline": "Walk-in sales of $4,198 on 513 transactions across 18 open days",
+ "notes": [
+  "Walk-in sales were up 50% on September ($2,790) and 14% on August ($3,692)",
+  "Museum guests on cafe open days rose 62% (2,239 to 3,627). Excluding NMWA staff, about 11% of guests bought from the cafe, up from 10% in September",
+  "Regular days averaged $203 and 25 transactions, against $128 and 16 in September",
+  "NMWA staff made 121 purchases ($807, 19% of walk-in sales) and members 15 ($162, 4%), against 97 and 7 in September",
+  "39 visitors came in for the cafe only, without a museum ticket (35 in September)"
+ ],
+ "events": [
+  "[Ryan to add how the October events went]"
+ ],
+ "asks": [
+  "[Ryan to write]"
+ ],
+ "improvements": [],
+ "show_events_page": false,
+ "segments": {
+  "2026-09": {
+   "staff_tx": 97,
+   "staff_net": 660.6,
+   "member_tx": 7,
+   "member_net": 67.95
+  },
+  "2026-10": {
+   "staff_tx": 121,
+   "staff_net": 807.03,
+   "member_tx": 15,
+   "member_net": 162.23
+  }
+ }
+}

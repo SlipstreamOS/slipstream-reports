@@ -1,0 +1,86 @@
+{
+ "community_days": [
+  "2026-07-05",
+  "2026-07-08",
+  "2026-08-02",
+  "2026-08-12",
+  "2026-09-06",
+  "2026-09-09"
+ ],
+ "open_from": "2026-07-09",
+ "closed_days": {
+  "2026-09-12": "Closed for museum event",
+  "2026-09-26": "Closed for museum event"
+ },
+ "headline": "Walk-in sales of $2,790 on 322 transactions across 16 open days",
+ "notes": [
+  "The two community days (Sun Sep 6 and Wed Sep 9) brought in $997, about 36% of the month",
+  "Regular days averaged $128 and 16 transactions, against $139 and 17 in August",
+  "The cafe was closed on two Saturdays (Sep 12 and Sep 26) for museum events, so the month had 16 open days against 19 in August",
+  "Average ticket was $8.67, in line with July and August"
+ ],
+ "events": [
+  "Routed West opening week (Sep 14 to 18): Member Preview breakfast and NMWA Night were both catered by Slipstream",
+  "[Ryan to add anything on how the events went]"
+ ],
+ "asks": [
+  "Daily guest counts for September, so the conversion table on the previous page can be completed",
+  "[Ryan to write]"
+ ],
+ "improvements_title": "Slipstream Improvements After NMWA Feedback",
+ "improvements": [
+  "Catering detail confirmation with items ordered, staffing, and timing",
+  "NMWA Nights set up time change, will be fully ready to serve by 4:45pm going forward"
+ ],
+ "schedule": {
+  "month": "2026-10",
+  "open_weekdays": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "open_label": "Open 10 to 2",
+  "community": [
+   "2026-10-04",
+   "2026-10-14"
+  ],
+  "closed": {
+   "2026-10-11": "Closed for event"
+  },
+  "breakdown": [
+   "2026-10-03",
+   "2026-10-04",
+   "2026-10-08",
+   "2026-10-10",
+   "2026-10-15",
+   "2026-10-16",
+   "2026-10-17",
+   "2026-10-18",
+   "2026-10-24",
+   "2026-10-30"
+  ],
+  "evening": {
+   "2026-10-21": "NMWA Nights, 5 PM"
+  },
+  "events": {
+   "2026-10-03": "Rental, 3 PM",
+   "2026-10-04": "Events Monday and Tuesday",
+   "2026-10-05": "Public program: Frida, 3 PM",
+   "2026-10-06": "Event: US Chamber, 3 PM",
+   "2026-10-07": "Public programs / Development, 3 PM",
+   "2026-10-08": "Rental, 3 PM",
+   "2026-10-10": "Wedding, 3 PM",
+   "2026-10-12": "Indigenous Peoples' Day",
+   "2026-10-15": "Rental, 3 PM",
+   "2026-10-16": "Rental, 3 PM",
+   "2026-10-17": "Rental, 3 PM (pending)",
+   "2026-10-18": "Rental Tuesday (pending)",
+   "2026-10-19": "NAB, 8 AM",
+   "2026-10-20": "Rental, 3 PM",
+   "2026-10-22": "Educator visit, 11:30 AM",
+   "2026-10-24": "Rental, 3 PM",
+   "2026-10-30": "Rental, 3 PM"
+  }
+ }
+}

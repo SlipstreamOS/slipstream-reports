@@ -1,0 +1,132 @@
+first,last,title,location,clockin_date,clockin_time,clockout_date,clockout_time,total_paid_hours,hourly_wage,labor_cost,declared_cash_tips,status
+Delmi,Menjivar,Production Line,Slipstream Studio,8/23/26,6:59:00 AM UTC-04:00,8/23/26,3:44:00 PM UTC-04:00,8.75,18.5,161.88,0.0,CLOSED
+Ryan,Moore,Barista,Slipstream Studio,8/23/26,7:31:00 AM UTC-04:00,8/23/26,2:04:00 PM UTC-04:00,6.55,18.5,121.17,0.0,CLOSED
+Claire,Nichols,Shift Lead,Slipstream Studio,8/23/26,7:57:00 AM UTC-04:00,8/23/26,3:00:00 PM UTC-04:00,7.05,22.75,160.39,0.0,CLOSED
+Kat,Sung,FOH,Slipstream NMWA,8/23/26,8:57:00 AM UTC-04:00,8/23/26,2:30:00 PM UTC-04:00,5.55,20.25,112.39,0.0,CLOSED
+Ella,Fleureton,Training,Slipstream Studio,8/23/26,8:59:00 AM UTC-04:00,8/23/26,4:06:00 PM UTC-04:00,7.12,18.0,128.16,0.0,CLOSED
+Colin,Anders,Production Barista,Slipstream Studio,8/23/26,10:31:00 AM UTC-04:00,8/23/26,5:52:00 PM UTC-04:00,7.35,24.75,181.91,0.0,CLOSED
+Delmi,Menjivar,Production Line,Slipstream Studio,8/24/26,6:00:00 AM UTC-04:00,8/24/26,2:45:00 PM UTC-04:00,8.75,18.5,161.88,0.0,CLOSED
+Jay,Singleton,Production Barista,Slipstream Downtown,8/24/26,6:11:00 AM UTC-04:00,8/24/26,1:16:00 PM UTC-04:00,7.08,19.0,134.52,0.0,CLOSED
+Eli,Schug,FOH,Slipstream 1899 Penn,8/24/26,6:28:00 AM UTC-04:00,8/24/26,1:32:00 PM UTC-04:00,7.07,22.75,160.84,0.0,CLOSED
+Christina,Jie,Production Barista,Slipstream Studio,8/24/26,6:30:00 AM UTC-04:00,8/24/26,1:00:00 PM UTC-04:00,6.5,19.0,123.5,0.0,CLOSED
+Opal,Payne,Shift Lead,Slipstream 1899 Penn,8/24/26,6:30:00 AM UTC-04:00,8/24/26,3:45:00 PM UTC-04:00,9.25,20.5,189.62,0.0,CLOSED
+Amy,Romero,Shift Lead,Slipstream Studio,8/24/26,6:37:00 AM UTC-04:00,8/24/26,2:36:00 PM UTC-04:00,7.98,20.75,165.59,0.0,CLOSED
+Nely,Alcantara,Commissary,Slipstream Commissary (Food),8/24/26,6:45:00 AM UTC-04:00,8/24/26,3:55:00 PM UTC-04:00,9.17,19.25,176.52,0.0,CLOSED
+Melvin,Gutierrez,Production Line,Slipstream Downtown,8/24/26,6:59:00 AM UTC-04:00,8/24/26,4:38:00 PM UTC-04:00,9.65,22.75,219.54,0.0,CLOSED
+Colin,Anders,Manager,Slipstream Studio,8/24/26,7:00:00 AM UTC-04:00,8/24/26,2:00:00 PM UTC-04:00,7.0,24.75,173.25,0.0,CLOSED
+Marleni,Nolasco,Commissary,Slipstream Commissary (Food),8/24/26,7:20:00 AM UTC-04:00,8/24/26,3:50:00 PM UTC-04:00,8.5,22.5,191.25,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Downtown,8/24/26,8:50:00 AM UTC-04:00,8/24/26,4:30:00 PM UTC-04:00,7.67,21.75,166.82,0.0,CLOSED
+Nely,Alcantara,Production Line,Slipstream Studio,8/25/26,6:10:00 AM UTC-04:00,8/25/26,11:54:00 AM UTC-04:00,5.73,19.25,110.3,0.0,CLOSED
+Kathy,Guevara Orellana,Production Line,Slipstream Downtown,8/25/26,6:21:00 AM UTC-04:00,8/25/26,10:00:00 AM UTC-04:00,3.65,18.5,67.52,0.0,CLOSED
+Colin,Anders,Shift Lead,Slipstream Studio,8/25/26,6:24:00 AM UTC-04:00,8/25/26,2:30:00 PM UTC-04:00,8.1,24.75,200.47,0.0,CLOSED
+Ryan,Moore,Production Barista,Slipstream 1899 Penn,8/25/26,6:27:00 AM UTC-04:00,8/25/26,3:31:00 PM UTC-04:00,9.07,18.5,167.8,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Downtown,8/25/26,6:28:00 AM UTC-04:00,8/25/26,4:23:00 PM UTC-04:00,9.92,21.75,215.76,0.0,CLOSED
+Opal,Payne,FOH,Slipstream 1899 Penn,8/25/26,6:31:00 AM UTC-04:00,8/25/26,3:27:00 PM UTC-04:00,8.93,20.5,183.06,0.0,CLOSED
+Kat,Sung,Production Barista,Slipstream Studio,8/25/26,6:32:00 AM UTC-04:00,8/25/26,1:34:00 PM UTC-04:00,7.03,20.25,142.36,0.0,CLOSED
+Marleni,Nolasco,Commissary,Slipstream Commissary (Food),8/25/26,7:12:00 AM UTC-04:00,8/25/26,3:30:00 PM UTC-04:00,8.3,22.5,186.75,0.0,CLOSED
+Melvin,Gutierrez,Production Barista,Slipstream Downtown,8/25/26,7:36:00 AM UTC-04:00,8/25/26,10:00:00 AM UTC-04:00,2.4,22.75,54.6,0.0,CLOSED
+Daisy,Hand,Production Barista,Slipstream Downtown,8/25/26,9:01:00 AM UTC-04:00,8/25/26,4:23:00 PM UTC-04:00,7.37,18.5,136.34,0.0,CLOSED
+Delmi,Menjivar,Production Line,Slipstream Studio,8/26/26,6:04:00 AM UTC-04:00,8/26/26,2:46:00 PM UTC-04:00,8.7,18.5,160.95,0.0,CLOSED
+Jay,Singleton,Production Barista,Slipstream Downtown,8/26/26,6:08:00 AM UTC-04:00,8/26/26,1:47:00 PM UTC-04:00,7.65,19.0,145.35,0.0,CLOSED
+Nely,Alcantara,Production Line,Slipstream Downtown,8/26/26,6:16:00 AM UTC-04:00,8/26/26,3:05:00 PM UTC-04:00,8.82,19.25,169.78,0.0,CLOSED
+Colin,Anders,Manager,Slipstream Roasting,8/26/26,6:23:00 AM UTC-04:00,8/26/26,3:00:00 PM UTC-04:00,8.62,24.75,213.34,0.0,CLOSED
+Christina,Jie,Barista,Slipstream Studio,8/26/26,6:28:00 AM UTC-04:00,8/26/26,1:45:00 PM UTC-04:00,7.28,19.0,138.32,0.0,CLOSED
+Ryan,Moore,Production Barista,Slipstream 1899 Penn,8/26/26,6:36:00 AM UTC-04:00,8/26/26,3:41:00 PM UTC-04:00,9.08,18.5,167.98,0.0,CLOSED
+Kesi,Harford,Shift Lead,Slipstream 1899 Penn,8/26/26,6:48:00 AM UTC-04:00,8/26/26,3:45:00 PM UTC-04:00,8.95,20.75,185.71,0.0,CLOSED
+Claire,Nichols,Shift Lead,Slipstream Studio,8/26/26,6:57:00 AM UTC-04:00,8/26/26,2:27:00 PM UTC-04:00,7.5,22.75,170.62,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Downtown,8/26/26,8:00:00 AM UTC-04:00,8/26/26,4:30:00 PM UTC-04:00,8.5,21.75,184.88,0.0,CLOSED
+Daisy,Hand,Barista,Slipstream Downtown,8/26/26,9:03:00 AM UTC-04:00,8/26/26,4:21:00 PM UTC-04:00,7.3,18.5,135.05,0.0,CLOSED
+Delmi,Menjivar,Production Line,Slipstream Downtown,8/27/26,5:59:00 AM UTC-04:00,8/27/26,3:19:00 PM UTC-04:00,9.33,18.5,172.6,0.0,CLOSED
+Jay,Singleton,Barista,Slipstream Downtown,8/27/26,6:06:00 AM UTC-04:00,8/27/26,1:42:00 PM UTC-04:00,7.6,19.0,144.4,0.0,CLOSED
+Eli,Schug,Shift Lead,Slipstream 1899 Penn,8/27/26,6:11:00 AM UTC-04:00,8/27/26,3:42:00 PM UTC-04:00,9.52,22.75,216.58,0.0,CLOSED
+Colin,Anders,Production Line,Slipstream Studio,8/27/26,6:15:00 AM UTC-04:00,8/27/26,2:30:00 PM UTC-04:00,8.25,24.75,204.19,0.0,CLOSED
+Ella,Fleureton,Barista,Slipstream 1899 Penn,8/27/26,6:29:00 AM UTC-04:00,8/27/26,3:41:00 PM UTC-04:00,9.2,18.5,170.2,0.0,CLOSED
+Kat,Sung,Production Barista,Slipstream Studio,8/27/26,6:31:00 AM UTC-04:00,8/27/26,1:35:00 PM UTC-04:00,7.07,20.25,143.17,0.0,CLOSED
+Claire,Nichols,FOH,Slipstream Studio,8/27/26,6:58:00 AM UTC-04:00,8/27/26,2:46:00 PM UTC-04:00,7.8,22.75,177.45,0.0,CLOSED
+Marleni,Nolasco,Commissary,Slipstream Commissary (Food),8/27/26,7:15:00 AM UTC-04:00,8/27/26,3:43:00 PM UTC-04:00,8.47,22.5,190.58,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Downtown,8/27/26,8:00:00 AM UTC-04:00,8/27/26,4:30:00 PM UTC-04:00,8.5,21.75,184.88,0.0,CLOSED
+Daisy,Hand,Production Barista,Slipstream Downtown,8/27/26,8:55:00 AM UTC-04:00,8/27/26,4:22:00 PM UTC-04:00,7.45,18.5,137.83,0.0,CLOSED
+Opal,Payne,FOH,Slipstream NMWA,8/27/26,9:56:00 AM UTC-04:00,8/27/26,3:00:00 PM UTC-04:00,5.07,20.5,103.94,0.0,CLOSED
+Nely,Alcantara,Production Line,Slipstream Downtown,8/28/26,6:12:00 AM UTC-04:00,8/28/26,4:16:00 PM UTC-04:00,10.07,19.25,193.85,0.0,CLOSED
+Melvin,Gutierrez,Production Line,Slipstream Studio,8/28/26,6:25:00 AM UTC-04:00,8/28/26,2:35:00 PM UTC-04:00,8.17,22.75,185.87,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Downtown,8/28/26,6:25:00 AM UTC-04:00,8/28/26,12:10:00 PM UTC-04:00,5.75,21.75,125.06,0.0,CLOSED
+Eli,Schug,Production Barista,Slipstream 1899 Penn,8/28/26,6:27:00 AM UTC-04:00,8/28/26,1:21:00 PM UTC-04:00,6.9,22.75,156.97,0.0,CLOSED
+Kat,Sung,Shift Lead,Slipstream Studio,8/28/26,6:28:00 AM UTC-04:00,8/28/26,3:34:00 PM UTC-04:00,9.1,20.25,184.28,0.0,CLOSED
+Ella,Fleureton,Barista,Slipstream Studio,8/28/26,6:56:00 AM UTC-04:00,8/28/26,1:02:00 PM UTC-04:00,6.1,18.5,112.85,0.0,CLOSED
+Kesi,Harford,Shift Lead,Slipstream 1899 Penn,8/28/26,7:38:00 AM UTC-04:00,8/28/26,3:37:00 PM UTC-04:00,7.98,20.75,165.59,0.0,CLOSED
+Claire,Nichols,Manager,Slipstream Studio,8/28/26,8:55:00 AM UTC-04:00,8/28/26,2:25:00 PM UTC-04:00,5.5,22.75,125.12,0.0,CLOSED
+Jay,Singleton,Production Barista,Slipstream Downtown,8/28/26,9:13:00 AM UTC-04:00,8/28/26,4:35:00 PM UTC-04:00,7.37,19.0,140.03,0.0,CLOSED
+Opal,Payne,FOH,Slipstream NMWA,8/28/26,9:15:00 AM UTC-04:00,8/28/26,3:00:00 PM UTC-04:00,5.75,20.5,117.88,0.0,CLOSED
+Amy,Romero,Training,Slipstream Studio,8/28/26,10:08:00 AM UTC-04:00,8/28/26,5:25:00 PM UTC-04:00,7.28,20.75,151.06,0.0,CLOSED
+Jay,Singleton,Shift Lead,Slipstream Studio,8/29/26,7:07:00 AM UTC-04:00,8/29/26,2:39:00 PM UTC-04:00,7.53,19.0,143.07,0.0,CLOSED
+Kathy,Guevara Orellana,Production Line,Slipstream Studio,8/29/26,7:15:00 AM UTC-04:00,8/29/26,3:02:00 PM UTC-04:00,7.78,18.5,143.93,0.0,CLOSED
+Claire,Nichols,Hospitality Register,Slipstream Studio,8/29/26,8:01:00 AM UTC-04:00,8/29/26,3:03:00 PM UTC-04:00,7.03,22.75,159.93,0.0,CLOSED
+Ella,Fleureton,Barista,Slipstream Studio,8/29/26,8:57:00 AM UTC-04:00,8/29/26,4:39:00 PM UTC-04:00,7.7,18.5,142.45,0.0,CLOSED
+Opal,Payne,FOH,Slipstream NMWA,8/29/26,9:58:00 AM UTC-04:00,8/29/26,3:00:00 PM UTC-04:00,5.03,20.5,103.12,0.0,CLOSED
+Amy,Romero,Shift Lead,Slipstream Studio,8/29/26,10:04:00 AM UTC-04:00,8/29/26,5:33:00 PM UTC-04:00,7.48,20.75,155.21,0.0,CLOSED
+Delmi,Menjivar,Production Line,Slipstream Studio,8/30/26,6:59:00 AM UTC-04:00,8/30/26,3:45:00 PM UTC-04:00,8.77,18.5,162.25,0.0,CLOSED
+Mariana,Martinez,Barista,Slipstream Studio,8/30/26,7:29:00 AM UTC-04:00,8/30/26,2:05:00 PM UTC-04:00,6.6,18.5,122.1,0.0,CLOSED
+Claire,Nichols,Shift Lead,Slipstream Studio,8/30/26,7:58:00 AM UTC-04:00,8/30/26,3:32:00 PM UTC-04:00,7.57,22.75,172.22,0.0,CLOSED
+Kat,Sung,FOH,Slipstream NMWA,8/30/26,8:50:00 AM UTC-04:00,8/30/26,2:22:00 PM UTC-04:00,5.53,20.25,111.98,0.0,CLOSED
+Colin,Anders,Production Barista,Slipstream Studio,8/30/26,10:28:00 AM UTC-04:00,8/30/26,5:35:00 PM UTC-04:00,7.12,24.75,176.22,0.0,CLOSED
+Delmi,Menjivar,Production Line,Slipstream Studio,8/31/26,5:59:00 AM UTC-04:00,8/31/26,2:48:00 PM UTC-04:00,8.82,18.5,163.17,0.0,CLOSED
+Melvin,Gutierrez,Production Line,Slipstream Downtown,8/31/26,6:16:00 AM UTC-04:00,8/31/26,4:35:00 PM UTC-04:00,10.32,22.75,234.78,0.0,CLOSED
+Christina,Jie,Production Barista,Slipstream Studio,8/31/26,6:29:00 AM UTC-04:00,8/31/26,1:00:00 PM UTC-04:00,6.52,19.0,123.88,0.0,CLOSED
+Jay,Singleton,Production Barista,Slipstream Downtown,8/31/26,6:29:00 AM UTC-04:00,8/31/26,1:24:00 PM UTC-04:00,6.92,19.0,131.48,0.0,CLOSED
+Nely,Alcantara,Commissary,Slipstream Commissary (Food),8/31/26,6:38:00 AM UTC-04:00,8/31/26,4:00:00 PM UTC-04:00,9.37,19.25,180.37,0.0,CLOSED
+Amy,Romero,Shift Lead,Slipstream Studio,8/31/26,6:42:00 AM UTC-04:00,8/31/26,2:49:00 PM UTC-04:00,8.12,20.75,168.49,0.0,CLOSED
+Opal,Payne,Production Barista,Slipstream 1899 Penn,8/31/26,6:50:00 AM UTC-04:00,8/31/26,1:30:00 PM UTC-04:00,6.67,20.5,136.73,0.0,CLOSED
+Marleni,Nolasco,Commissary,Slipstream Commissary (Food),8/31/26,7:00:00 AM UTC-04:00,8/31/26,3:46:00 PM UTC-04:00,8.77,22.5,197.32,0.0,CLOSED
+Colin,Anders,Manager,Slipstream Studio,8/31/26,7:12:00 AM UTC-04:00,8/31/26,2:07:00 PM UTC-04:00,6.92,24.75,171.27,0.0,CLOSED
+Eli,Schug,FOH,Slipstream 1899 Penn,8/31/26,7:15:00 AM UTC-04:00,8/31/26,5:01:00 PM UTC-04:00,9.77,22.75,222.27,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Downtown,8/31/26,9:00:00 AM UTC-04:00,8/31/26,4:35:00 PM UTC-04:00,7.58,21.75,164.87,0.0,CLOSED
+Nely,Alcantara,Production Line,Slipstream Studio,9/1/26,6:12:00 AM UTC-04:00,9/1/26,2:31:00 PM UTC-04:00,8.32,19.25,160.16,0.0,CLOSED
+Kathy,Guevara Orellana,Production Line,Slipstream Downtown,9/1/26,6:17:00 AM UTC-04:00,9/1/26,2:28:00 PM UTC-04:00,8.18,18.5,151.33,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Downtown,9/1/26,6:17:00 AM UTC-04:00,9/1/26,3:05:00 PM UTC-04:00,8.8,21.75,191.4,0.0,CLOSED
+Claire,Nichols,FOH,Slipstream Studio,9/1/26,6:27:00 AM UTC-04:00,9/1/26,2:15:00 PM UTC-04:00,7.8,22.75,177.45,0.0,CLOSED
+Colin,Anders,Shift Lead,Slipstream Studio,9/1/26,6:57:00 AM UTC-04:00,9/1/26,2:35:00 PM UTC-04:00,7.63,24.75,188.84,0.0,CLOSED
+Jay,Singleton,Production Barista,Slipstream Downtown,9/1/26,7:11:00 AM UTC-04:00,9/1/26,4:12:00 PM UTC-04:00,9.02,19.0,171.38,0.0,CLOSED
+Marleni,Nolasco,Commissary,Slipstream Commissary (Food),9/1/26,7:16:00 AM UTC-04:00,9/1/26,3:35:00 PM UTC-04:00,8.32,22.5,187.2,0.0,CLOSED
+Opal,Payne,Shift Lead,Slipstream 1899 Penn,9/1/26,7:20:00 AM UTC-04:00,9/1/26,4:31:00 PM UTC-04:00,9.18,20.5,188.19,0.0,CLOSED
+Ryan,Moore,FOH,Slipstream 1899 Penn,9/1/26,7:31:00 AM UTC-04:00,9/1/26,3:17:00 PM UTC-04:00,7.77,18.5,143.75,0.0,CLOSED
+Eli,Schug,Manager,Slipstream 1899 Penn,9/1/26,7:53:00 AM UTC-04:00,9/1/26,2:08:00 PM UTC-04:00,6.25,22.75,142.19,0.0,CLOSED
+Melvin,Gutierrez,Production Barista,Slipstream Downtown,9/1/26,9:06:00 AM UTC-04:00,9/1/26,4:12:00 PM UTC-04:00,7.1,22.75,161.53,0.0,CLOSED
+Delmi,Menjivar,Production Line,Slipstream Studio,9/2/26,5:58:00 AM UTC-04:00,9/2/26,2:45:00 PM UTC-04:00,8.78,18.5,162.43,0.0,CLOSED
+Nely,Alcantara,Production Line,Slipstream Downtown,9/2/26,6:13:00 AM UTC-04:00,9/2/26,3:41:00 PM UTC-04:00,9.47,19.25,182.3,0.0,CLOSED
+Michelle,Pankow,Production Barista,Slipstream Downtown,9/2/26,6:25:00 AM UTC-04:00,9/2/26,1:46:00 PM UTC-04:00,7.35,21.75,159.86,0.0,CLOSED
+Ryan,Moore,Barista,Slipstream Studio,9/2/26,6:29:00 AM UTC-04:00,9/2/26,1:31:00 PM UTC-04:00,7.03,18.5,130.06,0.0,CLOSED
+Kesi,Harford,Shift Lead,Slipstream 1899 Penn,9/2/26,6:33:00 AM UTC-04:00,9/2/26,3:36:00 PM UTC-04:00,9.05,20.75,187.79,0.0,CLOSED
+Claire,Nichols,Shift Lead,Slipstream Studio,9/2/26,7:00:00 AM UTC-04:00,9/2/26,2:58:00 PM UTC-04:00,7.97,22.75,181.32,0.0,CLOSED
+Colin,Anders,Manager,Slipstream Studio,9/2/26,7:05:00 AM UTC-04:00,9/2/26,2:06:00 PM UTC-04:00,7.02,24.75,173.74,0.0,CLOSED
+Eli,Schug,Production Barista,Slipstream 1899 Penn,9/2/26,7:26:00 AM UTC-04:00,9/2/26,3:05:00 PM UTC-04:00,7.65,22.75,174.04,0.0,CLOSED
+Jay,Singleton,Shift Lead,Slipstream Downtown,9/2/26,7:49:00 AM UTC-04:00,9/2/26,4:21:00 PM UTC-04:00,8.53,19.0,162.07,0.0,CLOSED
+Gricelda,Hernandez,Barista,Slipstream Downtown,9/2/26,8:33:00 AM UTC-04:00,9/2/26,4:07:00 PM UTC-04:00,7.57,25.25,191.14,0.0,CLOSED
+Delmi,Menjivar,Production Line,Slipstream Downtown,9/3/26,5:58:00 AM UTC-04:00,9/3/26,3:07:00 PM UTC-04:00,9.15,18.5,169.28,0.0,CLOSED
+Kathy,Guevara Orellana,Production Line,Slipstream Studio,9/3/26,6:14:00 AM UTC-04:00,9/3/26,2:24:00 PM UTC-04:00,8.17,18.5,151.15,0.0,CLOSED
+Kat,Sung,Barista,Slipstream Downtown,9/3/26,6:28:00 AM UTC-04:00,9/3/26,1:58:00 PM UTC-04:00,7.5,20.25,151.88,0.0,CLOSED
+Ryan,Moore,Production Barista,Slipstream Studio,9/3/26,6:30:00 AM UTC-04:00,9/3/26,1:40:00 PM UTC-04:00,7.17,18.5,132.65,0.0,CLOSED
+Opal,Payne,Barista,Slipstream 1899 Penn,9/3/26,6:56:00 AM UTC-04:00,9/3/26,3:40:00 PM UTC-04:00,8.73,20.5,178.97,0.0,CLOSED
+Colin,Anders,Shift Lead,Slipstream Studio,9/3/26,7:02:00 AM UTC-04:00,9/3/26,2:25:00 PM UTC-04:00,7.38,24.75,182.66,0.0,CLOSED
+Marleni,Nolasco,Commissary,Slipstream Commissary (Food),9/3/26,7:38:00 AM UTC-04:00,9/3/26,3:17:00 PM UTC-04:00,7.65,22.5,172.12,0.0,CLOSED
+Kesi,Harford,FOH,Slipstream 1899 Penn,9/3/26,7:51:00 AM UTC-04:00,9/3/26,3:47:00 PM UTC-04:00,7.93,20.75,164.55,0.0,CLOSED
+Melvin,Gutierrez,Production Barista,Slipstream Downtown,9/3/26,8:11:00 AM UTC-04:00,9/3/26,4:19:00 PM UTC-04:00,8.13,22.75,184.96,0.0,CLOSED
+Gricelda,Hernandez,Shift Lead,Slipstream Downtown,9/3/26,8:40:00 AM UTC-04:00,9/3/26,4:10:00 PM UTC-04:00,7.5,25.25,189.38,0.0,CLOSED
+Ella,Fleureton,Training,Slipstream NMWA,9/3/26,9:00:00 AM UTC-04:00,9/3/26,2:59:00 PM UTC-04:00,5.98,18.5,110.63,0.0,CLOSED
+Claire,Nichols,FOH,Slipstream NMWA,9/3/26,9:12:00 AM UTC-04:00,9/3/26,2:56:00 PM UTC-04:00,5.73,22.75,130.36,0.0,CLOSED
+Kathy,Guevara Orellana,Production Line,Slipstream Downtown,9/4/26,6:21:00 AM UTC-04:00,9/4/26,4:21:00 PM UTC-04:00,10.0,18.5,185.0,0.0,CLOSED
+Melvin,Gutierrez,Production Line,Slipstream Studio,9/4/26,6:26:00 AM UTC-04:00,9/4/26,2:54:00 PM UTC-04:00,8.47,22.75,192.69,0.0,CLOSED
+Eli,Schug,Shift Lead,Slipstream 1899 Penn,9/4/26,6:27:00 AM UTC-04:00,9/4/26,3:18:00 PM UTC-04:00,8.85,22.75,201.34,0.0,CLOSED
+Kat,Sung,Shift Lead,Slipstream Studio,9/4/26,6:35:00 AM UTC-04:00,9/4/26,3:39:00 PM UTC-04:00,9.07,20.25,183.67,0.0,CLOSED
+Daisy,Hand,Barista,Slipstream Studio,9/4/26,7:01:00 AM UTC-04:00,9/4/26,2:03:00 PM UTC-04:00,7.03,18.5,130.06,0.0,CLOSED
+Gricelda,Hernandez,Shift Lead,Slipstream Downtown,9/4/26,7:02:00 AM UTC-04:00,9/4/26,1:12:00 PM UTC-04:00,6.17,25.25,155.79,0.0,CLOSED
+Ella,Fleureton,Production Barista,Slipstream 1899 Penn,9/4/26,7:33:00 AM UTC-04:00,9/4/26,1:32:00 PM UTC-04:00,5.98,18.5,110.63,0.0,CLOSED
+Opal,Payne,FOH,Slipstream NMWA,9/4/26,9:15:00 AM UTC-04:00,9/4/26,3:08:00 PM UTC-04:00,5.88,20.5,120.54,0.0,CLOSED
+Michelle,Pankow,Production Barista,Slipstream Downtown,9/4/26,9:30:00 AM UTC-04:00,9/4/26,4:35:00 PM UTC-04:00,7.08,21.75,153.99,0.0,CLOSED
+Claire,Nichols,Manager,Slipstream Studio,9/4/26,9:34:00 AM UTC-04:00,9/4/26,1:57:00 PM UTC-04:00,4.38,22.75,99.64,0.0,CLOSED
+Amy,Romero,Shift Lead,Slipstream Studio,9/4/26,10:08:00 AM UTC-04:00,9/4/26,5:26:00 PM UTC-04:00,7.3,20.75,151.47,0.0,CLOSED
+Michelle,Pankow,Shift Lead,Slipstream Studio,9/5/26,7:10:00 AM UTC-04:00,9/5/26,2:40:00 PM UTC-04:00,7.5,21.75,163.12,0.0,CLOSED
+Kathy,Guevara Orellana,Production Line,Slipstream Studio,9/5/26,7:14:00 AM UTC-04:00,9/5/26,3:26:00 PM UTC-04:00,8.2,18.5,151.7,0.0,CLOSED
+Kesi,Harford,Hospitality Register,Slipstream Studio,9/5/26,8:09:00 AM UTC-04:00,9/5/26,3:10:00 PM UTC-04:00,7.02,20.75,145.66,0.0,CLOSED
+Claire,Nichols,FOH,Slipstream NMWA,9/5/26,9:01:00 AM UTC-04:00,9/5/26,2:43:00 PM UTC-04:00,5.7,22.75,129.68,0.0,CLOSED
+Ella,Fleureton,Barista,Slipstream Studio,9/5/26,9:02:00 AM UTC-04:00,9/5/26,4:36:00 PM UTC-04:00,7.57,18.5,140.05,0.0,CLOSED
+Jay,Singleton,Shift Lead,Slipstream Studio,9/5/26,9:54:00 AM UTC-04:00,9/5/26,5:30:00 PM UTC-04:00,7.6,19.0,144.4,0.0,CLOSED

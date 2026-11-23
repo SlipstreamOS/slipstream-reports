@@ -1,0 +1,10 @@
+﻿*JournalNo,*JournalDate,*AccountName,*Debits,*Credits,Description,Name,Currency,Location,Class
+1899-Jan26-LossFix,1/31/26,Due to Owner / Pass-through Liability,1069.53,,"Jan 2026 1899 loss $1,069.53 passed to owner; $421.99 incentive reversed (no incentive in a loss month)",,USD,Cafe Management,
+1899-Jan26-LossFix,,Sales:Management Income:Incentive Fees,421.99,,"Jan 2026 1899 loss $1,069.53 passed to owner; $421.99 incentive reversed (no incentive in a loss month)",,,Cafe Management,
+1899-Jan26-LossFix,,Owner Profit Share / Loss Coverage,,1491.52,"Jan 2026 1899 loss $1,069.53 passed to owner; $421.99 incentive reversed (no incentive in a loss month)",,,GHC6 - 1899,
+DueOwner-DecDup-Fix,9/30/26,Due to Owner / Pass-through Liability,1204.84,,"Dec 2025 loss payment (check, inv 001320) was credited to Due to Owner twice: 3/2/26 deposit and 3/31/26 DT sales JE Loss Pass. Remove one.",,USD,Cafe Management,
+DueOwner-DecDup-Fix,,GHC3 Cash on hand,,1204.84,"Dec 2025 loss payment (check, inv 001320) was credited to Due to Owner twice: 3/2/26 deposit and 3/31/26 DT sales JE Loss Pass. Remove one.",,,GHC3 - Downtown,
+DueOwner-2025-Adj,9/30/26,Due to Owner / Pass-through Liability,4657.91,,"1899 opening equipment $4,657.91 paid by SRP July 2025 (booked to SRP General Supplies), reimbursed by owner in opening deposits; charge to owner account. Prior year, to equity.",,USD,Cafe Management,
+DueOwner-2025-Adj,,Prior Period Adj,,4657.91,"1899 opening equipment $4,657.91 paid by SRP July 2025 (booked to SRP General Supplies), reimbursed by owner in opening deposits; charge to owner account. Prior year, to equity.",,,SRP,
+DueOwner-2025-Adj,,Prior Period Adj,1589.76,,"Slipstream covered 50% of June 2025 1899 loss per invoice 001285 partnership discount; register charged owner 100%. Prior year, to equity.",,,Cafe Management,
+DueOwner-2025-Adj,,Due to Owner / Pass-through Liability,,1589.76,"Slipstream covered 50% of June 2025 1899 loss per invoice 001285 partnership discount; register charged owner 100%. Prior year, to equity.",,,Cafe Management,
