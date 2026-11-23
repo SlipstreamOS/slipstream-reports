@@ -1,0 +1,95 @@
+{
+ "1899 Penn": {
+  "weeks": 14,
+  "core_hours_per_week": 86.2,
+  "avg_rate": 20.84,
+  "std_mix_rate": 19.92,
+  "premium_per_week": 80.0,
+  "premium_per_hour": 0.92,
+  "manager_rate_hours_per_week": 0.9,
+  "manager_rate_share": 1.0,
+  "manager_rate_roles": {
+   "Production Barista": 6.0,
+   "Production Line": 6.6
+  },
+  "sl_share_hours": 46.0,
+  "double_SL_hours_per_week": 0.0,
+  "rate_bands_share": {
+   "0-19": 15.8,
+   "19-20.5": 15.1,
+   "20.5-22.5": 36.3,
+   "22.5-30": 32.8
+  }
+ },
+ "Downtown": {
+  "weeks": 14,
+  "core_hours_per_week": 153.6,
+  "avg_rate": 20.73,
+  "std_mix_rate": 19.59,
+  "premium_per_week": 174.0,
+  "premium_per_hour": 1.13,
+  "manager_rate_hours_per_week": 22.6,
+  "manager_rate_share": 14.7,
+  "manager_rate_roles": {
+   "Barista": 34.1,
+   "Float": 41.3,
+   "Production Barista": 75.7,
+   "Production Line": 8.8,
+   "Shift Lead": 157.1
+  },
+  "sl_share_hours": 29.6,
+  "double_SL_hours_per_week": 3.9,
+  "rate_bands_share": {
+   "0-19": 23.7,
+   "19-20.5": 27.9,
+   "20.5-22.5": 25.2,
+   "22.5-30": 23.3
+  }
+ },
+ "NMWA": {
+  "weeks": 10,
+  "core_hours_per_week": 22.4,
+  "avg_rate": 21.04,
+  "std_mix_rate": 19.0,
+  "premium_per_week": 46.0,
+  "premium_per_hour": 2.04,
+  "manager_rate_hours_per_week": 0.8,
+  "manager_rate_share": 3.8,
+  "manager_rate_roles": {
+   "FOH": 8.5
+  },
+  "sl_share_hours": 0.0,
+  "double_SL_hours_per_week": 0.0,
+  "rate_bands_share": {
+   "0-19": 2.7,
+   "19-20.5": 18.0,
+   "20.5-22.5": 54.9,
+   "22.5-30": 24.4
+  }
+ },
+ "Studio": {
+  "weeks": 14,
+  "core_hours_per_week": 191.4,
+  "avg_rate": 20.2,
+  "std_mix_rate": 19.59,
+  "premium_per_week": 115.0,
+  "premium_per_hour": 0.6,
+  "manager_rate_hours_per_week": 25.0,
+  "manager_rate_share": 13.0,
+  "manager_rate_roles": {
+   "Barista": 26.0,
+   "Hospitality Register": 7.9,
+   "Production Barista": 67.5,
+   "Production Line": 8.5,
+   "Shift Lead": 239.4
+  },
+  "sl_share_hours": 29.7,
+  "double_SL_hours_per_week": 5.2,
+  "rate_bands_share": {
+   "0-19": 40.2,
+   "19-20.5": 22.5,
+   "20.5-22.5": 16.2,
+   "22.5-30": 21.1
+  }
+ }
+}

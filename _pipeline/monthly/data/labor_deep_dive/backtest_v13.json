@@ -1,0 +1,4093 @@
+{
+ "method": {
+  "window": "Sep 2025 \u2013 Aug 2026",
+  "bridge": "P&L labor = 1.12 \u00d7 gross wages \u2212 CC tips",
+  "cogs_scenarios": [
+   0.27,
+   0.285,
+   0.3
+  ],
+  "tiering": "week tier from actual weekly walk-in sales scaled to a normal week (tiers.json bands); template wages per open day at planning rates",
+  "admin_training": "added at the cafe's Apr\u2013Aug 2026 monthly average (full-month basis)",
+  "tips": "CC tips as the cafe's Apr\u2013Aug 2026 average share of core sales",
+  "caveats": [
+   "template rates are Aug 2026 planning rates; 2025 actual labor was paid at lower rates, so the 2025 comparison understates the template's saving",
+   "reported NOI includes catering; the core-basis rows exclude catering revenue and COGS entirely",
+   "2025 core COGS % includes catering COGS in the Consolidated Model (catering-heavy months look worse than they are)"
+  ],
+  "rate_sets": {
+   "planning": null,
+   "full_curve": {
+    "SL": 23.5,
+    "PL": 20.5,
+    "PB": 20.5,
+    "B": 20.5,
+    "CL": 20.5,
+    "HR": 20.5,
+    "FOH": 20.5
+   },
+   "peer": {
+    "SL": 25.5,
+    "PL": 24.0,
+    "PB": 24.0,
+    "B": 24.0,
+    "CL": 24.0,
+    "HR": 24.0,
+    "FOH": 24.0
+   },
+   "peer_plus5": {
+    "SL": 26.78,
+    "PL": 25.2,
+    "PB": 25.2,
+    "B": 25.2,
+    "CL": 25.2,
+    "HR": 25.2,
+    "FOH": 25.2
+   }
+  }
+ },
+ "cafes": {
+  "Downtown": {
+   "admin_training_month": 764,
+   "tip_share_of_core": 12.6,
+   "bands_weekly": {
+    "slow": [
+     0,
+     7500
+    ],
+    "mid": [
+     7500,
+     9000
+    ],
+    "busy": [
+     9000,
+     null
+    ]
+   },
+   "months": [
+    {
+     "month": "Sep 25",
+     "ym": "2025-09",
+     "open_days": 21,
+     "walkin_sales": 33528,
+     "tier_weeks": {
+      "mid": 5
+     },
+     "core_sales": 33515,
+     "catering": 1319,
+     "cogs_actual": 10974,
+     "cogs_pct_actual": 32.7,
+     "opex": 6329,
+     "labor_actual": 11253,
+     "labor_pct_actual": 33.6,
+     "template_core_hours": 578,
+     "template_core_wages": 11952,
+     "template_wage_pct": 35.6,
+     "admin_training": 764,
+     "tips_est": 4222,
+     "labor_template": 10020,
+     "labor_pct_template": 29.9,
+     "labor_saving": 1233,
+     "noi_reported": 6278,
+     "noi_template": 7511,
+     "core_basis": {
+      "27": {
+       "actual_labor": 6884,
+       "template_labor": 8117
+      },
+      "28.5": {
+       "actual_labor": 6381,
+       "template_labor": 7614
+      },
+      "30": {
+       "actual_labor": 5878,
+       "template_labor": 7111
+      },
+      "actual_cogs": {
+       "actual_labor": 4959,
+       "template_labor": 6192
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 12411,
+       "labor_template": 10534,
+       "extra_vs_planning": 514,
+       "core_basis": {
+        "27": 7603,
+        "28.5": 7100,
+        "30": 6597,
+        "actual_cogs": 5678
+       }
+      },
+      "peer": {
+       "template_core_wages": 14160,
+       "labor_template": 12492,
+       "extra_vs_planning": 2472,
+       "core_basis": {
+        "27": 5644,
+        "28.5": 5142,
+        "30": 4639,
+        "actual_cogs": 3719
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 14869,
+       "labor_template": 13286,
+       "extra_vs_planning": 3266,
+       "core_basis": {
+        "27": 4850,
+        "28.5": 4348,
+        "30": 3845,
+        "actual_cogs": 2925
+       }
+      }
+     }
+    },
+    {
+     "month": "Oct 25",
+     "ym": "2025-10",
+     "open_days": 22,
+     "walkin_sales": 36955,
+     "tier_weeks": {
+      "mid": 4,
+      "busy": 1
+     },
+     "core_sales": 35441,
+     "catering": 14142,
+     "cogs_actual": 10358,
+     "cogs_pct_actual": 29.2,
+     "opex": 9286,
+     "labor_actual": 9402,
+     "labor_pct_actual": 26.5,
+     "template_core_hours": 609,
+     "template_core_wages": 12579,
+     "template_wage_pct": 34.0,
+     "admin_training": 764,
+     "tips_est": 4465,
+     "labor_template": 10479,
+     "labor_pct_template": 29.6,
+     "labor_saving": -1077,
+     "noi_reported": 20537,
+     "noi_template": 19460,
+     "core_basis": {
+      "27": {
+       "actual_labor": 7184,
+       "template_labor": 6107
+      },
+      "28.5": {
+       "actual_labor": 6652,
+       "template_labor": 5575
+      },
+      "30": {
+       "actual_labor": 6121,
+       "template_labor": 5044
+      },
+      "actual_cogs": {
+       "actual_labor": 6395,
+       "template_labor": 5318
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 13060,
+       "labor_template": 11018,
+       "extra_vs_planning": 539,
+       "core_basis": {
+        "27": 5568,
+        "28.5": 5036,
+        "30": 4505,
+        "actual_cogs": 4779
+       }
+      },
+      "peer": {
+       "template_core_wages": 14904,
+       "labor_template": 13083,
+       "extra_vs_planning": 2604,
+       "core_basis": {
+        "27": 3503,
+        "28.5": 2971,
+        "30": 2440,
+        "actual_cogs": 2714
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 15650,
+       "labor_template": 13918,
+       "extra_vs_planning": 3440,
+       "core_basis": {
+        "27": 2667,
+        "28.5": 2136,
+        "30": 1604,
+        "actual_cogs": 1879
+       }
+      }
+     }
+    },
+    {
+     "month": "Nov 25",
+     "ym": "2025-11",
+     "open_days": 18,
+     "walkin_sales": 28094,
+     "tier_weeks": {
+      "slow": 2,
+      "mid": 1,
+      "busy": 1
+     },
+     "core_sales": 25722,
+     "catering": 22042,
+     "cogs_actual": 9499,
+     "cogs_pct_actual": 36.9,
+     "opex": 7406,
+     "labor_actual": 8065,
+     "labor_pct_actual": 31.4,
+     "template_core_hours": 470,
+     "template_core_wages": 9740,
+     "template_wage_pct": 34.7,
+     "admin_training": 764,
+     "tips_est": 3240,
+     "labor_template": 8523,
+     "labor_pct_template": 33.1,
+     "labor_saving": -458,
+     "noi_reported": 22794,
+     "noi_template": 22336,
+     "core_basis": {
+      "27": {
+       "actual_labor": 3306,
+       "template_labor": 2848
+      },
+      "28.5": {
+       "actual_labor": 2920,
+       "template_labor": 2462
+      },
+      "30": {
+       "actual_labor": 2534,
+       "template_labor": 2076
+      },
+      "actual_cogs": {
+       "actual_labor": 752,
+       "template_labor": 294
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 10129,
+       "labor_template": 8959,
+       "extra_vs_planning": 436,
+       "core_basis": {
+        "27": 2412,
+        "28.5": 2026,
+        "30": 1640,
+        "actual_cogs": -142
+       }
+      },
+      "peer": {
+       "template_core_wages": 11520,
+       "labor_template": 10517,
+       "extra_vs_planning": 1994,
+       "core_basis": {
+        "27": 854,
+        "28.5": 468,
+        "30": 82,
+        "actual_cogs": -1700
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 12097,
+       "labor_template": 11163,
+       "extra_vs_planning": 2640,
+       "core_basis": {
+        "27": 208,
+        "28.5": -178,
+        "30": -564,
+        "actual_cogs": -2346
+       }
+      }
+     }
+    },
+    {
+     "month": "Dec 25",
+     "ym": "2025-12",
+     "open_days": 19,
+     "walkin_sales": 25149,
+     "tier_weeks": {
+      "mid": 3,
+      "slow": 2
+     },
+     "core_sales": 25397,
+     "catering": 848,
+     "cogs_actual": 9291,
+     "cogs_pct_actual": 36.6,
+     "opex": 5911,
+     "labor_actual": 8643,
+     "labor_pct_actual": 34.0,
+     "template_core_hours": 506,
+     "template_core_wages": 10478,
+     "template_wage_pct": 41.7,
+     "admin_training": 764,
+     "tips_est": 3200,
+     "labor_template": 9391,
+     "labor_pct_template": 37.0,
+     "labor_saving": -748,
+     "noi_reported": 2400,
+     "noi_template": 1651,
+     "core_basis": {
+      "27": {
+       "actual_labor": 3986,
+       "template_labor": 3238
+      },
+      "28.5": {
+       "actual_labor": 3605,
+       "template_labor": 2857
+      },
+      "30": {
+       "actual_labor": 3224,
+       "template_labor": 2476
+      },
+      "actual_cogs": {
+       "actual_labor": 1552,
+       "template_labor": 804
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 10889,
+       "labor_template": 9851,
+       "extra_vs_planning": 460,
+       "core_basis": {
+        "27": 2777,
+        "28.5": 2396,
+        "30": 2015,
+        "actual_cogs": 344
+       }
+      },
+      "peer": {
+       "template_core_wages": 12402,
+       "labor_template": 11546,
+       "extra_vs_planning": 2155,
+       "core_basis": {
+        "27": 1083,
+        "28.5": 702,
+        "30": 321,
+        "actual_cogs": -1351
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 13023,
+       "labor_template": 12241,
+       "extra_vs_planning": 2850,
+       "core_basis": {
+        "27": 387,
+        "28.5": 6,
+        "30": -375,
+        "actual_cogs": -2046
+       }
+      }
+     }
+    },
+    {
+     "month": "Jan 26",
+     "ym": "2026-01",
+     "open_days": 18,
+     "walkin_sales": 24673,
+     "tier_weeks": {
+      "slow": 2,
+      "busy": 1,
+      "mid": 1
+     },
+     "core_sales": 24669,
+     "catering": 8252,
+     "cogs_actual": 8823,
+     "cogs_pct_actual": 35.8,
+     "opex": 5405,
+     "labor_actual": 8483,
+     "labor_pct_actual": 34.4,
+     "template_core_hours": 472,
+     "template_core_wages": 9780,
+     "template_wage_pct": 39.6,
+     "admin_training": 764,
+     "tips_est": 3108,
+     "labor_template": 8700,
+     "labor_pct_template": 35.3,
+     "labor_saving": -218,
+     "noi_reported": 10315,
+     "noi_template": 10098,
+     "core_basis": {
+      "27": {
+       "actual_labor": 4121,
+       "template_labor": 3903
+      },
+      "28.5": {
+       "actual_labor": 3751,
+       "template_labor": 3533
+      },
+      "30": {
+       "actual_labor": 3381,
+       "template_labor": 3163
+      },
+      "actual_cogs": {
+       "actual_labor": 1958,
+       "template_labor": 1741
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 10170,
+       "labor_template": 9137,
+       "extra_vs_planning": 437,
+       "core_basis": {
+        "27": 3466,
+        "28.5": 3096,
+        "30": 2726,
+        "actual_cogs": 1304
+       }
+      },
+      "peer": {
+       "template_core_wages": 11568,
+       "labor_template": 10704,
+       "extra_vs_planning": 2003,
+       "core_basis": {
+        "27": 1900,
+        "28.5": 1530,
+        "30": 1160,
+        "actual_cogs": -262
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 12147,
+       "labor_template": 11352,
+       "extra_vs_planning": 2652,
+       "core_basis": {
+        "27": 1251,
+        "28.5": 881,
+        "30": 511,
+        "actual_cogs": -911
+       }
+      }
+     }
+    },
+    {
+     "month": "Feb 26",
+     "ym": "2026-02",
+     "open_days": 19,
+     "walkin_sales": 31363,
+     "tier_weeks": {
+      "mid": 4
+     },
+     "core_sales": 32323,
+     "catering": 1560,
+     "cogs_actual": 11156,
+     "cogs_pct_actual": 34.5,
+     "opex": 7384,
+     "labor_actual": 8165,
+     "labor_pct_actual": 25.3,
+     "template_core_hours": 524,
+     "template_core_wages": 10835,
+     "template_wage_pct": 34.5,
+     "admin_training": 764,
+     "tips_est": 4072,
+     "labor_template": 8918,
+     "labor_pct_template": 27.6,
+     "labor_saving": -753,
+     "noi_reported": 7036,
+     "noi_template": 6282,
+     "core_basis": {
+      "27": {
+       "actual_labor": 8047,
+       "template_labor": 7293
+      },
+      "28.5": {
+       "actual_labor": 7562,
+       "template_labor": 6808
+      },
+      "30": {
+       "actual_labor": 7077,
+       "template_labor": 6323
+      },
+      "actual_cogs": {
+       "actual_labor": 5618,
+       "template_labor": 4865
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 11250,
+       "labor_template": 9383,
+       "extra_vs_planning": 465,
+       "core_basis": {
+        "27": 6828,
+        "28.5": 6343,
+        "30": 5858,
+        "actual_cogs": 4400
+       }
+      },
+      "peer": {
+       "template_core_wages": 12837,
+       "labor_template": 11161,
+       "extra_vs_planning": 2242,
+       "core_basis": {
+        "27": 5051,
+        "28.5": 4566,
+        "30": 4081,
+        "actual_cogs": 2623
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 13480,
+       "labor_template": 11880,
+       "extra_vs_planning": 2962,
+       "core_basis": {
+        "27": 4331,
+        "28.5": 3846,
+        "30": 3361,
+        "actual_cogs": 1903
+       }
+      }
+     }
+    },
+    {
+     "month": "Mar 26",
+     "ym": "2026-03",
+     "open_days": 22,
+     "walkin_sales": 38231,
+     "tier_weeks": {
+      "mid": 4,
+      "busy": 1
+     },
+     "core_sales": 39027,
+     "catering": 11944,
+     "cogs_actual": 11828,
+     "cogs_pct_actual": 30.3,
+     "opex": 10028,
+     "labor_actual": 9614,
+     "labor_pct_actual": 24.6,
+     "template_core_hours": 604,
+     "template_core_wages": 12484,
+     "template_wage_pct": 32.7,
+     "admin_training": 764,
+     "tips_est": 4917,
+     "labor_template": 9920,
+     "labor_pct_template": 25.4,
+     "labor_saving": -306,
+     "noi_reported": 19348,
+     "noi_template": 19042,
+     "core_basis": {
+      "27": {
+       "actual_labor": 8848,
+       "template_labor": 8541
+      },
+      "28.5": {
+       "actual_labor": 8262,
+       "template_labor": 7956
+      },
+      "30": {
+       "actual_labor": 7677,
+       "template_labor": 7371
+      },
+      "actual_cogs": {
+       "actual_labor": 7557,
+       "template_labor": 7251
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 12964,
+       "labor_template": 10458,
+       "extra_vs_planning": 538,
+       "core_basis": {
+        "27": 8003,
+        "28.5": 7418,
+        "30": 6832,
+        "actual_cogs": 6713
+       }
+      },
+      "peer": {
+       "template_core_wages": 14787,
+       "labor_template": 12500,
+       "extra_vs_planning": 2580,
+       "core_basis": {
+        "27": 5961,
+        "28.5": 5376,
+        "30": 4791,
+        "actual_cogs": 4671
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 15527,
+       "labor_template": 13329,
+       "extra_vs_planning": 3409,
+       "core_basis": {
+        "27": 5132,
+        "28.5": 4547,
+        "30": 3962,
+        "actual_cogs": 3842
+       }
+      }
+     }
+    },
+    {
+     "month": "Apr 26",
+     "ym": "2026-04",
+     "open_days": 22,
+     "walkin_sales": 42373,
+     "tier_weeks": {
+      "busy": 3,
+      "mid": 2
+     },
+     "core_sales": 43482,
+     "catering": 3301,
+     "cogs_actual": 17205,
+     "cogs_pct_actual": 39.6,
+     "opex": 13340,
+     "labor_actual": 10108,
+     "labor_pct_actual": 23.2,
+     "template_core_hours": 614,
+     "template_core_wages": 12669,
+     "template_wage_pct": 29.9,
+     "admin_training": 764,
+     "tips_est": 5478,
+     "labor_template": 9567,
+     "labor_pct_template": 22.0,
+     "labor_saving": 542,
+     "noi_reported": 6580,
+     "noi_template": 7121,
+     "core_basis": {
+      "27": {
+       "actual_labor": 8293,
+       "template_labor": 8835
+      },
+      "28.5": {
+       "actual_labor": 7641,
+       "template_labor": 8183
+      },
+      "30": {
+       "actual_labor": 6989,
+       "template_labor": 7531
+      },
+      "actual_cogs": {
+       "actual_labor": 2829,
+       "template_labor": 3371
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 13153,
+       "labor_template": 10108,
+       "extra_vs_planning": 542,
+       "core_basis": {
+        "27": 8293,
+        "28.5": 7641,
+        "30": 6989,
+        "actual_cogs": 2829
+       }
+      },
+      "peer": {
+       "template_core_wages": 15012,
+       "labor_template": 12191,
+       "extra_vs_planning": 2624,
+       "core_basis": {
+        "27": 6211,
+        "28.5": 5559,
+        "30": 4906,
+        "actual_cogs": 746
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 15764,
+       "labor_template": 13033,
+       "extra_vs_planning": 3466,
+       "core_basis": {
+        "27": 5369,
+        "28.5": 4717,
+        "30": 4065,
+        "actual_cogs": -95
+       }
+      }
+     }
+    },
+    {
+     "month": "May 26",
+     "ym": "2026-05",
+     "open_days": 21,
+     "walkin_sales": 37682,
+     "tier_weeks": {
+      "busy": 5
+     },
+     "core_sales": 37010,
+     "catering": 3033,
+     "cogs_actual": 13147,
+     "cogs_pct_actual": 35.5,
+     "opex": 5801,
+     "labor_actual": 10805,
+     "labor_pct_actual": 29.2,
+     "template_core_hours": 556,
+     "template_core_wages": 11476,
+     "template_wage_pct": 30.5,
+     "admin_training": 764,
+     "tips_est": 4663,
+     "labor_template": 9046,
+     "labor_pct_template": 24.4,
+     "labor_saving": 1759,
+     "noi_reported": 10389,
+     "noi_template": 12148,
+     "core_basis": {
+      "27": {
+       "actual_labor": 10411,
+       "template_labor": 12170
+      },
+      "28.5": {
+       "actual_labor": 9855,
+       "template_labor": 11615
+      },
+      "30": {
+       "actual_labor": 9300,
+       "template_labor": 11059
+      },
+      "actual_cogs": {
+       "actual_labor": 7256,
+       "template_labor": 9015
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 11916,
+       "labor_template": 9538,
+       "extra_vs_planning": 493,
+       "core_basis": {
+        "27": 11677,
+        "28.5": 11122,
+        "30": 10567,
+        "actual_cogs": 8522
+       }
+      },
+      "peer": {
+       "template_core_wages": 13596,
+       "labor_template": 11420,
+       "extra_vs_planning": 2374,
+       "core_basis": {
+        "27": 9795,
+        "28.5": 9240,
+        "30": 8685,
+        "actual_cogs": 6641
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 14277,
+       "labor_template": 12183,
+       "extra_vs_planning": 3137,
+       "core_basis": {
+        "27": 9033,
+        "28.5": 8478,
+        "30": 7923,
+        "actual_cogs": 5878
+       }
+      }
+     }
+    },
+    {
+     "month": "Jun 26",
+     "ym": "2026-06",
+     "open_days": 23,
+     "walkin_sales": 41467,
+     "tier_weeks": {
+      "mid": 3,
+      "busy": 2
+     },
+     "core_sales": 41137,
+     "catering": 737,
+     "cogs_actual": 12818,
+     "cogs_pct_actual": 31.2,
+     "opex": 9617,
+     "labor_actual": 12327,
+     "labor_pct_actual": 30.0,
+     "template_core_hours": 606,
+     "template_core_wages": 12524,
+     "template_wage_pct": 30.2,
+     "admin_training": 764,
+     "tips_est": 5182,
+     "labor_template": 9699,
+     "labor_pct_template": 23.6,
+     "labor_saving": 2628,
+     "noi_reported": 7111,
+     "noi_template": 9739,
+     "core_basis": {
+      "27": {
+       "actual_labor": 8085,
+       "template_labor": 10713
+      },
+      "28.5": {
+       "actual_labor": 7468,
+       "template_labor": 10096
+      },
+      "30": {
+       "actual_labor": 6851,
+       "template_labor": 9479
+      },
+      "actual_cogs": {
+       "actual_labor": 6374,
+       "template_labor": 9003
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 13005,
+       "labor_template": 10238,
+       "extra_vs_planning": 539,
+       "core_basis": {
+        "27": 10174,
+        "28.5": 9557,
+        "30": 8940,
+        "actual_cogs": 8463
+       }
+      },
+      "peer": {
+       "template_core_wages": 14835,
+       "labor_template": 12288,
+       "extra_vs_planning": 2589,
+       "core_basis": {
+        "27": 8125,
+        "28.5": 7507,
+        "30": 6890,
+        "actual_cogs": 6414
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 15578,
+       "labor_template": 13120,
+       "extra_vs_planning": 3421,
+       "core_basis": {
+        "27": 7293,
+        "28.5": 6676,
+        "30": 6059,
+        "actual_cogs": 5582
+       }
+      }
+     }
+    },
+    {
+     "month": "Jul 26",
+     "ym": "2026-07",
+     "open_days": 22,
+     "walkin_sales": 35591,
+     "tier_weeks": {
+      "mid": 4,
+      "slow": 1
+     },
+     "core_sales": 39356,
+     "catering": 2265,
+     "cogs_actual": 15869,
+     "cogs_pct_actual": 40.3,
+     "opex": 7721,
+     "labor_actual": 11496,
+     "labor_pct_actual": 29.2,
+     "template_core_hours": 592,
+     "template_core_wages": 12262,
+     "template_wage_pct": 34.5,
+     "admin_training": 764,
+     "tips_est": 4958,
+     "labor_template": 9630,
+     "labor_pct_template": 24.5,
+     "labor_saving": 1866,
+     "noi_reported": 6587,
+     "noi_template": 8453,
+     "core_basis": {
+      "27": {
+       "actual_labor": 9512,
+       "template_labor": 11378
+      },
+      "28.5": {
+       "actual_labor": 8922,
+       "template_labor": 10788
+      },
+      "30": {
+       "actual_labor": 8332,
+       "template_labor": 10197
+      },
+      "actual_cogs": {
+       "actual_labor": 4269,
+       "template_labor": 6135
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 12740,
+       "labor_template": 10166,
+       "extra_vs_planning": 536,
+       "core_basis": {
+        "27": 10842,
+        "28.5": 10252,
+        "30": 9662,
+        "actual_cogs": 5599
+       }
+      },
+      "peer": {
+       "template_core_wages": 14517,
+       "labor_template": 12156,
+       "extra_vs_planning": 2526,
+       "core_basis": {
+        "27": 8852,
+        "28.5": 8262,
+        "30": 7672,
+        "actual_cogs": 3609
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 15244,
+       "labor_template": 12970,
+       "extra_vs_planning": 3340,
+       "core_basis": {
+        "27": 8038,
+        "28.5": 7448,
+        "30": 6858,
+        "actual_cogs": 2795
+       }
+      }
+     }
+    },
+    {
+     "month": "Aug 26",
+     "ym": "2026-08",
+     "open_days": 23,
+     "walkin_sales": 28249,
+     "tier_weeks": {
+      "slow": 4,
+      "mid": 1
+     },
+     "core_sales": 29782,
+     "catering": 10,
+     "cogs_actual": 11190,
+     "cogs_pct_actual": 37.6,
+     "opex": 7186,
+     "labor_actual": 14296,
+     "labor_pct_actual": 48.0,
+     "template_core_hours": 520,
+     "template_core_wages": 10835,
+     "template_wage_pct": 38.4,
+     "admin_training": 764,
+     "tips_est": 3752,
+     "labor_template": 9239,
+     "labor_pct_template": 31.0,
+     "labor_saving": 5058,
+     "noi_reported": -2858,
+     "noi_template": 2200,
+     "core_basis": {
+      "27": {
+       "actual_labor": 258,
+       "template_labor": 5316
+      },
+      "28.5": {
+       "actual_labor": -188,
+       "template_labor": 4869
+      },
+      "30": {
+       "actual_labor": -635,
+       "template_labor": 4423
+      },
+      "actual_cogs": {
+       "actual_labor": -2891,
+       "template_labor": 2167
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 11282,
+       "labor_template": 9739,
+       "extra_vs_planning": 501,
+       "core_basis": {
+        "27": 4816,
+        "28.5": 4369,
+        "30": 3922,
+        "actual_cogs": 1666
+       }
+      },
+      "peer": {
+       "template_core_wages": 12798,
+       "labor_template": 11437,
+       "extra_vs_planning": 2198,
+       "core_basis": {
+        "27": 3118,
+        "28.5": 2671,
+        "30": 2224,
+        "actual_cogs": -31
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 13439,
+       "labor_template": 12155,
+       "extra_vs_planning": 2916,
+       "core_basis": {
+        "27": 2400,
+        "28.5": 1953,
+        "30": 1507,
+        "actual_cogs": -749
+       }
+      }
+     }
+    }
+   ],
+   "totals": {
+    "open_days": 250,
+    "walkin_sales": 403355,
+    "core_sales": 406861,
+    "catering": 69453,
+    "cogs_actual": 142158,
+    "opex": 95414,
+    "labor_actual": 122657,
+    "template_core_hours": 6651,
+    "template_core_wages": 137614,
+    "admin_training": 9168,
+    "tips_est": 51257,
+    "labor_template": 113132,
+    "labor_saving": 9526,
+    "noi_reported": 116517,
+    "noi_template": 126041,
+    "cogs_pct_actual": 34.9,
+    "labor_pct_actual": 30.1,
+    "labor_pct_template": 27.8,
+    "template_wage_pct": 34.1,
+    "core_basis": {
+     "27": {
+      "actual_labor": 78935,
+      "template_labor": 88459
+     },
+     "28.5": {
+      "actual_labor": 72831,
+      "template_labor": 82356
+     },
+     "30": {
+      "actual_labor": 66729,
+      "template_labor": 76253
+     },
+     "actual_cogs": {
+      "actual_labor": 46628,
+      "template_labor": 56156
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "template_core_wages": 142969,
+      "labor_template": 119129,
+      "extra_vs_planning": 6000,
+      "core_basis": {
+       "27": 82459,
+       "28.5": 76356,
+       "30": 70253,
+       "actual_cogs": 50155
+      }
+     },
+     "peer": {
+      "template_core_wages": 162936,
+      "labor_template": 141495,
+      "extra_vs_planning": 28361,
+      "core_basis": {
+       "27": 60097,
+       "28.5": 53994,
+       "30": 47891,
+       "actual_cogs": 27793
+      }
+     },
+     "peer_plus5": {
+      "template_core_wages": 171095,
+      "labor_template": 150630,
+      "extra_vs_planning": 37499,
+      "core_basis": {
+       "27": 50959,
+       "28.5": 44858,
+       "30": 38756,
+       "actual_cogs": 18657
+      }
+     }
+    },
+    "tier_weeks": {
+     "mid": 29,
+     "busy": 13,
+     "slow": 11
+    }
+   },
+   "months_losing_at_28_5_actual": 1,
+   "months_losing_at_28_5_template": 0,
+   "untemplated_days": {
+    "Sat": {
+     "days": 1,
+     "sales": 20
+    },
+    "Sun": {
+     "days": 3,
+     "sales": 120
+    }
+   }
+  },
+  "Studio": {
+   "admin_training_month": 1394,
+   "tip_share_of_core": 12.1,
+   "bands_weekly": {
+    "slow": [
+     0,
+     10500
+    ],
+    "mid": [
+     10500,
+     12500
+    ],
+    "busy": [
+     12500,
+     null
+    ]
+   },
+   "months": [
+    {
+     "month": "Sep 25",
+     "ym": "2025-09",
+     "open_days": 30,
+     "walkin_sales": 48961,
+     "tier_weeks": {
+      "mid": 4,
+      "busy": 1
+     },
+     "core_sales": 48948,
+     "catering": 13,
+     "cogs_actual": 12280,
+     "cogs_pct_actual": 25.1,
+     "opex": 9352,
+     "labor_actual": 12731,
+     "labor_pct_actual": 26.0,
+     "template_core_hours": 785,
+     "template_core_wages": 16215,
+     "template_wage_pct": 33.1,
+     "admin_training": 1394,
+     "tips_est": 5913,
+     "labor_template": 13809,
+     "labor_pct_template": 28.2,
+     "labor_saving": -1078,
+     "noi_reported": 14598,
+     "noi_template": 13520,
+     "core_basis": {
+      "27": {
+       "actual_labor": 13649,
+       "template_labor": 12571
+      },
+      "28.5": {
+       "actual_labor": 12915,
+       "template_labor": 11837
+      },
+      "30": {
+       "actual_labor": 12180,
+       "template_labor": 11102
+      },
+      "actual_cogs": {
+       "actual_labor": 14585,
+       "template_labor": 13507
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 16860,
+       "labor_template": 14532,
+       "extra_vs_planning": 723,
+       "core_basis": {
+        "27": 11848,
+        "28.5": 11113,
+        "30": 10379,
+        "actual_cogs": 12784
+       }
+      },
+      "peer": {
+       "template_core_wages": 19224,
+       "labor_template": 17180,
+       "extra_vs_planning": 3370,
+       "core_basis": {
+        "27": 9201,
+        "28.5": 8466,
+        "30": 7732,
+        "actual_cogs": 10137
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 20186,
+       "labor_template": 18258,
+       "extra_vs_planning": 4448,
+       "core_basis": {
+        "27": 8123,
+        "28.5": 7388,
+        "30": 6654,
+        "actual_cogs": 9059
+       }
+      }
+     }
+    },
+    {
+     "month": "Oct 25",
+     "ym": "2025-10",
+     "open_days": 31,
+     "walkin_sales": 55164,
+     "tier_weeks": {
+      "mid": 3,
+      "busy": 2
+     },
+     "core_sales": 54861,
+     "catering": 304,
+     "cogs_actual": 14364,
+     "cogs_pct_actual": 26.2,
+     "opex": 10950,
+     "labor_actual": 13661,
+     "labor_pct_actual": 24.9,
+     "template_core_hours": 832,
+     "template_core_wages": 17172,
+     "template_wage_pct": 31.1,
+     "admin_training": 1394,
+     "tips_est": 6627,
+     "labor_template": 14167,
+     "labor_pct_template": 25.8,
+     "labor_saving": -506,
+     "noi_reported": 16189,
+     "noi_template": 15683,
+     "core_basis": {
+      "27": {
+       "actual_labor": 15437,
+       "template_labor": 14932
+      },
+      "28.5": {
+       "actual_labor": 14614,
+       "template_labor": 14109
+      },
+      "30": {
+       "actual_labor": 13791,
+       "template_labor": 13286
+      },
+      "actual_cogs": {
+       "actual_labor": 15885,
+       "template_labor": 15380
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 17846,
+       "labor_template": 14922,
+       "extra_vs_planning": 755,
+       "core_basis": {
+        "27": 14176,
+        "28.5": 13353,
+        "30": 12530,
+        "actual_cogs": 14624
+       }
+      },
+      "peer": {
+       "template_core_wages": 20370,
+       "labor_template": 17749,
+       "extra_vs_planning": 3582,
+       "core_basis": {
+        "27": 11350,
+        "28.5": 10527,
+        "30": 9704,
+        "actual_cogs": 11798
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 21390,
+       "labor_template": 18891,
+       "extra_vs_planning": 4724,
+       "core_basis": {
+        "27": 10208,
+        "28.5": 9385,
+        "30": 8562,
+        "actual_cogs": 10656
+       }
+      }
+     }
+    },
+    {
+     "month": "Nov 25",
+     "ym": "2025-11",
+     "open_days": 30,
+     "walkin_sales": 48985,
+     "tier_weeks": {
+      "mid": 3,
+      "busy": 1,
+      "slow": 1
+     },
+     "core_sales": 48710,
+     "catering": 273,
+     "cogs_actual": 12588,
+     "cogs_pct_actual": 25.8,
+     "opex": 9864,
+     "labor_actual": 11950,
+     "labor_pct_actual": 24.5,
+     "template_core_hours": 810,
+     "template_core_wages": 16705,
+     "template_wage_pct": 34.1,
+     "admin_training": 1394,
+     "tips_est": 5884,
+     "labor_template": 14387,
+     "labor_pct_template": 29.5,
+     "labor_saving": -2437,
+     "noi_reported": 14580,
+     "noi_template": 12142,
+     "core_basis": {
+      "27": {
+       "actual_labor": 13743,
+       "template_labor": 11306
+      },
+      "28.5": {
+       "actual_labor": 13013,
+       "template_labor": 10576
+      },
+      "30": {
+       "actual_labor": 12282,
+       "template_labor": 9845
+      },
+      "actual_cogs": {
+       "actual_labor": 14307,
+       "template_labor": 11870
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 17363,
+       "labor_template": 15124,
+       "extra_vs_planning": 737,
+       "core_basis": {
+        "27": 10570,
+        "28.5": 9839,
+        "30": 9108,
+        "actual_cogs": 11133
+       }
+      },
+      "peer": {
+       "template_core_wages": 19812,
+       "labor_template": 17867,
+       "extra_vs_planning": 3480,
+       "core_basis": {
+        "27": 7827,
+        "28.5": 7096,
+        "30": 6365,
+        "actual_cogs": 8390
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 20804,
+       "labor_template": 18978,
+       "extra_vs_planning": 4591,
+       "core_basis": {
+        "27": 6716,
+        "28.5": 5985,
+        "30": 5254,
+        "actual_cogs": 7279
+       }
+      }
+     }
+    },
+    {
+     "month": "Dec 25",
+     "ym": "2025-12",
+     "open_days": 30,
+     "walkin_sales": 38021,
+     "tier_weeks": {
+      "slow": 4,
+      "mid": 1
+     },
+     "core_sales": 38654,
+     "catering": 279,
+     "cogs_actual": 14068,
+     "cogs_pct_actual": 36.4,
+     "opex": 7888,
+     "labor_actual": 14205,
+     "labor_pct_actual": 36.7,
+     "template_core_hours": 779,
+     "template_core_wages": 16081,
+     "template_wage_pct": 42.3,
+     "admin_training": 1394,
+     "tips_est": 4669,
+     "labor_template": 14903,
+     "labor_pct_template": 38.6,
+     "labor_saving": -698,
+     "noi_reported": 2772,
+     "noi_template": 2074,
+     "core_basis": {
+      "27": {
+       "actual_labor": 6125,
+       "template_labor": 5427
+      },
+      "28.5": {
+       "actual_labor": 5545,
+       "template_labor": 4847
+      },
+      "30": {
+       "actual_labor": 4965,
+       "template_labor": 4267
+      },
+      "actual_cogs": {
+       "actual_labor": 2493,
+       "template_labor": 1795
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 16720,
+       "labor_template": 15618,
+       "extra_vs_planning": 715,
+       "core_basis": {
+        "27": 4712,
+        "28.5": 4132,
+        "30": 3552,
+        "actual_cogs": 1080
+       }
+      },
+      "peer": {
+       "template_core_wages": 19071,
+       "labor_template": 18252,
+       "extra_vs_planning": 3348,
+       "core_basis": {
+        "27": 2078,
+        "28.5": 1499,
+        "30": 919,
+        "actual_cogs": -1553
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 20026,
+       "labor_template": 19321,
+       "extra_vs_planning": 4418,
+       "core_basis": {
+        "27": 1009,
+        "28.5": 429,
+        "30": -151,
+        "actual_cogs": -2623
+       }
+      }
+     }
+    },
+    {
+     "month": "Jan 26",
+     "ym": "2026-01",
+     "open_days": 30,
+     "walkin_sales": 40393,
+     "tier_weeks": {
+      "slow": 5
+     },
+     "core_sales": 41813,
+     "catering": 63,
+     "cogs_actual": 12958,
+     "cogs_pct_actual": 31.0,
+     "opex": 9119,
+     "labor_actual": 16919,
+     "labor_pct_actual": 40.5,
+     "template_core_hours": 786,
+     "template_core_wages": 16226,
+     "template_wage_pct": 40.2,
+     "admin_training": 1394,
+     "tips_est": 5051,
+     "labor_template": 14684,
+     "labor_pct_template": 35.1,
+     "labor_saving": 2235,
+     "noi_reported": 2880,
+     "noi_template": 5115,
+     "core_basis": {
+      "27": {
+       "actual_labor": 4485,
+       "template_labor": 6720
+      },
+      "28.5": {
+       "actual_labor": 3858,
+       "template_labor": 6093
+      },
+      "30": {
+       "actual_labor": 3231,
+       "template_labor": 5466
+      },
+      "actual_cogs": {
+       "actual_labor": 2817,
+       "template_labor": 5052
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 16868,
+       "labor_template": 15403,
+       "extra_vs_planning": 719,
+       "core_basis": {
+        "27": 6002,
+        "28.5": 5374,
+        "30": 4747,
+        "actual_cogs": 4334
+       }
+      },
+      "peer": {
+       "template_core_wages": 19245,
+       "labor_template": 18065,
+       "extra_vs_planning": 3381,
+       "core_basis": {
+        "27": 3340,
+        "28.5": 2712,
+        "30": 2085,
+        "actual_cogs": 1672
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 20208,
+       "labor_template": 19144,
+       "extra_vs_planning": 4460,
+       "core_basis": {
+        "27": 2260,
+        "28.5": 1633,
+        "30": 1006,
+        "actual_cogs": 592
+       }
+      }
+     }
+    },
+    {
+     "month": "Feb 26",
+     "ym": "2026-02",
+     "open_days": 28,
+     "walkin_sales": 40168,
+     "tier_weeks": {
+      "slow": 3,
+      "mid": 2
+     },
+     "core_sales": 41578,
+     "catering": 219,
+     "cogs_actual": 13473,
+     "cogs_pct_actual": 32.4,
+     "opex": 7923,
+     "labor_actual": 13208,
+     "labor_pct_actual": 31.8,
+     "template_core_hours": 735,
+     "template_core_wages": 15170,
+     "template_wage_pct": 37.8,
+     "admin_training": 1394,
+     "tips_est": 5022,
+     "labor_template": 13529,
+     "labor_pct_template": 32.5,
+     "labor_saving": -321,
+     "noi_reported": 7194,
+     "noi_template": 6872,
+     "core_basis": {
+      "27": {
+       "actual_labor": 9221,
+       "template_labor": 8900
+      },
+      "28.5": {
+       "actual_labor": 8598,
+       "template_labor": 8277
+      },
+      "30": {
+       "actual_labor": 7974,
+       "template_labor": 7653
+      },
+      "actual_cogs": {
+       "actual_labor": 6975,
+       "template_labor": 6654
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 15770,
+       "labor_template": 14201,
+       "extra_vs_planning": 672,
+       "core_basis": {
+        "27": 8228,
+        "28.5": 7605,
+        "30": 6981,
+        "actual_cogs": 5982
+       }
+      },
+      "peer": {
+       "template_core_wages": 17991,
+       "labor_template": 16689,
+       "extra_vs_planning": 3160,
+       "core_basis": {
+        "27": 5740,
+        "28.5": 5116,
+        "30": 4493,
+        "actual_cogs": 3494
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 18892,
+       "labor_template": 17698,
+       "extra_vs_planning": 4169,
+       "core_basis": {
+        "27": 4731,
+        "28.5": 4108,
+        "30": 3484,
+        "actual_cogs": 2485
+       }
+      }
+     }
+    },
+    {
+     "month": "Mar 26",
+     "ym": "2026-03",
+     "open_days": 31,
+     "walkin_sales": 53166,
+     "tier_weeks": {
+      "mid": 4,
+      "busy": 2
+     },
+     "core_sales": 55009,
+     "catering": 63,
+     "cogs_actual": 14661,
+     "cogs_pct_actual": 26.7,
+     "opex": 12180,
+     "labor_actual": 13683,
+     "labor_pct_actual": 24.9,
+     "template_core_hours": 824,
+     "template_core_wages": 17021,
+     "template_wage_pct": 32.0,
+     "admin_training": 1394,
+     "tips_est": 6645,
+     "labor_template": 13980,
+     "labor_pct_template": 25.4,
+     "labor_saving": -297,
+     "noi_reported": 14548,
+     "noi_template": 14251,
+     "core_basis": {
+      "27": {
+       "actual_labor": 14294,
+       "template_labor": 13997
+      },
+      "28.5": {
+       "actual_labor": 13469,
+       "template_labor": 13172
+      },
+      "30": {
+       "actual_labor": 12644,
+       "template_labor": 12347
+      },
+      "actual_cogs": {
+       "actual_labor": 14485,
+       "template_labor": 14188
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 17694,
+       "labor_template": 14734,
+       "extra_vs_planning": 754,
+       "core_basis": {
+        "27": 13243,
+        "28.5": 12418,
+        "30": 11593,
+        "actual_cogs": 13434
+       }
+      },
+      "peer": {
+       "template_core_wages": 20184,
+       "labor_template": 17523,
+       "extra_vs_planning": 3543,
+       "core_basis": {
+        "27": 10454,
+        "28.5": 9629,
+        "30": 8804,
+        "actual_cogs": 10646
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 21195,
+       "labor_template": 18654,
+       "extra_vs_planning": 4674,
+       "core_basis": {
+        "27": 9323,
+        "28.5": 8497,
+        "30": 7672,
+        "actual_cogs": 9514
+       }
+      }
+     }
+    },
+    {
+     "month": "Apr 26",
+     "ym": "2026-04",
+     "open_days": 30,
+     "walkin_sales": 56340,
+     "tier_weeks": {
+      "busy": 5
+     },
+     "core_sales": 56232,
+     "catering": 28,
+     "cogs_actual": 17314,
+     "cogs_pct_actual": 30.8,
+     "opex": 12296,
+     "labor_actual": 12693,
+     "labor_pct_actual": 22.6,
+     "template_core_hours": 818,
+     "template_core_wages": 16847,
+     "template_wage_pct": 29.9,
+     "admin_training": 1394,
+     "tips_est": 6792,
+     "labor_template": 13637,
+     "labor_pct_template": 24.3,
+     "labor_saving": -945,
+     "noi_reported": 13956,
+     "noi_template": 13012,
+     "core_basis": {
+      "27": {
+       "actual_labor": 16060,
+       "template_labor": 15116
+      },
+      "28.5": {
+       "actual_labor": 15217,
+       "template_labor": 14272
+      },
+      "30": {
+       "actual_labor": 14373,
+       "template_labor": 13429
+      },
+      "actual_cogs": {
+       "actual_labor": 13928,
+       "template_labor": 12984
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 17503,
+       "labor_template": 14372,
+       "extra_vs_planning": 735,
+       "core_basis": {
+        "27": 14381,
+        "28.5": 13538,
+        "30": 12694,
+        "actual_cogs": 12249
+       }
+      },
+      "peer": {
+       "template_core_wages": 19992,
+       "labor_template": 17160,
+       "extra_vs_planning": 3522,
+       "core_basis": {
+        "27": 11593,
+        "28.5": 10750,
+        "30": 9906,
+        "actual_cogs": 9461
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 20993,
+       "labor_template": 18281,
+       "extra_vs_planning": 4643,
+       "core_basis": {
+        "27": 10472,
+        "28.5": 9629,
+        "30": 8785,
+        "actual_cogs": 8340
+       }
+      }
+     }
+    },
+    {
+     "month": "May 26",
+     "ym": "2026-05",
+     "open_days": 31,
+     "walkin_sales": 55951,
+     "tier_weeks": {
+      "busy": 3,
+      "mid": 2
+     },
+     "core_sales": 54283,
+     "catering": 1555,
+     "cogs_actual": 13978,
+     "cogs_pct_actual": 25.8,
+     "opex": 10611,
+     "labor_actual": 14467,
+     "labor_pct_actual": 26.7,
+     "template_core_hours": 858,
+     "template_core_wages": 17697,
+     "template_wage_pct": 31.6,
+     "admin_training": 1394,
+     "tips_est": 6557,
+     "labor_template": 14824,
+     "labor_pct_template": 27.3,
+     "labor_saving": -357,
+     "noi_reported": 16782,
+     "noi_template": 16424,
+     "core_basis": {
+      "27": {
+       "actual_labor": 14548,
+       "template_labor": 14191
+      },
+      "28.5": {
+       "actual_labor": 13734,
+       "template_labor": 13377
+      },
+      "30": {
+       "actual_labor": 12920,
+       "template_labor": 12563
+      },
+      "actual_cogs": {
+       "actual_labor": 15227,
+       "template_labor": 14869
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 18385,
+       "labor_template": 15596,
+       "extra_vs_planning": 771,
+       "core_basis": {
+        "27": 13420,
+        "28.5": 12606,
+        "30": 11791,
+        "actual_cogs": 14098
+       }
+      },
+      "peer": {
+       "template_core_wages": 20997,
+       "labor_template": 18521,
+       "extra_vs_planning": 3697,
+       "core_basis": {
+        "27": 10495,
+        "28.5": 9680,
+        "30": 8866,
+        "actual_cogs": 11173
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 22048,
+       "labor_template": 19698,
+       "extra_vs_planning": 4874,
+       "core_basis": {
+        "27": 9317,
+        "28.5": 8503,
+        "30": 7689,
+        "actual_cogs": 9996
+       }
+      }
+     }
+    },
+    {
+     "month": "Jun 26",
+     "ym": "2026-06",
+     "open_days": 30,
+     "walkin_sales": 53076,
+     "tier_weeks": {
+      "busy": 2,
+      "mid": 2,
+      "slow": 1
+     },
+     "core_sales": 53083,
+     "catering": 34,
+     "cogs_actual": 17010,
+     "cogs_pct_actual": 32.0,
+     "opex": 11158,
+     "labor_actual": 15524,
+     "labor_pct_actual": 29.2,
+     "template_core_hours": 801,
+     "template_core_wages": 16526,
+     "template_wage_pct": 31.1,
+     "admin_training": 1394,
+     "tips_est": 6412,
+     "labor_template": 13658,
+     "labor_pct_template": 25.7,
+     "labor_saving": 1866,
+     "noi_reported": 9425,
+     "noi_template": 11291,
+     "core_basis": {
+      "27": {
+       "actual_labor": 12068,
+       "template_labor": 13935
+      },
+      "28.5": {
+       "actual_labor": 11272,
+       "template_labor": 13138
+      },
+      "30": {
+       "actual_labor": 10476,
+       "template_labor": 12342
+      },
+      "actual_cogs": {
+       "actual_labor": 9391,
+       "template_labor": 11257
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 17176,
+       "labor_template": 14387,
+       "extra_vs_planning": 729,
+       "core_basis": {
+        "27": 13206,
+        "28.5": 12410,
+        "30": 11613,
+        "actual_cogs": 10529
+       }
+      },
+      "peer": {
+       "template_core_wages": 19602,
+       "labor_template": 17103,
+       "extra_vs_planning": 3445,
+       "core_basis": {
+        "27": 10489,
+        "28.5": 9693,
+        "30": 8897,
+        "actual_cogs": 7812
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 20583,
+       "labor_template": 18203,
+       "extra_vs_planning": 4544,
+       "core_basis": {
+        "27": 9390,
+        "28.5": 8594,
+        "30": 7798,
+        "actual_cogs": 6713
+       }
+      }
+     }
+    },
+    {
+     "month": "Jul 26",
+     "ym": "2026-07",
+     "open_days": 31,
+     "walkin_sales": 42525,
+     "tier_weeks": {
+      "slow": 4,
+      "mid": 1
+     },
+     "core_sales": 44656,
+     "catering": 42,
+     "cogs_actual": 12711,
+     "cogs_pct_actual": 28.5,
+     "opex": 8957,
+     "labor_actual": 15949,
+     "labor_pct_actual": 35.7,
+     "template_core_hours": 810,
+     "template_core_wages": 16727,
+     "template_wage_pct": 39.3,
+     "admin_training": 1394,
+     "tips_est": 5394,
+     "labor_template": 14902,
+     "labor_pct_template": 33.4,
+     "labor_saving": 1047,
+     "noi_reported": 7081,
+     "noi_template": 8127,
+     "core_basis": {
+      "27": {
+       "actual_labor": 7693,
+       "template_labor": 8740
+      },
+      "28.5": {
+       "actual_labor": 7023,
+       "template_labor": 8070
+      },
+      "30": {
+       "actual_labor": 6353,
+       "template_labor": 7400
+      },
+      "actual_cogs": {
+       "actual_labor": 7039,
+       "template_labor": 8085
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 17389,
+       "labor_template": 15643,
+       "extra_vs_planning": 741,
+       "core_basis": {
+        "27": 7999,
+        "28.5": 7329,
+        "30": 6659,
+        "actual_cogs": 7344
+       }
+      },
+      "peer": {
+       "template_core_wages": 19839,
+       "labor_template": 18387,
+       "extra_vs_planning": 3485,
+       "core_basis": {
+        "27": 5255,
+        "28.5": 4585,
+        "30": 3915,
+        "actual_cogs": 4600
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 20832,
+       "labor_template": 19499,
+       "extra_vs_planning": 4597,
+       "core_basis": {
+        "27": 4142,
+        "28.5": 3473,
+        "30": 2803,
+        "actual_cogs": 3488
+       }
+      }
+     }
+    },
+    {
+     "month": "Aug 26",
+     "ym": "2026-08",
+     "open_days": 31,
+     "walkin_sales": 45734,
+     "tier_weeks": {
+      "slow": 5,
+      "mid": 1
+     },
+     "core_sales": 48077,
+     "catering": 38,
+     "cogs_actual": 13929,
+     "cogs_pct_actual": 29.0,
+     "opex": 9617,
+     "labor_actual": 16936,
+     "labor_pct_actual": 35.2,
+     "template_core_hours": 818,
+     "template_core_wages": 16877,
+     "template_wage_pct": 36.9,
+     "admin_training": 1394,
+     "tips_est": 5807,
+     "labor_template": 14656,
+     "labor_pct_template": 30.5,
+     "labor_saving": 2280,
+     "noi_reported": 7633,
+     "noi_template": 9913,
+     "core_basis": {
+      "27": {
+       "actual_labor": 8543,
+       "template_labor": 10823
+      },
+      "28.5": {
+       "actual_labor": 7822,
+       "template_labor": 10102
+      },
+      "30": {
+       "actual_labor": 7100,
+       "template_labor": 9381
+      },
+      "actual_cogs": {
+       "actual_labor": 7595,
+       "template_labor": 9875
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 17544,
+       "labor_template": 15403,
+       "extra_vs_planning": 747,
+       "core_basis": {
+        "27": 10076,
+        "28.5": 9355,
+        "30": 8634,
+        "actual_cogs": 9128
+       }
+      },
+      "peer": {
+       "template_core_wages": 20016,
+       "labor_template": 18172,
+       "extra_vs_planning": 3516,
+       "core_basis": {
+        "27": 7307,
+        "28.5": 6586,
+        "30": 5865,
+        "actual_cogs": 6360
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 21018,
+       "labor_template": 19294,
+       "extra_vs_planning": 4638,
+       "core_basis": {
+        "27": 6185,
+        "28.5": 5464,
+        "30": 4743,
+        "actual_cogs": 5237
+       }
+      }
+     }
+    }
+   ],
+   "totals": {
+    "open_days": 363,
+    "walkin_sales": 578484,
+    "core_sales": 585904,
+    "catering": 2911,
+    "cogs_actual": 169334,
+    "opex": 119915,
+    "labor_actual": 171926,
+    "template_core_hours": 9656,
+    "template_core_wages": 199264,
+    "admin_training": 16728,
+    "tips_est": 70773,
+    "labor_template": 171136,
+    "labor_saving": 789,
+    "noi_reported": 127638,
+    "noi_template": 128424,
+    "cogs_pct_actual": 28.9,
+    "labor_pct_actual": 29.3,
+    "labor_pct_template": 29.2,
+    "template_wage_pct": 34.4,
+    "core_basis": {
+     "27": {
+      "actual_labor": 135866,
+      "template_labor": 136658
+     },
+     "28.5": {
+      "actual_labor": 127080,
+      "template_labor": 127870
+     },
+     "30": {
+      "actual_labor": 118289,
+      "template_labor": 119081
+     },
+     "actual_cogs": {
+      "actual_labor": 124727,
+      "template_labor": 125516
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "template_core_wages": 207118,
+      "labor_template": 179935,
+      "extra_vs_planning": 8798,
+      "core_basis": {
+       "27": 127861,
+       "28.5": 119072,
+       "30": 110281,
+       "actual_cogs": 116719
+      }
+     },
+     "peer": {
+      "template_core_wages": 236343,
+      "labor_template": 212668,
+      "extra_vs_planning": 41529,
+      "core_basis": {
+       "27": 95129,
+       "28.5": 86339,
+       "30": 77551,
+       "actual_cogs": 83990
+      }
+     },
+     "peer_plus5": {
+      "template_core_wages": 248175,
+      "labor_template": 225919,
+      "extra_vs_planning": 54780,
+      "core_basis": {
+       "27": 81876,
+       "28.5": 73088,
+       "30": 64299,
+       "actual_cogs": 70736
+      }
+     }
+    },
+    "tier_weeks": {
+     "mid": 21,
+     "slow": 19,
+     "busy": 13
+    }
+   },
+   "months_losing_at_28_5_actual": 0,
+   "months_losing_at_28_5_template": 0,
+   "untemplated_days": {}
+  },
+  "1899 Penn": {
+   "admin_training_month": 501,
+   "tip_share_of_core": 11.0,
+   "bands_weekly": {
+    "slow": [
+     0,
+     3300
+    ],
+    "mid": [
+     3300,
+     4200
+    ],
+    "busy": [
+     4200,
+     null
+    ]
+   },
+   "months": [
+    {
+     "month": "Sep 25",
+     "ym": "2025-09",
+     "open_days": 21,
+     "walkin_sales": 9922,
+     "tier_weeks": {
+      "slow": 5
+     },
+     "core_sales": 9816,
+     "catering": 369,
+     "cogs_actual": 3330,
+     "cogs_pct_actual": 33.9,
+     "opex": 1559,
+     "labor_actual": 6330,
+     "labor_pct_actual": 64.5,
+     "template_core_hours": 284,
+     "template_core_wages": 6050,
+     "template_wage_pct": 61.0,
+     "admin_training": 501,
+     "tips_est": 1077,
+     "labor_template": 6260,
+     "labor_pct_template": 63.8,
+     "labor_saving": 70,
+     "noi_reported": -1034,
+     "noi_template": -964,
+     "core_basis": {
+      "27": {
+       "actual_labor": -724,
+       "template_labor": -653
+      },
+      "28.5": {
+       "actual_labor": -871,
+       "template_labor": -801
+      },
+      "30": {
+       "actual_labor": -1018,
+       "template_labor": -948
+      },
+      "actual_cogs": {
+       "actual_labor": -1403,
+       "template_labor": -1333
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 6270,
+       "labor_template": 6507,
+       "extra_vs_planning": 247,
+       "core_basis": {
+        "27": -900,
+        "28.5": -1048,
+        "30": -1195,
+        "actual_cogs": -1580
+       }
+      },
+      "peer": {
+       "template_core_wages": 7040,
+       "labor_template": 7369,
+       "extra_vs_planning": 1109,
+       "core_basis": {
+        "27": -1763,
+        "28.5": -1910,
+        "30": -2057,
+        "actual_cogs": -2442
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 7393,
+       "labor_template": 7764,
+       "extra_vs_planning": 1504,
+       "core_basis": {
+        "27": -2158,
+        "28.5": -2305,
+        "30": -2452,
+        "actual_cogs": -2837
+       }
+      }
+     }
+    },
+    {
+     "month": "Oct 25",
+     "ym": "2025-10",
+     "open_days": 23,
+     "walkin_sales": 13178,
+     "tier_weeks": {
+      "slow": 4,
+      "mid": 1
+     },
+     "core_sales": 12829,
+     "catering": 348,
+     "cogs_actual": 3670,
+     "cogs_pct_actual": 28.6,
+     "opex": 1793,
+     "labor_actual": 7700,
+     "labor_pct_actual": 60.0,
+     "template_core_hours": 315,
+     "template_core_wages": 6711,
+     "template_wage_pct": 50.9,
+     "admin_training": 501,
+     "tips_est": 1408,
+     "labor_template": 6669,
+     "labor_pct_template": 52.0,
+     "labor_saving": 1030,
+     "noi_reported": 14,
+     "noi_template": 1044,
+     "core_basis": {
+      "27": {
+       "actual_labor": -128,
+       "template_labor": 903
+      },
+      "28.5": {
+       "actual_labor": -320,
+       "template_labor": 710
+      },
+      "30": {
+       "actual_labor": -513,
+       "template_labor": 518
+      },
+      "actual_cogs": {
+       "actual_labor": -334,
+       "template_labor": 696
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 6956,
+       "labor_template": 6943,
+       "extra_vs_planning": 274,
+       "core_basis": {
+        "27": 629,
+        "28.5": 436,
+        "30": 244,
+        "actual_cogs": 422
+       }
+      },
+      "peer": {
+       "template_core_wages": 7809,
+       "labor_template": 7899,
+       "extra_vs_planning": 1230,
+       "core_basis": {
+        "27": -327,
+        "28.5": -520,
+        "30": -712,
+        "actual_cogs": -534
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 8200,
+       "labor_template": 8338,
+       "extra_vs_planning": 1668,
+       "core_basis": {
+        "27": -766,
+        "28.5": -958,
+        "30": -1150,
+        "actual_cogs": -972
+       }
+      }
+     }
+    },
+    {
+     "month": "Nov 25",
+     "ym": "2025-11",
+     "open_days": 18,
+     "walkin_sales": 7789,
+     "tier_weeks": {
+      "slow": 4
+     },
+     "core_sales": 7780,
+     "catering": 9,
+     "cogs_actual": 2161,
+     "cogs_pct_actual": 27.8,
+     "opex": 1375,
+     "labor_actual": 5835,
+     "labor_pct_actual": 75.0,
+     "template_core_hours": 244,
+     "template_core_wages": 5187,
+     "template_wage_pct": 66.6,
+     "admin_training": 501,
+     "tips_est": 854,
+     "labor_template": 5517,
+     "labor_pct_template": 70.9,
+     "labor_saving": 319,
+     "noi_reported": -1582,
+     "noi_template": -1263,
+     "core_basis": {
+      "27": {
+       "actual_labor": -1530,
+       "template_labor": -1212
+      },
+      "28.5": {
+       "actual_labor": -1647,
+       "template_labor": -1328
+      },
+      "30": {
+       "actual_labor": -1764,
+       "template_labor": -1445
+      },
+      "actual_cogs": {
+       "actual_labor": -1591,
+       "template_labor": -1272
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 5376,
+       "labor_template": 5728,
+       "extra_vs_planning": 212,
+       "core_basis": {
+        "27": -1423,
+        "28.5": -1540,
+        "30": -1657,
+        "actual_cogs": -1484
+       }
+      },
+      "peer": {
+       "template_core_wages": 6036,
+       "labor_template": 6468,
+       "extra_vs_planning": 951,
+       "core_basis": {
+        "27": -2163,
+        "28.5": -2279,
+        "30": -2396,
+        "actual_cogs": -2223
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 6338,
+       "labor_template": 6806,
+       "extra_vs_planning": 1290,
+       "core_basis": {
+        "27": -2501,
+        "28.5": -2618,
+        "30": -2735,
+        "actual_cogs": -2562
+       }
+      }
+     }
+    },
+    {
+     "month": "Dec 25",
+     "ym": "2025-12",
+     "open_days": 19,
+     "walkin_sales": 7403,
+     "tier_weeks": {
+      "slow": 5
+     },
+     "core_sales": 7217,
+     "catering": 942,
+     "cogs_actual": 2040,
+     "cogs_pct_actual": 28.3,
+     "opex": 1806,
+     "labor_actual": 5518,
+     "labor_pct_actual": 76.5,
+     "template_core_hours": 254,
+     "template_core_wages": 5421,
+     "template_wage_pct": 73.2,
+     "admin_training": 501,
+     "tips_est": 792,
+     "labor_template": 5840,
+     "labor_pct_template": 80.9,
+     "labor_saving": -322,
+     "noi_reported": -1205,
+     "noi_template": -1527,
+     "core_basis": {
+      "27": {
+       "actual_labor": -2055,
+       "template_labor": -2378
+      },
+      "28.5": {
+       "actual_labor": -2164,
+       "template_labor": -2486
+      },
+      "30": {
+       "actual_labor": -2272,
+       "template_labor": -2594
+      },
+      "actual_cogs": {
+       "actual_labor": -2147,
+       "template_labor": -2469
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 5618,
+       "labor_template": 6061,
+       "extra_vs_planning": 221,
+       "core_basis": {
+        "27": -2599,
+        "28.5": -2707,
+        "30": -2815,
+        "actual_cogs": -2690
+       }
+      },
+      "peer": {
+       "template_core_wages": 6308,
+       "labor_template": 6834,
+       "extra_vs_planning": 994,
+       "core_basis": {
+        "27": -3372,
+        "28.5": -3480,
+        "30": -3588,
+        "actual_cogs": -3463
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 6624,
+       "labor_template": 7188,
+       "extra_vs_planning": 1348,
+       "core_basis": {
+        "27": -3726,
+        "28.5": -3834,
+        "30": -3942,
+        "actual_cogs": -3817
+       }
+      }
+     }
+    },
+    {
+     "month": "Jan 26",
+     "ym": "2026-01",
+     "open_days": 18,
+     "walkin_sales": 8640,
+     "tier_weeks": {
+      "slow": 3,
+      "mid": 1
+     },
+     "core_sales": 8324,
+     "catering": 1525,
+     "cogs_actual": 3583,
+     "cogs_pct_actual": 43.0,
+     "opex": 1487,
+     "labor_actual": 5744,
+     "labor_pct_actual": 69.0,
+     "template_core_hours": 248,
+     "template_core_wages": 5273,
+     "template_wage_pct": 61.0,
+     "admin_training": 501,
+     "tips_est": 914,
+     "labor_template": 5553,
+     "labor_pct_template": 66.7,
+     "labor_saving": 190,
+     "noi_reported": -1070,
+     "noi_template": -879,
+     "core_basis": {
+      "27": {
+       "actual_labor": -1154,
+       "template_labor": -963
+      },
+      "28.5": {
+       "actual_labor": -1279,
+       "template_labor": -1088
+      },
+      "30": {
+       "actual_labor": -1404,
+       "template_labor": -1213
+      },
+      "actual_cogs": {
+       "actual_labor": -2490,
+       "template_labor": -2299
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 5465,
+       "labor_template": 5769,
+       "extra_vs_planning": 215,
+       "core_basis": {
+        "27": -1179,
+        "28.5": -1304,
+        "30": -1429,
+        "actual_cogs": -2515
+       }
+      },
+      "peer": {
+       "template_core_wages": 6136,
+       "labor_template": 6520,
+       "extra_vs_planning": 966,
+       "core_basis": {
+        "27": -1930,
+        "28.5": -2055,
+        "30": -2179,
+        "actual_cogs": -3266
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 6443,
+       "labor_template": 6864,
+       "extra_vs_planning": 1311,
+       "core_basis": {
+        "27": -2274,
+        "28.5": -2399,
+        "30": -2524,
+        "actual_cogs": -3610
+       }
+      }
+     }
+    },
+    {
+     "month": "Feb 26",
+     "ym": "2026-02",
+     "open_days": 19,
+     "walkin_sales": 11406,
+     "tier_weeks": {
+      "slow": 4
+     },
+     "core_sales": 11340,
+     "catering": 1035,
+     "cogs_actual": 4901,
+     "cogs_pct_actual": 43.2,
+     "opex": 1534,
+     "labor_actual": 5601,
+     "labor_pct_actual": 49.4,
+     "template_core_hours": 258,
+     "template_core_wages": 5496,
+     "template_wage_pct": 48.2,
+     "admin_training": 501,
+     "tips_est": 1245,
+     "labor_template": 5473,
+     "labor_pct_template": 48.3,
+     "labor_saving": 129,
+     "noi_reported": 234,
+     "noi_template": 363,
+     "core_basis": {
+      "27": {
+       "actual_labor": 1143,
+       "template_labor": 1272
+      },
+      "28.5": {
+       "actual_labor": 973,
+       "template_labor": 1102
+      },
+      "30": {
+       "actual_labor": 803,
+       "template_labor": 932
+      },
+      "actual_cogs": {
+       "actual_labor": -696,
+       "template_labor": -567
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 5697,
+       "labor_template": 5697,
+       "extra_vs_planning": 225,
+       "core_basis": {
+        "27": 1047,
+        "28.5": 877,
+        "30": 707,
+        "actual_cogs": -792
+       }
+      },
+      "peer": {
+       "template_core_wages": 6396,
+       "labor_template": 6480,
+       "extra_vs_planning": 1007,
+       "core_basis": {
+        "27": 264,
+        "28.5": 94,
+        "30": -76,
+        "actual_cogs": -1575
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 6716,
+       "labor_template": 6839,
+       "extra_vs_planning": 1366,
+       "core_basis": {
+        "27": -95,
+        "28.5": -265,
+        "30": -435,
+        "actual_cogs": -1934
+       }
+      }
+     }
+    },
+    {
+     "month": "Mar 26",
+     "ym": "2026-03",
+     "open_days": 22,
+     "walkin_sales": 14478,
+     "tier_weeks": {
+      "mid": 3,
+      "slow": 2
+     },
+     "core_sales": 14100,
+     "catering": 419,
+     "cogs_actual": 4831,
+     "cogs_pct_actual": 34.3,
+     "opex": 1919,
+     "labor_actual": 6670,
+     "labor_pct_actual": 47.3,
+     "template_core_hours": 306,
+     "template_core_wages": 6519,
+     "template_wage_pct": 45.0,
+     "admin_training": 501,
+     "tips_est": 1547,
+     "labor_template": 6316,
+     "labor_pct_template": 44.8,
+     "labor_saving": 355,
+     "noi_reported": 994,
+     "noi_template": 1348,
+     "core_basis": {
+      "27": {
+       "actual_labor": 1704,
+       "template_labor": 2058
+      },
+      "28.5": {
+       "actual_labor": 1492,
+       "template_labor": 1847
+      },
+      "30": {
+       "actual_labor": 1281,
+       "template_labor": 1635
+      },
+      "actual_cogs": {
+       "actual_labor": 680,
+       "template_labor": 1034
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 6758,
+       "labor_template": 6582,
+       "extra_vs_planning": 267,
+       "core_basis": {
+        "27": 1792,
+        "28.5": 1580,
+        "30": 1369,
+        "actual_cogs": 768
+       }
+      },
+      "peer": {
+       "template_core_wages": 7586,
+       "labor_template": 7510,
+       "extra_vs_planning": 1195,
+       "core_basis": {
+        "27": 864,
+        "28.5": 652,
+        "30": 441,
+        "actual_cogs": -160
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 7966,
+       "labor_template": 7936,
+       "extra_vs_planning": 1621,
+       "core_basis": {
+        "27": 438,
+        "28.5": 226,
+        "30": 15,
+        "actual_cogs": -586
+       }
+      }
+     }
+    },
+    {
+     "month": "Apr 26",
+     "ym": "2026-04",
+     "open_days": 22,
+     "walkin_sales": 19901,
+     "tier_weeks": {
+      "mid": 4,
+      "busy": 1
+     },
+     "core_sales": 19291,
+     "catering": 1042,
+     "cogs_actual": 6751,
+     "cogs_pct_actual": 35.0,
+     "opex": 2530,
+     "labor_actual": 8925,
+     "labor_pct_actual": 46.3,
+     "template_core_hours": 320,
+     "template_core_wages": 6807,
+     "template_wage_pct": 34.2,
+     "admin_training": 501,
+     "tips_est": 2117,
+     "labor_template": 6068,
+     "labor_pct_template": 31.5,
+     "labor_saving": 2857,
+     "noi_reported": 1678,
+     "noi_template": 4535,
+     "core_basis": {
+      "27": {
+       "actual_labor": 2627,
+       "template_labor": 5485
+      },
+      "28.5": {
+       "actual_labor": 2338,
+       "template_labor": 5195
+      },
+      "30": {
+       "actual_labor": 2049,
+       "template_labor": 4906
+      },
+      "actual_cogs": {
+       "actual_labor": 1085,
+       "template_labor": 3943
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 7055,
+       "labor_template": 6346,
+       "extra_vs_planning": 278,
+       "core_basis": {
+        "27": 5207,
+        "28.5": 4917,
+        "30": 4628,
+        "actual_cogs": 3664
+       }
+      },
+      "peer": {
+       "template_core_wages": 7921,
+       "labor_template": 7315,
+       "extra_vs_planning": 1248,
+       "core_basis": {
+        "27": 4237,
+        "28.5": 3948,
+        "30": 3658,
+        "actual_cogs": 2695
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 8318,
+       "labor_template": 7760,
+       "extra_vs_planning": 1692,
+       "core_basis": {
+        "27": 3793,
+        "28.5": 3503,
+        "30": 3214,
+        "actual_cogs": 2251
+       }
+      }
+     }
+    },
+    {
+     "month": "May 26",
+     "ym": "2026-05",
+     "open_days": 20,
+     "walkin_sales": 14986,
+     "tier_weeks": {
+      "mid": 5
+     },
+     "core_sales": 15106,
+     "catering": 126,
+     "cogs_actual": 5620,
+     "cogs_pct_actual": 37.2,
+     "opex": 1791,
+     "labor_actual": 6804,
+     "labor_pct_actual": 45.0,
+     "template_core_hours": 282,
+     "template_core_wages": 6008,
+     "template_wage_pct": 40.1,
+     "admin_training": 501,
+     "tips_est": 1658,
+     "labor_template": 5632,
+     "labor_pct_template": 37.3,
+     "labor_saving": 1172,
+     "noi_reported": 918,
+     "noi_template": 2090,
+     "core_basis": {
+      "27": {
+       "actual_labor": 2433,
+       "template_labor": 3605
+      },
+      "28.5": {
+       "actual_labor": 2206,
+       "template_labor": 3378
+      },
+      "30": {
+       "actual_labor": 1980,
+       "template_labor": 3152
+      },
+      "actual_cogs": {
+       "actual_labor": 892,
+       "template_labor": 2064
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 6226,
+       "labor_template": 5877,
+       "extra_vs_planning": 245,
+       "core_basis": {
+        "27": 3360,
+        "28.5": 3133,
+        "30": 2906,
+        "actual_cogs": 1818
+       }
+      },
+      "peer": {
+       "template_core_wages": 6991,
+       "labor_template": 6733,
+       "extra_vs_planning": 1101,
+       "core_basis": {
+        "27": 2504,
+        "28.5": 2277,
+        "30": 2051,
+        "actual_cogs": 963
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 7341,
+       "labor_template": 7125,
+       "extra_vs_planning": 1494,
+       "core_basis": {
+        "27": 2111,
+        "28.5": 1885,
+        "30": 1658,
+        "actual_cogs": 570
+       }
+      }
+     }
+    },
+    {
+     "month": "Jun 26",
+     "ym": "2026-06",
+     "open_days": 21,
+     "walkin_sales": 19404,
+     "tier_weeks": {
+      "busy": 5
+     },
+     "core_sales": 19039,
+     "catering": 557,
+     "cogs_actual": 8421,
+     "cogs_pct_actual": 44.2,
+     "opex": 3092,
+     "labor_actual": 6252,
+     "labor_pct_actual": 32.8,
+     "template_core_hours": 325,
+     "template_core_wages": 6923,
+     "template_wage_pct": 35.7,
+     "admin_training": 501,
+     "tips_est": 2090,
+     "labor_template": 6226,
+     "labor_pct_template": 32.7,
+     "labor_saving": 26,
+     "noi_reported": 1607,
+     "noi_template": 1633,
+     "core_basis": {
+      "27": {
+       "actual_labor": 4555,
+       "template_labor": 4581
+      },
+      "28.5": {
+       "actual_labor": 4270,
+       "template_labor": 4296
+      },
+      "30": {
+       "actual_labor": 3984,
+       "template_labor": 4010
+      },
+      "actual_cogs": {
+       "actual_labor": 1275,
+       "template_labor": 1301
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 7176,
+       "labor_template": 6508,
+       "extra_vs_planning": 283,
+       "core_basis": {
+        "27": 4299,
+        "28.5": 4013,
+        "30": 3728,
+        "actual_cogs": 1019
+       }
+      },
+      "peer": {
+       "template_core_wages": 8056,
+       "labor_template": 7495,
+       "extra_vs_planning": 1269,
+       "core_basis": {
+        "27": 3312,
+        "28.5": 3026,
+        "30": 2741,
+        "actual_cogs": 32
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 8460,
+       "labor_template": 7947,
+       "extra_vs_planning": 1721,
+       "core_basis": {
+        "27": 2860,
+        "28.5": 2574,
+        "30": 2289,
+        "actual_cogs": -420
+       }
+      }
+     }
+    },
+    {
+     "month": "Jul 26",
+     "ym": "2026-07",
+     "open_days": 22,
+     "walkin_sales": 17955,
+     "tier_weeks": {
+      "busy": 3,
+      "mid": 2
+     },
+     "core_sales": 17881,
+     "catering": 132,
+     "cogs_actual": 6646,
+     "cogs_pct_actual": 37.2,
+     "opex": 3796,
+     "labor_actual": 7094,
+     "labor_pct_actual": 39.7,
+     "template_core_hours": 328,
+     "template_core_wages": 6976,
+     "template_wage_pct": 38.9,
+     "admin_training": 501,
+     "tips_est": 1962,
+     "labor_template": 6412,
+     "labor_pct_template": 35.9,
+     "labor_saving": 682,
+     "noi_reported": 424,
+     "noi_template": 1106,
+     "core_basis": {
+      "27": {
+       "actual_labor": 2163,
+       "template_labor": 2845
+      },
+      "28.5": {
+       "actual_labor": 1895,
+       "template_labor": 2577
+      },
+      "30": {
+       "actual_labor": 1626,
+       "template_labor": 2309
+      },
+      "actual_cogs": {
+       "actual_labor": 345,
+       "template_labor": 1027
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 7230,
+       "labor_template": 6696,
+       "extra_vs_planning": 284,
+       "core_basis": {
+        "27": 2561,
+        "28.5": 2293,
+        "30": 2024,
+        "actual_cogs": 743
+       }
+      },
+      "peer": {
+       "template_core_wages": 8118,
+       "labor_template": 7691,
+       "extra_vs_planning": 1279,
+       "core_basis": {
+        "27": 1566,
+        "28.5": 1298,
+        "30": 1029,
+        "actual_cogs": -252
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 8525,
+       "labor_template": 8146,
+       "extra_vs_planning": 1735,
+       "core_basis": {
+        "27": 1110,
+        "28.5": 842,
+        "30": 574,
+        "actual_cogs": -708
+       }
+      }
+     }
+    },
+    {
+     "month": "Aug 26",
+     "ym": "2026-08",
+     "open_days": 21,
+     "walkin_sales": 15663,
+     "tier_weeks": {
+      "mid": 4,
+      "slow": 1
+     },
+     "core_sales": 15699,
+     "catering": 56,
+     "cogs_actual": 5797,
+     "cogs_pct_actual": 36.9,
+     "opex": 2227,
+     "labor_actual": 8277,
+     "labor_pct_actual": 52.7,
+     "template_core_hours": 296,
+     "template_core_wages": 6306,
+     "template_wage_pct": 40.3,
+     "admin_training": 501,
+     "tips_est": 1723,
+     "labor_template": 5901,
+     "labor_pct_template": 37.6,
+     "labor_saving": 2376,
+     "noi_reported": -568,
+     "noi_template": 1808,
+     "core_basis": {
+      "27": {
+       "actual_labor": 957,
+       "template_labor": 3333
+      },
+      "28.5": {
+       "actual_labor": 721,
+       "template_labor": 3097
+      },
+      "30": {
+       "actual_labor": 486,
+       "template_labor": 2862
+      },
+      "actual_cogs": {
+       "actual_labor": -601,
+       "template_labor": 1775
+      }
+     },
+     "pay_scenarios": {
+      "full_curve": {
+       "template_core_wages": 6536,
+       "labor_template": 6158,
+       "extra_vs_planning": 258,
+       "core_basis": {
+        "27": 3075,
+        "28.5": 2840,
+        "30": 2604,
+        "actual_cogs": 1517
+       }
+      },
+      "peer": {
+       "template_core_wages": 7338,
+       "labor_template": 7057,
+       "extra_vs_planning": 1156,
+       "core_basis": {
+        "27": 2177,
+        "28.5": 1941,
+        "30": 1706,
+        "actual_cogs": 619
+       }
+      },
+      "peer_plus5": {
+       "template_core_wages": 7706,
+       "labor_template": 7469,
+       "extra_vs_planning": 1568,
+       "core_basis": {
+        "27": 1765,
+        "28.5": 1530,
+        "30": 1294,
+        "actual_cogs": 207
+       }
+      }
+     }
+    }
+   ],
+   "totals": {
+    "open_days": 246,
+    "walkin_sales": 160725,
+    "core_sales": 158422,
+    "catering": 6560,
+    "cogs_actual": 57751,
+    "opex": 24909,
+    "labor_actual": 80750,
+    "template_core_hours": 3460,
+    "template_core_wages": 73677,
+    "admin_training": 6012,
+    "tips_est": 17387,
+    "labor_template": 71867,
+    "labor_saving": 8884,
+    "noi_reported": 410,
+    "noi_template": 9294,
+    "cogs_pct_actual": 36.5,
+    "labor_pct_actual": 51.0,
+    "labor_pct_template": 45.4,
+    "template_wage_pct": 45.8,
+    "core_basis": {
+     "27": {
+      "actual_labor": 9991,
+      "template_labor": 18876
+     },
+     "28.5": {
+      "actual_labor": 7614,
+      "template_labor": 16499
+     },
+     "30": {
+      "actual_labor": 5238,
+      "template_labor": 14124
+     },
+     "actual_cogs": {
+      "actual_labor": -4985,
+      "template_labor": 3900
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "template_core_wages": 76363,
+      "labor_template": 74872,
+      "extra_vs_planning": 3009,
+      "core_basis": {
+       "27": 15869,
+       "28.5": 13490,
+       "30": 11114,
+       "actual_cogs": 890
+      }
+     },
+     "peer": {
+      "template_core_wages": 85735,
+      "labor_template": 85371,
+      "extra_vs_planning": 13505,
+      "core_basis": {
+       "27": 5369,
+       "28.5": 2992,
+       "30": 618,
+       "actual_cogs": -9606
+      }
+     },
+     "peer_plus5": {
+      "template_core_wages": 90030,
+      "labor_template": 90182,
+      "extra_vs_planning": 18318,
+      "core_basis": {
+       "27": 557,
+       "28.5": -1819,
+       "30": -4194,
+       "actual_cogs": -14418
+      }
+     }
+    },
+    "tier_weeks": {
+     "slow": 27,
+     "mid": 18,
+     "busy": 8
+    }
+   },
+   "months_losing_at_28_5_actual": 5,
+   "months_losing_at_28_5_template": 4,
+   "untemplated_days": {}
+  }
+ },
+ "three_cafes": {
+  "months": [
+   {
+    "month": "Sep 25",
+    "ym": "2025-09",
+    "core_sales": 92279,
+    "labor_actual": 30314,
+    "labor_template": 30089,
+    "labor_saving": 225,
+    "noi_reported": 19842,
+    "noi_template": 20067,
+    "opex": 17240,
+    "cogs_actual": 26584,
+    "core_basis": {
+     "27": {
+      "actual_labor": 19809,
+      "template_labor": 20035
+     },
+     "28.5": {
+      "actual_labor": 18425,
+      "template_labor": 18650
+     },
+     "30": {
+      "actual_labor": 17040,
+      "template_labor": 17265
+     },
+     "actual_cogs": {
+      "actual_labor": 18141,
+      "template_labor": 18366
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 31573,
+      "extra_vs_planning": 1484,
+      "core_basis": {
+       "27": 18551,
+       "28.5": 17165,
+       "30": 15781,
+       "actual_cogs": 16882
+      }
+     },
+     "peer": {
+      "labor_template": 37041,
+      "extra_vs_planning": 6951,
+      "core_basis": {
+       "27": 13082,
+       "28.5": 11698,
+       "30": 10314,
+       "actual_cogs": 11414
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 39308,
+      "extra_vs_planning": 9218,
+      "core_basis": {
+       "27": 10815,
+       "28.5": 9431,
+       "30": 8047,
+       "actual_cogs": 9147
+      }
+     }
+    },
+    "support_ni": null,
+    "nmwa_noi": 0,
+    "total_ni_reported": null
+   },
+   {
+    "month": "Oct 25",
+    "ym": "2025-10",
+    "core_sales": 103131,
+    "labor_actual": 30763,
+    "labor_template": 31315,
+    "labor_saving": -553,
+    "noi_reported": 36740,
+    "noi_template": 36187,
+    "opex": 22029,
+    "cogs_actual": 28392,
+    "core_basis": {
+     "27": {
+      "actual_labor": 22493,
+      "template_labor": 21942
+     },
+     "28.5": {
+      "actual_labor": 20946,
+      "template_labor": 20394
+     },
+     "30": {
+      "actual_labor": 19399,
+      "template_labor": 18848
+     },
+     "actual_cogs": {
+      "actual_labor": 21946,
+      "template_labor": 21394
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 32883,
+      "extra_vs_planning": 1568,
+      "core_basis": {
+       "27": 20373,
+       "28.5": 18825,
+       "30": 17279,
+       "actual_cogs": 19825
+      }
+     },
+     "peer": {
+      "labor_template": 38731,
+      "extra_vs_planning": 7416,
+      "core_basis": {
+       "27": 14526,
+       "28.5": 12978,
+       "30": 11432,
+       "actual_cogs": 13978
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 41147,
+      "extra_vs_planning": 9832,
+      "core_basis": {
+       "27": 12109,
+       "28.5": 10563,
+       "30": 9016,
+       "actual_cogs": 11563
+      }
+     }
+    },
+    "support_ni": null,
+    "nmwa_noi": 0,
+    "total_ni_reported": null
+   },
+   {
+    "month": "Nov 25",
+    "ym": "2025-11",
+    "core_sales": 82212,
+    "labor_actual": 25850,
+    "labor_template": 28427,
+    "labor_saving": -2576,
+    "noi_reported": 35792,
+    "noi_template": 33215,
+    "opex": 18645,
+    "cogs_actual": 24248,
+    "core_basis": {
+     "27": {
+      "actual_labor": 15519,
+      "template_labor": 12942
+     },
+     "28.5": {
+      "actual_labor": 14286,
+      "template_labor": 11710
+     },
+     "30": {
+      "actual_labor": 13052,
+      "template_labor": 10476
+     },
+     "actual_cogs": {
+      "actual_labor": 13468,
+      "template_labor": 10892
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 29811,
+      "extra_vs_planning": 1385,
+      "core_basis": {
+       "27": 11559,
+       "28.5": 10325,
+       "30": 9091,
+       "actual_cogs": 9507
+      }
+     },
+     "peer": {
+      "labor_template": 34852,
+      "extra_vs_planning": 6425,
+      "core_basis": {
+       "27": 6518,
+       "28.5": 5285,
+       "30": 4051,
+       "actual_cogs": 4467
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 36947,
+      "extra_vs_planning": 8521,
+      "core_basis": {
+       "27": 4423,
+       "28.5": 3189,
+       "30": 1955,
+       "actual_cogs": 2371
+      }
+     }
+    },
+    "support_ni": null,
+    "nmwa_noi": 0,
+    "total_ni_reported": null
+   },
+   {
+    "month": "Dec 25",
+    "ym": "2025-12",
+    "core_sales": 71268,
+    "labor_actual": 28366,
+    "labor_template": 30134,
+    "labor_saving": -1768,
+    "noi_reported": 3967,
+    "noi_template": 2198,
+    "opex": 15605,
+    "cogs_actual": 25399,
+    "core_basis": {
+     "27": {
+      "actual_labor": 8056,
+      "template_labor": 6287
+     },
+     "28.5": {
+      "actual_labor": 6986,
+      "template_labor": 5218
+     },
+     "30": {
+      "actual_labor": 5917,
+      "template_labor": 4149
+     },
+     "actual_cogs": {
+      "actual_labor": 1898,
+      "template_labor": 130
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 31530,
+      "extra_vs_planning": 1396,
+      "core_basis": {
+       "27": 4890,
+       "28.5": 3821,
+       "30": 2752,
+       "actual_cogs": -1266
+      }
+     },
+     "peer": {
+      "labor_template": 36632,
+      "extra_vs_planning": 6497,
+      "core_basis": {
+       "27": -211,
+       "28.5": -1279,
+       "30": -2348,
+       "actual_cogs": -6367
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 38750,
+      "extra_vs_planning": 8616,
+      "core_basis": {
+       "27": -2330,
+       "28.5": -3399,
+       "30": -4468,
+       "actual_cogs": -8486
+      }
+     }
+    },
+    "support_ni": null,
+    "nmwa_noi": 0,
+    "total_ni_reported": null
+   },
+   {
+    "month": "Jan 26",
+    "ym": "2026-01",
+    "core_sales": 74806,
+    "labor_actual": 31146,
+    "labor_template": 28937,
+    "labor_saving": 2207,
+    "noi_reported": 12125,
+    "noi_template": 14334,
+    "opex": 16011,
+    "cogs_actual": 25364,
+    "core_basis": {
+     "27": {
+      "actual_labor": 7452,
+      "template_labor": 9660
+     },
+     "28.5": {
+      "actual_labor": 6330,
+      "template_labor": 8538
+     },
+     "30": {
+      "actual_labor": 5208,
+      "template_labor": 7416
+     },
+     "actual_cogs": {
+      "actual_labor": 2285,
+      "template_labor": 4494
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 30309,
+      "extra_vs_planning": 1371,
+      "core_basis": {
+       "27": 8289,
+       "28.5": 7166,
+       "30": 6044,
+       "actual_cogs": 3123
+      }
+     },
+     "peer": {
+      "labor_template": 35289,
+      "extra_vs_planning": 6350,
+      "core_basis": {
+       "27": 3310,
+       "28.5": 2187,
+       "30": 1066,
+       "actual_cogs": -1856
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 37360,
+      "extra_vs_planning": 8423,
+      "core_basis": {
+       "27": 1237,
+       "28.5": 115,
+       "30": -1007,
+       "actual_cogs": -3929
+      }
+     }
+    },
+    "support_ni": -19914,
+    "nmwa_noi": 6974,
+    "total_ni_reported": -1823
+   },
+   {
+    "month": "Feb 26",
+    "ym": "2026-02",
+    "core_sales": 85241,
+    "labor_actual": 26974,
+    "labor_template": 27920,
+    "labor_saving": -945,
+    "noi_reported": 14464,
+    "noi_template": 13517,
+    "opex": 16841,
+    "cogs_actual": 29530,
+    "core_basis": {
+     "27": {
+      "actual_labor": 18411,
+      "template_labor": 17465
+     },
+     "28.5": {
+      "actual_labor": 17133,
+      "template_labor": 16187
+     },
+     "30": {
+      "actual_labor": 15854,
+      "template_labor": 14908
+     },
+     "actual_cogs": {
+      "actual_labor": 11897,
+      "template_labor": 10952
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 29281,
+      "extra_vs_planning": 1362,
+      "core_basis": {
+       "27": 16103,
+       "28.5": 14825,
+       "30": 13546,
+       "actual_cogs": 9590
+      }
+     },
+     "peer": {
+      "labor_template": 34330,
+      "extra_vs_planning": 6409,
+      "core_basis": {
+       "27": 11055,
+       "28.5": 9776,
+       "30": 8498,
+       "actual_cogs": 4542
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 36417,
+      "extra_vs_planning": 8497,
+      "core_basis": {
+       "27": 8967,
+       "28.5": 7689,
+       "30": 6410,
+       "actual_cogs": 2454
+      }
+     }
+    },
+    "support_ni": -13446,
+    "nmwa_noi": -2197,
+    "total_ni_reported": -2648
+   },
+   {
+    "month": "Mar 26",
+    "ym": "2026-03",
+    "core_sales": 108136,
+    "labor_actual": 29967,
+    "labor_template": 30216,
+    "labor_saving": -248,
+    "noi_reported": 34890,
+    "noi_template": 34641,
+    "opex": 24127,
+    "cogs_actual": 31320,
+    "core_basis": {
+     "27": {
+      "actual_labor": 24846,
+      "template_labor": 24596
+     },
+     "28.5": {
+      "actual_labor": 23223,
+      "template_labor": 22975
+     },
+     "30": {
+      "actual_labor": 21602,
+      "template_labor": 21353
+     },
+     "actual_cogs": {
+      "actual_labor": 22722,
+      "template_labor": 22473
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 31774,
+      "extra_vs_planning": 1559,
+      "core_basis": {
+       "27": 23038,
+       "28.5": 21416,
+       "30": 19794,
+       "actual_cogs": 20915
+      }
+     },
+     "peer": {
+      "labor_template": 37533,
+      "extra_vs_planning": 7318,
+      "core_basis": {
+       "27": 17279,
+       "28.5": 15657,
+       "30": 14036,
+       "actual_cogs": 15157
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 39919,
+      "extra_vs_planning": 9704,
+      "core_basis": {
+       "27": 14893,
+       "28.5": 13270,
+       "30": 11649,
+       "actual_cogs": 12770
+      }
+     }
+    },
+    "support_ni": -13770,
+    "nmwa_noi": 24102,
+    "total_ni_reported": 45932
+   },
+   {
+    "month": "Apr 26",
+    "ym": "2026-04",
+    "core_sales": 119005,
+    "labor_actual": 31726,
+    "labor_template": 29272,
+    "labor_saving": 2454,
+    "noi_reported": 22214,
+    "noi_template": 24668,
+    "opex": 28166,
+    "cogs_actual": 41270,
+    "core_basis": {
+     "27": {
+      "actual_labor": 26980,
+      "template_labor": 29436
+     },
+     "28.5": {
+      "actual_labor": 25196,
+      "template_labor": 27650
+     },
+     "30": {
+      "actual_labor": 23411,
+      "template_labor": 25866
+     },
+     "actual_cogs": {
+      "actual_labor": 17842,
+      "template_labor": 20298
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 30826,
+      "extra_vs_planning": 1555,
+      "core_basis": {
+       "27": 27881,
+       "28.5": 26096,
+       "30": 24311,
+       "actual_cogs": 18742
+      }
+     },
+     "peer": {
+      "labor_template": 36666,
+      "extra_vs_planning": 7394,
+      "core_basis": {
+       "27": 22041,
+       "28.5": 20257,
+       "30": 18470,
+       "actual_cogs": 12902
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 39074,
+      "extra_vs_planning": 9801,
+      "core_basis": {
+       "27": 19634,
+       "28.5": 17849,
+       "30": 16064,
+       "actual_cogs": 10496
+      }
+     }
+    },
+    "support_ni": -6799,
+    "nmwa_noi": -4573,
+    "total_ni_reported": 12578
+   },
+   {
+    "month": "May 26",
+    "ym": "2026-05",
+    "core_sales": 106399,
+    "labor_actual": 32076,
+    "labor_template": 29502,
+    "labor_saving": 2574,
+    "noi_reported": 28089,
+    "noi_template": 30662,
+    "opex": 18203,
+    "cogs_actual": 32745,
+    "core_basis": {
+     "27": {
+      "actual_labor": 27392,
+      "template_labor": 29966
+     },
+     "28.5": {
+      "actual_labor": 25795,
+      "template_labor": 28370
+     },
+     "30": {
+      "actual_labor": 24200,
+      "template_labor": 26774
+     },
+     "actual_cogs": {
+      "actual_labor": 23375,
+      "template_labor": 25948
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 31011,
+      "extra_vs_planning": 1509,
+      "core_basis": {
+       "27": 28457,
+       "28.5": 26861,
+       "30": 25264,
+       "actual_cogs": 24438
+      }
+     },
+     "peer": {
+      "labor_template": 36674,
+      "extra_vs_planning": 7172,
+      "core_basis": {
+       "27": 22794,
+       "28.5": 21197,
+       "30": 19602,
+       "actual_cogs": 18777
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 39006,
+      "extra_vs_planning": 9505,
+      "core_basis": {
+       "27": 20461,
+       "28.5": 18866,
+       "30": 17270,
+       "actual_cogs": 16444
+      }
+     }
+    },
+    "support_ni": -13567,
+    "nmwa_noi": -1527,
+    "total_ni_reported": 15791
+   },
+   {
+    "month": "Jun 26",
+    "ym": "2026-06",
+    "core_sales": 113259,
+    "labor_actual": 34103,
+    "labor_template": 29583,
+    "labor_saving": 4520,
+    "noi_reported": 18143,
+    "noi_template": 22663,
+    "opex": 23867,
+    "cogs_actual": 38249,
+    "core_basis": {
+     "27": {
+      "actual_labor": 24708,
+      "template_labor": 29229
+     },
+     "28.5": {
+      "actual_labor": 23010,
+      "template_labor": 27530
+     },
+     "30": {
+      "actual_labor": 21311,
+      "template_labor": 25831
+     },
+     "actual_cogs": {
+      "actual_labor": 17040,
+      "template_labor": 21561
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 31133,
+      "extra_vs_planning": 1551,
+      "core_basis": {
+       "27": 27679,
+       "28.5": 25980,
+       "30": 24281,
+       "actual_cogs": 20011
+      }
+     },
+     "peer": {
+      "labor_template": 36886,
+      "extra_vs_planning": 7303,
+      "core_basis": {
+       "27": 21926,
+       "28.5": 20226,
+       "30": 18528,
+       "actual_cogs": 14258
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 39270,
+      "extra_vs_planning": 9686,
+      "core_basis": {
+       "27": 19543,
+       "28.5": 17844,
+       "30": 16146,
+       "actual_cogs": 11875
+      }
+     }
+    },
+    "support_ni": -3588,
+    "nmwa_noi": -2911,
+    "total_ni_reported": 13901
+   },
+   {
+    "month": "Jul 26",
+    "ym": "2026-07",
+    "core_sales": 101893,
+    "labor_actual": 34539,
+    "labor_template": 30944,
+    "labor_saving": 3595,
+    "noi_reported": 14092,
+    "noi_template": 17686,
+    "opex": 20474,
+    "cogs_actual": 35226,
+    "core_basis": {
+     "27": {
+      "actual_labor": 19368,
+      "template_labor": 22963
+     },
+     "28.5": {
+      "actual_labor": 17840,
+      "template_labor": 21435
+     },
+     "30": {
+      "actual_labor": 16311,
+      "template_labor": 19906
+     },
+     "actual_cogs": {
+      "actual_labor": 11653,
+      "template_labor": 15247
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 32505,
+      "extra_vs_planning": 1561,
+      "core_basis": {
+       "27": 21402,
+       "28.5": 19874,
+       "30": 18345,
+       "actual_cogs": 13686
+      }
+     },
+     "peer": {
+      "labor_template": 38234,
+      "extra_vs_planning": 7290,
+      "core_basis": {
+       "27": 15673,
+       "28.5": 14145,
+       "30": 12616,
+       "actual_cogs": 7957
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 40615,
+      "extra_vs_planning": 9672,
+      "core_basis": {
+       "27": 13290,
+       "28.5": 11763,
+       "30": 10235,
+       "actual_cogs": 5575
+      }
+     }
+    },
+    "support_ni": -5112,
+    "nmwa_noi": -1904,
+    "total_ni_reported": 11142
+   },
+   {
+    "month": "Aug 26",
+    "ym": "2026-08",
+    "core_sales": 93558,
+    "labor_actual": 39509,
+    "labor_template": 29796,
+    "labor_saving": 9714,
+    "noi_reported": 4207,
+    "noi_template": 13921,
+    "opex": 19030,
+    "cogs_actual": 30916,
+    "core_basis": {
+     "27": {
+      "actual_labor": 9758,
+      "template_labor": 19472
+     },
+     "28.5": {
+      "actual_labor": 8355,
+      "template_labor": 18068
+     },
+     "30": {
+      "actual_labor": 6951,
+      "template_labor": 16666
+     },
+     "actual_cogs": {
+      "actual_labor": 4103,
+      "template_labor": 13817
+     }
+    },
+    "pay_scenarios": {
+     "full_curve": {
+      "labor_template": 31300,
+      "extra_vs_planning": 1506,
+      "core_basis": {
+       "27": 17967,
+       "28.5": 16564,
+       "30": 15160,
+       "actual_cogs": 12311
+      }
+     },
+     "peer": {
+      "labor_template": 36666,
+      "extra_vs_planning": 6870,
+      "core_basis": {
+       "27": 12602,
+       "28.5": 11198,
+       "30": 9795,
+       "actual_cogs": 6948
+      }
+     },
+     "peer_plus5": {
+      "labor_template": 38918,
+      "extra_vs_planning": 9122,
+      "core_basis": {
+       "27": 10350,
+       "28.5": 8947,
+       "30": 7544,
+       "actual_cogs": 4695
+      }
+     }
+    },
+    "support_ni": -21347,
+    "nmwa_noi": -129,
+    "total_ni_reported": -12671
+   }
+  ],
+  "totals": {
+   "core_sales": 1151187,
+   "labor_actual": 375333,
+   "labor_template": 356135,
+   "labor_saving": 19199,
+   "noi_reported": 244565,
+   "noi_template": 263759,
+   "opex": 240238,
+   "cogs_actual": 369243,
+   "core_basis": {
+    "27": {
+     "actual_labor": 224792,
+     "template_labor": 243993
+    },
+    "28.5": {
+     "actual_labor": 207525,
+     "template_labor": 226725
+    },
+    "30": {
+     "actual_labor": 190256,
+     "template_labor": 209458
+    },
+    "actual_cogs": {
+     "actual_labor": 166370,
+     "template_labor": 185572
+    }
+   },
+   "pay_scenarios": {
+    "full_curve": {
+     "labor_template": 373936,
+     "extra_vs_planning": 17807,
+     "core_basis": {
+      "27": 226189,
+      "28.5": 208918,
+      "30": 191648,
+      "actual_cogs": 167764
+     }
+    },
+    "peer": {
+     "labor_template": 439534,
+     "extra_vs_planning": 83395,
+     "core_basis": {
+      "27": 160595,
+      "28.5": 143325,
+      "30": 126060,
+      "actual_cogs": 102177
+     }
+    },
+    "peer_plus5": {
+     "labor_template": 466731,
+     "extra_vs_planning": 110597,
+     "core_basis": {
+      "27": 133392,
+      "28.5": 116127,
+      "30": 98861,
+      "actual_cogs": 74975
+     }
+    }
+   }
+  },
+  "support_burden_2026_avg_month": -12193,
+  "support_burden_2026_ytd": -97543,
+  "note": "Support entities (Commissary, SRP, Cafe Mgmt, Central) net to a monthly burden in 2026; the Consolidated Model carries no 2025 support figures, so the 12-month 'after support' view uses the 2026 Jan\u2013Aug average \u00d7 12",
+  "after_support_12mo": {
+   "reported": 98249,
+   "template": 117443,
+   "core_basis_28_5_template": 80409,
+   "core_basis_30_template": 63142,
+   "core_basis_27_template": 97677
+  }
+ }
+}

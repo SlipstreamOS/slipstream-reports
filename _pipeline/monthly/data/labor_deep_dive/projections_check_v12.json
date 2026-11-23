@@ -1,0 +1,816 @@
+{
+ "monthly": {
+  "Downtown": [
+   {
+    "month": "2026-01",
+    "sales_2025": 22895,
+    "proj_v18": 25796,
+    "actual_2026": 25788,
+    "yoy_actual_pct": 12.6,
+    "proj_vs_2025_pct": 12.7,
+    "runrate_case": 22895,
+    "runrate_vs_proj_pct": -11.2
+   },
+   {
+    "month": "2026-02",
+    "sales_2025": 24910,
+    "proj_v18": 32848,
+    "actual_2026": 32866,
+    "yoy_actual_pct": 31.9,
+    "proj_vs_2025_pct": 31.9,
+    "runrate_case": 24910,
+    "runrate_vs_proj_pct": -24.2
+   },
+   {
+    "month": "2026-03",
+    "sales_2025": 30768,
+    "proj_v18": 39932,
+    "actual_2026": 39932,
+    "yoy_actual_pct": 29.8,
+    "proj_vs_2025_pct": 29.8,
+    "runrate_case": 30768,
+    "runrate_vs_proj_pct": -23.0
+   },
+   {
+    "month": "2026-04",
+    "sales_2025": 35093,
+    "proj_v18": 40913,
+    "actual_2026": 42300,
+    "yoy_actual_pct": 20.5,
+    "proj_vs_2025_pct": 16.6,
+    "runrate_case": 35093,
+    "runrate_vs_proj_pct": -14.2
+   },
+   {
+    "month": "2026-05",
+    "sales_2025": 32054,
+    "proj_v18": 35259,
+    "actual_2026": 37682,
+    "yoy_actual_pct": 17.6,
+    "proj_vs_2025_pct": 10.0,
+    "runrate_case": 32054,
+    "runrate_vs_proj_pct": -9.1
+   },
+   {
+    "month": "2026-06",
+    "sales_2025": 33393,
+    "proj_v18": 36733,
+    "actual_2026": 41467,
+    "yoy_actual_pct": 24.2,
+    "proj_vs_2025_pct": 10.0,
+    "runrate_case": 33393,
+    "runrate_vs_proj_pct": -9.1
+   },
+   {
+    "month": "2026-07",
+    "sales_2025": 35783,
+    "proj_v18": 39361,
+    "actual_2026": 35591,
+    "yoy_actual_pct": -0.5,
+    "proj_vs_2025_pct": 10.0,
+    "runrate_case": 35783,
+    "runrate_vs_proj_pct": -9.1
+   },
+   {
+    "month": "2026-08",
+    "sales_2025": 26961,
+    "proj_v18": 29657,
+    "actual_2026": 27103,
+    "yoy_actual_pct": 0.5,
+    "proj_vs_2025_pct": 10.0,
+    "runrate_case": 26961,
+    "runrate_vs_proj_pct": -9.1
+   },
+   {
+    "month": "2026-09",
+    "sales_2025": 35395,
+    "proj_v18": 36805,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 4.0,
+    "runrate_case": 35395,
+    "runrate_vs_proj_pct": -3.8
+   },
+   {
+    "month": "2026-10",
+    "sales_2025": 35087,
+    "proj_v18": 38329,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 9.2,
+    "runrate_case": 35087,
+    "runrate_vs_proj_pct": -8.5
+   },
+   {
+    "month": "2026-11",
+    "sales_2025": 29092,
+    "proj_v18": 32001,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 10.0,
+    "runrate_case": 29092,
+    "runrate_vs_proj_pct": -9.1
+   },
+   {
+    "month": "2026-12",
+    "sales_2025": 24150,
+    "proj_v18": 26637,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 10.3,
+    "runrate_case": 24150,
+    "runrate_vs_proj_pct": -9.3
+   }
+  ],
+  "Studio": [
+   {
+    "month": "2026-01",
+    "sales_2025": 46967,
+    "proj_v18": 49315,
+    "actual_2026": 41876,
+    "yoy_actual_pct": -10.8,
+    "proj_vs_2025_pct": 5.0,
+    "runrate_case": 40391,
+    "runrate_vs_proj_pct": -18.1
+   },
+   {
+    "month": "2026-02",
+    "sales_2025": 46459,
+    "proj_v18": 48782,
+    "actual_2026": 41674,
+    "yoy_actual_pct": -10.3,
+    "proj_vs_2025_pct": 5.0,
+    "runrate_case": 39955,
+    "runrate_vs_proj_pct": -18.1
+   },
+   {
+    "month": "2026-03",
+    "sales_2025": 54257,
+    "proj_v18": 56969,
+    "actual_2026": 55072,
+    "yoy_actual_pct": 1.5,
+    "proj_vs_2025_pct": 5.0,
+    "runrate_case": 46661,
+    "runrate_vs_proj_pct": -18.1
+   },
+   {
+    "month": "2026-04",
+    "sales_2025": 46375,
+    "proj_v18": 53737,
+    "actual_2026": 56263,
+    "yoy_actual_pct": 21.3,
+    "proj_vs_2025_pct": 15.9,
+    "runrate_case": 39882,
+    "runrate_vs_proj_pct": -25.8
+   },
+   {
+    "month": "2026-05",
+    "sales_2025": 53151,
+    "proj_v18": 53850,
+    "actual_2026": 55951,
+    "yoy_actual_pct": 5.3,
+    "proj_vs_2025_pct": 1.3,
+    "runrate_case": 45710,
+    "runrate_vs_proj_pct": -15.1
+   },
+   {
+    "month": "2026-06",
+    "sales_2025": 55050,
+    "proj_v18": 54150,
+    "actual_2026": 53076,
+    "yoy_actual_pct": -3.6,
+    "proj_vs_2025_pct": -1.6,
+    "runrate_case": 47343,
+    "runrate_vs_proj_pct": -12.6
+   },
+   {
+    "month": "2026-07",
+    "sales_2025": 50931,
+    "proj_v18": 53525,
+    "actual_2026": 42525,
+    "yoy_actual_pct": -16.5,
+    "proj_vs_2025_pct": 5.1,
+    "runrate_case": 43801,
+    "runrate_vs_proj_pct": -18.2
+   },
+   {
+    "month": "2026-08",
+    "sales_2025": 49878,
+    "proj_v18": 51150,
+    "actual_2026": 42768,
+    "yoy_actual_pct": -14.3,
+    "proj_vs_2025_pct": 2.6,
+    "runrate_case": 42895,
+    "runrate_vs_proj_pct": -16.1
+   },
+   {
+    "month": "2026-09",
+    "sales_2025": 48389,
+    "proj_v18": 49650,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 2.6,
+    "runrate_case": 41615,
+    "runrate_vs_proj_pct": -16.2
+   },
+   {
+    "month": "2026-10",
+    "sales_2025": 56558,
+    "proj_v18": 56000,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": -1.0,
+    "runrate_case": 48640,
+    "runrate_vs_proj_pct": -13.1
+   },
+   {
+    "month": "2026-11",
+    "sales_2025": 47223,
+    "proj_v18": 47925,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 1.5,
+    "runrate_case": 40611,
+    "runrate_vs_proj_pct": -15.3
+   },
+   {
+    "month": "2026-12",
+    "sales_2025": 37046,
+    "proj_v18": 40875,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 10.3,
+    "runrate_case": 31860,
+    "runrate_vs_proj_pct": -22.1
+   }
+  ],
+  "1899": [
+   {
+    "month": "2026-01",
+    "sales_2025": 0,
+    "proj_v18": 0,
+    "actual_2026": 9850,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": null,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-02",
+    "sales_2025": 0,
+    "proj_v18": 0,
+    "actual_2026": 12375,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": null,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-03",
+    "sales_2025": 0,
+    "proj_v18": 0,
+    "actual_2026": 14518,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": null,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-04",
+    "sales_2025": 0,
+    "proj_v18": 6700,
+    "actual_2026": 20155,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": null,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-05",
+    "sales_2025": 0,
+    "proj_v18": 14625,
+    "actual_2026": 14986,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": null,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-06",
+    "sales_2025": 1177,
+    "proj_v18": 16775,
+    "actual_2026": 19404,
+    "yoy_actual_pct": 1548.6,
+    "proj_vs_2025_pct": 1325.2,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-07",
+    "sales_2025": 9467,
+    "proj_v18": 17425,
+    "actual_2026": 17955,
+    "yoy_actual_pct": 89.7,
+    "proj_vs_2025_pct": 84.1,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-08",
+    "sales_2025": 8006,
+    "proj_v18": 15925,
+    "actual_2026": 15053,
+    "yoy_actual_pct": 88.0,
+    "proj_vs_2025_pct": 98.9,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-09",
+    "sales_2025": 10497,
+    "proj_v18": 16375,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 56.0,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-10",
+    "sales_2025": 12602,
+    "proj_v18": 17600,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 39.7,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-11",
+    "sales_2025": 8154,
+    "proj_v18": 14550,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 78.4,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   },
+   {
+    "month": "2026-12",
+    "sales_2025": 7039,
+    "proj_v18": 12400,
+    "actual_2026": null,
+    "yoy_actual_pct": null,
+    "proj_vs_2025_pct": 76.2,
+    "runrate_case": null,
+    "runrate_vs_proj_pct": null
+   }
+  ]
+ },
+ "weekly_sep_dec": {
+  "Downtown": [
+   {
+    "week": "2026-08-31",
+    "proj_weekly": 8372,
+    "proj_tier": "mid",
+    "runrate_weekly": 8145,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-09-07",
+    "proj_weekly": 6637,
+    "proj_tier": "slow",
+    "runrate_weekly": 7542,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-09-14",
+    "proj_weekly": 9269,
+    "proj_tier": "busy",
+    "runrate_weekly": 8426,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-09-21",
+    "proj_weekly": 8468,
+    "proj_tier": "mid",
+    "runrate_weekly": 7698,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-09-28",
+    "proj_weekly": 8669,
+    "proj_tier": "mid",
+    "runrate_weekly": 7881,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-10-05",
+    "proj_weekly": 9203,
+    "proj_tier": "busy",
+    "runrate_weekly": 8367,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-10-12",
+    "proj_weekly": 9967,
+    "proj_tier": "busy",
+    "runrate_weekly": 9365,
+    "runrate_tier": "busy"
+   },
+   {
+    "week": "2026-10-19",
+    "proj_weekly": 9496,
+    "proj_tier": "busy",
+    "runrate_weekly": 8632,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-10-26",
+    "proj_weekly": 8722,
+    "proj_tier": "mid",
+    "runrate_weekly": 7929,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-11-02",
+    "proj_weekly": 9827,
+    "proj_tier": "busy",
+    "runrate_weekly": 8934,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-11-09",
+    "proj_weekly": 7997,
+    "proj_tier": "mid",
+    "runrate_weekly": 7270,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-11-16",
+    "proj_weekly": 10412,
+    "proj_tier": "busy",
+    "runrate_weekly": 9466,
+    "runrate_tier": "busy"
+   },
+   {
+    "week": "2026-11-23",
+    "proj_weekly": 4445,
+    "proj_tier": "slow",
+    "runrate_weekly": 4041,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-11-30",
+    "proj_weekly": 8493,
+    "proj_tier": "mid",
+    "runrate_weekly": 7721,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-12-07",
+    "proj_weekly": 9813,
+    "proj_tier": "busy",
+    "runrate_weekly": 8921,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-12-14",
+    "proj_weekly": 8528,
+    "proj_tier": "mid",
+    "runrate_weekly": 7753,
+    "runrate_tier": "mid"
+   }
+  ],
+  "Studio": [
+   {
+    "week": "2026-08-31",
+    "proj_weekly": 11258,
+    "proj_tier": "mid",
+    "runrate_weekly": 9808,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-09-07",
+    "proj_weekly": 12025,
+    "proj_tier": "mid",
+    "runrate_weekly": 10027,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-09-14",
+    "proj_weekly": 12125,
+    "proj_tier": "mid",
+    "runrate_weekly": 10000,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-09-21",
+    "proj_weekly": 12250,
+    "proj_tier": "mid",
+    "runrate_weekly": 10212,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-09-28",
+    "proj_weekly": 12400,
+    "proj_tier": "mid",
+    "runrate_weekly": 11314,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-10-05",
+    "proj_weekly": 12400,
+    "proj_tier": "mid",
+    "runrate_weekly": 11160,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-10-12",
+    "proj_weekly": 12600,
+    "proj_tier": "busy",
+    "runrate_weekly": 10703,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-10-19",
+    "proj_weekly": 12450,
+    "proj_tier": "mid",
+    "runrate_weekly": 10532,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-10-26",
+    "proj_weekly": 12450,
+    "proj_tier": "mid",
+    "runrate_weekly": 10463,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-11-02",
+    "proj_weekly": 12450,
+    "proj_tier": "mid",
+    "runrate_weekly": 10640,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-11-09",
+    "proj_weekly": 12400,
+    "proj_tier": "mid",
+    "runrate_weekly": 11096,
+    "runrate_tier": "mid"
+   },
+   {
+    "week": "2026-11-16",
+    "proj_weekly": 11675,
+    "proj_tier": "mid",
+    "runrate_weekly": 9515,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-11-23",
+    "proj_weekly": 7700,
+    "proj_tier": "slow",
+    "runrate_weekly": 5959,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-11-30",
+    "proj_weekly": 10950,
+    "proj_tier": "mid",
+    "runrate_weekly": 8967,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-12-07",
+    "proj_weekly": 11150,
+    "proj_tier": "mid",
+    "runrate_weekly": 9449,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-12-14",
+    "proj_weekly": 10200,
+    "proj_tier": "slow",
+    "runrate_weekly": 7900,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-12-21",
+    "proj_weekly": 6038,
+    "proj_tier": "slow",
+    "runrate_weekly": 4800,
+    "runrate_tier": "slow"
+   },
+   {
+    "week": "2026-12-28",
+    "proj_weekly": 10267,
+    "proj_tier": "slow",
+    "runrate_weekly": 5292,
+    "runrate_tier": "slow"
+   }
+  ],
+  "1899 Penn": [
+   {
+    "week": "2026-08-31",
+    "proj_weekly": 3750,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-09-07",
+    "proj_weekly": 2950,
+    "proj_tier": "slow",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-09-14",
+    "proj_weekly": 3925,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-09-21",
+    "proj_weekly": 3950,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-09-28",
+    "proj_weekly": 4050,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-10-05",
+    "proj_weekly": 4050,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-10-12",
+    "proj_weekly": 3450,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-10-19",
+    "proj_weekly": 4300,
+    "proj_tier": "busy",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-10-26",
+    "proj_weekly": 4300,
+    "proj_tier": "busy",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-11-02",
+    "proj_weekly": 4300,
+    "proj_tier": "busy",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-11-09",
+    "proj_weekly": 3900,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-11-16",
+    "proj_weekly": 4250,
+    "proj_tier": "busy",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-11-23",
+    "proj_weekly": 2750,
+    "proj_tier": "slow",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-11-30",
+    "proj_weekly": 3600,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-12-07",
+    "proj_weekly": 4050,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   },
+   {
+    "week": "2026-12-14",
+    "proj_weekly": 4000,
+    "proj_tier": "mid",
+    "runrate_weekly": null,
+    "runrate_tier": null
+   }
+  ]
+ },
+ "tier_by_month_sep_dec": {
+  "Downtown": {
+   "2026-08": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "mid",
+    "weeks": 1
+   },
+   "2026-09": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "mid",
+    "weeks": 4
+   },
+   "2026-10": {
+    "proj_dominant": "busy",
+    "runrate_dominant": "mid",
+    "weeks": 4
+   },
+   "2026-11": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "slow",
+    "weeks": 5
+   },
+   "2026-12": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "mid",
+    "weeks": 2
+   }
+  },
+  "Studio": {
+   "2026-08": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "slow",
+    "weeks": 1
+   },
+   "2026-09": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "slow",
+    "weeks": 4
+   },
+   "2026-10": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "mid",
+    "weeks": 4
+   },
+   "2026-11": {
+    "proj_dominant": "mid",
+    "runrate_dominant": "slow",
+    "weeks": 5
+   },
+   "2026-12": {
+    "proj_dominant": "slow",
+    "runrate_dominant": "slow",
+    "weeks": 4
+   }
+  },
+  "1899 Penn": {
+   "2026-08": {
+    "proj_dominant": "mid",
+    "runrate_dominant": null,
+    "weeks": 1
+   },
+   "2026-09": {
+    "proj_dominant": "mid",
+    "runrate_dominant": null,
+    "weeks": 4
+   },
+   "2026-10": {
+    "proj_dominant": "mid",
+    "runrate_dominant": null,
+    "weeks": 4
+   },
+   "2026-11": {
+    "proj_dominant": "mid",
+    "runrate_dominant": null,
+    "weeks": 5
+   },
+   "2026-12": {
+    "proj_dominant": "mid",
+    "runrate_dominant": null,
+    "weeks": 2
+   }
+  }
+ },
+ "runrate_factor": {
+  "Downtown": 1.0,
+  "Studio": 0.86,
+  "1899": null
+ }
+}

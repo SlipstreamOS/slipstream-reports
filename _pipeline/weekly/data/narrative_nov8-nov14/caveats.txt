@@ -1,0 +1,7 @@
+        "DATA: sales come from the Nov 8 to 14 weekly bundle built by the Sunday cloud pull and merged into the transactions store on Nov 15 (3,107 transaction rows; 21 cafe-days: Downtown and 1899 Penn Mon to Fri, Studio seven days, NMWA Sun and Wed to Fri). Labor was pulled live from Square on Nov 15 (64 timecards, all closed).",
+        "No labor overrides were applied this week; every shift is counted at the job title and location Square holds.",
+        "Targets: core wages divided by core walk-in sales. Downtown 32% to 36% (max 38%), Studio 30% to 34% (max 36%), 1899 Penn 35% to 40% (max 42%). NMWA: staffing rule, no %. Green = inside range or better; amber = over range, under max; red = over max (needs Ryan's pre-approval).",
+        "Core excludes Admin (Square job title Manager: Downtown $504, Studio $517, 1899 Penn $145) and Training; salaried pay is not in Square timecards.",
+        "PROJECTIONS: Plans and Section 5 read 2026 Projections v1.11 (Nov 10), reviewed day by day through year end for Thanksgiving, Christmas and New Year. Thanksgiving week (Nov 22 to 28): Downtown and 1899 Penn closed Thu and Fri.",
+        "Prime Cost uses TOTAL labor (core + admin + training); only the labor scorecard is core-only.",
+        "Section 5 dollars = projected sales times the cafe's low/high/max %. The workbook's Labor Proj column is not used.",

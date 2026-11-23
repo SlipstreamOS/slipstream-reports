@@ -1,0 +1,94 @@
+Key Stats
+Filtered By Location: Slipstream Studio
+Sales,5126
+Avg. Gross Sale,$9.51
+Gross Sales,"$48,753.90"
+Total Collected,"$57,763.73"
+
+Sales Summary
+Filtered By Location: Slipstream Studio
+Sales
+Gross Sales,"$48,753.90"
+Items,"$48,753.90"
+Service Charges,$0.00
+Returns,-$57.50
+Discounts & Comps,"-$1,633.96"
+Net Sales,"$47,062.44"
+Gift Card Sales,$40.00
+Tax,"$4,694.55"
+Tip,"$5,972.32"
+Refunds by Amount,-$5.58
+Total,"$57,763.73"
+
+Payments
+Total Collected,"$57,763.73"
+Cash,$585.24
+Card,"$57,090.26"
+Other,$0.00
+Gift Card,$88.23
+Fees,"-$1,712.96"
+Net Total,"$56,050.77"
+
+Category Sales
+Filtered By Location: Slipstream Studio
+Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Coffee,5718,"$30,599.50",-5,-$24.50,-$893.24,"$29,681.76","$2,956.45"
+Food,2124,"$16,973.00",-5,-$33.00,-$687.35,"$16,252.65","$1,625.29"
+Retail,44,$946.40,0,$0.00,-$27.17,$919.23,$91.93
+Other Categories,35,$235.00,0,$0.00,-$26.20,$208.80,$20.88
+
+Labor vs Sales
+Display By Employee Role
+Filtered By Location: Slipstream Studio
+"",Labor Percentage of Net Sales,Labor Cost,Regular Labor Cost,Overtime Labor Cost,Double Time Labor Cost
+Location Manager + Admin,4.53%,"$2,131.35","$2,131.35",$0.00,$0.00
+Location Manager,0.35%,$164.97,$164.97,$0.00,$0.00
+BOH,4.44%,"$2,088.89","$2,088.89",$0.00,$0.00
+Location Lead,7.83%,"$3,685.19","$3,491.49",$193.70,$0.00
+FOH,7.03%,"$3,306.28","$3,306.28",$0.00,$0.00
+Team Permissions,12.48%,"$5,873.34","$5,873.34",$0.00,$0.00
+Total,36.65%,"$17,250.02","$17,056.32",$193.70,$0.00
+
+Category Sales
+Display By Source
+Filtered By Location: Slipstream Studio
+Source,Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Point of Sale,Food,3,$43.50,0,$0.00,-$43.50,$0.00,$0.00
+Register,Coffee,5470,"$29,203.00",-5,-$24.50,-$856.52,"$28,321.98","$2,821.04"
+Register,Food,2007,"$15,774.50",-5,-$33.00,-$637.85,"$15,103.65","$1,510.39"
+Register,Retail,44,$946.40,0,$0.00,-$27.17,$919.23,$91.93
+Register,Other Categories,34,$229.00,0,$0.00,-$26.20,$202.80,$20.28
+Mobile Order,Coffee,112,$627.00,0,$0.00,$0.00,$627.00,$62.11
+Mobile Order,Food,37,$285.50,0,$0.00,$0.00,$285.50,$28.55
+Mobile Order,Other Categories,1,$6.00,0,$0.00,$0.00,$6.00,$0.60
+Square Online,Coffee,136,$769.50,0,$0.00,-$36.72,$732.78,$73.30
+Square Online,Food,77,$869.50,0,$0.00,-$6.00,$863.50,$86.35
+
+Category Sales
+Display By Dining Option
+Filtered By Location: Slipstream Studio
+Dining Option,Category,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+No Dining Option,All-Day Food,95,"$1,065.50",-2,-$18.00,-$6.00,"$1,041.50",$104.15
+No Dining Option,Coffee Drinks,1,$6.00,0,$0.00,$0.00,$6.00,$0.60
+No Dining Option,Espresso and Specialty,203,"$1,169.50",-2,-$10.00,-$29.22,"$1,130.28",$113.05
+No Dining Option,Filter Coffee,42,$214.00,-3,-$14.50,-$7.50,$192.00,$18.60
+No Dining Option,Pastry,19,$89.50,-3,-$15.00,$0.90,$75.40,$7.54
+No Dining Option,Tea and Other Drinks,3,$13.00,0,$0.00,$0.00,$13.00,$1.30
+For Here,Uncategorized,2,$37.00,0,$0.00,-$25.00,$12.00,$1.20
+For Here,All-Day Food,744,"$7,688.50",0,$0.00,-$116.14,"$7,572.36",$757.24
+For Here,Coffee Drinks,16,$96.00,0,$0.00,-$1.20,$94.80,$9.48
+For Here,Espresso and Specialty,1474,"$8,016.75",0,$0.00,-$291.56,"$7,725.19",$772.73
+For Here,Filter Coffee,932,"$4,708.25",0,$0.00,-$156.48,"$4,551.77",$455.17
+For Here,Pastry,520,"$2,606.00",0,$0.00,-$259.45,"$2,346.55",$234.66
+For Here,Retail,33,$744.90,0,$0.00,-$27.17,$717.73,$71.78
+For Here,Sides,1,$4.50,0,$0.00,$0.00,$4.50,$0.45
+For Here,Tea and Other Drinks,304,"$1,273.00",0,$0.00,-$36.10,"$1,236.90",$114.49
+Pick Up,All-Day Food,3,$43.50,0,$0.00,-$43.50,$0.00,$0.00
+To Go,All-Day Food,335,"$3,419.50",0,$0.00,-$112.46,"$3,307.04",$330.71
+To Go,Coffee Drinks,16,$96.00,0,$0.00,$0.00,$96.00,$9.60
+To Go,Espresso and Specialty,2131,"$11,988.50",0,$0.00,-$308.68,"$11,679.82","$1,168.26"
+To Go,Filter Coffee,479,"$2,554.50",0,$0.00,-$41.90,"$2,512.60",$251.23
+To Go,Pastry,406,"$2,053.50",0,$0.00,-$150.70,"$1,902.80",$190.29
+To Go,Retail,11,$201.50,0,$0.00,$0.00,$201.50,$20.15
+To Go,Sides,1,$2.50,0,$0.00,$0.00,$2.50,$0.25
+To Go,Tea and Other Drinks,150,$662.00,0,$0.00,-$21.80,$640.20,$61.62

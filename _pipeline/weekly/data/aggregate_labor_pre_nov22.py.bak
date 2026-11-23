@@ -1,0 +1,364 @@
+#!/usr/bin/env python3
+"""Aggregate a Sun–Sat week of Square labor (timecards) into per-cafe per-day $.
+
+Reads raw/labor_<week>.json (extracted from a searchTimecards MCP call) and
+writes data/labor_<week>.json for the report builder.
+
+Labor = ALL roles (FOH + BOH combined). Per CEO direction 2026-04-28 the
+weekly report no longer separates FOH and BOH — total cafe labor cost is
+the relevant number and matches what Square Sales/Labor reports show.
+A `role_breakdown` dict per cafe-day is preserved for diagnostic use.
+
+To run a different week: update WEEK_START/WEEK_END and the input filename.
+"""
+import os, json
+from datetime import datetime, timezone, timedelta
+from collections import defaultdict
+
+from _paths import DATA_DIR, RAW_DIR
+
+# Week config
+EDT = timezone(timedelta(hours=-4))
+WEEK_START = "2026-11-08"
+WEEK_END = "2026-11-14"
+WEEK_LABEL = "nov8-nov14"  # used in filenames
+
+IN  = os.path.join(RAW_DIR, "labor_week.json")         # raw MCP response extracted from transcript
+OUT = os.path.join(DATA_DIR, f"labor_{WEEK_LABEL}.json")
+
+LOC_TO_CAFE = {
+    "LXM7V1QWDHKZJ": "Downtown",
+    "LGVKCKX9B9DZT": "Studio",
+    "L4ZBMGCWJ5C7R": "1899 Penn",
+    "LV2D18H0DD9ES": "NMWA",
+}
+
+# Real Square locations that are deliberately NOT cafes. Their labor is
+# excluded from cafe totals by design, so they are not flagged as exceptions.
+KNOWN_NON_CAFE_LOCATIONS = {
+    "LZCA3EY4GB7BM": "Commissary",
+    "LFXQF0X8CKYF5": "Slipstream Roasting",   # 2400 T St NE — confirmed via Square locations.get, Oct 2026
+}
+
+# Cafe-floor job titles. One of these clocked at a NON-cafe location is a likely
+# wrong-location punch (e.g. an FOH shift landing at Roasting while a cafe ran
+# with no timecard), so it is surfaced for review rather than silently dropped.
+CAFE_FLOOR_TITLES = {"FOH", "Barista", "Production Barista", "Production Line",
+                     "Shift Lead", "Hospitality Register", "Hospitality Expo (buss/run)", "Float"}
+
+# --- Labor buckets (Ryan, Aug 2026 — FINAL) --------------------------------
+# CORE  = schedulable floor labor. This is the ONLY bucket the weekly
+#         scorecard targets apply to.
+# ADMIN = ALL admin shifts, identified by Square job title "Manager".
+#         No target and no cap for now; tracked separately and visibly.
+# TRAIN = Square "Training" role. Tracked separately against a 1% plan /
+#         1.5% amber band.
+ADMIN_TITLES = {"Manager"}
+TRAINING_TITLES = {"Training"}
+
+
+def bucket_for(title):
+    t = (title or "").strip()
+    if t in ADMIN_TITLES:
+        return "admin"
+    if t in TRAINING_TITLES:
+        return "training"
+    return "core"
+
+
+# --- Missed clock-out handling (added Aug 2026) -----------------------------
+# Square auto-closes a forgotten punch at ~24h. Booking that at full rate
+# injects huge phantom cost (Aug 16-22: $1,907 across 4 cards, ~19% of a normal
+# week's labor). Excluding them entirely under-counts real worked time, so we
+# CAP any implausibly long shift at the median length for that cafe+role in the
+# same week (fallbacks: cafe median, then DEFAULT_SHIFT_HOURS). Every capped
+# card is reported in `capped_shifts` so the adjustment is never invisible.
+MAX_PLAUSIBLE_SHIFT_HOURS = 16.0
+DEFAULT_SHIFT_HOURS = 8.0
+
+
+# --- Bucket overrides -------------------------------------------------------
+# Square job titles do not always reflect what a shift actually was (e.g. a
+# trainee still carries their FOH title). config/labor_overrides.json lets a
+# specific timecard, or every shift by a person in a date window, be
+# reclassified into another bucket. Every applied override is recorded.
+OVERRIDES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                              "config", "labor_overrides.json")
+
+
+def load_overrides():
+    try:
+        with open(OVERRIDES_PATH) as fh:
+            cfg = json.load(fh)
+    except Exception:
+        return {}, []
+    return (cfg.get("timecard_bucket_overrides", {}) or {},
+            cfg.get("team_member_bucket_overrides", []) or [])
+
+
+def load_location_overrides():
+    """{timecard_id: {"cafe": ...}} — moves a wrong-site punch to the cafe the
+    shift was actually worked at."""
+    try:
+        with open(OVERRIDES_PATH) as fh:
+            return json.load(fh).get("timecard_location_overrides", {}) or {}
+    except Exception:
+        return {}
+
+
+def override_bucket(tc, cafe, date, tc_over, tm_rules):
+    """Return (bucket, note) if an override applies, else (None, None).
+    Timecard-level rules take precedence over team-member rules."""
+    hit = tc_over.get(tc.get("id"))
+    if hit and hit.get("bucket"):
+        return hit["bucket"], hit.get("note", "")
+    for r in tm_rules:
+        if r.get("team_member_id") != tc.get("team_member_id"):
+            continue
+        if r.get("cafe") and r["cafe"] != cafe:
+            continue
+        if r.get("from") and date < r["from"]:
+            continue
+        if r.get("to") and date > r["to"]:
+            continue
+        return r.get("bucket"), r.get("note", "")
+    return None, None
+
+
+# --- Team member names (for the timecard-exceptions list) -------------------
+# Cache built by a Square team.searchMembers pull. Names only — no contact or
+# wage data is stored. Missing ids fall back to the raw id.
+TEAM_NAMES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(
+    os.path.abspath(__file__)))), "shared", "team_members.json")
+
+
+def load_team_names():
+    try:
+        with open(TEAM_NAMES_PATH) as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
+# A punch this short is almost always a mis-punch (double clock-in, immediate
+# undo). Costs ~nothing but inflates shift counts and muddies payroll review.
+MIN_PLAUSIBLE_SHIFT_HOURS = 0.0834  # 5 minutes
+
+
+def parse(iso):
+    return datetime.fromisoformat(iso)
+
+def main():
+    if not os.path.exists(IN):
+        print(f"ERROR: {IN} not found.")
+        print("Create it by calling Square MCP labor.searchTimecards and saving the response to that path.")
+        return
+    data = json.load(open(IN))
+    tcs = data.get("timecards", [])
+    per = defaultdict(lambda: defaultdict(lambda: {
+        "labor_hours": 0.0,
+        "labor_cents": 0,
+        "shifts": 0,
+        # Bucketed splits — core is the scorecard basis.
+        "core_hours": 0.0,     "core_cents": 0,     "core_shifts": 0,
+        "admin_hours": 0.0,    "admin_cents": 0,    "admin_shifts": 0,
+        "training_hours": 0.0, "training_cents": 0, "training_shifts": 0,
+        "role_breakdown": defaultdict(lambda: {"hours": 0.0, "cents": 0, "shifts": 0}),
+    }))
+    skipped = []
+    capped = []
+    overridden = []
+    short_punches = []
+    unmapped = []
+    tc_over, tm_rules = load_overrides()
+    loc_over = load_location_overrides()
+    relocated = []
+    names = load_team_names()
+    def who(tc): return names.get(tc.get("team_member_id"), tc.get("team_member_id") or "(unknown)")
+
+    # Pass 1 — median plausible shift length by (cafe, role) and by cafe.
+    import statistics
+    _by_cafe_role = defaultdict(list); _by_cafe = defaultdict(list)
+    for tc in tcs:
+        cafe0 = (loc_over.get(tc.get("id"), {}) or {}).get("cafe") or LOC_TO_CAFE.get(tc.get("location_id"))
+        if not cafe0:
+            continue
+        if tc.get("wage", {}).get("hourly_rate", {}).get("amount", 0) == 0:
+            continue
+        h0 = (parse(tc["end_at"]) - parse(tc["start_at"])).total_seconds()/3600.0
+        if 0.1 < h0 < MAX_PLAUSIBLE_SHIFT_HOURS:
+            _by_cafe_role[(cafe0, tc.get("wage", {}).get("title", ""))].append(h0)
+            _by_cafe[cafe0].append(h0)
+
+    def _typical(cafe0, role0):
+        v = _by_cafe_role.get((cafe0, role0))
+        if v: return statistics.median(v)
+        v = _by_cafe.get(cafe0)
+        if v: return statistics.median(v)
+        return DEFAULT_SHIFT_HOURS
+
+    # Pass 2 — aggregate.
+    for tc in tcs:
+        loc = tc.get("location_id")
+        cafe = LOC_TO_CAFE.get(loc)
+        _lo = loc_over.get(tc.get("id"))
+        if _lo and _lo.get("cafe") and _lo["cafe"] != cafe:
+            relocated.append({"id": tc.get("id"), "who": names.get(tc.get("team_member_id"), tc.get("team_member_id")),
+                              "from_cafe": cafe or KNOWN_NON_CAFE_LOCATIONS.get(loc, loc), "to_cafe": _lo["cafe"],
+                              "date": parse(tc["start_at"]).astimezone(EDT).date().isoformat(),
+                              "role": tc.get("wage", {}).get("title", "(none)"),
+                              "hours": round((parse(tc["end_at"]) - parse(tc["start_at"])).total_seconds()/3600, 2),
+                              "note": _lo.get("note", "")})
+            cafe = _lo["cafe"]
+        start = parse(tc["start_at"])
+        end = parse(tc["end_at"])
+        date = start.astimezone(EDT).date().isoformat()
+        hours = (end - start).total_seconds() / 3600.0
+        rate_cents = tc.get("wage", {}).get("hourly_rate", {}).get("amount", 0)
+        if not cafe:
+            # Deliberate non-cafe location (e.g. Commissary): excluded by
+            # design, not an exception.
+            if loc in KNOWN_NON_CAFE_LOCATIONS:
+                role0 = tc.get("wage", {}).get("title", "(none)")
+                if role0 in CAFE_FLOOR_TITLES:
+                    unmapped.append({
+                        "id": tc.get("id"), "location_id": loc,
+                        "location_name": KNOWN_NON_CAFE_LOCATIONS[loc],
+                        "date": date, "who": who(tc), "hours": round(hours, 2),
+                        "role": role0, "cost": round(hours * rate_cents / 100.0, 2),
+                        "kind": "cafe_role_at_non_cafe",
+                    })
+                continue
+            # Genuinely unrecognised location — these hours vanish from every
+            # cafe total unless surfaced.
+            unmapped.append({
+                "id": tc.get("id"), "location_id": loc, "date": date,
+                "who": who(tc), "hours": round(hours, 2),
+                "role": tc.get("wage", {}).get("title", "(none)"),
+                "cost": round(hours * rate_cents / 100.0, 2),
+            })
+            continue
+        # Data-quality filter (added Aug 2026): drop zero-rate timecards.
+        # These are salaried/manager punches that carry no hourly cost. When one
+        # is also a missed clock-out, Square auto-closes it at exactly 24.0h,
+        # which would inject large phantom hours into the cafe's total while
+        # contributing $0 — distorting hours-based metrics (avg hrs/shift,
+        # sales-per-labor-hour) without moving Labor %. Cost math is unaffected
+        # either way since rate is 0.
+        if rate_cents == 0:
+            skipped.append({
+                "id": tc.get("id"), "cafe": cafe, "date": date, "who": who(tc),
+                "hours": round(hours, 2), "role": tc.get("wage", {}).get("title", "(none)"),
+            })
+            continue
+        role = tc.get("wage", {}).get("title", "(none)")
+        if hours <= MIN_PLAUSIBLE_SHIFT_HOURS:
+            short_punches.append({
+                "id": tc.get("id"), "cafe": cafe, "date": date, "who": who(tc),
+                "minutes": round(hours * 60, 1), "role": role,
+            })
+        if hours >= MAX_PLAUSIBLE_SHIFT_HOURS:
+            orig = hours
+            hours = _typical(cafe, role)
+            capped.append({
+                "id": tc.get("id"), "cafe": cafe, "date": date, "role": role, "who": who(tc),
+                "original_hours": round(orig, 2), "capped_to_hours": round(hours, 2),
+                "cost_avoided": round((orig - hours) * rate_cents / 100.0, 2),
+            })
+        cost_cents = int(round(hours * rate_cents))
+        b = per[cafe][date]
+        b["shifts"] += 1
+        b["labor_hours"] += hours
+        b["labor_cents"] += cost_cents
+        bk = bucket_for(role)
+        ov_bucket, ov_note = override_bucket(tc, cafe, date, tc_over, tm_rules)
+        if ov_bucket and ov_bucket != bk:
+            overridden.append({
+                "id": tc.get("id"), "cafe": cafe, "date": date, "role": role, "who": who(tc),
+                "from_bucket": bk, "to_bucket": ov_bucket,
+                "hours": round(hours, 2), "cost": round(cost_cents/100.0, 2),
+                "note": ov_note,
+            })
+            bk = ov_bucket
+        b[f"{bk}_hours"] += hours
+        b[f"{bk}_cents"] += cost_cents
+        b[f"{bk}_shifts"] += 1
+        rb = b["role_breakdown"][role]
+        rb["hours"] += hours
+        rb["cents"] += cost_cents
+        rb["shifts"] += 1
+    # Convert nested defaultdicts to plain dicts for JSON serialization
+    out = {}
+    for cafe, days in per.items():
+        out[cafe] = {}
+        for d, b in days.items():
+            out[cafe][d] = {
+                "labor_hours": b["labor_hours"],
+                "labor_cents": b["labor_cents"],
+                "shifts": b["shifts"],
+                "core_hours": b["core_hours"],         "core_cents": b["core_cents"],         "core_shifts": b["core_shifts"],
+                "admin_hours": b["admin_hours"],       "admin_cents": b["admin_cents"],       "admin_shifts": b["admin_shifts"],
+                "training_hours": b["training_hours"], "training_cents": b["training_cents"], "training_shifts": b["training_shifts"],
+                "role_breakdown": {r: dict(v) for r, v in b["role_breakdown"].items()},
+            }
+    payload = {
+        "week_start": WEEK_START,
+        "week_end":   WEEK_END,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "per_cafe_per_day": out,
+        "timecards_processed": len(tcs),
+        "skipped_zero_rate": skipped,
+        "capped_shifts": capped,
+        "bucket_overrides_applied": overridden,
+        "location_overrides_applied": relocated,
+        "short_punches": short_punches,
+        "unmapped_location": unmapped,
+    }
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(OUT,"w") as fh:
+        json.dump(payload, fh, indent=2)
+    print(f"Saved → {OUT}")
+    print(f"Timecards processed: {len(tcs)}")
+    if unmapped:
+        print(f"\nLocation flags (excluded from all cafes): {len(unmapped)}")
+        for u in unmapped:
+            print(f"   {u['date']}  {u['who']:<22} {u['role']:<20} {u['hours']:>5.2f}h  ${u['cost']:>7,.2f}  loc={u['location_id']}")
+    if short_punches:
+        print(f"\nSub-5-minute punches: {len(short_punches)}")
+        for x in short_punches:
+            print(f"   {x['cafe']:<11} {x['date']}  {x['who']:<22} {x['role']:<20} {x['minutes']:.1f} min")
+    if relocated:
+        print(f"\nLocation overrides applied: {len(relocated)}")
+        for r in relocated:
+            print(f"   {r['date']}  {r['who']:<20} {r['role']:<10} {r['hours']:.2f}h  {r['from_cafe']} -> {r['to_cafe']}")
+    if overridden:
+        print(f"\nBucket overrides applied: {len(overridden)}")
+        for o in overridden:
+            print(f"   {o['cafe']:<11} {o['date']}  {o['role']:<20} "
+                  f"{o['from_bucket']} -> {o['to_bucket']}   {o['hours']:.2f}h  ${o['cost']:,.2f}")
+    if capped:
+        tot = sum(c["cost_avoided"] for c in capped)
+        print(f"\nMissed clock-outs capped: {len(capped)}  (phantom cost avoided ${tot:,.2f})")
+        for c in capped:
+            print(f"   {c['cafe']:<11} {c['date']}  {c['role']:<20} "
+                  f"{c['original_hours']:>5.1f}h -> {c['capped_to_hours']:>4.1f}h   "
+                  f"avoided ${c['cost_avoided']:>7,.2f}")
+    for cafe in ["Downtown","Studio","1899 Penn","NMWA"]:
+        days = out.get(cafe, {})
+        if not days: continue
+        print(f"\n{cafe}:")
+        cafe_total_hrs = 0.0; cafe_total_cents = 0
+        for d in sorted(days.keys()):
+            b = days[d]
+            cafe_total_hrs += b["labor_hours"]
+            cafe_total_cents += b["labor_cents"]
+            print(f"  {d}: {b['shifts']:>2} shifts  {b['labor_hours']:>5.1f} hrs  ${b['labor_cents']/100:>7,.2f}"
+                  f"   core ${b['core_cents']/100:>7,.2f} | admin ${b['admin_cents']/100:>6,.2f} | train ${b['training_cents']/100:>6,.2f}")
+        ct = sum(x["core_cents"] for x in days.values())
+        at = sum(x["admin_cents"] for x in days.values())
+        tt = sum(x["training_cents"] for x in days.values())
+        print(f"  WEEK: {cafe_total_hrs:>5.1f} hrs  ${cafe_total_cents/100:>7,.2f}"
+              f"   CORE ${ct/100:,.2f} | ADMIN ${at/100:,.2f} | TRAINING ${tt/100:,.2f}")
+
+if __name__ == "__main__":
+    main()

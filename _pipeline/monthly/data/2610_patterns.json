@@ -1,0 +1,2601 @@
+{
+ "month": "2026-10",
+ "prior": "2026-09",
+ "attach_calibration": {
+  "april_multi_item_rate": 41.0,
+  "threshold": 7.75,
+  "april_rate_at_threshold": 40.9
+ },
+ "cafes": {
+  "Downtown": {
+   "txns": 4189,
+   "net": 36917.63,
+   "avg_ticket": 8.81,
+   "open_days": 22,
+   "hourly": {
+    "7": {
+     "net": 1809.19,
+     "txns": 188,
+     "share": 4.9
+    },
+    "8": {
+     "net": 5659.87,
+     "txns": 669,
+     "share": 15.3
+    },
+    "9": {
+     "net": 7491.79,
+     "txns": 853,
+     "share": 20.3
+    },
+    "10": {
+     "net": 5177.12,
+     "txns": 583,
+     "share": 14.0
+    },
+    "11": {
+     "net": 3821.46,
+     "txns": 365,
+     "share": 10.4
+    },
+    "12": {
+     "net": 4076.21,
+     "txns": 400,
+     "share": 11.0
+    },
+    "13": {
+     "net": 3715.53,
+     "txns": 452,
+     "share": 10.1
+    },
+    "14": {
+     "net": 3461.79,
+     "txns": 444,
+     "share": 9.4
+    },
+    "15": {
+     "net": 1704.67,
+     "txns": 235,
+     "share": 4.6
+    }
+   },
+   "daypart": {
+    "Early (6-8a)": {
+     "net": 1809.19,
+     "txns": 188,
+     "share": 4.9,
+     "avg_ticket": 9.62,
+     "tip_rate": 12.6,
+     "share_prior": 4.4
+    },
+    "Rush (8-10a)": {
+     "net": 13151.66,
+     "txns": 1522,
+     "share": 35.6,
+     "avg_ticket": 8.64,
+     "tip_rate": 13.4,
+     "share_prior": 36.1
+    },
+    "Mid-morning (10-12p)": {
+     "net": 8998.58,
+     "txns": 948,
+     "share": 24.4,
+     "avg_ticket": 9.49,
+     "tip_rate": 11.8,
+     "share_prior": 24.9
+    },
+    "Lunch (12-2p)": {
+     "net": 7791.74,
+     "txns": 852,
+     "share": 21.1,
+     "avg_ticket": 9.15,
+     "tip_rate": 12.1,
+     "share_prior": 20.8
+    },
+    "Afternoon (2-5p)": {
+     "net": 5166.46,
+     "txns": 679,
+     "share": 14.0,
+     "avg_ticket": 7.61,
+     "tip_rate": 12.9,
+     "share_prior": 13.7
+    },
+    "Late (5p+)": {
+     "net": 0.0,
+     "txns": 0,
+     "share": 0.0,
+     "avg_ticket": null,
+     "tip_rate": null,
+     "share_prior": 0.0
+    }
+   },
+   "dow": {
+    "Mon": {
+     "net": 3779.16,
+     "txns": 452,
+     "days": 4,
+     "net_per_day": 944.79,
+     "txns_per_day": 113.0,
+     "avg_ticket": 8.36,
+     "share": 10.2,
+     "labor_hours": 84.6,
+     "labor_cost": 1919.63,
+     "labor_days": 4,
+     "labor_hours_per_day": 21.2,
+     "sales_per_labor_hour": 44.67,
+     "txns_per_labor_hour": 5.3,
+     "labor_pct_of_sales": 50.8,
+     "cost_per_hour": 22.69,
+     "labor_share": 12.1,
+     "sales_share_matched": 10.2,
+     "alignment_gap": 1.9
+    },
+    "Tue": {
+     "net": 7738.13,
+     "txns": 939,
+     "days": 4,
+     "net_per_day": 1934.53,
+     "txns_per_day": 234.8,
+     "avg_ticket": 8.24,
+     "share": 21.0,
+     "labor_hours": 154.7,
+     "labor_cost": 3342.87,
+     "labor_days": 4,
+     "labor_hours_per_day": 38.7,
+     "sales_per_labor_hour": 50.03,
+     "txns_per_labor_hour": 6.1,
+     "labor_pct_of_sales": 43.2,
+     "cost_per_hour": 21.61,
+     "labor_share": 22.2,
+     "sales_share_matched": 21.0,
+     "alignment_gap": 1.2
+    },
+    "Wed": {
+     "net": 9928.49,
+     "txns": 1084,
+     "days": 4,
+     "net_per_day": 2482.12,
+     "txns_per_day": 271.0,
+     "avg_ticket": 9.16,
+     "share": 26.9,
+     "labor_hours": 137.5,
+     "labor_cost": 3011.86,
+     "labor_days": 4,
+     "labor_hours_per_day": 34.4,
+     "sales_per_labor_hour": 72.22,
+     "txns_per_labor_hour": 7.9,
+     "labor_pct_of_sales": 30.3,
+     "cost_per_hour": 21.91,
+     "labor_share": 19.7,
+     "sales_share_matched": 26.9,
+     "alignment_gap": -7.2
+    },
+    "Thu": {
+     "net": 10132.59,
+     "txns": 1191,
+     "days": 5,
+     "net_per_day": 2026.52,
+     "txns_per_day": 238.2,
+     "avg_ticket": 8.51,
+     "share": 27.4,
+     "labor_hours": 185.5,
+     "labor_cost": 3991.71,
+     "labor_days": 5,
+     "labor_hours_per_day": 37.1,
+     "sales_per_labor_hour": 54.64,
+     "txns_per_labor_hour": 6.4,
+     "labor_pct_of_sales": 39.4,
+     "cost_per_hour": 21.52,
+     "labor_share": 26.6,
+     "sales_share_matched": 27.4,
+     "alignment_gap": -0.8
+    },
+    "Fri": {
+     "net": 5339.26,
+     "txns": 523,
+     "days": 5,
+     "net_per_day": 1067.85,
+     "txns_per_day": 104.6,
+     "avg_ticket": 10.21,
+     "share": 14.5,
+     "labor_hours": 135.3,
+     "labor_cost": 2900.21,
+     "labor_days": 5,
+     "labor_hours_per_day": 27.1,
+     "sales_per_labor_hour": 39.46,
+     "txns_per_labor_hour": 3.9,
+     "labor_pct_of_sales": 54.3,
+     "cost_per_hour": 21.44,
+     "labor_share": 19.4,
+     "sales_share_matched": 14.5,
+     "alignment_gap": 4.9
+    }
+   },
+   "labor": {
+    "hours": 697.5,
+    "cost": 15166.28,
+    "days_covered": 22,
+    "open_days_in_month": 22,
+    "matched_days_net": 36917.63,
+    "matched_days_txns": 4189,
+    "admin_hours": 22.9,
+    "training_hours": 0.0,
+    "cost_per_hour": 21.74,
+    "labor_pct_of_sales": 41.1,
+    "sales_per_labor_hour": 52.93,
+    "txns_per_labor_hour": 6.0
+   },
+   "ticket_dist": {
+    "<$5": {
+     "txns": 759,
+     "share": 18.1
+    },
+    "$5-8": {
+     "txns": 1748,
+     "share": 41.7
+    },
+    "$8-10": {
+     "txns": 382,
+     "share": 9.1
+    },
+    "$10-15": {
+     "txns": 829,
+     "share": 19.8
+    },
+    "$15-25": {
+     "txns": 377,
+     "share": 9.0
+    },
+    "$25+": {
+     "txns": 94,
+     "share": 2.2
+    }
+   },
+   "median_ticket": 6.25,
+   "attach_proxy": 40.3,
+   "attach_proxy_prior": 39.0,
+   "attach_by_daypart": {
+    "Early (6-8a)": 48.4,
+    "Rush (8-10a)": 39.0,
+    "Mid-morning (10-12p)": 43.5,
+    "Lunch (12-2p)": 42.1,
+    "Afternoon (2-5p)": 34.0,
+    "Late (5p+)": null
+   },
+   "dining": {
+    "DELIVERY": {
+     "txns": 3,
+     "share": 0.1,
+     "avg_ticket": 10.5
+    },
+    "IN_STORE": {
+     "txns": 77,
+     "share": 1.8,
+     "avg_ticket": 8.28
+    },
+    "PICKUP": {
+     "txns": 4106,
+     "share": 98.0,
+     "avg_ticket": 8.72
+    },
+    "UNKNOWN": {
+     "txns": 3,
+     "share": 0.1,
+     "avg_ticket": 145.0
+    }
+   },
+   "tip_rate": 12.6,
+   "tip_rate_prior": 13.0,
+   "lead_item_by_daypart": {
+    "Early (6-8a)": [
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 25
+     },
+     {
+      "item": "Latte",
+      "txns": 25
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 24
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 20
+     },
+     {
+      "item": "Cortado",
+      "txns": 11
+     }
+    ],
+    "Rush (8-10a)": [
+     {
+      "item": "Latte",
+      "txns": 252
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 233
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 191
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 153
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 112
+     }
+    ],
+    "Mid-morning (10-12p)": [
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 128
+     },
+     {
+      "item": "Latte",
+      "txns": 126
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 98
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 80
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 78
+     }
+    ],
+    "Lunch (12-2p)": [
+     {
+      "item": "Cappuccino",
+      "txns": 81
+     },
+     {
+      "item": "Latte",
+      "txns": 77
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 68
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 66
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 60
+     }
+    ],
+    "Afternoon (2-5p)": [
+     {
+      "item": "Latte",
+      "txns": 74
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 73
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 61
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 58
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 50
+     }
+    ],
+    "Late (5p+)": []
+   },
+   "lead_category_by_daypart": {
+    "Afternoon (2-5p)": {
+     "coffee_bev": 86.6,
+     "food": 8.0,
+     "other": 4.9,
+     "retail_coffee": 0.6
+    },
+    "Early (6-8a)": {
+     "coffee_bev": 73.4,
+     "food": 18.1,
+     "other": 7.4,
+     "retail_coffee": 1.1
+    },
+    "Lunch (12-2p)": {
+     "coffee_bev": 72.2,
+     "food": 18.7,
+     "other": 8.7,
+     "retail_coffee": 0.5
+    },
+    "Mid-morning (10-12p)": {
+     "coffee_bev": 80.2,
+     "food": 13.7,
+     "other": 5.6,
+     "retail_coffee": 0.5
+    },
+    "Rush (8-10a)": {
+     "coffee_bev": 81.8,
+     "food": 12.7,
+     "other": 5.2,
+     "retail_coffee": 0.3
+    }
+   },
+   "top_lead_items": [
+    {
+     "item": "Latte",
+     "txns": 554
+    },
+    {
+     "item": "[Comfort] CRUISE CONTROL",
+     "txns": 503
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 441
+    },
+    {
+     "item": "Cappuccino",
+     "txns": 364
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 357
+    },
+    {
+     "item": "Americano",
+     "txns": 188
+    },
+    {
+     "item": "Cortado",
+     "txns": 155
+    },
+    {
+     "item": "Chai",
+     "txns": 131
+    },
+    {
+     "item": "Sweetie Pie Latte",
+     "txns": 117
+    },
+    {
+     "item": "Filter - Daily Selection",
+     "txns": 101
+    },
+    {
+     "item": "Magic Matcha",
+     "txns": 94
+    },
+    {
+     "item": "Song Red Tea",
+     "txns": 86
+    },
+    {
+     "item": "Espresso",
+     "txns": 85
+    },
+    {
+     "item": "Slipstream Breakfast Sandwich",
+     "txns": 64
+    },
+    {
+     "item": "Banana Bread",
+     "txns": 60
+    }
+   ],
+   "lead_category_mix": {
+    "coffee_bev": 79.9,
+    "food": 13.6,
+    "other": 6.0,
+    "retail_coffee": 0.5
+   },
+   "prior": {
+    "txns": 3998,
+    "net": 34277.92,
+    "avg_ticket": 8.57,
+    "open_days": 21
+   }
+  },
+  "Studio": {
+   "txns": 5826,
+   "net": 55332.36,
+   "avg_ticket": 9.5,
+   "open_days": 31,
+   "hourly": {
+    "6": {
+     "net": 23.2,
+     "txns": 2,
+     "share": 0.0
+    },
+    "7": {
+     "net": 2353.1,
+     "txns": 283,
+     "share": 4.3
+    },
+    "8": {
+     "net": 7439.41,
+     "txns": 778,
+     "share": 13.4
+    },
+    "9": {
+     "net": 9424.67,
+     "txns": 957,
+     "share": 17.0
+    },
+    "10": {
+     "net": 9927.76,
+     "txns": 977,
+     "share": 17.9
+    },
+    "11": {
+     "net": 8297.72,
+     "txns": 793,
+     "share": 15.0
+    },
+    "12": {
+     "net": 7410.94,
+     "txns": 753,
+     "share": 13.4
+    },
+    "13": {
+     "net": 5966.41,
+     "txns": 676,
+     "share": 10.8
+    },
+    "14": {
+     "net": 2404.06,
+     "txns": 304,
+     "share": 4.3
+    },
+    "15": {
+     "net": 1536.1,
+     "txns": 221,
+     "share": 2.8
+    },
+    "16": {
+     "net": 548.99,
+     "txns": 82,
+     "share": 1.0
+    }
+   },
+   "daypart": {
+    "Early (6-8a)": {
+     "net": 2376.3,
+     "txns": 285,
+     "share": 4.3,
+     "avg_ticket": 8.34,
+     "tip_rate": 13.1,
+     "share_prior": 5.7
+    },
+    "Rush (8-10a)": {
+     "net": 16864.08,
+     "txns": 1735,
+     "share": 30.5,
+     "avg_ticket": 9.72,
+     "tip_rate": 13.0,
+     "share_prior": 32.2
+    },
+    "Mid-morning (10-12p)": {
+     "net": 18225.48,
+     "txns": 1770,
+     "share": 32.9,
+     "avg_ticket": 10.3,
+     "tip_rate": 12.2,
+     "share_prior": 33.0
+    },
+    "Lunch (12-2p)": {
+     "net": 13377.35,
+     "txns": 1429,
+     "share": 24.2,
+     "avg_ticket": 9.36,
+     "tip_rate": 11.8,
+     "share_prior": 22.2
+    },
+    "Afternoon (2-5p)": {
+     "net": 4489.15,
+     "txns": 607,
+     "share": 8.1,
+     "avg_ticket": 7.4,
+     "tip_rate": 11.7,
+     "share_prior": 7.0
+    },
+    "Late (5p+)": {
+     "net": 0.0,
+     "txns": 0,
+     "share": 0.0,
+     "avg_ticket": null,
+     "tip_rate": null,
+     "share_prior": 0.0
+    }
+   },
+   "dow": {
+    "Mon": {
+     "net": 5600.93,
+     "txns": 594,
+     "days": 4,
+     "net_per_day": 1400.23,
+     "txns_per_day": 148.5,
+     "avg_ticket": 9.43,
+     "share": 10.1,
+     "labor_hours": 95.7,
+     "labor_cost": 1938.29,
+     "labor_days": 4,
+     "labor_hours_per_day": 23.9,
+     "sales_per_labor_hour": 58.55,
+     "txns_per_labor_hour": 6.2,
+     "labor_pct_of_sales": 34.6,
+     "cost_per_hour": 20.26,
+     "labor_share": 10.7,
+     "sales_share_matched": 10.1,
+     "alignment_gap": 0.6
+    },
+    "Tue": {
+     "net": 4658.79,
+     "txns": 507,
+     "days": 4,
+     "net_per_day": 1164.7,
+     "txns_per_day": 126.8,
+     "avg_ticket": 9.19,
+     "share": 8.4,
+     "labor_hours": 93.8,
+     "labor_cost": 1988.27,
+     "labor_days": 4,
+     "labor_hours_per_day": 23.4,
+     "sales_per_labor_hour": 49.69,
+     "txns_per_labor_hour": 5.4,
+     "labor_pct_of_sales": 42.7,
+     "cost_per_hour": 21.21,
+     "labor_share": 10.5,
+     "sales_share_matched": 8.4,
+     "alignment_gap": 2.1
+    },
+    "Wed": {
+     "net": 4630.05,
+     "txns": 520,
+     "days": 4,
+     "net_per_day": 1157.51,
+     "txns_per_day": 130.0,
+     "avg_ticket": 8.9,
+     "share": 8.4,
+     "labor_hours": 98.0,
+     "labor_cost": 2033.88,
+     "labor_days": 4,
+     "labor_hours_per_day": 24.5,
+     "sales_per_labor_hour": 47.25,
+     "txns_per_labor_hour": 5.3,
+     "labor_pct_of_sales": 43.9,
+     "cost_per_hour": 20.76,
+     "labor_share": 11.0,
+     "sales_share_matched": 8.4,
+     "alignment_gap": 2.6
+    },
+    "Thu": {
+     "net": 6631.5,
+     "txns": 737,
+     "days": 5,
+     "net_per_day": 1326.3,
+     "txns_per_day": 147.4,
+     "avg_ticket": 9.0,
+     "share": 12.0,
+     "labor_hours": 115.6,
+     "labor_cost": 2433.67,
+     "labor_days": 5,
+     "labor_hours_per_day": 23.1,
+     "sales_per_labor_hour": 57.36,
+     "txns_per_labor_hour": 6.4,
+     "labor_pct_of_sales": 36.7,
+     "cost_per_hour": 21.05,
+     "labor_share": 13.0,
+     "sales_share_matched": 12.0,
+     "alignment_gap": 1.0
+    },
+    "Fri": {
+     "net": 9011.06,
+     "txns": 1028,
+     "days": 5,
+     "net_per_day": 1802.21,
+     "txns_per_day": 205.6,
+     "avg_ticket": 8.77,
+     "share": 16.3,
+     "labor_hours": 159.2,
+     "labor_cost": 3374.86,
+     "labor_days": 5,
+     "labor_hours_per_day": 31.8,
+     "sales_per_labor_hour": 56.62,
+     "txns_per_labor_hour": 6.5,
+     "labor_pct_of_sales": 37.5,
+     "cost_per_hour": 21.21,
+     "labor_share": 17.8,
+     "sales_share_matched": 16.3,
+     "alignment_gap": 1.5
+    },
+    "Sat": {
+     "net": 14194.71,
+     "txns": 1388,
+     "days": 5,
+     "net_per_day": 2838.94,
+     "txns_per_day": 277.6,
+     "avg_ticket": 10.23,
+     "share": 25.7,
+     "labor_hours": 181.2,
+     "labor_cost": 3695.61,
+     "labor_days": 5,
+     "labor_hours_per_day": 36.2,
+     "sales_per_labor_hour": 78.34,
+     "txns_per_labor_hour": 7.7,
+     "labor_pct_of_sales": 26.0,
+     "cost_per_hour": 20.4,
+     "labor_share": 20.3,
+     "sales_share_matched": 25.7,
+     "alignment_gap": -5.4
+    },
+    "Sun": {
+     "net": 10605.32,
+     "txns": 1052,
+     "days": 4,
+     "net_per_day": 2651.33,
+     "txns_per_day": 263.0,
+     "avg_ticket": 10.08,
+     "share": 19.2,
+     "labor_hours": 149.3,
+     "labor_cost": 3081.02,
+     "labor_days": 4,
+     "labor_hours_per_day": 37.3,
+     "sales_per_labor_hour": 71.04,
+     "txns_per_labor_hour": 7.0,
+     "labor_pct_of_sales": 29.1,
+     "cost_per_hour": 20.64,
+     "labor_share": 16.7,
+     "sales_share_matched": 19.2,
+     "alignment_gap": -2.5
+    }
+   },
+   "labor": {
+    "hours": 892.6,
+    "cost": 18545.6,
+    "days_covered": 31,
+    "open_days_in_month": 31,
+    "matched_days_net": 55332.36,
+    "matched_days_txns": 5826,
+    "admin_hours": 33.9,
+    "training_hours": 7.7,
+    "cost_per_hour": 20.78,
+    "labor_pct_of_sales": 33.5,
+    "sales_per_labor_hour": 61.99,
+    "txns_per_labor_hour": 6.5
+   },
+   "ticket_dist": {
+    "<$5": {
+     "txns": 1072,
+     "share": 18.4
+    },
+    "$5-8": {
+     "txns": 2209,
+     "share": 37.9
+    },
+    "$8-10": {
+     "txns": 493,
+     "share": 8.5
+    },
+    "$10-15": {
+     "txns": 1110,
+     "share": 19.1
+    },
+    "$15-25": {
+     "txns": 731,
+     "share": 12.5
+    },
+    "$25+": {
+     "txns": 211,
+     "share": 3.6
+    }
+   },
+   "median_ticket": 7.0,
+   "attach_proxy": 43.8,
+   "attach_proxy_prior": 42.0,
+   "attach_by_daypart": {
+    "Early (6-8a)": 34.7,
+    "Rush (8-10a)": 46.6,
+    "Mid-morning (10-12p)": 48.4,
+    "Lunch (12-2p)": 42.9,
+    "Afternoon (2-5p)": 28.3,
+    "Late (5p+)": null
+   },
+   "dining": {
+    "IN_STORE": {
+     "txns": 2569,
+     "share": 44.1,
+     "avg_ticket": 9.92
+    },
+    "PICKUP": {
+     "txns": 3257,
+     "share": 55.9,
+     "avg_ticket": 9.17
+    }
+   },
+   "tip_rate": 12.4,
+   "tip_rate_prior": 12.5,
+   "lead_item_by_daypart": {
+    "Early (6-8a)": [
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 43
+     },
+     {
+      "item": "Latte",
+      "txns": 39
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 36
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 36
+     },
+     {
+      "item": "Americano",
+      "txns": 29
+     }
+    ],
+    "Rush (8-10a)": [
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 236
+     },
+     {
+      "item": "Latte",
+      "txns": 225
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 218
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 193
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 117
+     }
+    ],
+    "Mid-morning (10-12p)": [
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 212
+     },
+     {
+      "item": "Latte",
+      "txns": 212
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 181
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 130
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 120
+     }
+    ],
+    "Lunch (12-2p)": [
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 192
+     },
+     {
+      "item": "Latte",
+      "txns": 151
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 122
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 97
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 83
+     }
+    ],
+    "Afternoon (2-5p)": [
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 88
+     },
+     {
+      "item": "Latte",
+      "txns": 70
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 46
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 45
+     },
+     {
+      "item": "Magic Matcha",
+      "txns": 38
+     }
+    ],
+    "Late (5p+)": []
+   },
+   "lead_category_by_daypart": {
+    "Afternoon (2-5p)": {
+     "coffee_bev": 80.6,
+     "food": 10.0,
+     "other": 8.9,
+     "retail_coffee": 0.5
+    },
+    "Early (6-8a)": {
+     "coffee_bev": 84.6,
+     "food": 10.2,
+     "other": 4.2,
+     "retail_coffee": 1.1
+    },
+    "Lunch (12-2p)": {
+     "coffee_bev": 70.7,
+     "food": 19.2,
+     "other": 9.3,
+     "retail_coffee": 0.7
+    },
+    "Mid-morning (10-12p)": {
+     "coffee_bev": 72.5,
+     "food": 20.3,
+     "other": 6.9,
+     "retail_coffee": 0.2
+    },
+    "Rush (8-10a)": {
+     "coffee_bev": 76.4,
+     "food": 17.1,
+     "other": 5.9,
+     "retail_coffee": 0.6
+    }
+   },
+   "top_lead_items": [
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 746
+    },
+    {
+     "item": "Latte",
+     "txns": 697
+    },
+    {
+     "item": "[Comfort] CRUISE CONTROL",
+     "txns": 576
+    },
+    {
+     "item": "Cappuccino",
+     "txns": 502
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 432
+    },
+    {
+     "item": "Americano",
+     "txns": 240
+    },
+    {
+     "item": "Chai",
+     "txns": 209
+    },
+    {
+     "item": "Slipstream Breakfast Sandwich",
+     "txns": 163
+    },
+    {
+     "item": "Sweetie Pie Latte",
+     "txns": 148
+    },
+    {
+     "item": "Filter - Daily Selection",
+     "txns": 147
+    },
+    {
+     "item": "Magic Matcha",
+     "txns": 142
+    },
+    {
+     "item": "Cortado",
+     "txns": 129
+    },
+    {
+     "item": "Espresso",
+     "txns": 116
+    },
+    {
+     "item": "Thoughtful Mocha",
+     "txns": 104
+    },
+    {
+     "item": "Jammy Bacon and Egg Sandwich",
+     "txns": 97
+    }
+   ],
+   "lead_category_mix": {
+    "coffee_bev": 74.7,
+    "food": 17.5,
+    "other": 7.3,
+    "retail_coffee": 0.5
+   },
+   "prior": {
+    "txns": 4862,
+    "net": 45128.64,
+    "avg_ticket": 9.28,
+    "open_days": 30
+   }
+  },
+  "1899": {
+   "txns": 2624,
+   "net": 19263.68,
+   "avg_ticket": 7.34,
+   "open_days": 21,
+   "hourly": {
+    "7": {
+     "net": 973.49,
+     "txns": 142,
+     "share": 5.1
+    },
+    "8": {
+     "net": 2381.07,
+     "txns": 332,
+     "share": 12.4
+    },
+    "9": {
+     "net": 3438.19,
+     "txns": 486,
+     "share": 17.8
+    },
+    "10": {
+     "net": 2261.37,
+     "txns": 310,
+     "share": 11.7
+    },
+    "11": {
+     "net": 1746.81,
+     "txns": 222,
+     "share": 9.1
+    },
+    "12": {
+     "net": 2231.89,
+     "txns": 293,
+     "share": 11.6
+    },
+    "13": {
+     "net": 3506.15,
+     "txns": 472,
+     "share": 18.2
+    },
+    "14": {
+     "net": 2655.89,
+     "txns": 360,
+     "share": 13.8
+    },
+    "15": {
+     "net": 68.82,
+     "txns": 7,
+     "share": 0.4
+    }
+   },
+   "daypart": {
+    "Early (6-8a)": {
+     "net": 973.49,
+     "txns": 142,
+     "share": 5.1,
+     "avg_ticket": 6.86,
+     "tip_rate": 10.3,
+     "share_prior": 4.9
+    },
+    "Rush (8-10a)": {
+     "net": 5819.26,
+     "txns": 818,
+     "share": 30.2,
+     "avg_ticket": 7.11,
+     "tip_rate": 10.7,
+     "share_prior": 28.4
+    },
+    "Mid-morning (10-12p)": {
+     "net": 4008.18,
+     "txns": 532,
+     "share": 20.8,
+     "avg_ticket": 7.53,
+     "tip_rate": 12.3,
+     "share_prior": 23.8
+    },
+    "Lunch (12-2p)": {
+     "net": 5738.04,
+     "txns": 765,
+     "share": 29.8,
+     "avg_ticket": 7.5,
+     "tip_rate": 11.1,
+     "share_prior": 30.5
+    },
+    "Afternoon (2-5p)": {
+     "net": 2724.71,
+     "txns": 367,
+     "share": 14.1,
+     "avg_ticket": 7.42,
+     "tip_rate": 11.1,
+     "share_prior": 12.5
+    },
+    "Late (5p+)": {
+     "net": 0.0,
+     "txns": 0,
+     "share": 0.0,
+     "avg_ticket": null,
+     "tip_rate": null,
+     "share_prior": 0.0
+    }
+   },
+   "dow": {
+    "Mon": {
+     "net": 2206.93,
+     "txns": 312,
+     "days": 3,
+     "net_per_day": 735.64,
+     "txns_per_day": 104.0,
+     "avg_ticket": 7.07,
+     "share": 11.5,
+     "labor_hours": 44.0,
+     "labor_cost": 979.01,
+     "labor_days": 3,
+     "labor_hours_per_day": 14.7,
+     "sales_per_labor_hour": 50.12,
+     "txns_per_labor_hour": 7.1,
+     "labor_pct_of_sales": 44.4,
+     "cost_per_hour": 22.23,
+     "labor_share": 13.1,
+     "sales_share_matched": 11.5,
+     "alignment_gap": 1.6
+    },
+    "Tue": {
+     "net": 4450.33,
+     "txns": 594,
+     "days": 4,
+     "net_per_day": 1112.58,
+     "txns_per_day": 148.5,
+     "avg_ticket": 7.49,
+     "share": 23.1,
+     "labor_hours": 73.0,
+     "labor_cost": 1495.47,
+     "labor_days": 4,
+     "labor_hours_per_day": 18.3,
+     "sales_per_labor_hour": 60.95,
+     "txns_per_labor_hour": 8.1,
+     "labor_pct_of_sales": 33.6,
+     "cost_per_hour": 20.48,
+     "labor_share": 21.7,
+     "sales_share_matched": 23.1,
+     "alignment_gap": -1.4
+    },
+    "Wed": {
+     "net": 4149.83,
+     "txns": 577,
+     "days": 4,
+     "net_per_day": 1037.46,
+     "txns_per_day": 144.2,
+     "avg_ticket": 7.19,
+     "share": 21.5,
+     "labor_hours": 69.2,
+     "labor_cost": 1583.91,
+     "labor_days": 4,
+     "labor_hours_per_day": 17.3,
+     "sales_per_labor_hour": 59.98,
+     "txns_per_labor_hour": 8.3,
+     "labor_pct_of_sales": 38.2,
+     "cost_per_hour": 22.89,
+     "labor_share": 20.6,
+     "sales_share_matched": 21.5,
+     "alignment_gap": -0.9
+    },
+    "Thu": {
+     "net": 5487.97,
+     "txns": 749,
+     "days": 5,
+     "net_per_day": 1097.59,
+     "txns_per_day": 149.8,
+     "avg_ticket": 7.33,
+     "share": 28.5,
+     "labor_hours": 81.5,
+     "labor_cost": 1831.68,
+     "labor_days": 5,
+     "labor_hours_per_day": 16.3,
+     "sales_per_labor_hour": 67.3,
+     "txns_per_labor_hour": 9.2,
+     "labor_pct_of_sales": 33.4,
+     "cost_per_hour": 22.46,
+     "labor_share": 24.2,
+     "sales_share_matched": 28.5,
+     "alignment_gap": -4.3
+    },
+    "Fri": {
+     "net": 2968.62,
+     "txns": 392,
+     "days": 5,
+     "net_per_day": 593.72,
+     "txns_per_day": 78.4,
+     "avg_ticket": 7.57,
+     "share": 15.4,
+     "labor_hours": 68.4,
+     "labor_cost": 1535.58,
+     "labor_days": 5,
+     "labor_hours_per_day": 13.7,
+     "sales_per_labor_hour": 43.42,
+     "txns_per_labor_hour": 5.7,
+     "labor_pct_of_sales": 51.7,
+     "cost_per_hour": 22.46,
+     "labor_share": 20.3,
+     "sales_share_matched": 15.4,
+     "alignment_gap": 4.9
+    }
+   },
+   "labor": {
+    "hours": 336.1,
+    "cost": 7425.65,
+    "days_covered": 21,
+    "open_days_in_month": 21,
+    "matched_days_net": 19263.68,
+    "matched_days_txns": 2624,
+    "admin_hours": 15.7,
+    "training_hours": 2.0,
+    "cost_per_hour": 22.09,
+    "labor_pct_of_sales": 38.5,
+    "sales_per_labor_hour": 57.31,
+    "txns_per_labor_hour": 7.8
+   },
+   "ticket_dist": {
+    "<$5": {
+     "txns": 653,
+     "share": 24.9
+    },
+    "$5-8": {
+     "txns": 1124,
+     "share": 42.8
+    },
+    "$8-10": {
+     "txns": 305,
+     "share": 11.6
+    },
+    "$10-15": {
+     "txns": 432,
+     "share": 16.5
+    },
+    "$15-25": {
+     "txns": 92,
+     "share": 3.5
+    },
+    "$25+": {
+     "txns": 18,
+     "share": 0.7
+    }
+   },
+   "median_ticket": 6.0,
+   "attach_proxy": 33.0,
+   "attach_proxy_prior": 31.9,
+   "attach_by_daypart": {
+    "Early (6-8a)": 23.9,
+    "Rush (8-10a)": 28.2,
+    "Mid-morning (10-12p)": 34.6,
+    "Lunch (12-2p)": 37.8,
+    "Afternoon (2-5p)": 34.6,
+    "Late (5p+)": null
+   },
+   "dining": {
+    "IN_STORE": {
+     "txns": 1524,
+     "share": 58.1,
+     "avg_ticket": 7.47
+    },
+    "PICKUP": {
+     "txns": 1100,
+     "share": 41.9,
+     "avg_ticket": 7.16
+    }
+   },
+   "tip_rate": 11.2,
+   "tip_rate_prior": 10.9,
+   "lead_item_by_daypart": {
+    "Early (6-8a)": [
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 27
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 17
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 16
+     },
+     {
+      "item": "Latte",
+      "txns": 14
+     },
+     {
+      "item": "Thoughtful Mocha",
+      "txns": 7
+     }
+    ],
+    "Rush (8-10a)": [
+     {
+      "item": "Cappuccino",
+      "txns": 148
+     },
+     {
+      "item": "Latte",
+      "txns": 139
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 91
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 68
+     },
+     {
+      "item": "Americano",
+      "txns": 42
+     }
+    ],
+    "Mid-morning (10-12p)": [
+     {
+      "item": "Cappuccino",
+      "txns": 98
+     },
+     {
+      "item": "Latte",
+      "txns": 73
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 50
+     },
+     {
+      "item": "[Comfort] CRUISE CONTROL",
+      "txns": 46
+     },
+     {
+      "item": "Cortado",
+      "txns": 35
+     }
+    ],
+    "Lunch (12-2p)": [
+     {
+      "item": "Cappuccino",
+      "txns": 119
+     },
+     {
+      "item": "Latte",
+      "txns": 99
+     },
+     {
+      "item": "Cortado",
+      "txns": 84
+     },
+     {
+      "item": "Espresso",
+      "txns": 65
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 56
+     }
+    ],
+    "Afternoon (2-5p)": [
+     {
+      "item": "Cappuccino",
+      "txns": 59
+     },
+     {
+      "item": "Cortado",
+      "txns": 42
+     },
+     {
+      "item": "Espresso",
+      "txns": 31
+     },
+     {
+      "item": "Latte",
+      "txns": 31
+     },
+     {
+      "item": "Americano",
+      "txns": 21
+     }
+    ],
+    "Late (5p+)": []
+   },
+   "lead_category_by_daypart": {
+    "Afternoon (2-5p)": {
+     "coffee_bev": 85.3,
+     "food": 7.6,
+     "other": 7.1,
+     "retail_coffee": 0.0
+    },
+    "Early (6-8a)": {
+     "coffee_bev": 81.0,
+     "food": 12.0,
+     "other": 7.0,
+     "retail_coffee": 0.0
+    },
+    "Lunch (12-2p)": {
+     "coffee_bev": 82.5,
+     "food": 7.6,
+     "other": 9.7,
+     "retail_coffee": 0.3
+    },
+    "Mid-morning (10-12p)": {
+     "coffee_bev": 80.6,
+     "food": 11.1,
+     "other": 8.1,
+     "retail_coffee": 0.2
+    },
+    "Rush (8-10a)": {
+     "coffee_bev": 80.4,
+     "food": 10.5,
+     "other": 8.4,
+     "retail_coffee": 0.6
+    }
+   },
+   "top_lead_items": [
+    {
+     "item": "Cappuccino",
+     "txns": 440
+    },
+    {
+     "item": "Latte",
+     "txns": 356
+    },
+    {
+     "item": "[Comfort] CRUISE CONTROL",
+     "txns": 225
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 211
+    },
+    {
+     "item": "Cortado",
+     "txns": 194
+    },
+    {
+     "item": "Espresso",
+     "txns": 145
+    },
+    {
+     "item": "Americano",
+     "txns": 121
+    },
+    {
+     "item": "Filter - Daily Selection",
+     "txns": 104
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 87
+    },
+    {
+     "item": "Magic Matcha",
+     "txns": 85
+    },
+    {
+     "item": "Banana Bread",
+     "txns": 52
+    },
+    {
+     "item": "Thoughtful Mocha",
+     "txns": 51
+    },
+    {
+     "item": "Chai",
+     "txns": 48
+    },
+    {
+     "item": "Sweetie Pie Latte",
+     "txns": 48
+    },
+    {
+     "item": "Yogurt Parfait",
+     "txns": 35
+    }
+   ],
+   "lead_category_mix": {
+    "coffee_bev": 81.8,
+    "food": 9.5,
+    "other": 8.5,
+    "retail_coffee": 0.3
+   },
+   "prior": {
+    "txns": 2735,
+    "net": 20214.5,
+    "avg_ticket": 7.39,
+    "open_days": 21
+   }
+  },
+  "NMWA": {
+   "txns": 513,
+   "net": 4198.15,
+   "avg_ticket": 8.18,
+   "open_days": 18,
+   "hourly": {
+    "10": {
+     "net": 749.46,
+     "txns": 98,
+     "share": 17.9
+    },
+    "11": {
+     "net": 799.65,
+     "txns": 98,
+     "share": 19.0
+    },
+    "12": {
+     "net": 983.46,
+     "txns": 116,
+     "share": 23.4
+    },
+    "13": {
+     "net": 1034.75,
+     "txns": 122,
+     "share": 24.6
+    },
+    "14": {
+     "net": 273.38,
+     "txns": 38,
+     "share": 6.5
+    },
+    "15": {
+     "net": 95.55,
+     "txns": 13,
+     "share": 2.3
+    },
+    "17": {
+     "net": 53.5,
+     "txns": 6,
+     "share": 1.3
+    },
+    "18": {
+     "net": 187.9,
+     "txns": 19,
+     "share": 4.5
+    },
+    "19": {
+     "net": 20.5,
+     "txns": 3,
+     "share": 0.5
+    }
+   },
+   "daypart": {
+    "Early (6-8a)": {
+     "net": 0.0,
+     "txns": 0,
+     "share": 0.0,
+     "avg_ticket": null,
+     "tip_rate": null,
+     "share_prior": 0.0
+    },
+    "Rush (8-10a)": {
+     "net": 0.0,
+     "txns": 0,
+     "share": 0.0,
+     "avg_ticket": null,
+     "tip_rate": null,
+     "share_prior": 0.0
+    },
+    "Mid-morning (10-12p)": {
+     "net": 1549.11,
+     "txns": 196,
+     "share": 36.9,
+     "avg_ticket": 7.9,
+     "tip_rate": 12.4,
+     "share_prior": 39.9
+    },
+    "Lunch (12-2p)": {
+     "net": 2018.21,
+     "txns": 238,
+     "share": 48.1,
+     "avg_ticket": 8.48,
+     "tip_rate": 11.3,
+     "share_prior": 42.7
+    },
+    "Afternoon (2-5p)": {
+     "net": 368.93,
+     "txns": 51,
+     "share": 8.8,
+     "avg_ticket": 7.23,
+     "tip_rate": 12.9,
+     "share_prior": 12.6
+    },
+    "Late (5p+)": {
+     "net": 261.9,
+     "txns": 28,
+     "share": 6.2,
+     "avg_ticket": 9.35,
+     "tip_rate": 12.4,
+     "share_prior": 4.9
+    }
+   },
+   "dow": {
+    "Wed": {
+     "net": 641.53,
+     "txns": 80,
+     "days": 2,
+     "net_per_day": 320.76,
+     "txns_per_day": 40.0,
+     "avg_ticket": 8.02,
+     "share": 15.3,
+     "labor_hours": 35.2,
+     "labor_cost": 808.94,
+     "labor_days": 2,
+     "labor_hours_per_day": 17.6,
+     "sales_per_labor_hour": 18.21,
+     "txns_per_labor_hour": 2.3,
+     "labor_pct_of_sales": 126.1,
+     "cost_per_hour": 22.96,
+     "labor_share": 22.4,
+     "sales_share_matched": 15.3,
+     "alignment_gap": 7.1
+    },
+    "Thu": {
+     "net": 913.75,
+     "txns": 107,
+     "days": 4,
+     "net_per_day": 228.44,
+     "txns_per_day": 26.8,
+     "avg_ticket": 8.54,
+     "share": 21.8,
+     "labor_hours": 31.3,
+     "labor_cost": 675.41,
+     "labor_days": 4,
+     "labor_hours_per_day": 7.8,
+     "sales_per_labor_hour": 29.18,
+     "txns_per_labor_hour": 3.4,
+     "labor_pct_of_sales": 73.9,
+     "cost_per_hour": 21.57,
+     "labor_share": 20.0,
+     "sales_share_matched": 21.8,
+     "alignment_gap": -1.8
+    },
+    "Fri": {
+     "net": 1101.1,
+     "txns": 153,
+     "days": 5,
+     "net_per_day": 220.22,
+     "txns_per_day": 30.6,
+     "avg_ticket": 7.2,
+     "share": 26.2,
+     "labor_hours": 39.3,
+     "labor_cost": 841.68,
+     "labor_days": 5,
+     "labor_hours_per_day": 7.9,
+     "sales_per_labor_hour": 28.0,
+     "txns_per_labor_hour": 3.9,
+     "labor_pct_of_sales": 76.4,
+     "cost_per_hour": 21.4,
+     "labor_share": 25.0,
+     "sales_share_matched": 26.2,
+     "alignment_gap": -1.2
+    },
+    "Sat": {
+     "net": 702.36,
+     "txns": 78,
+     "days": 4,
+     "net_per_day": 175.59,
+     "txns_per_day": 19.5,
+     "avg_ticket": 9.0,
+     "share": 16.7,
+     "labor_hours": 24.8,
+     "labor_cost": 526.97,
+     "labor_days": 4,
+     "labor_hours_per_day": 6.2,
+     "sales_per_labor_hour": 28.3,
+     "txns_per_labor_hour": 3.1,
+     "labor_pct_of_sales": 75.0,
+     "cost_per_hour": 21.23,
+     "labor_share": 15.8,
+     "sales_share_matched": 16.7,
+     "alignment_gap": -0.9
+    },
+    "Sun": {
+     "net": 839.41,
+     "txns": 95,
+     "days": 3,
+     "net_per_day": 279.8,
+     "txns_per_day": 31.7,
+     "avg_ticket": 8.84,
+     "share": 20.0,
+     "labor_hours": 26.2,
+     "labor_cost": 532.18,
+     "labor_days": 3,
+     "labor_hours_per_day": 8.7,
+     "sales_per_labor_hour": 32.04,
+     "txns_per_labor_hour": 3.6,
+     "labor_pct_of_sales": 63.4,
+     "cost_per_hour": 20.31,
+     "labor_share": 16.7,
+     "sales_share_matched": 20.0,
+     "alignment_gap": -3.3
+    }
+   },
+   "labor": {
+    "hours": 156.9,
+    "cost": 3385.18,
+    "days_covered": 18,
+    "open_days_in_month": 18,
+    "matched_days_net": 4198.15,
+    "matched_days_txns": 513,
+    "admin_hours": 0.0,
+    "training_hours": 0.0,
+    "cost_per_hour": 21.58,
+    "labor_pct_of_sales": 80.6,
+    "sales_per_labor_hour": 26.76,
+    "txns_per_labor_hour": 3.3
+   },
+   "ticket_dist": {
+    "<$5": {
+     "txns": 150,
+     "share": 29.2
+    },
+    "$5-8": {
+     "txns": 153,
+     "share": 29.8
+    },
+    "$8-10": {
+     "txns": 68,
+     "share": 13.3
+    },
+    "$10-15": {
+     "txns": 93,
+     "share": 18.1
+    },
+    "$15-25": {
+     "txns": 40,
+     "share": 7.8
+    },
+    "$25+": {
+     "txns": 9,
+     "share": 1.8
+    }
+   },
+   "median_ticket": 6.4,
+   "attach_proxy": 41.5,
+   "attach_proxy_prior": 44.1,
+   "attach_by_daypart": {
+    "Early (6-8a)": null,
+    "Rush (8-10a)": null,
+    "Mid-morning (10-12p)": 40.8,
+    "Lunch (12-2p)": 41.2,
+    "Afternoon (2-5p)": 29.4,
+    "Late (5p+)": 71.4
+   },
+   "dining": {
+    "IN_STORE": {
+     "txns": 3,
+     "share": 0.6,
+     "avg_ticket": 6.67
+    },
+    "PICKUP": {
+     "txns": 510,
+     "share": 99.4,
+     "avg_ticket": 8.19
+    }
+   },
+   "tip_rate": 11.9,
+   "tip_rate_prior": 13.2,
+   "lead_item_by_daypart": {
+    "Early (6-8a)": [],
+    "Rush (8-10a)": [],
+    "Mid-morning (10-12p)": [
+     {
+      "item": "[Comfort] LAS ESMERALDAS",
+      "txns": 19
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 18
+     },
+     {
+      "item": "Cappuccino",
+      "txns": 15
+     },
+     {
+      "item": "Nitro Iced Coffee",
+      "txns": 14
+     },
+     {
+      "item": "Sweetie Pie Latte",
+      "txns": 11
+     }
+    ],
+    "Lunch (12-2p)": [
+     {
+      "item": "Open Water Still Bottled Water",
+      "txns": 17
+     },
+     {
+      "item": "[Comfort] LAS ESMERALDAS",
+      "txns": 16
+     },
+     {
+      "item": "Latte",
+      "txns": 15
+     },
+     {
+      "item": "Soda - Coca Cola product",
+      "txns": 14
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 13
+     }
+    ],
+    "Afternoon (2-5p)": [
+     {
+      "item": "Open Water Still Bottled Water",
+      "txns": 7
+     },
+     {
+      "item": "Soda - Coca Cola product",
+      "txns": 5
+     },
+     {
+      "item": "Spindrift Sparkling Water",
+      "txns": 3
+     },
+     {
+      "item": "Tahitian Vanilla Latte",
+      "txns": 3
+     },
+     {
+      "item": "[Comfort] LAS ESMERALDAS",
+      "txns": 3
+     }
+    ],
+    "Late (5p+)": [
+     {
+      "item": "NMWA - SNACKS",
+      "txns": 27
+     },
+     {
+      "item": "NMWA - NON-ALCOHOLIC",
+      "txns": 1
+     }
+    ]
+   },
+   "lead_category_by_daypart": {
+    "Afternoon (2-5p)": {
+     "coffee_bev": 35.3,
+     "food": 19.6,
+     "other": 45.1
+    },
+    "Late (5p+)": {
+     "coffee_bev": 0.0,
+     "food": 0.0,
+     "other": 100.0
+    },
+    "Lunch (12-2p)": {
+     "coffee_bev": 43.3,
+     "food": 21.4,
+     "other": 35.3
+    },
+    "Mid-morning (10-12p)": {
+     "coffee_bev": 62.2,
+     "food": 21.4,
+     "other": 16.3
+    }
+   },
+   "top_lead_items": [
+    {
+     "item": "[Comfort] LAS ESMERALDAS",
+     "txns": 38
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 34
+    },
+    {
+     "item": "NMWA - SNACKS",
+     "txns": 32
+    },
+    {
+     "item": "Open Water Still Bottled Water",
+     "txns": 32
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 26
+    },
+    {
+     "item": "Latte",
+     "txns": 26
+    },
+    {
+     "item": "Cappuccino",
+     "txns": 25
+    },
+    {
+     "item": "Soda - Coca Cola product",
+     "txns": 19
+    },
+    {
+     "item": "Red Jacket Orchard Apple Juice",
+     "txns": 18
+    },
+    {
+     "item": "Spindrift Sparkling Water",
+     "txns": 15
+    },
+    {
+     "item": "Sweetie Pie Latte",
+     "txns": 13
+    },
+    {
+     "item": "Turkey Wrap",
+     "txns": 13
+    },
+    {
+     "item": "Pumpkin Cheesecake Iced Coffee",
+     "txns": 13
+    },
+    {
+     "item": "Thoughtful Mocha",
+     "txns": 12
+    },
+    {
+     "item": "Magic Matcha",
+     "txns": 11
+    }
+   ],
+   "lead_category_mix": {
+    "coffee_bev": 47.4,
+    "other": 32.6,
+    "food": 20.1
+   },
+   "prior": {
+    "txns": 322,
+    "net": 2790.36,
+    "avg_ticket": 8.67,
+    "open_days": 16
+   }
+  }
+ },
+ "open3": {
+  "txns": 12639,
+  "net": 111513.67,
+  "avg_ticket": 8.82,
+  "open_days": 31,
+  "hourly": {
+   "6": {
+    "net": 23.2,
+    "txns": 2,
+    "share": 0.0
+   },
+   "7": {
+    "net": 5135.78,
+    "txns": 613,
+    "share": 4.6
+   },
+   "8": {
+    "net": 15480.35,
+    "txns": 1779,
+    "share": 13.9
+   },
+   "9": {
+    "net": 20354.65,
+    "txns": 2296,
+    "share": 18.3
+   },
+   "10": {
+    "net": 17366.25,
+    "txns": 1870,
+    "share": 15.6
+   },
+   "11": {
+    "net": 13865.99,
+    "txns": 1380,
+    "share": 12.4
+   },
+   "12": {
+    "net": 13719.04,
+    "txns": 1446,
+    "share": 12.3
+   },
+   "13": {
+    "net": 13188.09,
+    "txns": 1600,
+    "share": 11.8
+   },
+   "14": {
+    "net": 8521.74,
+    "txns": 1108,
+    "share": 7.6
+   },
+   "15": {
+    "net": 3309.59,
+    "txns": 463,
+    "share": 3.0
+   },
+   "16": {
+    "net": 548.99,
+    "txns": 82,
+    "share": 0.5
+   }
+  },
+  "daypart": {
+   "Early (6-8a)": {
+    "net": 5158.98,
+    "txns": 615,
+    "share": 4.6,
+    "avg_ticket": 8.39,
+    "tip_rate": 12.4,
+    "share_prior": 5.1
+   },
+   "Rush (8-10a)": {
+    "net": 35835.0,
+    "txns": 4075,
+    "share": 32.1,
+    "avg_ticket": 8.79,
+    "tip_rate": 12.8,
+    "share_prior": 32.8
+   },
+   "Mid-morning (10-12p)": {
+    "net": 31232.24,
+    "txns": 3250,
+    "share": 28.0,
+    "avg_ticket": 9.61,
+    "tip_rate": 12.1,
+    "share_prior": 28.3
+   },
+   "Lunch (12-2p)": {
+    "net": 26907.13,
+    "txns": 3046,
+    "share": 24.1,
+    "avg_ticket": 8.83,
+    "tip_rate": 11.7,
+    "share_prior": 23.4
+   },
+   "Afternoon (2-5p)": {
+    "net": 12380.32,
+    "txns": 1653,
+    "share": 11.1,
+    "avg_ticket": 7.49,
+    "tip_rate": 12.1,
+    "share_prior": 10.4
+   },
+   "Late (5p+)": {
+    "net": 0.0,
+    "txns": 0,
+    "share": 0.0,
+    "avg_ticket": null,
+    "tip_rate": null,
+    "share_prior": 0.0
+   }
+  },
+  "dow": {
+   "Mon": {
+    "net": 11587.02,
+    "txns": 1358,
+    "days": 4,
+    "net_per_day": 2896.76,
+    "txns_per_day": 339.5,
+    "avg_ticket": 8.53,
+    "share": 10.4,
+    "labor_hours": 224.3,
+    "labor_cost": 4836.93,
+    "labor_days": 4,
+    "labor_hours_per_day": 56.1,
+    "sales_per_labor_hour": 51.66,
+    "txns_per_labor_hour": 6.1,
+    "labor_pct_of_sales": 41.7,
+    "cost_per_hour": 21.56,
+    "labor_share": 11.6,
+    "sales_share_matched": 10.4,
+    "alignment_gap": 1.2
+   },
+   "Tue": {
+    "net": 16847.25,
+    "txns": 2040,
+    "days": 4,
+    "net_per_day": 4211.81,
+    "txns_per_day": 510.0,
+    "avg_ticket": 8.26,
+    "share": 15.1,
+    "labor_hours": 321.4,
+    "labor_cost": 6826.61,
+    "labor_days": 4,
+    "labor_hours_per_day": 80.4,
+    "sales_per_labor_hour": 52.41,
+    "txns_per_labor_hour": 6.3,
+    "labor_pct_of_sales": 40.5,
+    "cost_per_hour": 21.24,
+    "labor_share": 16.7,
+    "sales_share_matched": 15.1,
+    "alignment_gap": 1.6
+   },
+   "Wed": {
+    "net": 18708.37,
+    "txns": 2181,
+    "days": 4,
+    "net_per_day": 4677.09,
+    "txns_per_day": 545.2,
+    "avg_ticket": 8.58,
+    "share": 16.8,
+    "labor_hours": 304.6,
+    "labor_cost": 6629.65,
+    "labor_days": 4,
+    "labor_hours_per_day": 76.2,
+    "sales_per_labor_hour": 61.41,
+    "txns_per_labor_hour": 7.2,
+    "labor_pct_of_sales": 35.4,
+    "cost_per_hour": 21.76,
+    "labor_share": 15.8,
+    "sales_share_matched": 16.8,
+    "alignment_gap": -1.0
+   },
+   "Thu": {
+    "net": 22252.06,
+    "txns": 2677,
+    "days": 5,
+    "net_per_day": 4450.41,
+    "txns_per_day": 535.4,
+    "avg_ticket": 8.31,
+    "share": 20.0,
+    "labor_hours": 382.6,
+    "labor_cost": 8257.06,
+    "labor_days": 5,
+    "labor_hours_per_day": 76.5,
+    "sales_per_labor_hour": 58.16,
+    "txns_per_labor_hour": 7.0,
+    "labor_pct_of_sales": 37.1,
+    "cost_per_hour": 21.58,
+    "labor_share": 19.9,
+    "sales_share_matched": 20.0,
+    "alignment_gap": -0.1
+   },
+   "Fri": {
+    "net": 17318.94,
+    "txns": 1943,
+    "days": 5,
+    "net_per_day": 3463.79,
+    "txns_per_day": 388.6,
+    "avg_ticket": 8.91,
+    "share": 15.5,
+    "labor_hours": 362.8,
+    "labor_cost": 7810.65,
+    "labor_days": 5,
+    "labor_hours_per_day": 72.6,
+    "sales_per_labor_hour": 47.73,
+    "txns_per_labor_hour": 5.4,
+    "labor_pct_of_sales": 45.1,
+    "cost_per_hour": 21.53,
+    "labor_share": 18.8,
+    "sales_share_matched": 15.5,
+    "alignment_gap": 3.3
+   },
+   "Sat": {
+    "net": 14194.71,
+    "txns": 1388,
+    "days": 5,
+    "net_per_day": 2838.94,
+    "txns_per_day": 277.6,
+    "avg_ticket": 10.23,
+    "share": 12.7,
+    "labor_hours": 181.2,
+    "labor_cost": 3695.61,
+    "labor_days": 5,
+    "labor_hours_per_day": 36.2,
+    "sales_per_labor_hour": 78.34,
+    "txns_per_labor_hour": 7.7,
+    "labor_pct_of_sales": 26.0,
+    "cost_per_hour": 20.4,
+    "labor_share": 9.4,
+    "sales_share_matched": 12.7,
+    "alignment_gap": -3.3
+   },
+   "Sun": {
+    "net": 10605.32,
+    "txns": 1052,
+    "days": 4,
+    "net_per_day": 2651.33,
+    "txns_per_day": 263.0,
+    "avg_ticket": 10.08,
+    "share": 9.5,
+    "labor_hours": 149.3,
+    "labor_cost": 3081.02,
+    "labor_days": 4,
+    "labor_hours_per_day": 37.3,
+    "sales_per_labor_hour": 71.04,
+    "txns_per_labor_hour": 7.0,
+    "labor_pct_of_sales": 29.1,
+    "cost_per_hour": 20.64,
+    "labor_share": 7.8,
+    "sales_share_matched": 9.5,
+    "alignment_gap": -1.7
+   }
+  },
+  "labor": {
+   "hours": 1926.3,
+   "cost": 41137.53,
+   "days_covered": 31,
+   "open_days_in_month": 31,
+   "matched_days_net": 111513.67,
+   "matched_days_txns": 12639,
+   "admin_hours": 0,
+   "training_hours": 0,
+   "cost_per_hour": 21.36,
+   "labor_pct_of_sales": 36.9,
+   "sales_per_labor_hour": 57.89,
+   "txns_per_labor_hour": 6.6
+  },
+  "ticket_dist": {
+   "<$5": {
+    "txns": 2484,
+    "share": 19.7
+   },
+   "$5-8": {
+    "txns": 5081,
+    "share": 40.2
+   },
+   "$8-10": {
+    "txns": 1180,
+    "share": 9.3
+   },
+   "$10-15": {
+    "txns": 2371,
+    "share": 18.8
+   },
+   "$15-25": {
+    "txns": 1200,
+    "share": 9.5
+   },
+   "$25+": {
+    "txns": 323,
+    "share": 2.6
+   }
+  },
+  "median_ticket": 6.25,
+  "attach_proxy": 40.4,
+  "attach_proxy_prior": 38.6,
+  "attach_by_daypart": {
+   "Early (6-8a)": 36.4,
+   "Rush (8-10a)": 40.1,
+   "Mid-morning (10-12p)": 44.7,
+   "Lunch (12-2p)": 41.4,
+   "Afternoon (2-5p)": 32.1,
+   "Late (5p+)": null
+  },
+  "dining": {
+   "DELIVERY": {
+    "txns": 3,
+    "share": 0.0,
+    "avg_ticket": 10.5
+   },
+   "IN_STORE": {
+    "txns": 4170,
+    "share": 33.0,
+    "avg_ticket": 8.99
+   },
+   "PICKUP": {
+    "txns": 8463,
+    "share": 67.0,
+    "avg_ticket": 8.69
+   },
+   "UNKNOWN": {
+    "txns": 3,
+    "share": 0.0,
+    "avg_ticket": 145.0
+   }
+  },
+  "tip_rate": 12.2,
+  "tip_rate_prior": 12.3,
+  "lead_item_by_daypart": {
+   "Early (6-8a)": [
+    {
+     "item": "[Comfort] CRUISE CONTROL",
+     "txns": 94
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 78
+    },
+    {
+     "item": "Latte",
+     "txns": 78
+    },
+    {
+     "item": "Cappuccino",
+     "txns": 72
+    },
+    {
+     "item": "Americano",
+     "txns": 43
+    }
+   ],
+   "Rush (8-10a)": [
+    {
+     "item": "Latte",
+     "txns": 616
+    },
+    {
+     "item": "[Comfort] CRUISE CONTROL",
+     "txns": 560
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 477
+    },
+    {
+     "item": "Cappuccino",
+     "txns": 453
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 293
+    }
+   ],
+   "Mid-morning (10-12p)": [
+    {
+     "item": "Latte",
+     "txns": 411
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 360
+    },
+    {
+     "item": "[Comfort] CRUISE CONTROL",
+     "txns": 355
+    },
+    {
+     "item": "Cappuccino",
+     "txns": 306
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 217
+    }
+   ],
+   "Lunch (12-2p)": [
+    {
+     "item": "Latte",
+     "txns": 327
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 314
+    },
+    {
+     "item": "Cappuccino",
+     "txns": 297
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 210
+    },
+    {
+     "item": "[Comfort] CRUISE CONTROL",
+     "txns": 196
+    }
+   ],
+   "Afternoon (2-5p)": [
+    {
+     "item": "Cappuccino",
+     "txns": 178
+    },
+    {
+     "item": "Latte",
+     "txns": 175
+    },
+    {
+     "item": "Tahitian Vanilla Latte",
+     "txns": 169
+    },
+    {
+     "item": "Nitro Iced Coffee",
+     "txns": 121
+    },
+    {
+     "item": "Americano",
+     "txns": 99
+    }
+   ],
+   "Late (5p+)": []
+  },
+  "lead_category_by_daypart": {
+   "Afternoon (2-5p)": {
+    "coffee_bev": 84.1,
+    "food": 8.7,
+    "other": 6.8,
+    "retail_coffee": 0.4
+   },
+   "Early (6-8a)": {
+    "coffee_bev": 80.3,
+    "food": 13.0,
+    "other": 5.9,
+    "retail_coffee": 0.8
+   },
+   "Lunch (12-2p)": {
+    "coffee_bev": 74.1,
+    "food": 16.2,
+    "other": 9.2,
+    "retail_coffee": 0.5
+   },
+   "Mid-morning (10-12p)": {
+    "coffee_bev": 76.1,
+    "food": 16.9,
+    "other": 6.7,
+    "retail_coffee": 0.3
+   },
+   "Rush (8-10a)": {
+    "coffee_bev": 79.2,
+    "food": 14.2,
+    "other": 6.1,
+    "retail_coffee": 0.5
+   }
+  },
+  "top_lead_items": [
+   {
+    "item": "Latte",
+    "txns": 1607
+   },
+   {
+    "item": "Tahitian Vanilla Latte",
+    "txns": 1398
+   },
+   {
+    "item": "Cappuccino",
+    "txns": 1306
+   },
+   {
+    "item": "[Comfort] CRUISE CONTROL",
+    "txns": 1304
+   },
+   {
+    "item": "Nitro Iced Coffee",
+    "txns": 876
+   },
+   {
+    "item": "Americano",
+    "txns": 549
+   },
+   {
+    "item": "Cortado",
+    "txns": 478
+   },
+   {
+    "item": "Chai",
+    "txns": 388
+   },
+   {
+    "item": "Filter - Daily Selection",
+    "txns": 352
+   },
+   {
+    "item": "Espresso",
+    "txns": 346
+   },
+   {
+    "item": "Magic Matcha",
+    "txns": 321
+   },
+   {
+    "item": "Sweetie Pie Latte",
+    "txns": 313
+   },
+   {
+    "item": "Slipstream Breakfast Sandwich",
+    "txns": 227
+   },
+   {
+    "item": "Thoughtful Mocha",
+    "txns": 208
+   },
+   {
+    "item": "Banana Bread",
+    "txns": 208
+   }
+  ],
+  "lead_category_mix": {
+   "coffee_bev": 77.9,
+   "food": 14.6,
+   "other": 7.1,
+   "retail_coffee": 0.5
+  },
+  "prior": {
+   "txns": 11595,
+   "net": 99621.06,
+   "avg_ticket": 8.59,
+   "open_days": 30
+  }
+ },
+ "walkin_ticket_by_month": {
+  "Downtown": {
+   "Jan": 8.44,
+   "Feb": 8.75,
+   "Mar": 8.56,
+   "Apr": 8.83,
+   "May": 8.86,
+   "Jun": 8.92,
+   "Jul": 8.72,
+   "Aug": 8.64,
+   "Sep": 8.57,
+   "Oct": 8.81
+  },
+  "Studio": {
+   "Jan": 9.46,
+   "Feb": 9.45,
+   "Mar": 9.5,
+   "Apr": 9.76,
+   "May": 9.84,
+   "Jun": 9.8,
+   "Jul": 9.5,
+   "Aug": 9.56,
+   "Sep": 9.28,
+   "Oct": 9.5
+  },
+  "1899": {
+   "Jan": 7.43,
+   "Feb": 7.05,
+   "Mar": 7.21,
+   "Apr": 7.82,
+   "May": 7.31,
+   "Jun": 7.5,
+   "Jul": 7.35,
+   "Aug": 7.37,
+   "Sep": 7.39,
+   "Oct": 7.34
+  },
+  "NMWA": {
+   "Jan": null,
+   "Feb": null,
+   "Mar": null,
+   "Apr": null,
+   "May": 7.23,
+   "Jun": null,
+   "Jul": 7.08,
+   "Aug": 8.43,
+   "Sep": 8.67,
+   "Oct": 8.18
+  }
+ },
+ "invoice_summary": {
+  "Downtown": {
+   "txns": 10,
+   "net": 12905.0
+  },
+  "Studio": {
+   "txns": 1,
+   "net": 1050.0
+  },
+  "1899": {
+   "txns": 3,
+   "net": 588.5
+  },
+  "NMWA": {
+   "txns": 5,
+   "net": 16505.75
+  }
+ },
+ "zero_dollar_txns": 428
+}

@@ -1,0 +1,1036 @@
+{
+ "version": "guide v1.2",
+ "rates": {
+  "Line": 19.75,
+  "Lead": 22.25,
+  "Closing Lead": 22.25,
+  "Closer": 20.0,
+  "Barista": 20.0,
+  "Production Barista": 20.25,
+  "FOH": 21.25
+ },
+ "bands_weekly_sales": {
+  "Downtown": [
+   7500,
+   9000
+  ],
+  "Studio": [
+   10500,
+   12500
+  ],
+  "1899 Penn": [
+   3300,
+   4200
+  ]
+ },
+ "labor_bands_pct": {
+  "Downtown": [
+   32,
+   36,
+   38
+  ],
+  "Studio": [
+   30,
+   34,
+   36
+  ],
+  "1899 Penn": [
+   35,
+   40,
+   42
+  ]
+ },
+ "which": {
+  "Downtown": {
+   "slow": "BASE",
+   "mid": "FULL",
+   "busy": "FULL"
+  },
+  "Studio": {
+   "slow": "BASE",
+   "mid": "BASE",
+   "busy": "FULL"
+  },
+  "1899 Penn": {
+   "slow": "BASE",
+   "mid": "BASE",
+   "busy": "FULL"
+  }
+ },
+ "cafes": {
+  "Downtown": {
+   "BASE": {
+    "week_hours": 120.5,
+    "week_wages": 2514.25,
+    "days": {
+     "Mon": {
+      "hours": 22.0,
+      "wages": 461.0,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201312:15",
+        "hours": 6.0,
+        "wages": 118.5,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201316:30",
+        "hours": 10.0,
+        "wages": 222.5,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "10:30\u201316:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       }
+      ]
+     },
+     "Tue": {
+      "hours": 25.5,
+      "wages": 530.75,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201313:15",
+        "hours": 7.0,
+        "wages": 138.25,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201316:30",
+        "hours": 10.0,
+        "wages": 222.5,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "8:00\u201316:30",
+        "hours": 8.5,
+        "wages": 170.0,
+        "trim": false
+       }
+      ]
+     },
+     "Wed": {
+      "hours": 25.5,
+      "wages": 530.75,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201313:15",
+        "hours": 7.0,
+        "wages": 138.25,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201316:30",
+        "hours": 10.0,
+        "wages": 222.5,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "8:00\u201316:30",
+        "hours": 8.5,
+        "wages": 170.0,
+        "trim": false
+       }
+      ]
+     },
+     "Thu": {
+      "hours": 25.5,
+      "wages": 530.75,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201313:15",
+        "hours": 7.0,
+        "wages": 138.25,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201316:30",
+        "hours": 10.0,
+        "wages": 222.5,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "8:00\u201316:30",
+        "hours": 8.5,
+        "wages": 170.0,
+        "trim": false
+       }
+      ]
+     },
+     "Fri": {
+      "hours": 22.0,
+      "wages": 461.0,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201312:15",
+        "hours": 6.0,
+        "wages": 118.5,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201316:30",
+        "hours": 10.0,
+        "wages": 222.5,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "10:30\u201316:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       }
+      ]
+     }
+    }
+   },
+   "FULL": {
+    "week_hours": 138.5,
+    "week_wages": 2861.5,
+    "days": {
+     "Mon": {
+      "hours": 23.5,
+      "wages": 491.0,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201312:15",
+        "hours": 6.0,
+        "wages": 118.5,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201316:30",
+        "hours": 10.0,
+        "wages": 222.5,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "9:00\u201316:30",
+        "hours": 7.5,
+        "wages": 150.0,
+        "trim": false
+       }
+      ]
+     },
+     "Tue": {
+      "hours": 30.5,
+      "wages": 626.5,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201312:15",
+        "hours": 6.0,
+        "wages": 118.5,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "8:00\u201316:30",
+        "hours": 8.5,
+        "wages": 170.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:30\u201316:30",
+        "hours": 8.0,
+        "wages": 160.0,
+        "trim": false
+       }
+      ]
+     },
+     "Wed": {
+      "hours": 30.5,
+      "wages": 626.5,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201312:15",
+        "hours": 6.0,
+        "wages": 118.5,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "8:00\u201316:30",
+        "hours": 8.5,
+        "wages": 170.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:30\u201316:30",
+        "hours": 8.0,
+        "wages": 160.0,
+        "trim": false
+       }
+      ]
+     },
+     "Thu": {
+      "hours": 30.5,
+      "wages": 626.5,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201312:15",
+        "hours": 6.0,
+        "wages": 118.5,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "8:00\u201316:30",
+        "hours": 8.5,
+        "wages": 170.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:30\u201316:30",
+        "hours": 8.0,
+        "wages": 160.0,
+        "trim": false
+       }
+      ]
+     },
+     "Fri": {
+      "hours": 23.5,
+      "wages": 491.0,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201312:15",
+        "hours": 6.0,
+        "wages": 118.5,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201316:30",
+        "hours": 10.0,
+        "wages": 222.5,
+        "trim": false
+       },
+       {
+        "role": "Closer",
+        "shift": "9:00\u201316:30",
+        "hours": 7.5,
+        "wages": 150.0,
+        "trim": false
+       }
+      ]
+     }
+    }
+   }
+  },
+  "Studio": {
+   "BASE": {
+    "week_hours": 171.5,
+    "week_wages": 3578.88,
+    "days": {
+     "Mon": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:00\u201313:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       }
+      ]
+     },
+     "Tue": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:30\u201313:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       }
+      ]
+     },
+     "Wed": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:30\u201313:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       }
+      ]
+     },
+     "Thu": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:30\u201313:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       }
+      ]
+     },
+     "Fri": {
+      "hours": 27.5,
+      "wages": 578.38,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:15",
+        "hours": 8.0,
+        "wages": 158.0,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201313:00",
+        "hours": 6.5,
+        "wages": 144.62,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "9:00\u201315:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       },
+       {
+        "role": "Closing Lead",
+        "shift": "10:30\u201317:30",
+        "hours": 7.0,
+        "wages": 155.75,
+        "trim": false
+       }
+      ]
+     },
+     "Sat": {
+      "hours": 27.5,
+      "wages": 578.38,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "7:15\u201315:15",
+        "hours": 8.0,
+        "wages": 158.0,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "7:30\u201314:00",
+        "hours": 6.5,
+        "wages": 144.62,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:00\u201314:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       },
+       {
+        "role": "Closing Lead",
+        "shift": "10:30\u201317:30",
+        "hours": 7.0,
+        "wages": 155.75,
+        "trim": false
+       }
+      ]
+     },
+     "Sun": {
+      "hours": 27.5,
+      "wages": 578.38,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "7:15\u201315:15",
+        "hours": 8.0,
+        "wages": 158.0,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "7:30\u201314:00",
+        "hours": 6.5,
+        "wages": 144.62,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:00\u201314:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": true
+       },
+       {
+        "role": "Closing Lead",
+        "shift": "10:30\u201317:30",
+        "hours": 7.0,
+        "wages": 155.75,
+        "trim": false
+       }
+      ]
+     }
+    }
+   },
+   "FULL": {
+    "week_hours": 183.0,
+    "week_wages": 3806.62,
+    "days": {
+     "Mon": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:00\u201313:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       }
+      ]
+     },
+     "Tue": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:30\u201313:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       }
+      ]
+     },
+     "Wed": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:30\u201313:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       }
+      ]
+     },
+     "Thu": {
+      "hours": 22.25,
+      "wages": 460.94,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:30",
+        "hours": 8.25,
+        "wages": 162.94,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "7:30\u201313:30",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       }
+      ]
+     },
+     "Fri": {
+      "hours": 28.5,
+      "wages": 599.5,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "6:15\u201314:15",
+        "hours": 8.0,
+        "wages": 158.0,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "6:30\u201313:00",
+        "hours": 6.5,
+        "wages": 144.62,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:30\u201315:00",
+        "hours": 6.5,
+        "wages": 130.0,
+        "trim": false
+       },
+       {
+        "role": "Closing Lead",
+        "shift": "10:00\u201317:30",
+        "hours": 7.5,
+        "wages": 166.88,
+        "trim": false
+       }
+      ]
+     },
+     "Sat": {
+      "hours": 33.5,
+      "wages": 698.38,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "7:15\u201315:15",
+        "hours": 8.0,
+        "wages": 158.0,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "7:30\u201314:00",
+        "hours": 6.5,
+        "wages": 144.62,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:00\u201314:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "10:00\u201316:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       },
+       {
+        "role": "Closing Lead",
+        "shift": "10:30\u201317:30",
+        "hours": 7.0,
+        "wages": 155.75,
+        "trim": false
+       }
+      ]
+     },
+     "Sun": {
+      "hours": 32.0,
+      "wages": 665.0,
+      "shifts": [
+       {
+        "role": "Line",
+        "shift": "7:15\u201315:15",
+        "hours": 8.0,
+        "wages": 158.0,
+        "trim": false
+       },
+       {
+        "role": "Lead",
+        "shift": "7:30\u201312:30",
+        "hours": 5.0,
+        "wages": 111.25,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "8:00\u201314:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       },
+       {
+        "role": "Barista",
+        "shift": "10:00\u201316:00",
+        "hours": 6.0,
+        "wages": 120.0,
+        "trim": false
+       },
+       {
+        "role": "Closing Lead",
+        "shift": "10:30\u201317:30",
+        "hours": 7.0,
+        "wages": 155.75,
+        "trim": false
+       }
+      ]
+     }
+    }
+   }
+  },
+  "1899 Penn": {
+   "BASE": {
+    "week_hours": 72.0,
+    "week_wages": 1530.0,
+    "days": {
+     "Mon": {
+      "hours": 12.0,
+      "wages": 255.0,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201312:30",
+        "hours": 6.0,
+        "wages": 133.5,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "9:30\u201315:30",
+        "hours": 6.0,
+        "wages": 121.5,
+        "trim": false
+       }
+      ]
+     },
+     "Tue": {
+      "hours": 16.0,
+      "wages": 340.0,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     },
+     "Wed": {
+      "hours": 16.0,
+      "wages": 340.0,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     },
+     "Thu": {
+      "hours": 16.0,
+      "wages": 340.0,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     },
+     "Fri": {
+      "hours": 12.0,
+      "wages": 255.0,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201312:30",
+        "hours": 6.0,
+        "wages": 133.5,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "9:30\u201315:30",
+        "hours": 6.0,
+        "wages": 121.5,
+        "trim": false
+       }
+      ]
+     }
+    }
+   },
+   "FULL": {
+    "week_hours": 81.5,
+    "week_wages": 1733.38,
+    "days": {
+     "Mon": {
+      "hours": 16.0,
+      "wages": 340.0,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     },
+     "Tue": {
+      "hours": 16.5,
+      "wages": 351.12,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201315:00",
+        "hours": 8.5,
+        "wages": 189.12,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     },
+     "Wed": {
+      "hours": 16.5,
+      "wages": 351.12,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201315:00",
+        "hours": 8.5,
+        "wages": 189.12,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     },
+     "Thu": {
+      "hours": 16.5,
+      "wages": 351.12,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201315:00",
+        "hours": 8.5,
+        "wages": 189.12,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     },
+     "Fri": {
+      "hours": 16.0,
+      "wages": 340.0,
+      "shifts": [
+       {
+        "role": "Lead",
+        "shift": "6:30\u201314:30",
+        "hours": 8.0,
+        "wages": 178.0,
+        "trim": false
+       },
+       {
+        "role": "Production Barista",
+        "shift": "7:30\u201315:30",
+        "hours": 8.0,
+        "wages": 162.0,
+        "trim": false
+       }
+      ]
+     }
+    }
+   }
+  },
+  "NMWA": {
+   "BASE": {
+    "week_hours": 24,
+    "week_wages": 510,
+    "rule": "1 FOH 9:00\u201315:00 per open day; 2 on community days"
+   }
+  }
+ }
+}

@@ -1,0 +1,8399 @@
+{
+ "cap": {
+  "Downtown": 14.0,
+  "Studio": 12.0,
+  "1899 Penn": 14.0
+ },
+ "open": {
+  "Downtown": {
+   "Mon": [
+    7,
+    16
+   ],
+   "Tue": [
+    7,
+    16
+   ],
+   "Wed": [
+    7,
+    16
+   ],
+   "Thu": [
+    7,
+    16
+   ],
+   "Fri": [
+    7,
+    16
+   ]
+  },
+  "Studio": {
+   "Mon": [
+    7,
+    14
+   ],
+   "Tue": [
+    7,
+    14
+   ],
+   "Wed": [
+    7,
+    14
+   ],
+   "Thu": [
+    7,
+    14
+   ],
+   "Fri": [
+    7,
+    17
+   ],
+   "Sat": [
+    8,
+    17
+   ],
+   "Sun": [
+    8,
+    17
+   ]
+  },
+  "1899 Penn": {
+   "Mon": [
+    7,
+    15
+   ],
+   "Tue": [
+    7,
+    15
+   ],
+   "Wed": [
+    7,
+    15
+   ],
+   "Thu": [
+    7,
+    15
+   ],
+   "Fri": [
+    7,
+    15
+   ]
+  }
+ },
+ "prep": {
+  "Downtown": 0.75,
+  "Studio": 0.75,
+  "1899 Penn": 0.5
+ },
+ "tail": {
+  "Downtown": 0.5,
+  "Studio": 0.5,
+  "1899 Penn": 0.5
+ },
+ "cafes": {
+  "Downtown": {
+   "avg_core_rate": 20.73,
+   "cap": 14.0,
+   "tiers": {
+    "busy": {
+     "Mon": {
+      "n_days_curve": 11,
+      "need_hours": 22.0,
+      "actual_hours": 25.4,
+      "over_hours": 4.8,
+      "over_dollars": 99,
+      "peak_need": 3,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 10.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 32.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 29.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 18.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 20.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 11.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 5.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.17
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 12,
+      "need_hours": 26.5,
+      "actual_hours": 35.4,
+      "over_hours": 9.4,
+      "over_dollars": 195,
+      "peak_need": 5,
+      "peak_actual": 4.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.67
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 27.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 49.0,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 56.8,
+        "need": 5,
+        "floor": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 41.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 38.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 32.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 32.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 18.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 23.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 31.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 36.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.83
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 28.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 26.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 11.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.83
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 12,
+      "need_hours": 27.5,
+      "actual_hours": 31.9,
+      "over_hours": 5.9,
+      "over_dollars": 123,
+      "peak_need": 5,
+      "peak_actual": 3.67,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 13.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 31.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 53.6,
+        "need": 4,
+        "floor": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 58.4,
+        "need": 5,
+        "floor": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 53.6,
+        "need": 4,
+        "floor": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 42.2,
+        "need": 4,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 31.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 24.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 29.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 35.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 34.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 25.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 21.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 10.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 12,
+      "need_hours": 25.5,
+      "actual_hours": 34.1,
+      "over_hours": 9.2,
+      "over_dollars": 190,
+      "peak_need": 4,
+      "peak_actual": 4.33,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 34.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 51.8,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.33
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 54.8,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 51.6,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 40.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 33.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 26.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 33.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 31.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 20.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 15.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.17
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 11,
+      "need_hours": 20.5,
+      "actual_hours": 26.4,
+      "over_hours": 6.2,
+      "over_dollars": 128,
+      "peak_need": 3,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 7.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 17.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 25.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 29.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 16.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 11.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 10.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 15.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 3.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 3.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.34
+       }
+      ]
+     }
+    },
+    "mid": {
+     "Mon": {
+      "n_days_curve": 14,
+      "need_hours": 20.5,
+      "actual_hours": 27.1,
+      "over_hours": 7.4,
+      "over_dollars": 153,
+      "peak_need": 3,
+      "peak_actual": 3.17,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.58
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.92
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 26.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.08
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 28.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 16.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 14.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 16.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.92
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 3.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.08
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 16,
+      "need_hours": 25.0,
+      "actual_hours": 35.1,
+      "over_hours": 10.4,
+      "over_dollars": 216,
+      "peak_need": 4,
+      "peak_actual": 4.17,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.58
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 27.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.92
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 43.2,
+        "need": 4,
+        "floor": 3,
+        "actual": 3.92
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 45.6,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 39.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 38.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 24.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 21.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 24.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 27.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 30.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 28.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.08
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 18.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 7.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.58
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.25
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 16,
+      "need_hours": 25.5,
+      "actual_hours": 34.6,
+      "over_hours": 9.4,
+      "over_dollars": 195,
+      "peak_need": 4,
+      "peak_actual": 4.17,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.42
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 29.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 46.2,
+        "need": 4,
+        "floor": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 50.4,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.08
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 44.6,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 31.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 30.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 24.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 25.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 27.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.08
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 31.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.83
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 31.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.83
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.09
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 16,
+      "need_hours": 24.0,
+      "actual_hours": 33.9,
+      "over_hours": 10.5,
+      "over_dollars": 217,
+      "peak_need": 4,
+      "peak_actual": 4.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 7.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 26.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.08
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 44.0,
+        "need": 4,
+        "floor": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 51.0,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 43.2,
+        "need": 4,
+        "floor": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 35.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 26.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 23.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 21.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 24.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 27.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 26.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.42
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.25
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 15,
+      "need_hours": 20.0,
+      "actual_hours": 25.0,
+      "over_hours": 5.8,
+      "over_dollars": 120,
+      "peak_need": 2,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.75
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 20.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 19.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 10.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 12.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 10.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 10.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.08
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 9.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 6.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 4.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 2.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.17
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.17
+       }
+      ]
+     }
+    },
+    "slow": {
+     "Mon": {
+      "n_days_curve": 5,
+      "need_hours": 20.0,
+      "actual_hours": 25.5,
+      "over_hours": 5.9,
+      "over_dollars": 122,
+      "peak_need": 2,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.38
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.62
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 24.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 16.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 9.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 11.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 8.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 6.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.38
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 5,
+      "need_hours": 23.0,
+      "actual_hours": 31.1,
+      "over_hours": 8.5,
+      "over_dollars": 176,
+      "peak_need": 3,
+      "peak_actual": 4.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 9.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.62
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.88
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 34.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 42.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 33.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 29.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 23.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 22.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 28.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 27.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 14.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 7.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.25
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 5,
+      "need_hours": 22.5,
+      "actual_hours": 34.9,
+      "over_hours": 12.5,
+      "over_dollars": 259,
+      "peak_need": 3,
+      "peak_actual": 4.25,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.88
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.25
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 40.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 40.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.12
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 40.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 28.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 27.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 26.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.88
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 23.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.38
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 5,
+      "need_hours": 22.5,
+      "actual_hours": 34.8,
+      "over_hours": 12.5,
+      "over_dollars": 259,
+      "peak_need": 3,
+      "peak_actual": 4.25,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 10.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 20.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 39.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 40.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 33.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 31.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 14.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 21.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 21.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 13.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.38
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 5,
+      "need_hours": 20.0,
+      "actual_hours": 25.8,
+      "over_hours": 5.9,
+      "over_dollars": 123,
+      "peak_need": 2,
+      "peak_actual": 3.25,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 8.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 17.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.12
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 14.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 12.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 6.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.62
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 8.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 8.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 5.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 2.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 2.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     }
+    }
+   }
+  },
+  "Studio": {
+   "avg_core_rate": 20.2,
+   "cap": 12.0,
+   "tiers": {
+    "busy": {
+     "Mon": {
+      "n_days_curve": 10,
+      "need_hours": 21.5,
+      "actual_hours": 20.9,
+      "over_hours": 1.9,
+      "over_dollars": 38,
+      "peak_need": 3,
+      "peak_actual": 2.75,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 10.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 13.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 26.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 29.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 25.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 28.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 23.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 18.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 21.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 20.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 17.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 11.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 1.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.8,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.75
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 10,
+      "need_hours": 20.5,
+      "actual_hours": 24.5,
+      "over_hours": 4.0,
+      "over_dollars": 81,
+      "peak_need": 3,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.75
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 26.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 25.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 16.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 8.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 10,
+      "need_hours": 20.5,
+      "actual_hours": 23.9,
+      "over_hours": 3.4,
+      "over_dollars": 68,
+      "peak_need": 3,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 33.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 28.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 30.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 26.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 24.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 18.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 17.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.25
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 10,
+      "need_hours": 20.5,
+      "actual_hours": 24.9,
+      "over_hours": 4.4,
+      "over_dollars": 88,
+      "peak_need": 3,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 13.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 27.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 33.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 27.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 26.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 26.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 24.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 18.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 18.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 9.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.25
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 10,
+      "need_hours": 28.0,
+      "actual_hours": 24.4,
+      "over_hours": 2.8,
+      "over_dollars": 56,
+      "peak_need": 4,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.25
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 12.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 35.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 42.6,
+        "need": 4,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 42.4,
+        "need": 4,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 39.8,
+        "need": 4,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 37.6,
+        "need": 4,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 31.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 26.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 25.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 20.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 14.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 15.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 12.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 9.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 5.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 2.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.5
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.25
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Sat": {
+      "n_days_curve": 10,
+      "need_hours": 32.0,
+      "actual_hours": 38.2,
+      "over_hours": 7.8,
+      "over_dollars": 157,
+      "peak_need": 5,
+      "peak_actual": 5.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 24.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 28.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 33.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 45.6,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 50.8,
+        "need": 5,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 51.2,
+        "need": 5,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 50.0,
+        "need": 5,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 41.8,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 40.6,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 38.8,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 38.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 35.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 27.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 24.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 12.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 14.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 6.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.75
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Sun": {
+      "n_days_curve": 10,
+      "need_hours": 30.0,
+      "actual_hours": 39.2,
+      "over_hours": 10.6,
+      "over_dollars": 215,
+      "peak_need": 4,
+      "peak_actual": 5.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 29.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 36.4,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 40.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 46.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 42.6,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 37.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 35.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 36.4,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 42.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 39.2,
+        "need": 4,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 25.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 27.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 6.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.75
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     }
+    },
+    "mid": {
+     "Mon": {
+      "n_days_curve": 11,
+      "need_hours": 21.5,
+      "actual_hours": 18.8,
+      "over_hours": 0.7,
+      "over_dollars": 14,
+      "peak_need": 3,
+      "peak_actual": 2.75,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 13.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 31.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 19.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 22.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 15.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 11.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 5.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.38
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 11,
+      "need_hours": 20.5,
+      "actual_hours": 24.3,
+      "over_hours": 3.8,
+      "over_dollars": 77,
+      "peak_need": 3,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 12.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 23.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 23.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 21.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 23.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 14.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 11.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 6.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.88
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 11,
+      "need_hours": 20.5,
+      "actual_hours": 22.1,
+      "over_hours": 2.7,
+      "over_dollars": 54,
+      "peak_need": 3,
+      "peak_actual": 2.75,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.75
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 8.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 25.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 25.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 22.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 18.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 21.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 22.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 12.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 12.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.62
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.62
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 11,
+      "need_hours": 20.5,
+      "actual_hours": 24.0,
+      "over_hours": 3.5,
+      "over_dollars": 71,
+      "peak_need": 3,
+      "peak_actual": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.88
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.38
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 26.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 28.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 26.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 20.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 15.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 16.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 10.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.88
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 6.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.38
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.75
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 11,
+      "need_hours": 25.5,
+      "actual_hours": 30.4,
+      "over_hours": 8.0,
+      "over_dollars": 161,
+      "peak_need": 3,
+      "peak_actual": 3.75,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 23.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.12
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 33.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 32.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 33.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 28.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 26.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 18.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 24.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.38
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 4.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.62
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 2.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.5
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.38
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Sat": {
+      "n_days_curve": 11,
+      "need_hours": 29.5,
+      "actual_hours": 34.9,
+      "over_hours": 7.3,
+      "over_dollars": 148,
+      "peak_need": 4,
+      "peak_actual": 4.5,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.38
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 22.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.88
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 31.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 39.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 41.2,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 42.2,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 46.2,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 44.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 36.2,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 37.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 36.2,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 34.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 25.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 23.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.12
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 15.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.25
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 10.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.75
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.62
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.38
+       }
+      ]
+     },
+     "Sun": {
+      "n_days_curve": 11,
+      "need_hours": 27.5,
+      "actual_hours": 34.7,
+      "over_hours": 8.9,
+      "over_dollars": 180,
+      "peak_need": 4,
+      "peak_actual": 4.5,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.12
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.88
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 13.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 25.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 29.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 36.4,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 37.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 43.4,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 35.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 32.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 39.0,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 34.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 32.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 25.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.88
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 21.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 12.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 9.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.75
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 1.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.75
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.12
+       }
+      ]
+     }
+    },
+    "slow": {
+     "Mon": {
+      "n_days_curve": 12,
+      "need_hours": 21.5,
+      "actual_hours": 23.6,
+      "over_hours": 2.9,
+      "over_dollars": 58,
+      "peak_need": 3,
+      "peak_actual": 2.86,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.93
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 10.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 25.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 22.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 21.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 13.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 13.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.79
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.57
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 13,
+      "need_hours": 20.5,
+      "actual_hours": 24.5,
+      "over_hours": 4.0,
+      "over_dollars": 80,
+      "peak_need": 3,
+      "peak_actual": 3.14,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.29
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.93
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 16.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 22.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 21.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 18.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 18.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 13.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 8.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.71
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.57
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.57
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 13,
+      "need_hours": 20.5,
+      "actual_hours": 24.6,
+      "over_hours": 4.1,
+      "over_dollars": 82,
+      "peak_need": 3,
+      "peak_actual": 3.14,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.43
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 13.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 23.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 20.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 26.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 18.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 13.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 16.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 12.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 10.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 5.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.79
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.64
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.43
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 13,
+      "need_hours": 20.5,
+      "actual_hours": 24.5,
+      "over_hours": 4.0,
+      "over_dollars": 80,
+      "peak_need": 3,
+      "peak_actual": 3.14,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.71
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 24.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 23.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.2,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 20.4,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.0,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.6,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.8,
+        "need": 3,
+        "floor": 3,
+        "actual": 3.14
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 6.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.65
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.64
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 13,
+      "need_hours": 24.0,
+      "actual_hours": 31.1,
+      "over_hours": 9.4,
+      "over_dollars": 189,
+      "peak_need": 3,
+      "peak_actual": 3.86,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.42
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 7.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.71
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.71
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 27.2,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 31.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.79
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 27.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.86
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 24.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 3.79
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 24.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 16.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.57
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.57
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.43
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 9.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.35
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 7.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.43
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 5.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.71
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 3.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.71
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.57
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Sat": {
+      "n_days_curve": 13,
+      "need_hours": 26.0,
+      "actual_hours": 36.8,
+      "over_hours": 12.3,
+      "over_dollars": 248,
+      "peak_need": 4,
+      "peak_actual": 4.86,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.07
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.93
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.57
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 27.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.21
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 33.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.86
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 38.8,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.86
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 38.8,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.86
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.86
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 30.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.86
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 30.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.86
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 28.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.86
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.71
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 19.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.64
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 4.21
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.79
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.93
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.43
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 7.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.93
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 0.71
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       }
+      ]
+     },
+     "Sun": {
+      "n_days_curve": 12,
+      "need_hours": 25.0,
+      "actual_hours": 34.9,
+      "over_hours": 11.1,
+      "over_dollars": 225,
+      "peak_need": 4,
+      "peak_actual": 4.57,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.07
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 1.15
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.57
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.29
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 22.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.64
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 28.0,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.21
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 31.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.43
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 35.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 39.6,
+        "need": 4,
+        "floor": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 33.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 26.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 29.8,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 26.4,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.6,
+        "need": 3,
+        "floor": 2,
+        "actual": 4.14
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 22.4,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.86
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 15.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 12.0,
+        "need": 2,
+        "floor": 2,
+        "actual": 2.29
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 5.8,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.43
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 4.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.07
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 2,
+        "floor": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.35
+       }
+      ]
+     }
+    }
+   }
+  },
+  "1899 Penn": {
+   "avg_core_rate": 20.84,
+   "cap": 14.0,
+   "tiers": {
+    "busy": {
+     "Mon": {
+      "n_days_curve": 8,
+      "need_hours": 11.5,
+      "actual_hours": 17.7,
+      "over_hours": 6.6,
+      "over_dollars": 137,
+      "peak_need": 2,
+      "peak_actual": 2.33,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 13.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 15.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 13.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 11.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 11.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 9.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.34
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 8,
+      "need_hours": 15.5,
+      "actual_hours": 18.2,
+      "over_hours": 3.2,
+      "over_dollars": 66,
+      "peak_need": 3,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.33
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 15.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 26.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 25.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 27.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 12.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 37.2,
+        "need": 3,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.34
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 8,
+      "need_hours": 17.0,
+      "actual_hours": 20.6,
+      "over_hours": 4.6,
+      "over_dollars": 95,
+      "peak_need": 3,
+      "peak_actual": 2.33,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.34
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 27.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 28.8,
+        "need": 3,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 14.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 12.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.8,
+        "need": 3,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.17
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 8,
+      "need_hours": 14.5,
+      "actual_hours": 20.5,
+      "over_hours": 6.0,
+      "over_dollars": 125,
+      "peak_need": 2,
+      "peak_actual": 2.33,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.17
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 11.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 13.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.17
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 6,
+      "need_hours": 9.5,
+      "actual_hours": 16.8,
+      "over_hours": 7.3,
+      "over_dollars": 153,
+      "peak_need": 2,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.34
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 6.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 10.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 14.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 13.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 11.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 9.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 7.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 6.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 6.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 10.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 7.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 6.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       }
+      ]
+     }
+    },
+    "mid": {
+     "Mon": {
+      "n_days_curve": 15,
+      "need_hours": 10.5,
+      "actual_hours": 16.1,
+      "over_hours": 5.7,
+      "over_dollars": 120,
+      "peak_need": 2,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.07
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.21
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 2.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.57
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.57
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 7.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 12.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.93
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 11.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 10.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 7.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 7.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 5.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 1.71
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 11.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.21
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 11.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.14
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.14
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.71
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 17,
+      "need_hours": 13.5,
+      "actual_hours": 17.8,
+      "over_hours": 4.3,
+      "over_dollars": 89,
+      "peak_need": 2,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.64
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.71
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 14.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 9.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 19.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 10.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.5
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 17,
+      "need_hours": 13.5,
+      "actual_hours": 17.8,
+      "over_hours": 4.3,
+      "over_dollars": 89,
+      "peak_need": 2,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.07
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.36
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 9.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 10.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 22.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 20.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 8.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 15.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.2,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.43
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 17,
+      "need_hours": 13.5,
+      "actual_hours": 18.9,
+      "over_hours": 5.4,
+      "over_dollars": 113,
+      "peak_need": 2,
+      "peak_actual": 2.14,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.21
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.79
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 21.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 12.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 11.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.14
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 22.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 13.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.79
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.65
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 17,
+      "need_hours": 9.0,
+      "actual_hours": 15.2,
+      "over_hours": 6.2,
+      "over_dollars": 130,
+      "peak_need": 1,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.14
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.15
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.57
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.64
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 8.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.85
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 10.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 11.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 10.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 10.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 5.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 4.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 4.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 8.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.86
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.64
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 8.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.29
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 8.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.29
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 4.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.28
+       }
+      ]
+     }
+    },
+    "slow": {
+     "Mon": {
+      "n_days_curve": 7,
+      "need_hours": 9.0,
+      "actual_hours": 15.2,
+      "over_hours": 6.6,
+      "over_dollars": 137,
+      "peak_need": 1,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.17
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 2.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 5.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 9.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 13.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 10.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 10.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 6.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 6.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 3.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 2.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 7.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 7.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 5.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 0.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.17
+       }
+      ]
+     },
+     "Tue": {
+      "n_days_curve": 8,
+      "need_hours": 11.0,
+      "actual_hours": 18.6,
+      "over_hours": 7.6,
+      "over_dollars": 158,
+      "peak_need": 2,
+      "peak_actual": 2.33,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.17
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 1.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 10.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 13.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 13.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 9.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 7.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 7.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 6.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 9.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 13.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 10.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.83
+       }
+      ]
+     },
+     "Wed": {
+      "n_days_curve": 8,
+      "need_hours": 13.0,
+      "actual_hours": 15.9,
+      "over_hours": 3.1,
+      "over_dollars": 64,
+      "peak_need": 2,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 9.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 11.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 7.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 14.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 19.6,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.33
+       }
+      ]
+     },
+     "Thu": {
+      "n_days_curve": 8,
+      "need_hours": 12.5,
+      "actual_hours": 16.7,
+      "over_hours": 4.2,
+      "over_dollars": 88,
+      "peak_need": 2,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 9.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 13.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 19.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 13.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 10.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 7.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 15.0,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 20.8,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.33
+       }
+      ]
+     },
+     "Fri": {
+      "n_days_curve": 8,
+      "need_hours": 9.0,
+      "actual_hours": 14.1,
+      "over_hours": 5.2,
+      "over_dollars": 108,
+      "peak_need": 1,
+      "peak_actual": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 0.83
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 2.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 4.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 10.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 6.4,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 9.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 9.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 6.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 8.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 3.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 4.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 6.0,
+        "need": 1,
+        "floor": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 10.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 5.8,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 3.6,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "floor": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "floor": 0,
+        "actual": 0.33
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

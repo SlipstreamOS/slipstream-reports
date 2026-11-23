@@ -1,0 +1,55 @@
+{
+  "_README": [
+    "Reclassify individual timecards into a different labor bucket when the Square job title",
+    "does not reflect what the shift actually was. Buckets: core | admin | training.",
+    "",
+    "Two forms, both optional:",
+    "  timecard_bucket_overrides  - keyed by Square timecard id. Use for one-off corrections.",
+    "  team_member_bucket_overrides - list of rules matched on team_member_id, plus optional",
+    "                                 cafe and inclusive from/to dates. Use when someone is in",
+    "                                 a training period and every shift should reclassify.",
+    "",
+    "Timecard-level overrides win over team-member rules. Every applied override is written to",
+    "`bucket_overrides_applied` in labor_<week>.json and surfaced in the report caveats.",
+    "timecard_location_overrides - keyed by timecard id: {\"cafe\": \"<cafe name>\"}. Moves a wrong-site punch to the cafe actually worked. Logged to `location_overrides_applied`."
+  ],
+  "timecard_bucket_overrides": {
+    "DZHM5B7SG1WY9": {
+      "bucket": "admin",
+      "who": "Gricelda Hernandez",
+      "date": "2026-10-29",
+      "note": "Clocked as Shift Lead at Downtown; was an admin shift (Ryan, Nov 3 2026)."
+    }
+  },
+  "team_member_bucket_overrides": [
+    {
+      "team_member_id": "TMuCMhuRLTPXovMY",
+      "name": "Ella Fleureton",
+      "cafe": "NMWA",
+      "from": "2026-08-30",
+      "to": "2026-09-05",
+      "bucket": "training",
+      "note": "Ella was training at NMWA (Ryan, Sep 2026). Square job title is FOH, so it would otherwise book as core floor labor and read as a 1-person/day staffing-rule breach."
+    }
+  ],
+  "timecard_location_overrides": {
+    "XZ2B8473Z0ZA7": {
+      "cafe": "1899 Penn",
+      "who": "Opal Payne",
+      "date": "2026-10-01",
+      "note": "Clocked at Downtown, actually worked 1899 Penn (Ryan, Oct 4 2026). Ryan correcting in Square."
+    },
+    "ZEVQQMPRAT0X2": {
+      "cafe": "NMWA",
+      "who": "Claire Nichols",
+      "date": "2026-10-01",
+      "note": "Clocked at Downtown, actually worked NMWA (Ryan, Oct 4 2026). Ryan correcting in Square."
+    },
+    "KWCSJD9MXP4ZS": {
+      "cafe": "NMWA",
+      "who": "Gricelda Hernandez",
+      "date": "2026-10-30",
+      "note": "Clocked at Downtown; actually worked NMWA (Ryan, Nov 3 2026)."
+    }
+  }
+}

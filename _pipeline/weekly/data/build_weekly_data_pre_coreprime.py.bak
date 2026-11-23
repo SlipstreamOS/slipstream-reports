@@ -1,0 +1,499 @@
+#!/usr/bin/env python3
+"""Build/update the structured weekly data workbook — the 'data layer'.
+
+Pattern (per Ryan's spec):
+- Long-format HISTORY tab: each row = one (cafe, week_start) slice. This is
+  the source of truth and grows over time (idempotent by (week, cafe) key).
+- One DAILY_<Cafe> tab per cafe: current-week daily breakdown (overwritten each
+  run; the weekly roll-up is preserved in HISTORY).
+- README tab: schema notes.
+
+Core-denominator rule: all % metrics (Tip %, Labor %, COGS %, Prime %) and the
+Budget-vs-Actual view use CORE Net (ex-catering/invoice payments) as the
+denominator/actual. Catering is reported as a separate line.
+
+Inputs:  data/week_<label>.json (sales), data/labor_<label>.json (labor).
+Output:  <workspace>/Slipstream Weekly Data.xlsx
+"""
+import json, os
+from datetime import datetime, timedelta
+from openpyxl import Workbook, load_workbook
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.utils import get_column_letter
+
+from _paths import DATA_DIR, WORKSPACE
+from projections import load_projections
+
+# --- Week config --------------------------------------------------------------
+WEEK_LABEL = "nov8-nov14"  # must match the filenames in data/
+DAYS = ["2026-11-08","2026-11-09","2026-11-10","2026-11-11",
+        "2026-11-12","2026-11-13","2026-11-14"]
+DAY_LABELS = ["Sun 11/8","Mon 11/9","Tue 11/10","Wed 11/11",
+              "Thu 11/12","Fri 11/13","Sat 11/14"]
+CAFES = ["Downtown", "Studio", "1899 Penn", "NMWA"]
+
+SALES_JSON    = os.path.join(DATA_DIR, f"week_{WEEK_LABEL}.json")
+LABOR_JSON    = os.path.join(DATA_DIR, f"labor_{WEEK_LABEL}.json")
+PAYMENTS_JSON = os.path.join(DATA_DIR, f"payments_{WEEK_LABEL}.json")  # Square Payments-derived (tips, tx counts)
+OUT_XLSX = os.path.join(WORKSPACE, "Slipstream Weekly Data.xlsx")
+
+# Projections pulled from the Projections workbook (auto-picks latest v1.x).
+# {cafe: {iso_date: {"sales": float, "labor": float}}}
+PROJECTIONS, PROJECTIONS_SOURCE = load_projections(DAYS[0], DAYS[-1], CAFES)
+
+COGS_PCT_BY_CAT = {
+    "coffee_bev":    0.22,
+    "food":          0.32,
+    "retail_coffee": 0.55,
+    "catering":      0.30,
+    "other":         0.30,
+}
+
+FONT = "Arial"
+THIN = Side(border_style="thin", color="BFBFBF")
+HEADER_FILL = PatternFill("solid", start_color="1F4E79")
+HEADER_FONT = Font(name=FONT, bold=True, color="FFFFFF", size=11)
+SUBHEAD_FILL = PatternFill("solid", start_color="D9E1F2")
+SUBHEAD_FONT = Font(name=FONT, bold=True, size=10)
+TOTAL_FILL = PatternFill("solid", start_color="FFF2CC")
+TOTAL_FONT = Font(name=FONT, bold=True, size=10)
+BODY_FONT = Font(name=FONT, size=10)
+
+def style_header(cell):
+    cell.fill = HEADER_FILL
+    cell.font = HEADER_FONT
+    cell.alignment = Alignment(horizontal="center", vertical="center")
+
+def style_subhead(cell):
+    cell.fill = SUBHEAD_FILL
+    cell.font = SUBHEAD_FONT
+    cell.alignment = Alignment(horizontal="left")
+
+def load_data():
+    sales = json.load(open(SALES_JSON))
+    labor = json.load(open(LABOR_JSON))
+    # payments may not exist for older weeks — fall back to None so we silently
+    # use Orders-API tips/orders for back-compat.
+    payments = json.load(open(PAYMENTS_JSON)) if os.path.exists(PAYMENTS_JSON) else None
+    return sales, labor, payments
+
+
+def get_day_payments(payments, cafe, date):
+    """Return per-day payments stats (register only). None if no payments source."""
+    if not payments:
+        return None
+    return payments["per_cafe_per_day"].get(cafe, {}).get(date)
+
+def get_day_net(sales, cafe, date):
+    d = sales["per_cafe_per_day"].get(cafe, {}).get(date)
+    if not d:
+        return None
+    by_cat = d["by_category"]
+    cat = by_cat.get("catering", 0)
+    total = d["net_sales_cents"]
+    return {
+        "orders": d["orders"],
+        "net_cents": total,
+        "catering_cents": cat,
+        "core_cents": total - cat,
+        "tax_cents": d["tax_cents"],
+        "tip_cents": d["tip_cents"],
+        "discount_cents": d["discount_cents"],
+        "coffee_bev": by_cat.get("coffee_bev", 0),
+        "food": by_cat.get("food", 0),
+        "retail": by_cat.get("retail_coffee", 0),
+        "other": by_cat.get("other", 0),
+    }
+
+def get_day_labor(labor, cafe, date):
+    """Per-day total labor (FOH+BOH combined per Apr 2026 directive).
+
+    Tolerates legacy JSONs that only have foh_cents/foh_hours by falling back
+    to those fields if labor_cents is absent.
+    """
+    d = labor["per_cafe_per_day"].get(cafe, {}).get(date)
+    if not d:
+        return {"labor_cents": 0, "labor_hours": 0.0, "shifts": 0}
+    if "labor_cents" in d:
+        return d
+    # legacy schema (FOH-only)
+    return {
+        "labor_cents": d.get("foh_cents", 0),
+        "labor_hours": d.get("foh_hours", 0.0),
+        "shifts":      d.get("shifts", 0),
+    }
+
+def build_daily_tab(wb, cafe, sales, labor, payments=None):
+    ws = wb.create_sheet(f"Daily_{cafe.replace(' ','_')}")
+    ws.cell(1,1, f"{cafe} — Daily Detail — Week of {DAYS[0]} to {DAYS[-1]}")
+    ws.cell(1,1).font = Font(name=FONT, bold=True, size=14)
+    ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=10)
+
+    ws.cell(3,1,"Metric"); style_header(ws.cell(3,1))
+    for i, lbl in enumerate(DAY_LABELS):
+        style_header(ws.cell(3, 2+i, lbl))
+    style_header(ws.cell(3, 9, "Week Total"))
+    style_header(ws.cell(3,10, "Daily Avg"))
+
+    row = 4
+    def put_row(label, values, fmt="$#,##0;($#,##0);-", total_formula=True, bold=False, fill=None):
+        nonlocal row
+        ws.cell(row, 1, label)
+        ws.cell(row,1).font = SUBHEAD_FONT if bold else BODY_FONT
+        if fill:
+            ws.cell(row,1).fill = fill
+        for i, v in enumerate(values):
+            c = ws.cell(row, 2+i, v)
+            c.number_format = fmt; c.font = BODY_FONT
+            if fill:
+                c.fill = fill
+        if total_formula:
+            c = ws.cell(row, 9, f"=SUM(B{row}:H{row})")
+            c.number_format = fmt; c.font = TOTAL_FONT; c.fill = TOTAL_FILL
+            c = ws.cell(row,10, f"=IFERROR(AVERAGE(B{row}:H{row}),0)")
+            c.number_format = fmt; c.font = BODY_FONT
+        row += 1
+
+    # SALES block
+    ws.cell(row,1,"SALES"); style_subhead(ws.cell(row,1)); row += 1
+    net_vals = []; core_vals = []; cat_vals = []
+    cbev_vals = []; food_vals = []; retail_vals = []; other_vals = []
+    orders_vals = []; tips_vals = []; tax_vals = []; disc_vals = []
+    proj_vals = []
+    for d in DAYS:
+        info = get_day_net(sales, cafe, d)
+        pay = get_day_payments(payments, cafe, d) if payments else None
+        if info:
+            net_vals.append(info["net_cents"]/100)
+            core_vals.append(info["core_cents"]/100)
+            cat_vals.append(info["catering_cents"]/100)
+            cbev_vals.append(info["coffee_bev"]/100)
+            food_vals.append(info["food"]/100)
+            retail_vals.append(info["retail"]/100)
+            other_vals.append(info["other"]/100)
+            tax_vals.append(info["tax_cents"]/100)
+            disc_vals.append(info["discount_cents"]/100)
+            # Tips + transaction counts: prefer Payments source (matches Square Sales Summary).
+            # Fall back to Orders if payments JSON missing.
+            if pay:
+                orders_vals.append(pay["register_payments"])
+                tips_vals.append(pay["register_tip_cents"]/100)
+            else:
+                orders_vals.append(info["orders"])
+                tips_vals.append(info["tip_cents"]/100)
+        else:
+            net_vals.append(0); core_vals.append(0); cat_vals.append(0)
+            cbev_vals.append(0); food_vals.append(0); retail_vals.append(0); other_vals.append(0)
+            tax_vals.append(0); disc_vals.append(0)
+            orders_vals.append(pay["register_payments"] if pay else 0)
+            tips_vals.append((pay["register_tip_cents"]/100) if pay else 0)
+        proj_vals.append(PROJECTIONS[cafe][d]["sales"])
+
+    put_row("Projection (Plan, Core Sales)", proj_vals)
+    plan_row = row - 1
+    put_row("Core Sales — Actual (ex-Catering/Invoices)", core_vals, bold=True, fill=TOTAL_FILL)
+    act_row = row - 1  # Core Sales — all %s reference this.
+
+    # Variance
+    ws.cell(row,1,"Variance $"); ws.cell(row,1).font = BODY_FONT
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"={col}{act_row}-{col}{plan_row}")
+        c.number_format = "$#,##0;($#,##0);-"; c.font = BODY_FONT
+    ws.cell(row,9, f"=I{act_row}-I{plan_row}").number_format = "$#,##0;($#,##0);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 1
+    ws.cell(row,1,"Variance %"); ws.cell(row,1).font = BODY_FONT
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"=IFERROR(({col}{act_row}-{col}{plan_row})/{col}{plan_row},0)")
+        c.number_format = "0.0%;(0.0%);-"; c.font = BODY_FONT
+    ws.cell(row,9, f"=IFERROR((I{act_row}-I{plan_row})/I{plan_row},0)").number_format = "0.0%;(0.0%);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 2
+
+    # Category breakdown
+    ws.cell(row,1,"SALES BY CATEGORY"); style_subhead(ws.cell(row,1)); row += 1
+    put_row("  Coffee Beverage", cbev_vals)
+    put_row("  Food", food_vals)
+    put_row("  Retail Coffee", retail_vals)
+    put_row("  Other", other_vals)
+    put_row("  Catering / Invoice Payments", cat_vals)
+    put_row("Total Sales (Core + Catering) — reference", net_vals)
+    row += 1
+
+    # Ops
+    ws.cell(row,1,"OPS"); style_subhead(ws.cell(row,1)); row += 1
+    put_row("Transactions", orders_vals, fmt="#,##0")
+    tx_row = row - 1
+    ws.cell(row,1,"Avg Ticket"); ws.cell(row,1).font = BODY_FONT
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"=IFERROR({col}{act_row}/{col}{tx_row},0)")
+        c.number_format = "$0.00"; c.font = BODY_FONT
+    ws.cell(row,9, f"=IFERROR(I{act_row}/I{tx_row},0)").number_format = "$0.00"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 1
+
+    put_row("Tips $", tips_vals)
+    tip_row = row - 1
+    ws.cell(row,1,"Tip % of Core Sales"); ws.cell(row,1).font = BODY_FONT
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"=IFERROR({col}{tip_row}/{col}{act_row},0)")
+        c.number_format = "0.0%;(0.0%);-"; c.font = BODY_FONT
+    ws.cell(row,9, f"=IFERROR(I{tip_row}/I{act_row},0)").number_format = "0.0%;(0.0%);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 1
+    put_row("Sales Tax", tax_vals)
+    put_row("Discounts", disc_vals)
+    row += 1
+
+    # LABOR (combined: FOH + BOH — per Apr 2026 directive)
+    ws.cell(row,1,"LABOR"); style_subhead(ws.cell(row,1)); row += 1
+    labor_vals = []; labor_proj_vals = []
+    for d in DAYS:
+        lb = get_day_labor(labor, cafe, d)
+        labor_vals.append(lb["labor_cents"]/100)
+        labor_proj_vals.append(PROJECTIONS[cafe][d]["labor"])
+    put_row("Labor Projection (Plan)", labor_proj_vals)
+    lplan_row = row - 1
+    put_row("Labor — Actual", labor_vals, bold=True, fill=TOTAL_FILL)
+    lact_row = row - 1
+    ws.cell(row,1,"Labor Variance $"); ws.cell(row,1).font = BODY_FONT
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"={col}{lact_row}-{col}{lplan_row}")
+        c.number_format = "$#,##0;($#,##0);-"; c.font = BODY_FONT
+    ws.cell(row,9, f"=I{lact_row}-I{lplan_row}").number_format = "$#,##0;($#,##0);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 1
+    ws.cell(row,1,"Labor % of Core Sales"); ws.cell(row,1).font = BODY_FONT
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"=IFERROR({col}{lact_row}/{col}{act_row},0)")
+        c.number_format = "0.0%;(0.0%);-"; c.font = BODY_FONT
+    ws.cell(row,9, f"=IFERROR(I{lact_row}/I{act_row},0)").number_format = "0.0%;(0.0%);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 2
+
+    # COGS (applied at category margins)
+    ws.cell(row,1,"COGS (Applied)"); style_subhead(ws.cell(row,1)); row += 1
+    cogs_vals = []
+    for d in DAYS:
+        info = get_day_net(sales, cafe, d)
+        if info:
+            cogs = (info["coffee_bev"]*COGS_PCT_BY_CAT["coffee_bev"]
+                  + info["food"]*COGS_PCT_BY_CAT["food"]
+                  + info["retail"]*COGS_PCT_BY_CAT["retail_coffee"]
+                  + info["catering_cents"]*COGS_PCT_BY_CAT["catering"]
+                  + info["other"]*COGS_PCT_BY_CAT["other"]) / 100
+            cogs_vals.append(cogs)
+        else:
+            cogs_vals.append(0)
+    put_row("COGS $ (applied)", cogs_vals)
+    cogs_row = row - 1
+    ws.cell(row,1,"COGS % of Core Sales"); ws.cell(row,1).font = BODY_FONT
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"=IFERROR({col}{cogs_row}/{col}{act_row},0)")
+        c.number_format = "0.0%;(0.0%);-"; c.font = BODY_FONT
+    ws.cell(row,9, f"=IFERROR(I{cogs_row}/I{act_row},0)").number_format = "0.0%;(0.0%);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 1
+    ws.cell(row,1,"Prime Cost $"); ws.cell(row,1).font = Font(name=FONT, bold=True, size=10)
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"={col}{lact_row}+{col}{cogs_row}")
+        c.number_format = "$#,##0;($#,##0);-"; c.font = Font(name=FONT, bold=True, size=10)
+    ws.cell(row,9, f"=I{lact_row}+I{cogs_row}").number_format = "$#,##0;($#,##0);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    pc_row = row
+    row += 1
+    ws.cell(row,1,"Prime Cost % of Core"); ws.cell(row,1).font = Font(name=FONT, bold=True, size=10)
+    for i in range(7):
+        col = get_column_letter(2+i)
+        c = ws.cell(row, 2+i, f"=IFERROR({col}{pc_row}/{col}{act_row},0)")
+        c.number_format = "0.0%;(0.0%);-"; c.font = Font(name=FONT, bold=True, size=10)
+    ws.cell(row,9, f"=IFERROR(I{pc_row}/I{act_row},0)").number_format = "0.0%;(0.0%);-"
+    ws.cell(row,9).font = TOTAL_FONT; ws.cell(row,9).fill = TOTAL_FILL
+    row += 1
+
+    ws.column_dimensions["A"].width = 26
+    for i in range(7):
+        ws.column_dimensions[get_column_letter(2+i)].width = 12
+    ws.column_dimensions["I"].width = 13
+    ws.column_dimensions["J"].width = 12
+
+def build_history_tab(wb, sales, labor, payments=None):
+    """Long-format history. Idempotent by (week_start, cafe)."""
+    sheet_name = "History"
+    headers = [
+        "Week Start","Cafe","Transactions","Total Sales (Core+Catering)","Core Sales (ex-Catering)",
+        "Catering","Coffee Bev","Food","Retail Coffee","Other",
+        "Tips","Tip % of Core Sales","Tax","Discounts","Avg Ticket",
+        "Labor $","Labor % of Core Sales","COGS (Applied $)","COGS % of Core Sales",
+        "Prime Cost","Prime Cost % of Core Sales",
+    ]
+    if sheet_name in wb.sheetnames:
+        ws = wb[sheet_name]
+    else:
+        ws = wb.create_sheet(sheet_name)
+        ws.freeze_panes = "A2"
+        ws.column_dimensions["A"].width = 12
+        ws.column_dimensions["B"].width = 12
+        for col_i in range(3, len(headers)+1):
+            ws.column_dimensions[get_column_letter(col_i)].width = 13
+    for i, h in enumerate(headers):
+        c = ws.cell(1, i+1, h); style_header(c)
+    existing = {}
+    for r in range(2, ws.max_row + 1):
+        k_week = ws.cell(r, 1).value
+        k_cafe = ws.cell(r, 2).value
+        if k_week and k_cafe:
+            existing[(str(k_week), k_cafe)] = r
+    next_append_row = ws.max_row + 1 if ws.max_row >= 2 else 2
+
+    week_start = DAYS[0]
+    for cafe in CAFES:
+        tx_orders = 0  # from Orders API (sales-side)
+        tx_pay    = 0  # from Payments API (matches Square Sales Summary)
+        tip_orders = 0
+        tip_pay    = 0
+        net = catering = cbev = food = retail = other = tax = disc = 0
+        labor_total = 0
+        for d in DAYS:
+            info = get_day_net(sales, cafe, d)
+            pay = get_day_payments(payments, cafe, d)
+            if info:
+                tx_orders += info["orders"]
+                net += info["net_cents"]
+                catering += info["catering_cents"]
+                cbev += info["coffee_bev"]; food += info["food"]
+                retail += info["retail"]; other += info["other"]
+                tip_orders += info["tip_cents"]; tax += info["tax_cents"]; disc += info["discount_cents"]
+            if pay:
+                tx_pay  += pay["register_payments"]
+                tip_pay += pay["register_tip_cents"]
+            lb = get_day_labor(labor, cafe, d)
+            labor_total += lb["labor_cents"]
+        # Prefer Payments-derived counts/tips for the History tab (Square Sales Summary semantics)
+        tx   = tx_pay   if payments else tx_orders
+        tips = tip_pay  if payments else tip_orders
+        core = net - catering
+        # Avg ticket uses Core Sales (Orders) over Payments tx count — same shape as Sales Summary.
+        avg_ticket = (core/tx) if tx else 0
+        tip_pct = (tips/core) if core else 0
+        labor_pct = (labor_total/core) if core else 0
+        # COGS for the Core-denominator ratios excludes catering COGS — matches
+        # the report's Cafe Financials table (catering is reported as a separate
+        # line, so its COGS doesn't belong in the Core-denominator stack).
+        cogs = (cbev*COGS_PCT_BY_CAT["coffee_bev"]
+              + food*COGS_PCT_BY_CAT["food"]
+              + retail*COGS_PCT_BY_CAT["retail_coffee"]
+              + other*COGS_PCT_BY_CAT["other"])
+        cogs_pct = (cogs/core) if core else 0
+        prime = labor_total + cogs
+        prime_pct = (prime/core) if core else 0
+
+        vals = [
+            week_start, cafe, tx,
+            net/100, core/100, catering/100, cbev/100, food/100, retail/100, other/100,
+            tips/100, tip_pct, tax/100, disc/100, avg_ticket/100,
+            labor_total/100, labor_pct, cogs/100, cogs_pct, prime/100, prime_pct,
+        ]
+        key = (str(week_start), cafe)
+        if key in existing:
+            target_row = existing[key]
+        else:
+            target_row = next_append_row
+            next_append_row += 1
+        for i, v in enumerate(vals):
+            c = ws.cell(target_row, i+1, v)
+            c.font = BODY_FONT
+            if i >= 2:
+                if i in (11, 16, 18, 20):
+                    c.number_format = "0.0%;(0.0%);-"
+                elif i == 2:
+                    c.number_format = "#,##0"
+                elif i == 14:
+                    c.number_format = "$0.00"
+                else:
+                    c.number_format = "$#,##0;($#,##0);-"
+
+def build_readme_tab(wb):
+    sheet_name = "README"
+    if sheet_name in wb.sheetnames:
+        del wb[sheet_name]
+    ws = wb.create_sheet(sheet_name, 0)
+    ws.cell(1,1,"Slipstream Weekly Data — Source of Truth"); ws.cell(1,1).font = Font(name=FONT, bold=True, size=14)
+    notes = [
+        "",
+        "This workbook is the weekly data layer. It is rebuilt each Sunday from Square.",
+        "",
+        "TABS:",
+        "  • History: long-format, one row per (week, cafe). IDEMPOTENT by (week_start, cafe) — re-running a week overwrites, not duplicates.",
+        "  • Daily_<Cafe>: current-week daily breakdown per cafe. REPLACED each run.",
+        "",
+        "DENOMINATOR RULE (Core Sales):",
+        "  • All %s — Tip %, Labor %, COGS %, Prime % — and the Budget-vs-Actual view use Core Sales (ex-catering/invoice payments).",
+        "  • Catering is reported separately as a category line and as a Total-Sales reference row.",
+        "  • Language aligned with Cafe Finance 101 handout v4 (Apr 2026 ALL Meeting): Core Sales / Labor (FOH) / COGS / Prime Cost / Prime Margin.",
+        "",
+        "DATA SOURCES:",
+        "  • Sales (net, by category, tax, discounts): Square Orders API (COMPLETED orders, closed_at in EDT week).",
+        "  • Tips + transaction count + avg ticket: Square Payments API (matches Square Sales Summary report; tips reflect post-close adjustments that the Orders API can miss).",
+        "  • Labor: Square Labor Timecards API (workday filter).",
+        f"  • Projections (Plan): pulled from {PROJECTIONS_SOURCE} (Projections/ folder). Cols G (sales) / H (labor $) per-cafe tab.",
+        "  • COGS %: applied from March 2026 monthly report category margins.",
+        "",
+        "CATEGORY MAPPING (from line-item name heuristics):",
+        "  • Coffee Beverage: lattes, espresso, tea, cold brew, matcha, etc.",
+        "  • Food: sandwiches, toast, pastries, salads.",
+        "  • Retail Coffee: whole bean bags.",
+        "  • Catering / Invoice Payments: Management Fee, Equipment Fee, Service items, Event items, Keg of Iced Coffee.",
+        "  • Other: everything else (review periodically).",
+        "",
+        "LABOR SCOPE: ALL ROLES (FOH + BOH combined — per CEO directive Apr 2026).",
+        "  Includes Shift Lead, Manager, Float, Hospitality/AM Register, FOH, Barista, Event, Training, Production Barista,",
+        "  Production Line, Prep, Cook, Commissary, Kitchen Admin/Manager — i.e. everything Square Teams charges to the cafe.",
+        "  Matches what Ryan sees on the Square labor cost report.",
+        "",
+        "KNOWN CAVEATS — Week of 2026-06-28:",
+        "  • Downtown had a discipline slip: Labor 42.9% (✗ Problem, 6.9pp over target), Prime 69.2% (✗ Problem). Sales flat WoW, labor up — schedule didn't flex.",
+        "  • 1899 Penn sales +5%, labor under target — but Prime stayed in Problem at 73.0% because sales density still insufficient.",
+        "  • Studio Prime 64.4% — third straight Watch-zone week. Labor 37.6% (1.6pp over target).",
+        "  • NMWA labor expanded to $654 / 31.4 hours against $156 register sales.",
+    ]
+    for i, n in enumerate(notes, start=2):
+        ws.cell(i,1,n).font = BODY_FONT
+    ws.column_dimensions["A"].width = 120
+
+def main():
+    if os.path.exists(OUT_XLSX):
+        wb = load_workbook(OUT_XLSX)
+        for cafe in CAFES:
+            tab = f"Daily_{cafe.replace(' ','_')}"
+            if tab in wb.sheetnames:
+                del wb[tab]
+    else:
+        wb = Workbook()
+        if "Sheet" in wb.sheetnames:
+            del wb["Sheet"]
+
+    sales, labor, payments = load_data()
+    build_history_tab(wb, sales, labor, payments)
+    for cafe in CAFES:
+        build_daily_tab(wb, cafe, sales, labor, payments)
+    build_readme_tab(wb)
+
+    order = ["README", "History"] + [f"Daily_{c.replace(' ','_')}" for c in CAFES]
+    present = [s for s in order if s in wb.sheetnames]
+    wb._sheets = [wb[s] for s in present]
+
+    os.makedirs(os.path.dirname(OUT_XLSX), exist_ok=True)
+    wb.save(OUT_XLSX)
+    print(f"Saved → {OUT_XLSX}")
+
+if __name__ == "__main__":
+    main()

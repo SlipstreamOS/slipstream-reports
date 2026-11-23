@@ -1,0 +1,101 @@
+Key Stats
+Filtered By Location: Slipstream Downtown
+Sales,3542
+Avg. Gross Sale,$10.17
+Gross Sales,"$36,020.20"
+Total Collected,"$42,062.43"
+
+Sales Summary
+Filtered By Location: Slipstream Downtown
+Sales
+Gross Sales,"$36,020.20"
+Items,"$35,920.20"
+Service Charges,$100.00
+Returns,-$8.00
+Discounts & Comps,"-$1,119.29"
+Net Sales,"$34,892.91"
+Gift Card Sales,$495.00
+Tax,"$2,939.34"
+Tip,"$3,735.18"
+Refunds by Amount,$0.00
+Total,"$42,062.43"
+
+Payments
+Total Collected,"$42,062.43"
+Cash,$407.40
+Card,"$41,447.88"
+Other,$0.00
+Gift Card,$207.15
+Fees,"-$1,233.75"
+Net Total,"$40,828.68"
+
+Category Sales
+Filtered By Location: Slipstream Downtown
+Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Catering and Events,3,$10.50,0,$0.00,$0.00,$10.50,$1.05
+Coffee,3852,"$20,493.75",0,$0.00,-$647.58,"$19,846.17","$1,961.36"
+Food,1182,"$9,214.00",-1,-$8.00,-$424.06,"$8,781.94",$861.50
+Retail,40,$880.45,0,$0.00,-$41.05,$839.40,$83.94
+Other Categories,46,"$5,321.50",0,$0.00,-$6.60,"$5,314.90",$31.49
+
+Labor vs Sales
+Display By Employee Role
+Filtered By Location: Slipstream Downtown
+"",Labor Percentage of Net Sales,Labor Cost,Regular Labor Cost,Overtime Labor Cost,Double Time Labor Cost
+BOH,5.61%,"$1,958.88","$1,958.88",$0.00,$0.00
+Location Lead,4.73%,"$1,648.87","$1,648.87",$0.00,$0.00
+FOH,10.89%,"$3,798.39","$3,645.01",$153.38,$0.00
+Team Permissions,18.28%,"$6,376.94","$6,376.94",$0.00,$0.00
+Total,39.50%,"$13,783.08","$13,629.70",$153.38,$0.00
+
+Category Sales
+Display By Source
+Filtered By Location: Slipstream Downtown
+Source,Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Point of Sale,Coffee,72,$403.50,0,$0.00,-$7.25,$396.25,$39.61
+Point of Sale,Food,23,$191.50,0,$0.00,-$0.67,$190.83,$19.08
+Invoices,Other Categories,1,"$5,000.00",0,$0.00,$0.00,"$5,000.00",$0.00
+Register,Catering and Events,3,$10.50,0,$0.00,$0.00,$10.50,$1.05
+Register,Coffee,3661,"$19,418.50",0,$0.00,-$549.93,"$18,868.57","$1,886.47"
+Register,Food,1078,"$8,143.50",-1,-$8.00,-$392.89,"$7,742.61",$774.27
+Register,Retail,40,$880.45,0,$0.00,-$41.05,$839.40,$83.94
+Register,Other Categories,43,$291.50,0,$0.00,-$6.60,$284.90,$28.49
+Mobile Order,Coffee,39,$228.50,0,$0.00,$0.00,$228.50,$0.00
+Mobile Order,Food,19,$183.00,0,$0.00,-$16.00,$167.00,$0.00
+SK,Food,3,$38.50,0,$0.00,-$12.50,$26.00,$2.60
+Square Online,Coffee,80,$443.25,0,$0.00,-$90.40,$352.85,$35.28
+Square Online,Food,59,$657.50,0,$0.00,-$2.00,$655.50,$65.55
+Square Online,Other Categories,2,$30.00,0,$0.00,$0.00,$30.00,$3.00
+
+Category Sales
+Display By Dining Option
+Filtered By Location: Slipstream Downtown
+Dining Option,Category,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+No Dining Option,All-Day Food,85,$979.00,-1,-$8.00,-$28.50,$942.50,$79.70
+No Dining Option,Espresso and Specialty,129,$728.00,0,$0.00,-$90.50,$637.50,$48.23
+No Dining Option,Filter Coffee,50,$293.75,0,$0.00,-$7.15,$286.60,$21.31
+No Dining Option,Grab and Go,2,$30.00,0,$0.00,$0.00,$30.00,$3.00
+No Dining Option,Pastry,19,$91.50,0,$0.00,-$2.67,$88.83,$6.73
+No Dining Option,Services,1,"$5,000.00",0,$0.00,$0.00,"$5,000.00",$0.00
+No Dining Option,Tea and Other Drinks,12,$53.50,0,$0.00,$0.00,$53.50,$5.35
+For Here,All-Day Food,35,$354.00,0,$0.00,-$3.80,$350.20,$35.02
+For Here,Coffee Drinks,3,$18.00,0,$0.00,$0.00,$18.00,$1.80
+For Here,Espresso and Specialty,199,"$1,064.25",0,$0.00,-$15.85,"$1,048.40",$104.88
+For Here,Filter Coffee,38,$182.75,0,$0.00,$0.00,$182.75,$18.31
+For Here,Grab and Go,1,$12.00,0,$0.00,$0.00,$12.00,$1.20
+For Here,Pastry,26,$131.00,0,$0.00,$0.00,$131.00,$13.10
+For Here,Tea and Other Drinks,16,$60.50,0,$0.00,$0.00,$60.50,$6.05
+Pick Up,All-Day Food,2,$36.50,0,$0.00,-$36.50,$0.00,$0.00
+Pick Up,Espresso and Specialty,1,$6.50,0,$0.00,$0.00,$6.50,$0.65
+To Go,Uncategorized,3,$18.00,0,$0.00,$0.00,$18.00,$1.80
+To Go,All-Day Food,469,"$4,902.00",0,$0.00,-$128.92,"$4,773.08",$477.31
+To Go,Catering and Event,3,$10.50,0,$0.00,$0.00,$10.50,$1.05
+To Go,Coffee Drinks,30,$180.00,0,$0.00,-$6.60,$173.40,$17.34
+To Go,Commissary - Food Prep,1,$3.50,0,$0.00,$0.00,$3.50,$0.35
+To Go,Espresso and Specialty,1931,"$10,747.75",0,$0.00,-$322.25,"$10,425.50","$1,042.73"
+To Go,Filter Coffee,1126,"$5,803.75",0,$0.00,-$199.98,"$5,603.77",$560.54
+To Go,Grab and Go,5,$60.00,0,$0.00,$0.00,$60.00,$6.00
+To Go,Pastry,535,"$2,682.00",0,$0.00,-$211.67,"$2,470.33",$247.04
+To Go,Retail,40,$880.45,0,$0.00,-$41.05,$839.40,$83.94
+To Go,Sides,11,$38.00,0,$0.00,-$12.00,$26.00,$2.60
+To Go,Tea and Other Drinks,350,"$1,553.00",0,$0.00,-$11.85,"$1,541.15",$153.31

@@ -1,0 +1,88 @@
+Key Stats
+Filtered By Location: 1899 Penn
+Sales,2653
+Avg. Gross Sale,$7.72
+Gross Sales,"$20,487.90"
+Total Collected,"$24,049.33"
+
+Sales Summary
+Filtered By Location: 1899 Penn
+Sales
+Gross Sales,"$20,487.90"
+Items,"$20,421.40"
+Service Charges,$66.50
+Returns,-$64.50
+Discounts & Comps,-$487.85
+Net Sales,"$19,935.55"
+Gift Card Sales,$0.00
+Tax,"$1,967.38"
+Tip,"$2,146.40"
+Refunds by Amount,$0.00
+Total,"$24,049.33"
+
+Payments
+Total Collected,"$24,049.33"
+Cash,$177.68
+Card,"$23,866.70"
+Other,$0.00
+Gift Card,$4.95
+Fees,-$730.19
+Net Total,"$23,319.14"
+
+Category Sales
+Filtered By Location: 1899 Penn
+Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Catering and Events,21,$352.50,0,$0.00,-$98.64,$253.86,$10.05
+Coffee,3310,"$16,624.50",-3,-$15.50,-$274.90,"$16,334.10","$1,633.79"
+Food,451,"$2,590.00",-2,-$11.00,-$114.31,"$2,464.69",$241.90
+Retail,22,$443.90,-1,-$38.00,$0.00,$405.90,$40.59
+Other Categories,83,$410.50,0,$0.00,$0.00,$410.50,$41.05
+
+Category Sales
+Display By Source
+Filtered By Location: 1899 Penn
+Source,Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Register,Catering and Events,6,$100.50,0,$0.00,$0.00,$100.50,$10.05
+Register,Coffee,3304,"$16,581.25",-3,-$15.50,-$274.90,"$16,290.85","$1,629.47"
+Register,Food,438,"$2,501.50",-2,-$11.00,-$84.95,"$2,405.55",$240.55
+Register,Retail,22,$443.90,-1,-$38.00,$0.00,$405.90,$40.59
+Register,Other Categories,13,$78.00,0,$0.00,$0.00,$78.00,$7.80
+Square Online,Coffee,6,$43.25,0,$0.00,$0.00,$43.25,$4.32
+Square Online,Food,3,$13.50,0,$0.00,$0.00,$13.50,$1.35
+Invoices,Catering and Events,15,$252.00,0,$0.00,-$98.64,$153.36,$0.00
+Invoices,Food,10,$75.00,0,$0.00,-$29.36,$45.64,$0.00
+Invoices,Other Categories,70,$332.50,0,$0.00,$0.00,$332.50,$33.25
+
+Category Sales
+Display By Dining Option
+Filtered By Location: 1899 Penn
+Dining Option,Category,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+No Dining Option,Uncategorized,70,$332.50,0,$0.00,$0.00,$332.50,$33.25
+No Dining Option,All-Day Food,10,$75.00,0,$0.00,-$29.36,$45.64,$0.00
+No Dining Option,Catering and Event,16,$282.00,0,$0.00,-$98.64,$183.36,$3.00
+No Dining Option,Espresso and Specialty,3,$21.00,-3,-$15.50,$0.00,$5.50,$0.55
+No Dining Option,Filter Coffee,3,$22.25,0,$0.00,$0.00,$22.25,$2.22
+No Dining Option,Pastry,9,$40.50,-2,-$11.00,$0.00,$29.50,$2.95
+No Dining Option,Retail,0,$0.00,-1,-$38.00,$0.00,-$38.00,-$3.80
+For Here,All-Day Food,74,$597.00,0,$0.00,$0.00,$597.00,$59.70
+For Here,Catering and Event,3,$37.00,0,$0.00,$0.00,$37.00,$3.70
+For Here,Coffee Drinks,9,$54.00,0,$0.00,$0.00,$54.00,$5.40
+For Here,Espresso and Specialty,1291,"$6,349.75",0,$0.00,-$150.70,"$6,199.05",$620.04
+For Here,Filter Coffee,426,"$2,159.75",0,$0.00,-$52.77,"$2,106.98",$210.96
+For Here,Pastry,227,"$1,140.00",0,$0.00,-$69.07,"$1,070.93",$107.09
+For Here,Retail,20,$408.90,0,$0.00,$0.00,$408.90,$40.89
+For Here,Tea and Other Drinks,174,$750.50,0,$0.00,-$5.50,$745.00,$74.50
+To Go,All-Day Food,31,$235.00,0,$0.00,$0.00,$235.00,$23.50
+To Go,Catering and Event,2,$33.50,0,$0.00,$0.00,$33.50,$3.35
+To Go,Coffee Drinks,4,$24.00,0,$0.00,$0.00,$24.00,$2.40
+To Go,Espresso and Specialty,1138,"$5,940.75",0,$0.00,-$53.00,"$5,887.75",$588.79
+To Go,Filter Coffee,185,$997.50,0,$0.00,-$7.93,$989.57,$98.93
+To Go,Pastry,100,$502.50,0,$0.00,-$15.88,$486.62,$48.66
+To Go,Retail,2,$35.00,0,$0.00,$0.00,$35.00,$3.50
+To Go,Tea and Other Drinks,90,$383.00,0,$0.00,-$5.00,$378.00,$37.80
+
+Invoice Payments by Tender
+Filtered By Location: 1899 Penn
+Tender,Payments,Refunds,Amount
+Card,3,0,$693.95
+Total,3,0,$693.95

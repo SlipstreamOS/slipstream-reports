@@ -1,0 +1,939 @@
+{
+ "template_saving": {
+  "by_cafe": {
+   "Downtown": {
+    "12mo": 9526,
+    "sep_dec_2025": -1050,
+    "jan_aug_2026": 10576
+   },
+   "Studio": {
+    "12mo": 789,
+    "sep_dec_2025": -4719,
+    "jan_aug_2026": 5508
+   },
+   "1899 Penn": {
+    "12mo": 8884,
+    "sep_dec_2025": 1097,
+    "jan_aug_2026": 7787
+   }
+  },
+  "total": {
+   "12mo": 19199,
+   "sep_dec_2025": -4672,
+   "jan_aug_2026": 23871,
+   "annualized_2026": 35806
+  }
+ },
+ "cogs": {
+  "core_sales_12mo": 1151187,
+  "per_point_year": 11512,
+  "blended_2026_jan_aug_pct": 33.0,
+  "by_cafe_2026": {
+   "Downtown": 35.6,
+   "Studio": 29.4,
+   "1899": 38.5
+  },
+  "gain_vs_2026_blend": {
+   "27": 68871,
+   "28.5": 51603,
+   "30": 34335
+  },
+  "note": "2026 core COGS excludes catering COGS; Jan\u2013Aug blended for the three cafes. Gain = (blended \u2212 scenario) \u00d7 12-month core sales"
+ },
+ "costs": {
+  "pay_step1_year": 26153,
+  "pay_full_year": 51589,
+  "incentive_opt4_p50": 6537,
+  "incentive_opt4_p90": 8588,
+  "incentive_per_hour_equiv": 439
+ },
+ "headroom_12mo": {
+  "support_burden_year": -146316,
+  "ladder": {
+   "27": {
+    "actual_labor_before_support": 224792,
+    "template_before_support": 243993,
+    "template_after_support": 97677,
+    "after_step1": 71524,
+    "after_step1_incentive": 64987,
+    "after_full_curve": 46088,
+    "after_full_curve_incentive": 39551
+   },
+   "28.5": {
+    "actual_labor_before_support": 207525,
+    "template_before_support": 226725,
+    "template_after_support": 80409,
+    "after_step1": 54256,
+    "after_step1_incentive": 47719,
+    "after_full_curve": 28820,
+    "after_full_curve_incentive": 22283
+   },
+   "30": {
+    "actual_labor_before_support": 190256,
+    "template_before_support": 209458,
+    "template_after_support": 63142,
+    "after_step1": 36989,
+    "after_step1_incentive": 30452,
+    "after_full_curve": 11553,
+    "after_full_curve_incentive": 5016
+   },
+   "actual_cogs": {
+    "actual_labor_before_support": 166370,
+    "template_before_support": 185572,
+    "template_after_support": 39256,
+    "after_step1": 13103,
+    "after_step1_incentive": 6566,
+    "after_full_curve": -12333,
+    "after_full_curve_incentive": -18870
+   }
+  },
+  "note": "Three cafes only (NMWA opened Jul 2026 and is excluded); core basis = core sales \u2212 COGS at the scenario % \u2212 labor \u2212 operating expenses; support = Commissary + SRP + Cafe Mgmt + Central at the 2026 Jan\u2013Aug average"
+ },
+ "peer_avg_all_in": 24.25,
+ "hours_mix_aug": {
+  "all": 0.304,
+  "certified": 0.206,
+  "sl": 0.237,
+  "trainee": 0.254
+ },
+ "pay_scenarios_12mo": {
+  "basis": "reported NOI on templates (catering kept) with core COGS re-run at the scenario; three cafes; support at 2026 avg; founder salary $120K",
+  "cogs_adjustment_year": {
+   "actual_cogs": 0,
+   "30": 23887,
+   "28.5": 41155,
+   "27": 58423
+  },
+  "founder_salary_year": 120000,
+  "wage_base_template_12mo": 442463,
+  "load": 1.12,
+  "scenarios": {
+   "planning": {
+    "label": "Templates at today's rates",
+    "uplift_pct": 0.0,
+    "avg_rate": 20.77,
+    "roster_avg_rate": 20.65,
+    "extra_pl_labor_year": 0,
+    "labor_template_year": 356135,
+    "labor_pct_of_core": 30.9,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 263759,
+      "after_support": 117443,
+      "after_support_salary": -2557,
+      "after_support_salary_incentive": -9094,
+      "gap_pct_of_core": -0.2
+     },
+     "30": {
+      "cafes": 287646,
+      "after_support": 141330,
+      "after_support_salary": 21330,
+      "after_support_salary_incentive": 14793,
+      "gap_pct_of_core": 1.9
+     },
+     "28.5": {
+      "cafes": 304914,
+      "after_support": 158598,
+      "after_support_salary": 38598,
+      "after_support_salary_incentive": 32061,
+      "gap_pct_of_core": 3.4
+     },
+     "27": {
+      "cafes": 322182,
+      "after_support": 175866,
+      "after_support_salary": 55866,
+      "after_support_salary_incentive": 49329,
+      "gap_pct_of_core": 4.9
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 185572,
+      "after_support_salary": -80744
+     },
+     "30": {
+      "cafes": 209458,
+      "after_support_salary": -56858
+     },
+     "28.5": {
+      "cafes": 226725,
+      "after_support_salary": -39591
+     },
+     "27": {
+      "cafes": 243993,
+      "after_support_salary": -22323
+     }
+    }
+   },
+   "parity_floors": {
+    "label": "Parity floors (SL \u2265 $22.50, ALL \u2265 $25.50)",
+    "uplift_pct": 4.6,
+    "avg_rate": 21.73,
+    "roster_avg_rate": 21.75,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 0,
+     "sl": 22.5,
+     "all": 25.5
+    },
+    "roster_cost_year_aug_hours": 28217,
+    "extra_pl_labor_year": 22796,
+    "labor_template_year": 378931,
+    "labor_pct_of_core": 32.9,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 240963,
+      "after_support": 94647,
+      "after_support_salary": -25353,
+      "after_support_salary_incentive": -31890,
+      "gap_pct_of_core": -2.2
+     },
+     "30": {
+      "cafes": 264850,
+      "after_support": 118534,
+      "after_support_salary": -1466,
+      "after_support_salary_incentive": -8003,
+      "gap_pct_of_core": -0.1
+     },
+     "28.5": {
+      "cafes": 282118,
+      "after_support": 135802,
+      "after_support_salary": 15802,
+      "after_support_salary_incentive": 9265,
+      "gap_pct_of_core": 1.4
+     },
+     "27": {
+      "cafes": 299386,
+      "after_support": 153070,
+      "after_support_salary": 33070,
+      "after_support_salary_incentive": 26533,
+      "gap_pct_of_core": 2.9
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 162776,
+      "after_support_salary": -103540
+     },
+     "30": {
+      "cafes": 186662,
+      "after_support_salary": -79654
+     },
+     "28.5": {
+      "cafes": 203929,
+      "after_support_salary": -62387
+     },
+     "27": {
+      "cafes": 221197,
+      "after_support_salary": -45119
+     }
+    }
+   },
+   "full_curve": {
+    "label": "Midpoint curve ($18.50 / $20.50 / $23.50 / $27)",
+    "uplift_pct": 9.0,
+    "avg_rate": 22.64,
+    "roster_avg_rate": 22.68,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 20.5,
+     "sl": 23.5,
+     "all": 27.0
+    },
+    "roster_cost_year_aug_hours": 55678,
+    "extra_pl_labor_year": 44600,
+    "labor_template_year": 400735,
+    "labor_pct_of_core": 34.8,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 219159,
+      "after_support": 72843,
+      "after_support_salary": -47157,
+      "after_support_salary_incentive": -53694,
+      "gap_pct_of_core": -4.1
+     },
+     "30": {
+      "cafes": 243046,
+      "after_support": 96730,
+      "after_support_salary": -23270,
+      "after_support_salary_incentive": -29807,
+      "gap_pct_of_core": -2.0
+     },
+     "28.5": {
+      "cafes": 260314,
+      "after_support": 113998,
+      "after_support_salary": -6002,
+      "after_support_salary_incentive": -12539,
+      "gap_pct_of_core": -0.5
+     },
+     "27": {
+      "cafes": 277582,
+      "after_support": 131266,
+      "after_support_salary": 11266,
+      "after_support_salary_incentive": 4729,
+      "gap_pct_of_core": 1.0
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 140972,
+      "after_support_salary": -125344
+     },
+     "30": {
+      "cafes": 164858,
+      "after_support_salary": -101458
+     },
+     "28.5": {
+      "cafes": 182125,
+      "after_support_salary": -84191
+     },
+     "27": {
+      "cafes": 199393,
+      "after_support_salary": -66923
+     }
+    }
+   },
+   "curve_a": {
+    "label": "Steeper curve, band tops ($18.50 / $21 / $24.50 / $28)",
+    "uplift_pct": 12.1,
+    "avg_rate": 23.28,
+    "roster_avg_rate": 23.32,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 21.0,
+     "sl": 24.5,
+     "all": 28.0
+    },
+    "roster_cost_year_aug_hours": 74712,
+    "extra_pl_labor_year": 59963,
+    "labor_template_year": 416098,
+    "labor_pct_of_core": 36.1,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 203796,
+      "after_support": 57480,
+      "after_support_salary": -62520,
+      "after_support_salary_incentive": -69057,
+      "gap_pct_of_core": -5.4
+     },
+     "30": {
+      "cafes": 227683,
+      "after_support": 81367,
+      "after_support_salary": -38633,
+      "after_support_salary_incentive": -45170,
+      "gap_pct_of_core": -3.4
+     },
+     "28.5": {
+      "cafes": 244951,
+      "after_support": 98635,
+      "after_support_salary": -21365,
+      "after_support_salary_incentive": -27902,
+      "gap_pct_of_core": -1.9
+     },
+     "27": {
+      "cafes": 262219,
+      "after_support": 115903,
+      "after_support_salary": -4097,
+      "after_support_salary_incentive": -10634,
+      "gap_pct_of_core": -0.4
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 125609,
+      "after_support_salary": -140707
+     },
+     "30": {
+      "cafes": 149495,
+      "after_support_salary": -116821
+     },
+     "28.5": {
+      "cafes": 166762,
+      "after_support_salary": -99554
+     },
+     "27": {
+      "cafes": 184030,
+      "after_support_salary": -82286
+     }
+    }
+   },
+   "peer_avg_curve": {
+    "label": "Peer-average curve ($18.50 / $21.50 / $26 / $29.50)",
+    "uplift_pct": 16.5,
+    "avg_rate": 24.2,
+    "roster_avg_rate": 24.23,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 21.5,
+     "sl": 26.0,
+     "all": 29.5
+    },
+    "roster_cost_year_aug_hours": 101742,
+    "extra_pl_labor_year": 81767,
+    "labor_template_year": 437902,
+    "labor_pct_of_core": 38.0,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 181992,
+      "after_support": 35676,
+      "after_support_salary": -84324,
+      "after_support_salary_incentive": -90861,
+      "gap_pct_of_core": -7.3
+     },
+     "30": {
+      "cafes": 205879,
+      "after_support": 59563,
+      "after_support_salary": -60437,
+      "after_support_salary_incentive": -66974,
+      "gap_pct_of_core": -5.2
+     },
+     "28.5": {
+      "cafes": 223147,
+      "after_support": 76831,
+      "after_support_salary": -43169,
+      "after_support_salary_incentive": -49706,
+      "gap_pct_of_core": -3.7
+     },
+     "27": {
+      "cafes": 240415,
+      "after_support": 94099,
+      "after_support_salary": -25901,
+      "after_support_salary_incentive": -32438,
+      "gap_pct_of_core": -2.2
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 103805,
+      "after_support_salary": -162511
+     },
+     "30": {
+      "cafes": 127691,
+      "after_support_salary": -138625
+     },
+     "28.5": {
+      "cafes": 144958,
+      "after_support_salary": -121358
+     },
+     "27": {
+      "cafes": 162226,
+      "after_support_salary": -104090
+     }
+    }
+   },
+   "peer_avg_curve_plus5": {
+    "label": "Peer-average curve + 5%",
+    "uplift_pct": 21.2,
+    "avg_rate": 25.17,
+    "roster_avg_rate": 25.21,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 22.57,
+     "sl": 27.3,
+     "all": 30.98
+    },
+    "roster_cost_year_aug_hours": 130660,
+    "extra_pl_labor_year": 105058,
+    "labor_template_year": 461193,
+    "labor_pct_of_core": 40.1,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 158701,
+      "after_support": 12385,
+      "after_support_salary": -107615,
+      "after_support_salary_incentive": -114152,
+      "gap_pct_of_core": -9.3
+     },
+     "30": {
+      "cafes": 182588,
+      "after_support": 36272,
+      "after_support_salary": -83728,
+      "after_support_salary_incentive": -90265,
+      "gap_pct_of_core": -7.3
+     },
+     "28.5": {
+      "cafes": 199856,
+      "after_support": 53540,
+      "after_support_salary": -66460,
+      "after_support_salary_incentive": -72997,
+      "gap_pct_of_core": -5.8
+     },
+     "27": {
+      "cafes": 217124,
+      "after_support": 70808,
+      "after_support_salary": -49192,
+      "after_support_salary_incentive": -55729,
+      "gap_pct_of_core": -4.3
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 80514,
+      "after_support_salary": -185802
+     },
+     "30": {
+      "cafes": 104400,
+      "after_support_salary": -161916
+     },
+     "28.5": {
+      "cafes": 121667,
+      "after_support_salary": -144649
+     },
+     "27": {
+      "cafes": 138935,
+      "after_support_salary": -127381
+     }
+    }
+   },
+   "peer": {
+    "label": "Flat peer all-in ($23 / $24 / $25.50 / $27)",
+    "uplift_pct": 20.3,
+    "avg_rate": 24.99,
+    "roster_avg_rate": 25.01,
+    "rates": {
+     "trainee": 23.0,
+     "certified": 24.0,
+     "sl": 25.5,
+     "all": 27.0
+    },
+    "roster_cost_year_aug_hours": 124792,
+    "extra_pl_labor_year": 100598,
+    "labor_template_year": 456733,
+    "labor_pct_of_core": 39.7,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 163161,
+      "after_support": 16845,
+      "after_support_salary": -103155,
+      "after_support_salary_incentive": -109692,
+      "gap_pct_of_core": -9.0
+     },
+     "30": {
+      "cafes": 187048,
+      "after_support": 40732,
+      "after_support_salary": -79268,
+      "after_support_salary_incentive": -85805,
+      "gap_pct_of_core": -6.9
+     },
+     "28.5": {
+      "cafes": 204316,
+      "after_support": 58000,
+      "after_support_salary": -62000,
+      "after_support_salary_incentive": -68537,
+      "gap_pct_of_core": -5.4
+     },
+     "27": {
+      "cafes": 221584,
+      "after_support": 75268,
+      "after_support_salary": -44732,
+      "after_support_salary_incentive": -51269,
+      "gap_pct_of_core": -3.9
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 84974,
+      "after_support_salary": -181342
+     },
+     "30": {
+      "cafes": 108860,
+      "after_support_salary": -157456
+     },
+     "28.5": {
+      "cafes": 126127,
+      "after_support_salary": -140189
+     },
+     "27": {
+      "cafes": 143395,
+      "after_support_salary": -122921
+     }
+    }
+   },
+   "peer_plus5": {
+    "label": "Flat peer + 5%",
+    "uplift_pct": 26.3,
+    "avg_rate": 26.23,
+    "roster_avg_rate": 26.26,
+    "rates": {
+     "trainee": 24.15,
+     "certified": 25.2,
+     "sl": 26.78,
+     "all": 28.35
+    },
+    "roster_cost_year_aug_hours": 161832,
+    "extra_pl_labor_year": 130332,
+    "labor_template_year": 486467,
+    "labor_pct_of_core": 42.3,
+    "ladder": {
+     "actual_cogs": {
+      "cafes": 133427,
+      "after_support": -12889,
+      "after_support_salary": -132889,
+      "after_support_salary_incentive": -139426,
+      "gap_pct_of_core": -11.5
+     },
+     "30": {
+      "cafes": 157314,
+      "after_support": 10998,
+      "after_support_salary": -109002,
+      "after_support_salary_incentive": -115539,
+      "gap_pct_of_core": -9.5
+     },
+     "28.5": {
+      "cafes": 174582,
+      "after_support": 28266,
+      "after_support_salary": -91734,
+      "after_support_salary_incentive": -98271,
+      "gap_pct_of_core": -8.0
+     },
+     "27": {
+      "cafes": 191850,
+      "after_support": 45534,
+      "after_support_salary": -74466,
+      "after_support_salary_incentive": -81003,
+      "gap_pct_of_core": -6.5
+     }
+    },
+    "ladder_core_basis": {
+     "actual_cogs": {
+      "cafes": 55240,
+      "after_support_salary": -211076
+     },
+     "30": {
+      "cafes": 79126,
+      "after_support_salary": -187190
+     },
+     "28.5": {
+      "cafes": 96393,
+      "after_support_salary": -169923
+     },
+     "27": {
+      "cafes": 113661,
+      "after_support_salary": -152655
+     }
+    }
+   }
+  },
+  "noi_template_reported_12mo": 263759,
+  "price_lever": {
+   "pct_1_of_core_sales": 11512,
+   "note": "a 1% price move \u2248 $11.5K/yr before any volume response (merchant fees ~3% of the increase)"
+  },
+  "note": "Uplift % = each August roster member moved from their current band to the scenario rate (nobody down), hours-weighted, incl. admin/training; applied to the 12-month template wage base (core + admin/training) and loaded \u00d71.12. Peer all-in = DC minimum + tips as observed in postings; ALL at $27 assumes peer shift lead + $1.50."
+ },
+ "slipstream_economics_12mo": {
+  "lines": {
+   "downtown_studio_noi_on_templates_12mo": 254465,
+   "cogs_adjustment": {
+    "actual_cogs": 0,
+    "30": 13662,
+    "28.5": 28554,
+    "27": 43445
+   },
+   "mgmt_income_1899_year": 66797,
+   "nmwa_cafe_run_rate_year_incl_fee": 46355,
+   "nmwa_fee_in_run_rate": 60492,
+   "nmwa_nights_year": 36000,
+   "nmwa_nights_assumption": "8 \u00d7 $4,500 net",
+   "commissary_year": -49748,
+   "srp_year": -10449,
+   "central_year": -152914,
+   "founder_salary_year": -120000,
+   "excluded_1899_noi_on_templates_12mo": 9294,
+   "excluded_1899_labor_saving_12mo": 8884
+  },
+  "own_cafes": {
+   "core_sales": 992765,
+   "cogs_actual": 311492,
+   "cogs_pct": 31.4,
+   "wage_base": 362774,
+   "labor_template": 284268
+  },
+  "scenarios": {
+   "planning": {
+    "label": "Templates at today's rates",
+    "uplift_pct": 0.0,
+    "avg_rate": 20.77,
+    "roster_avg_rate": 20.65,
+    "rates": null,
+    "extra_pl_labor_year": 0,
+    "labor_pct_of_core": 28.6,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": 70506,
+      "after_everything_incentive": 63969,
+      "pct_of_own_core": 7.1
+     },
+     "30": {
+      "after_everything": 84168,
+      "after_everything_incentive": 77631,
+      "pct_of_own_core": 8.5
+     },
+     "28.5": {
+      "after_everything": 99060,
+      "after_everything_incentive": 92523,
+      "pct_of_own_core": 10.0
+     },
+     "27": {
+      "after_everything": 113951,
+      "after_everything_incentive": 107414,
+      "pct_of_own_core": 11.5
+     }
+    }
+   },
+   "parity_floors": {
+    "label": "Parity floors (SL \u2265 $22.50, ALL \u2265 $25.50)",
+    "uplift_pct": 4.6,
+    "avg_rate": 21.73,
+    "roster_avg_rate": 21.75,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 0,
+     "sl": 22.5,
+     "all": 25.5
+    },
+    "extra_pl_labor_year": 18690,
+    "labor_pct_of_core": 30.5,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": 51816,
+      "after_everything_incentive": 45279,
+      "pct_of_own_core": 5.2
+     },
+     "30": {
+      "after_everything": 65478,
+      "after_everything_incentive": 58941,
+      "pct_of_own_core": 6.6
+     },
+     "28.5": {
+      "after_everything": 80370,
+      "after_everything_incentive": 73833,
+      "pct_of_own_core": 8.1
+     },
+     "27": {
+      "after_everything": 95261,
+      "after_everything_incentive": 88724,
+      "pct_of_own_core": 9.6
+     }
+    }
+   },
+   "full_curve": {
+    "label": "Midpoint curve ($18.50 / $20.50 / $23.50 / $27)",
+    "uplift_pct": 9.0,
+    "avg_rate": 22.64,
+    "roster_avg_rate": 22.68,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 20.5,
+     "sl": 23.5,
+     "all": 27.0
+    },
+    "extra_pl_labor_year": 36568,
+    "labor_pct_of_core": 32.3,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": 33938,
+      "after_everything_incentive": 27401,
+      "pct_of_own_core": 3.4
+     },
+     "30": {
+      "after_everything": 47600,
+      "after_everything_incentive": 41063,
+      "pct_of_own_core": 4.8
+     },
+     "28.5": {
+      "after_everything": 62492,
+      "after_everything_incentive": 55955,
+      "pct_of_own_core": 6.3
+     },
+     "27": {
+      "after_everything": 77383,
+      "after_everything_incentive": 70846,
+      "pct_of_own_core": 7.8
+     }
+    }
+   },
+   "curve_a": {
+    "label": "Steeper curve, band tops ($18.50 / $21 / $24.50 / $28)",
+    "uplift_pct": 12.1,
+    "avg_rate": 23.28,
+    "roster_avg_rate": 23.32,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 21.0,
+     "sl": 24.5,
+     "all": 28.0
+    },
+    "extra_pl_labor_year": 49163,
+    "labor_pct_of_core": 33.6,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": 21343,
+      "after_everything_incentive": 14806,
+      "pct_of_own_core": 2.1
+     },
+     "30": {
+      "after_everything": 35005,
+      "after_everything_incentive": 28468,
+      "pct_of_own_core": 3.5
+     },
+     "28.5": {
+      "after_everything": 49897,
+      "after_everything_incentive": 43360,
+      "pct_of_own_core": 5.0
+     },
+     "27": {
+      "after_everything": 64788,
+      "after_everything_incentive": 58251,
+      "pct_of_own_core": 6.5
+     }
+    }
+   },
+   "peer_avg_curve": {
+    "label": "Peer-average curve ($18.50 / $21.50 / $26 / $29.50)",
+    "uplift_pct": 16.5,
+    "avg_rate": 24.2,
+    "roster_avg_rate": 24.23,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 21.5,
+     "sl": 26.0,
+     "all": 29.5
+    },
+    "extra_pl_labor_year": 67041,
+    "labor_pct_of_core": 35.4,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": 3465,
+      "after_everything_incentive": -3072,
+      "pct_of_own_core": 0.3
+     },
+     "30": {
+      "after_everything": 17127,
+      "after_everything_incentive": 10590,
+      "pct_of_own_core": 1.7
+     },
+     "28.5": {
+      "after_everything": 32019,
+      "after_everything_incentive": 25482,
+      "pct_of_own_core": 3.2
+     },
+     "27": {
+      "after_everything": 46910,
+      "after_everything_incentive": 40373,
+      "pct_of_own_core": 4.7
+     }
+    }
+   },
+   "peer_avg_curve_plus5": {
+    "label": "Peer-average curve + 5%",
+    "uplift_pct": 21.2,
+    "avg_rate": 25.17,
+    "roster_avg_rate": 25.21,
+    "rates": {
+     "trainee": 18.5,
+     "certified": 22.57,
+     "sl": 27.3,
+     "all": 30.98
+    },
+    "extra_pl_labor_year": 86137,
+    "labor_pct_of_core": 37.3,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": -15631,
+      "after_everything_incentive": -22168,
+      "pct_of_own_core": -1.6
+     },
+     "30": {
+      "after_everything": -1969,
+      "after_everything_incentive": -8506,
+      "pct_of_own_core": -0.2
+     },
+     "28.5": {
+      "after_everything": 12923,
+      "after_everything_incentive": 6386,
+      "pct_of_own_core": 1.3
+     },
+     "27": {
+      "after_everything": 27814,
+      "after_everything_incentive": 21277,
+      "pct_of_own_core": 2.8
+     }
+    }
+   },
+   "peer": {
+    "label": "Flat peer all-in ($23 / $24 / $25.50 / $27)",
+    "uplift_pct": 20.3,
+    "avg_rate": 24.99,
+    "roster_avg_rate": 25.01,
+    "rates": {
+     "trainee": 23.0,
+     "certified": 24.0,
+     "sl": 25.5,
+     "all": 27.0
+    },
+    "extra_pl_labor_year": 82480,
+    "labor_pct_of_core": 36.9,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": -11974,
+      "after_everything_incentive": -18511,
+      "pct_of_own_core": -1.2
+     },
+     "30": {
+      "after_everything": 1688,
+      "after_everything_incentive": -4849,
+      "pct_of_own_core": 0.2
+     },
+     "28.5": {
+      "after_everything": 16580,
+      "after_everything_incentive": 10043,
+      "pct_of_own_core": 1.7
+     },
+     "27": {
+      "after_everything": 31471,
+      "after_everything_incentive": 24934,
+      "pct_of_own_core": 3.2
+     }
+    }
+   },
+   "peer_plus5": {
+    "label": "Flat peer + 5%",
+    "uplift_pct": 26.3,
+    "avg_rate": 26.23,
+    "roster_avg_rate": 26.26,
+    "rates": {
+     "trainee": 24.15,
+     "certified": 25.2,
+     "sl": 26.78,
+     "all": 28.35
+    },
+    "extra_pl_labor_year": 106859,
+    "labor_pct_of_core": 39.4,
+    "ladder": {
+     "actual_cogs": {
+      "after_everything": -36353,
+      "after_everything_incentive": -42890,
+      "pct_of_own_core": -3.7
+     },
+     "30": {
+      "after_everything": -22691,
+      "after_everything_incentive": -29228,
+      "pct_of_own_core": -2.3
+     },
+     "28.5": {
+      "after_everything": -7799,
+      "after_everything_incentive": -14336,
+      "pct_of_own_core": -0.8
+     },
+     "27": {
+      "after_everything": 7092,
+      "after_everything_incentive": 555,
+      "pct_of_own_core": 0.7
+     }
+    }
+   }
+  },
+  "note": "Slipstream's own economics: Downtown + Studio NOI on templates (12-month backtest, catering kept, core COGS re-run) + 1899 management income ($5K + 5% of sales, 2026 average) + NMWA at its Jul\u2013Aug 2026 run-rate (includes the $5,041/mo fee) + NMWA Nights (8 \u00d7 $4,500) \u2212 Commissary, SRP, Central (2026 average \u00d7 12) \u2212 founder salary. 1899's own NOI and its template saving are excluded (passed to the owner); pay scenarios apply to Downtown + Studio only (1899 raises are the owner's cost). NMWA run-rate rests on two months."
+ }
+}

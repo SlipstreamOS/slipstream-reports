@@ -1,0 +1,8 @@
+        "DATA: the Sunday automatic pull did not save this week, so sales were pulled straight from Square on Nov 22 (3,152 orders; payments built from each order's tenders; 3,111 transaction rows; 22 cafe-days). Loyalty visits were not pulled this week. Labor was pulled live from Square on Nov 22 (61 timecards, all closed).",
+        "LABOR RULES: Square's new \\"admin\\" job title is counted as admin, like \\"Manager\\". One Commissary shift punched at Studio (Sat 11/21, 8.2 hours, $158) is commissary work and is left out of Studio's labor.",
+        "FILTER COFFEE now comes from Square's item sales report, which counts every cup on a ticket. Earlier weeks are restated on the same basis; last week was Downtown 23%, Studio 29% and 1899 Penn 34% (posted as 19%, 31% and 36%).",
+        "Targets: core wages divided by core walk-in sales. Downtown 32% to 36% (max 38%), Studio 30% to 34% (max 36%), 1899 Penn 35% to 40% (max 42%). NMWA: staffing rule, no %. Green = inside range or better; amber = over range, under max; red = over max (needs Ryan's pre-approval).",
+        "Core excludes Admin (Manager or admin job title: Downtown $319, Studio $144, 1899 Penn $79) and Training; salaried pay is not in Square timecards.",
+        "Prime Cost uses CORE labor, the same basis as the labor scorecard. 1899 Penn's Prime band runs to 65% healthy, in line with its labor range.",
+        "PROJECTIONS: plans and section 6 read 2026 Projections v1.11 (Nov 10), reviewed day by day through year end for Thanksgiving, Christmas and New Year.",
+        "Section 6 dollars = projected sales times the cafe's low/high/max %. The workbook's Labor Proj column is not used.",

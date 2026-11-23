@@ -1,0 +1,1445 @@
+{
+ "Downtown": {
+  "bands_weekly": {
+   "slow": [
+    0,
+    7500
+   ],
+   "mid": [
+    7500,
+    9000
+   ],
+   "busy": [
+    9000,
+    null
+   ]
+  },
+  "month_membership": {
+   "1": {
+    "weeks": 3,
+    "tiers": {
+     "slow": 1,
+     "mid": 1,
+     "busy": 1
+    },
+    "avg_weekly_scaled": 8008.0,
+    "dominant": "slow"
+   },
+   "2": {
+    "weeks": 4,
+    "tiers": {
+     "slow": 0,
+     "mid": 4,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 8270.0,
+    "dominant": "mid"
+   },
+   "3": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 4,
+     "busy": 1
+    },
+    "avg_weekly_scaled": 8685.0,
+    "dominant": "mid"
+   },
+   "4": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 2,
+     "busy": 3
+    },
+    "avg_weekly_scaled": 9458.0,
+    "dominant": "busy"
+   },
+   "5": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 0,
+     "busy": 5
+    },
+    "avg_weekly_scaled": 9563.0,
+    "dominant": "busy"
+   },
+   "6": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 2,
+     "busy": 3
+    },
+    "avg_weekly_scaled": 9599.0,
+    "dominant": "busy"
+   },
+   "7": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 1,
+     "mid": 4,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 8062.0,
+    "dominant": "mid"
+   },
+   "8": {
+    "weeks": 4,
+    "tiers": {
+     "slow": 3,
+     "mid": 1,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 6751.0,
+    "dominant": "slow"
+   }
+  },
+  "typical_day": {
+   "slow": {
+    "Mon": {
+     "net": 984.0,
+     "txns": 114.8,
+     "n_days": 5
+    },
+    "Tue": {
+     "net": 1547.0,
+     "txns": 186.8,
+     "n_days": 5
+    },
+    "Wed": {
+     "net": 1670.0,
+     "txns": 204.0,
+     "n_days": 5
+    },
+    "Thu": {
+     "net": 1592.0,
+     "txns": 186.4,
+     "n_days": 5
+    },
+    "Fri": {
+     "net": 773.0,
+     "txns": 79.0,
+     "n_days": 5
+    }
+   },
+   "mid": {
+    "Mon": {
+     "net": 1173.0,
+     "txns": 133.4,
+     "n_days": 14
+    },
+    "Tue": {
+     "net": 1975.0,
+     "txns": 232.6,
+     "n_days": 16
+    },
+    "Wed": {
+     "net": 2161.0,
+     "txns": 251.3,
+     "n_days": 16
+    },
+    "Thu": {
+     "net": 2017.0,
+     "txns": 230.4,
+     "n_days": 16
+    },
+    "Fri": {
+     "net": 940.0,
+     "txns": 101.7,
+     "n_days": 15
+    }
+   },
+   "busy": {
+    "Mon": {
+     "net": 1511.0,
+     "txns": 169.3,
+     "n_days": 11
+    },
+    "Tue": {
+     "net": 2296.0,
+     "txns": 265.9,
+     "n_days": 12
+    },
+    "Wed": {
+     "net": 2495.0,
+     "txns": 282.8,
+     "n_days": 12
+    },
+    "Thu": {
+     "net": 2305.0,
+     "txns": 264.2,
+     "n_days": 12
+    },
+    "Fri": {
+     "net": 1128.0,
+     "txns": 120.8,
+     "n_days": 11
+    }
+   }
+  },
+  "weeks": [
+   {
+    "week": "2026-01-05",
+    "net": 6387.0,
+    "days": 5,
+    "scaled": 6387.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-01-12",
+    "net": 9049.0,
+    "days": 5,
+    "scaled": 9049.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-01-19",
+    "net": 6872.0,
+    "days": 4,
+    "scaled": 8590.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-02-02",
+    "net": 7873.0,
+    "days": 5,
+    "scaled": 7873.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-02-09",
+    "net": 8755.0,
+    "days": 5,
+    "scaled": 8755.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-02-16",
+    "net": 6869.0,
+    "days": 4,
+    "scaled": 8586.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-02-23",
+    "net": 7866.0,
+    "days": 5,
+    "scaled": 7866.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-02",
+    "net": 8114.0,
+    "days": 5,
+    "scaled": 8114.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-09",
+    "net": 8614.0,
+    "days": 5,
+    "scaled": 8614.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-16",
+    "net": 8457.0,
+    "days": 5,
+    "scaled": 8457.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-23",
+    "net": 9270.0,
+    "days": 5,
+    "scaled": 9270.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-03-30",
+    "net": 8971.0,
+    "days": 5,
+    "scaled": 8971.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-04-06",
+    "net": 8836.0,
+    "days": 5,
+    "scaled": 8836.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-04-13",
+    "net": 10241.0,
+    "days": 5,
+    "scaled": 10241.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-04-20",
+    "net": 9746.0,
+    "days": 5,
+    "scaled": 9746.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-04-27",
+    "net": 9498.0,
+    "days": 5,
+    "scaled": 9498.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-05-04",
+    "net": 9426.0,
+    "days": 5,
+    "scaled": 9426.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-05-11",
+    "net": 10203.0,
+    "days": 5,
+    "scaled": 10203.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-05-18",
+    "net": 9684.0,
+    "days": 5,
+    "scaled": 9684.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-05-25",
+    "net": 7206.0,
+    "days": 4,
+    "scaled": 9007.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-01",
+    "net": 10889.0,
+    "days": 5,
+    "scaled": 10889.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-08",
+    "net": 10528.0,
+    "days": 5,
+    "scaled": 10528.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-15",
+    "net": 8435.0,
+    "days": 4,
+    "scaled": 10544.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-22",
+    "net": 8380.0,
+    "days": 5,
+    "scaled": 8380.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-06-29",
+    "net": 6124.0,
+    "days": 4,
+    "scaled": 7655.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-07-06",
+    "net": 7442.0,
+    "days": 5,
+    "scaled": 7442.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-13",
+    "net": 8184.0,
+    "days": 5,
+    "scaled": 8184.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-07-20",
+    "net": 8709.0,
+    "days": 5,
+    "scaled": 8709.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-07-27",
+    "net": 8321.0,
+    "days": 5,
+    "scaled": 8321.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-08-03",
+    "net": 8005.0,
+    "days": 5,
+    "scaled": 8005.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-08-10",
+    "net": 6234.0,
+    "days": 5,
+    "scaled": 6234.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-17",
+    "net": 6020.0,
+    "days": 5,
+    "scaled": 6020.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-24",
+    "net": 6743.0,
+    "days": 5,
+    "scaled": 6743.0,
+    "tier": "slow"
+   }
+  ]
+ },
+ "Studio": {
+  "bands_weekly": {
+   "slow": [
+    0,
+    10500
+   ],
+   "mid": [
+    10500,
+    12500
+   ],
+   "busy": [
+    12500,
+    null
+   ]
+  },
+  "month_membership": {
+   "1": {
+    "weeks": 4,
+    "tiers": {
+     "slow": 4,
+     "mid": 0,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 9836.0,
+    "dominant": "slow"
+   },
+   "2": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 3,
+     "mid": 2,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 10135.0,
+    "dominant": "slow"
+   },
+   "3": {
+    "weeks": 6,
+    "tiers": {
+     "slow": 0,
+     "mid": 4,
+     "busy": 2
+    },
+    "avg_weekly_scaled": 11972.0,
+    "dominant": "mid"
+   },
+   "4": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 0,
+     "busy": 5
+    },
+    "avg_weekly_scaled": 13357.0,
+    "dominant": "busy"
+   },
+   "5": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 2,
+     "busy": 3
+    },
+    "avg_weekly_scaled": 12155.0,
+    "dominant": "busy"
+   },
+   "6": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 1,
+     "mid": 2,
+     "busy": 2
+    },
+    "avg_weekly_scaled": 11949.0,
+    "dominant": "busy"
+   },
+   "7": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 4,
+     "mid": 1,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 9895.0,
+    "dominant": "slow"
+   },
+   "8": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 4,
+     "mid": 1,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 10120.0,
+    "dominant": "slow"
+   }
+  },
+  "typical_day": {
+   "slow": {
+    "Mon": {
+     "net": 977.0,
+     "txns": 109.5,
+     "n_days": 12
+    },
+    "Tue": {
+     "net": 896.0,
+     "txns": 102.9,
+     "n_days": 13
+    },
+    "Wed": {
+     "net": 990.0,
+     "txns": 108.5,
+     "n_days": 13
+    },
+    "Thu": {
+     "net": 1100.0,
+     "txns": 118.5,
+     "n_days": 13
+    },
+    "Fri": {
+     "net": 1511.0,
+     "txns": 165.2,
+     "n_days": 13
+    },
+    "Sat": {
+     "net": 2272.0,
+     "txns": 221.1,
+     "n_days": 13
+    },
+    "Sun": {
+     "net": 1988.0,
+     "txns": 200.2,
+     "n_days": 12
+    }
+   },
+   "mid": {
+    "Mon": {
+     "net": 1031.0,
+     "txns": 115.1,
+     "n_days": 11
+    },
+    "Tue": {
+     "net": 1040.0,
+     "txns": 115.1,
+     "n_days": 11
+    },
+    "Wed": {
+     "net": 1179.0,
+     "txns": 130.2,
+     "n_days": 11
+    },
+    "Thu": {
+     "net": 1163.0,
+     "txns": 128.8,
+     "n_days": 11
+    },
+    "Fri": {
+     "net": 1830.0,
+     "txns": 196.0,
+     "n_days": 11
+    },
+    "Sat": {
+     "net": 2782.0,
+     "txns": 266.0,
+     "n_days": 11
+    },
+    "Sun": {
+     "net": 2335.0,
+     "txns": 235.6,
+     "n_days": 11
+    }
+   },
+   "busy": {
+    "Mon": {
+     "net": 1324.0,
+     "txns": 142.8,
+     "n_days": 10
+    },
+    "Tue": {
+     "net": 1215.0,
+     "txns": 133.9,
+     "n_days": 10
+    },
+    "Wed": {
+     "net": 1284.0,
+     "txns": 142.3,
+     "n_days": 10
+    },
+    "Thu": {
+     "net": 1351.0,
+     "txns": 145.8,
+     "n_days": 10
+    },
+    "Fri": {
+     "net": 2146.0,
+     "txns": 225.2,
+     "n_days": 10
+    },
+    "Sat": {
+     "net": 3115.0,
+     "txns": 291.2,
+     "n_days": 10
+    },
+    "Sun": {
+     "net": 2772.0,
+     "txns": 266.1,
+     "n_days": 10
+    }
+   }
+  },
+  "weeks": [
+   {
+    "week": "2026-01-05",
+    "net": 9709.0,
+    "days": 7,
+    "scaled": 9709.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-01-12",
+    "net": 10182.0,
+    "days": 7,
+    "scaled": 10182.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-01-19",
+    "net": 8267.0,
+    "days": 6,
+    "scaled": 9645.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-01-26",
+    "net": 8408.0,
+    "days": 6,
+    "scaled": 9810.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-02-02",
+    "net": 8994.0,
+    "days": 7,
+    "scaled": 8994.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-02-09",
+    "net": 10049.0,
+    "days": 7,
+    "scaled": 10049.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-02-16",
+    "net": 10839.0,
+    "days": 7,
+    "scaled": 10839.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-02-23",
+    "net": 10985.0,
+    "days": 7,
+    "scaled": 10985.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-02",
+    "net": 11845.0,
+    "days": 7,
+    "scaled": 11845.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-09",
+    "net": 11431.0,
+    "days": 7,
+    "scaled": 11431.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-16",
+    "net": 12762.0,
+    "days": 7,
+    "scaled": 12762.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-03-23",
+    "net": 11923.0,
+    "days": 7,
+    "scaled": 11923.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-30",
+    "net": 12886.0,
+    "days": 7,
+    "scaled": 12886.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-04-06",
+    "net": 14416.0,
+    "days": 7,
+    "scaled": 14416.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-04-13",
+    "net": 13407.0,
+    "days": 7,
+    "scaled": 13407.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-04-20",
+    "net": 13260.0,
+    "days": 7,
+    "scaled": 13260.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-04-27",
+    "net": 12816.0,
+    "days": 7,
+    "scaled": 12816.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-05-04",
+    "net": 12886.0,
+    "days": 7,
+    "scaled": 12886.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-05-11",
+    "net": 10997.0,
+    "days": 7,
+    "scaled": 10997.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-05-18",
+    "net": 11347.0,
+    "days": 7,
+    "scaled": 11347.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-05-25",
+    "net": 12728.0,
+    "days": 7,
+    "scaled": 12728.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-01",
+    "net": 13432.0,
+    "days": 7,
+    "scaled": 13432.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-08",
+    "net": 13479.0,
+    "days": 7,
+    "scaled": 13479.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-15",
+    "net": 12465.0,
+    "days": 7,
+    "scaled": 12465.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-06-22",
+    "net": 11465.0,
+    "days": 7,
+    "scaled": 11465.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-06-29",
+    "net": 8903.0,
+    "days": 7,
+    "scaled": 8903.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-06",
+    "net": 9948.0,
+    "days": 7,
+    "scaled": 9948.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-13",
+    "net": 9070.0,
+    "days": 7,
+    "scaled": 9070.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-20",
+    "net": 11124.0,
+    "days": 7,
+    "scaled": 11124.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-07-27",
+    "net": 10434.0,
+    "days": 7,
+    "scaled": 10434.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-03",
+    "net": 9889.0,
+    "days": 7,
+    "scaled": 9889.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-10",
+    "net": 9400.0,
+    "days": 7,
+    "scaled": 9400.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-17",
+    "net": 10543.0,
+    "days": 7,
+    "scaled": 10543.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-08-24",
+    "net": 10334.0,
+    "days": 7,
+    "scaled": 10334.0,
+    "tier": "slow"
+   }
+  ]
+ },
+ "1899 Penn": {
+  "bands_weekly": {
+   "slow": [
+    0,
+    3300
+   ],
+   "mid": [
+    3300,
+    4200
+   ],
+   "busy": [
+    4200,
+    null
+   ]
+  },
+  "month_membership": {
+   "1": {
+    "weeks": 3,
+    "tiers": {
+     "slow": 2,
+     "mid": 1,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 2819.0,
+    "dominant": "slow"
+   },
+   "2": {
+    "weeks": 4,
+    "tiers": {
+     "slow": 4,
+     "mid": 0,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 3001.0,
+    "dominant": "slow"
+   },
+   "3": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 2,
+     "mid": 3,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 3375.0,
+    "dominant": "mid"
+   },
+   "4": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 4,
+     "busy": 1
+    },
+    "avg_weekly_scaled": 4373.0,
+    "dominant": "mid"
+   },
+   "5": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 5,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 3887.0,
+    "dominant": "mid"
+   },
+   "6": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 0,
+     "busy": 5
+    },
+    "avg_weekly_scaled": 4629.0,
+    "dominant": "busy"
+   },
+   "7": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 0,
+     "mid": 2,
+     "busy": 3
+    },
+    "avg_weekly_scaled": 4129.0,
+    "dominant": "busy"
+   },
+   "8": {
+    "weeks": 4,
+    "tiers": {
+     "slow": 0,
+     "mid": 4,
+     "busy": 0
+    },
+    "avg_weekly_scaled": 3763.0,
+    "dominant": "mid"
+   }
+  },
+  "typical_day": {
+   "slow": {
+    "Mon": {
+     "net": 381.0,
+     "txns": 56.0,
+     "n_days": 7
+    },
+    "Tue": {
+     "net": 608.0,
+     "txns": 88.8,
+     "n_days": 8
+    },
+    "Wed": {
+     "net": 739.0,
+     "txns": 105.1,
+     "n_days": 8
+    },
+    "Thu": {
+     "net": 738.0,
+     "txns": 105.0,
+     "n_days": 8
+    },
+    "Fri": {
+     "net": 406.0,
+     "txns": 51.8,
+     "n_days": 8
+    }
+   },
+   "mid": {
+    "Mon": {
+     "net": 601.0,
+     "txns": 82.5,
+     "n_days": 15
+    },
+    "Tue": {
+     "net": 857.0,
+     "txns": 115.7,
+     "n_days": 17
+    },
+    "Wed": {
+     "net": 912.0,
+     "txns": 120.8,
+     "n_days": 17
+    },
+    "Thu": {
+     "net": 933.0,
+     "txns": 123.6,
+     "n_days": 17
+    },
+    "Fri": {
+     "net": 456.0,
+     "txns": 60.8,
+     "n_days": 17
+    }
+   },
+   "busy": {
+    "Mon": {
+     "net": 698.0,
+     "txns": 97.1,
+     "n_days": 8
+    },
+    "Tue": {
+     "net": 1130.0,
+     "txns": 152.1,
+     "n_days": 8
+    },
+    "Wed": {
+     "net": 1183.0,
+     "txns": 154.6,
+     "n_days": 8
+    },
+    "Thu": {
+     "net": 1026.0,
+     "txns": 138.1,
+     "n_days": 8
+    },
+    "Fri": {
+     "net": 561.0,
+     "txns": 68.2,
+     "n_days": 6
+    }
+   }
+  },
+  "weeks": [
+   {
+    "week": "2026-01-05",
+    "net": 2199.0,
+    "days": 5,
+    "scaled": 2199.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-01-12",
+    "net": 2864.0,
+    "days": 5,
+    "scaled": 2864.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-01-19",
+    "net": 2714.0,
+    "days": 4,
+    "scaled": 3392.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-02-02",
+    "net": 3163.0,
+    "days": 5,
+    "scaled": 3163.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-02-09",
+    "net": 3249.0,
+    "days": 5,
+    "scaled": 3249.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-02-16",
+    "net": 2389.0,
+    "days": 4,
+    "scaled": 2986.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-02-23",
+    "net": 2605.0,
+    "days": 5,
+    "scaled": 2605.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-03-02",
+    "net": 3275.0,
+    "days": 5,
+    "scaled": 3275.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-03-09",
+    "net": 3365.0,
+    "days": 5,
+    "scaled": 3365.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-16",
+    "net": 2856.0,
+    "days": 5,
+    "scaled": 2856.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-03-23",
+    "net": 3504.0,
+    "days": 5,
+    "scaled": 3504.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-03-30",
+    "net": 3874.0,
+    "days": 5,
+    "scaled": 3874.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-04-06",
+    "net": 4100.0,
+    "days": 5,
+    "scaled": 4100.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-04-13",
+    "net": 5927.0,
+    "days": 5,
+    "scaled": 5927.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-04-20",
+    "net": 3770.0,
+    "days": 5,
+    "scaled": 3770.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-04-27",
+    "net": 4192.0,
+    "days": 5,
+    "scaled": 4192.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-05-04",
+    "net": 3898.0,
+    "days": 5,
+    "scaled": 3898.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-05-11",
+    "net": 4181.0,
+    "days": 5,
+    "scaled": 4181.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-05-18",
+    "net": 3463.0,
+    "days": 5,
+    "scaled": 3463.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-05-25",
+    "net": 2959.0,
+    "days": 4,
+    "scaled": 3699.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-06-01",
+    "net": 4560.0,
+    "days": 5,
+    "scaled": 4560.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-08",
+    "net": 4815.0,
+    "days": 5,
+    "scaled": 4815.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-15",
+    "net": 4026.0,
+    "days": 4,
+    "scaled": 5033.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-22",
+    "net": 4218.0,
+    "days": 5,
+    "scaled": 4218.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-06-29",
+    "net": 3616.0,
+    "days": 4,
+    "scaled": 4520.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-07-06",
+    "net": 4064.0,
+    "days": 5,
+    "scaled": 4064.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-07-13",
+    "net": 4238.0,
+    "days": 5,
+    "scaled": 4238.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-07-20",
+    "net": 4257.0,
+    "days": 5,
+    "scaled": 4257.0,
+    "tier": "busy"
+   },
+   {
+    "week": "2026-07-27",
+    "net": 3565.0,
+    "days": 5,
+    "scaled": 3565.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-08-03",
+    "net": 3367.0,
+    "days": 5,
+    "scaled": 3367.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-08-10",
+    "net": 3740.0,
+    "days": 5,
+    "scaled": 3740.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-08-17",
+    "net": 3827.0,
+    "days": 5,
+    "scaled": 3827.0,
+    "tier": "mid"
+   },
+   {
+    "week": "2026-08-24",
+    "net": 4118.0,
+    "days": 5,
+    "scaled": 4118.0,
+    "tier": "mid"
+   }
+  ]
+ },
+ "NMWA": {
+  "bands_weekly": {
+   "slow": [
+    0,
+    null
+   ]
+  },
+  "month_membership": {
+   "4": {
+    "weeks": 2,
+    "tiers": {
+     "slow": 2
+    },
+    "avg_weekly_scaled": 110.0,
+    "dominant": "slow"
+   },
+   "5": {
+    "weeks": 2,
+    "tiers": {
+     "slow": 2
+    },
+    "avg_weekly_scaled": 780.0,
+    "dominant": "slow"
+   },
+   "7": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 5
+    },
+    "avg_weekly_scaled": 789.0,
+    "dominant": "slow"
+   },
+   "8": {
+    "weeks": 5,
+    "tiers": {
+     "slow": 5
+    },
+    "avg_weekly_scaled": 730.0,
+    "dominant": "slow"
+   }
+  },
+  "typical_day": {
+   "slow": {
+    "Wed": {
+     "net": 457.0,
+     "txns": 74.0,
+     "n_days": 4
+    },
+    "Thu": {
+     "net": 167.0,
+     "txns": 20.9,
+     "n_days": 8
+    },
+    "Fri": {
+     "net": 175.0,
+     "txns": 20.9,
+     "n_days": 9
+    },
+    "Sat": {
+     "net": 81.0,
+     "txns": 9.8,
+     "n_days": 9
+    },
+    "Sun": {
+     "net": 180.0,
+     "txns": 20.3,
+     "n_days": 10
+    }
+   }
+  },
+  "weeks": [
+   {
+    "week": "2026-03-30",
+    "net": 28.0,
+    "days": 1,
+    "scaled": 113.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-04-06",
+    "net": 27.0,
+    "days": 1,
+    "scaled": 108.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-05-18",
+    "net": 338.0,
+    "days": 1,
+    "scaled": 1351.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-05-25",
+    "net": 52.0,
+    "days": 1,
+    "scaled": 210.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-06-29",
+    "net": 367.0,
+    "days": 3,
+    "scaled": 489.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-06",
+    "net": 1038.0,
+    "days": 4,
+    "scaled": 1038.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-13",
+    "net": 647.0,
+    "days": 4,
+    "scaled": 647.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-20",
+    "net": 849.0,
+    "days": 4,
+    "scaled": 849.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-07-27",
+    "net": 921.0,
+    "days": 4,
+    "scaled": 921.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-03",
+    "net": 658.0,
+    "days": 4,
+    "scaled": 658.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-10",
+    "net": 1333.0,
+    "days": 5,
+    "scaled": 1066.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-17",
+    "net": 520.0,
+    "days": 4,
+    "scaled": 520.0,
+    "tier": "slow"
+   },
+   {
+    "week": "2026-08-24",
+    "net": 487.0,
+    "days": 4,
+    "scaled": 487.0,
+    "tier": "slow"
+   }
+  ]
+ }
+}

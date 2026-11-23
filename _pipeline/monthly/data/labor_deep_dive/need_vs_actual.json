@@ -1,0 +1,7358 @@
+{
+ "cap": 14.0,
+ "cafes": {
+  "Downtown": {
+   "avg_core_rate": 20.73,
+   "tiers": {
+    "busy": {
+     "Mon": {
+      "n_days_curve": 11,
+      "n_days_staff": 3,
+      "need_hours": 21.0,
+      "actual_hours": 25.4,
+      "over_hours": 5.4,
+      "under_hours": 1.0,
+      "over_dollars": 112.0,
+      "under_dollars": 21.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.0,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 10.8,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.2,
+        "need": 3,
+        "actual": 2.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 32.6,
+        "need": 3,
+        "actual": 2.67
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "actual": 2.67
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 29.0,
+        "need": 3,
+        "actual": 2.67
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.0,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 18.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 20.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 11.4,
+        "need": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 5.4,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.17
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.0
+     },
+     "Tue": {
+      "n_days_curve": 12,
+      "n_days_staff": 3,
+      "need_hours": 25.5,
+      "actual_hours": 35.4,
+      "over_hours": 10.6,
+      "under_hours": 0.7,
+      "over_dollars": 219.0,
+      "under_dollars": 14.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.67
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 27.4,
+        "need": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 49.0,
+        "need": 4,
+        "actual": 4.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 56.8,
+        "need": 5,
+        "actual": 4.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 41.6,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 38.4,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 32.2,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 32.8,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 18.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 23.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 31.6,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 36.6,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.0,
+        "need": 2,
+        "actual": 3.83
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 28.8,
+        "need": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 26.2,
+        "need": 2,
+        "actual": 3.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 11.8,
+        "need": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.17
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.83
+       }
+      ],
+      "peak_need": 5,
+      "peak_actual": 4.0
+     },
+     "Wed": {
+      "n_days_curve": 12,
+      "n_days_staff": 3,
+      "need_hours": 27.0,
+      "actual_hours": 31.9,
+      "over_hours": 6.3,
+      "under_hours": 1.4,
+      "over_dollars": 130.0,
+      "under_dollars": 29.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 13.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 31.6,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 53.6,
+        "need": 4,
+        "actual": 3.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 58.4,
+        "need": 5,
+        "actual": 3.67
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 53.6,
+        "need": 4,
+        "actual": 3.67
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 42.2,
+        "need": 4,
+        "actual": 3.67
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 31.6,
+        "need": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 24.4,
+        "need": 2,
+        "actual": 3.67
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 29.8,
+        "need": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 35.4,
+        "need": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 34.8,
+        "need": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "actual": 3.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 3.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 21.2,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 10.2,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 5,
+      "peak_actual": 3.67
+     },
+     "Thu": {
+      "n_days_curve": 12,
+      "n_days_staff": 3,
+      "need_hours": 25.0,
+      "actual_hours": 34.1,
+      "over_hours": 9.2,
+      "under_hours": 0.1,
+      "over_dollars": 190.0,
+      "under_dollars": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 34.8,
+        "need": 3,
+        "actual": 3.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 51.8,
+        "need": 4,
+        "actual": 4.33
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 54.8,
+        "need": 4,
+        "actual": 4.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 51.6,
+        "need": 4,
+        "actual": 4.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 40.8,
+        "need": 3,
+        "actual": 4.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 33.0,
+        "need": 3,
+        "actual": 4.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 33.6,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 31.6,
+        "need": 3,
+        "actual": 3.67
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 15.4,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.8,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.17
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 4.33
+     },
+     "Fri": {
+      "n_days_curve": 11,
+      "n_days_staff": 3,
+      "need_hours": 19.0,
+      "actual_hours": 26.4,
+      "over_hours": 7.5,
+      "under_hours": 0.1,
+      "over_dollars": 155.0,
+      "under_dollars": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 7.8,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.2,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 17.8,
+        "need": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 25.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 29.8,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 16.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 11.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 10.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 15.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 3.8,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 3.0,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.34
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.0
+     }
+    },
+    "mid": {
+     "Mon": {
+      "n_days_curve": 14,
+      "n_days_staff": 6,
+      "need_hours": 19.0,
+      "actual_hours": 27.1,
+      "over_hours": 8.4,
+      "under_hours": 0.2,
+      "over_dollars": 173.0,
+      "under_dollars": 4.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.58
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.8,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.2,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 2.92
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 26.2,
+        "need": 2,
+        "actual": 3.08
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 28.2,
+        "need": 3,
+        "actual": 3.17
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 16.8,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.8,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.2,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 14.6,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 16.2,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.8,
+        "need": 1,
+        "actual": 1.92
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 9.2,
+        "need": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 3.8,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.08
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.17
+     },
+     "Tue": {
+      "n_days_curve": 16,
+      "n_days_staff": 6,
+      "need_hours": 24.0,
+      "actual_hours": 35.1,
+      "over_hours": 11.4,
+      "under_hours": 0.2,
+      "over_dollars": 236.0,
+      "under_dollars": 5.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.58
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 27.0,
+        "need": 2,
+        "actual": 2.92
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 43.2,
+        "need": 4,
+        "actual": 3.92
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 45.6,
+        "need": 4,
+        "actual": 4.17
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 39.8,
+        "need": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 38.2,
+        "need": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 24.4,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.0,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 21.2,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 24.6,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 27.2,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 30.2,
+        "need": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 28.4,
+        "need": 3,
+        "actual": 4.08
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 18.6,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 7.4,
+        "need": 1,
+        "actual": 2.17
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.58
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.25
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 4.17
+     },
+     "Wed": {
+      "n_days_curve": 16,
+      "n_days_staff": 6,
+      "need_hours": 25.0,
+      "actual_hours": 34.6,
+      "over_hours": 9.8,
+      "under_hours": 0.2,
+      "over_dollars": 203.0,
+      "under_dollars": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 2.42
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 29.4,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 46.2,
+        "need": 4,
+        "actual": 3.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 50.4,
+        "need": 4,
+        "actual": 4.08
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 44.6,
+        "need": 4,
+        "actual": 4.17
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 31.8,
+        "need": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 30.6,
+        "need": 3,
+        "actual": 4.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 24.6,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.6,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 25.8,
+        "need": 2,
+        "actual": 4.17
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 27.2,
+        "need": 2,
+        "actual": 4.08
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 31.8,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.0,
+        "need": 2,
+        "actual": 3.83
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 31.6,
+        "need": 3,
+        "actual": 3.83
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 3.17
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.8,
+        "need": 1,
+        "actual": 2.17
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.09
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 4.17
+     },
+     "Thu": {
+      "n_days_curve": 16,
+      "n_days_staff": 6,
+      "need_hours": 23.0,
+      "actual_hours": 33.9,
+      "over_hours": 11.2,
+      "under_hours": 0.2,
+      "over_dollars": 231.0,
+      "under_dollars": 5.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.83
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 7.6,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.8,
+        "need": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 3.08
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 44.0,
+        "need": 4,
+        "actual": 3.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 51.0,
+        "need": 4,
+        "actual": 4.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 43.2,
+        "need": 4,
+        "actual": 4.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 35.8,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 26.0,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 23.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 21.2,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 24.2,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 27.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 26.0,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 2.42
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.4,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.25
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 4.0
+     },
+     "Fri": {
+      "n_days_curve": 15,
+      "n_days_staff": 6,
+      "need_hours": 18.5,
+      "actual_hours": 25.0,
+      "over_hours": 6.6,
+      "under_hours": 0.1,
+      "over_dollars": 137.0,
+      "under_dollars": 3.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.8,
+        "need": 2,
+        "actual": 2.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 20.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 10.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 12.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 10.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "actual": 2.83
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 10.6,
+        "need": 2,
+        "actual": 2.08
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 9.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 6.6,
+        "need": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 4.6,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 2.6,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.17
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.17
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 3.0
+     }
+    },
+    "slow": {
+     "Mon": {
+      "n_days_curve": 5,
+      "n_days_staff": 4,
+      "need_hours": 18.5,
+      "actual_hours": 25.5,
+      "over_hours": 7.3,
+      "under_hours": 0.3,
+      "over_dollars": 152.0,
+      "under_dollars": 6.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 2.38
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 2.62
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 24.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 16.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 9.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 11.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.2,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 8.8,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 6.8,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.4,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.38
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 3.0
+     },
+     "Tue": {
+      "n_days_curve": 5,
+      "n_days_staff": 4,
+      "need_hours": 21.0,
+      "actual_hours": 31.1,
+      "over_hours": 10.3,
+      "under_hours": 0.2,
+      "over_dollars": 214.0,
+      "under_dollars": 5.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.0,
+        "need": 2,
+        "actual": 2.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 9.6,
+        "need": 2,
+        "actual": 2.62
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 2.88
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 34.0,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 42.0,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 33.2,
+        "need": 3,
+        "actual": 4.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 29.2,
+        "need": 3,
+        "actual": 3.5
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 23.6,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 22.4,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 28.4,
+        "need": 3,
+        "actual": 3.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 27.2,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 14.0,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 7.2,
+        "need": 1,
+        "actual": 2.25
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.0,
+        "need": 1,
+        "actual": 2.25
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.25
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 4.0
+     },
+     "Wed": {
+      "n_days_curve": 5,
+      "n_days_staff": 4,
+      "need_hours": 21.0,
+      "actual_hours": 34.9,
+      "over_hours": 13.9,
+      "under_hours": 0.1,
+      "over_dollars": 289.0,
+      "under_dollars": 1.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.88
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.2,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 40.4,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 40.0,
+        "need": 3,
+        "actual": 4.12
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 40.4,
+        "need": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 28.8,
+        "need": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 27.6,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.2,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.0,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 26.0,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.2,
+        "need": 2,
+        "actual": 3.88
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 12.0,
+        "need": 1,
+        "actual": 2.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "actual": 2.25
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.38
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 4.25
+     },
+     "Thu": {
+      "n_days_curve": 5,
+      "n_days_staff": 4,
+      "need_hours": 21.0,
+      "actual_hours": 34.8,
+      "over_hours": 13.8,
+      "under_hours": 0.0,
+      "over_dollars": 285.0,
+      "under_dollars": 0.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.6,
+        "need": 2,
+        "actual": 2.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 10.0,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 39.2,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 40.4,
+        "need": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 33.6,
+        "need": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 31.2,
+        "need": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 14.0,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 21.2,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 13.2,
+        "need": 1,
+        "actual": 2.38
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.8,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 4.25
+     },
+     "Fri": {
+      "n_days_curve": 5,
+      "n_days_staff": 4,
+      "need_hours": 18.5,
+      "actual_hours": 25.8,
+      "over_hours": 7.5,
+      "under_hours": 0.2,
+      "over_dollars": 155.0,
+      "under_dollars": 4.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.0,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.8,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 8.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 17.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 3.12
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 14.0,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 12.8,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.8,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 6.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 2.62
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 8.4,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 8.0,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 5.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 2.4,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 2.4,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 4.4,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 3.25
+     }
+    }
+   }
+  },
+  "Studio": {
+   "avg_core_rate": 20.2,
+   "tiers": {
+    "busy": {
+     "Mon": {
+      "n_days_curve": 10,
+      "n_days_staff": 2,
+      "need_hours": 20.5,
+      "actual_hours": 20.9,
+      "over_hours": 3.0,
+      "under_hours": 2.6,
+      "over_dollars": 61.0,
+      "under_dollars": 53.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 10.4,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 13.0,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.6,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 26.2,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 29.0,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 25.4,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 28.6,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 23.6,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 21.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 20.6,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 17.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 11.4,
+        "need": 1,
+        "actual": 2.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 1.4,
+        "need": 1,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.8,
+        "need": 1,
+        "actual": 0.75
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 2.75
+     },
+     "Tue": {
+      "n_days_curve": 10,
+      "n_days_staff": 2,
+      "need_hours": 16.5,
+      "actual_hours": 24.5,
+      "over_hours": 8.4,
+      "under_hours": 0.4,
+      "over_dollars": 169.0,
+      "under_dollars": 8.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 26.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.2,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 25.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 11.6,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 8.8,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.75
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.5
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.0
+     },
+     "Wed": {
+      "n_days_curve": 10,
+      "n_days_staff": 2,
+      "need_hours": 17.0,
+      "actual_hours": 23.9,
+      "over_hours": 7.2,
+      "under_hours": 0.4,
+      "over_dollars": 146.0,
+      "under_dollars": 8.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 33.4,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 28.2,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 30.6,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 26.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 24.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 17.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 11.0,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.6,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.25
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.0
+     },
+     "Thu": {
+      "n_days_curve": 10,
+      "n_days_staff": 2,
+      "need_hours": 16.0,
+      "actual_hours": 24.9,
+      "over_hours": 8.9,
+      "under_hours": 0.0,
+      "over_dollars": 179.0,
+      "under_dollars": 0.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 13.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 27.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 33.8,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 27.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 26.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 19.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 24.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 18.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.4,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 9.6,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.6,
+        "need": 1,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.25
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.0
+     },
+     "Fri": {
+      "n_days_curve": 10,
+      "n_days_staff": 2,
+      "need_hours": 25.0,
+      "actual_hours": 24.4,
+      "over_hours": 3.6,
+      "under_hours": 4.2,
+      "over_dollars": 73.0,
+      "under_dollars": 86.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.25
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 12.6,
+        "need": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 35.4,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 42.6,
+        "need": 4,
+        "actual": 2.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 42.4,
+        "need": 4,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 39.8,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 37.6,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 31.0,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 19.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 20.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 14.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 15.4,
+        "need": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 12.2,
+        "need": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 9.4,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 5.4,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 2.4,
+        "need": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 0.25
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 3.0
+     },
+     "Sat": {
+      "n_days_curve": 10,
+      "n_days_staff": 2,
+      "need_hours": 26.5,
+      "actual_hours": 38.2,
+      "over_hours": 12.9,
+      "under_hours": 1.1,
+      "over_dollars": 260.0,
+      "under_dollars": 23.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 24.6,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 28.4,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 33.2,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 45.6,
+        "need": 4,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 50.8,
+        "need": 4,
+        "actual": 5.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 51.2,
+        "need": 4,
+        "actual": 5.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 50.0,
+        "need": 4,
+        "actual": 5.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 41.8,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 40.6,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 38.8,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 38.0,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 35.4,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 27.4,
+        "need": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 24.0,
+        "need": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 12.6,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 14.0,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 6.6,
+        "need": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.6,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 5.0
+     },
+     "Sun": {
+      "n_days_curve": 10,
+      "n_days_staff": 2,
+      "need_hours": 25.5,
+      "actual_hours": 39.2,
+      "over_hours": 14.6,
+      "under_hours": 0.9,
+      "over_dollars": 295.0,
+      "under_dollars": 18.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 1.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 4.25
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 29.0,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 36.4,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 40.0,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 46.0,
+        "need": 4,
+        "actual": 5.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 42.6,
+        "need": 4,
+        "actual": 5.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 37.0,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 35.0,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 36.4,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 42.0,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 39.2,
+        "need": 3,
+        "actual": 5.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 25.4,
+        "need": 2,
+        "actual": 5.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 27.6,
+        "need": 2,
+        "actual": 4.5
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.0,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 11.2,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 6.0,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.8,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 5.0
+     }
+    },
+    "mid": {
+     "Mon": {
+      "n_days_curve": 11,
+      "n_days_staff": 4,
+      "need_hours": 19.5,
+      "actual_hours": 18.8,
+      "over_hours": 1.4,
+      "under_hours": 2.1,
+      "over_dollars": 28.0,
+      "under_dollars": 42.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 3,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.0,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 13.2,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.8,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.0,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 31.4,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 19.4,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 15.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 11.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 13.0,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 5.8,
+        "need": 1,
+        "actual": 1.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.38
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 2.75
+     },
+     "Tue": {
+      "n_days_curve": 11,
+      "n_days_staff": 4,
+      "need_hours": 15.5,
+      "actual_hours": 24.3,
+      "over_hours": 9.1,
+      "under_hours": 0.2,
+      "over_dollars": 183.0,
+      "under_dollars": 5.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 12.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 23.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 23.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 11.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.0,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 6.6,
+        "need": 1,
+        "actual": 2.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 2.5
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.88
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 3.0
+     },
+     "Wed": {
+      "n_days_curve": 11,
+      "n_days_staff": 4,
+      "need_hours": 16.0,
+      "actual_hours": 22.1,
+      "over_hours": 6.5,
+      "under_hours": 0.4,
+      "over_dollars": 131.0,
+      "under_dollars": 9.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 8.4,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 25.8,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "actual": 2.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 22.6,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 21.8,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 12.2,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 12.6,
+        "need": 1,
+        "actual": 2.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 9.0,
+        "need": 1,
+        "actual": 2.62
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.62
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 2.75
+     },
+     "Thu": {
+      "n_days_curve": 11,
+      "n_days_staff": 4,
+      "need_hours": 16.5,
+      "actual_hours": 24.0,
+      "over_hours": 7.7,
+      "under_hours": 0.2,
+      "over_dollars": 155.0,
+      "under_dollars": 4.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.88
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.38
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 9.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 26.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.4,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 28.6,
+        "need": 3,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 26.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 15.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 16.8,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 10.6,
+        "need": 1,
+        "actual": 2.88
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 6.6,
+        "need": 1,
+        "actual": 2.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.38
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.75
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.0
+     },
+     "Fri": {
+      "n_days_curve": 11,
+      "n_days_staff": 4,
+      "need_hours": 23.5,
+      "actual_hours": 30.4,
+      "over_hours": 8.7,
+      "under_hours": 1.8,
+      "over_dollars": 175.0,
+      "under_dollars": 35.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.62
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.25
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 17.8,
+        "need": 2,
+        "actual": 2.5
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 23.6,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 29.8,
+        "need": 3,
+        "actual": 3.12
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 33.4,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 32.2,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 33.2,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 28.2,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 26.6,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 18.6,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 24.6,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "actual": 1.38
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 9.0,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 4.8,
+        "need": 1,
+        "actual": 0.62
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 2.4,
+        "need": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 0.38
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.75
+     },
+     "Sat": {
+      "n_days_curve": 11,
+      "n_days_staff": 4,
+      "need_hours": 26.5,
+      "actual_hours": 34.9,
+      "over_hours": 9.6,
+      "under_hours": 1.2,
+      "over_dollars": 194.0,
+      "under_dollars": 25.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.75
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "actual": 3.38
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 22.6,
+        "need": 2,
+        "actual": 3.88
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 31.0,
+        "need": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 39.0,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 41.2,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 42.2,
+        "need": 4,
+        "actual": 4.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 46.2,
+        "need": 4,
+        "actual": 4.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 44.0,
+        "need": 4,
+        "actual": 4.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 36.2,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 37.0,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 36.2,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 34.6,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 4.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 23.8,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "actual": 2.12
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 15.4,
+        "need": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 1.25
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 10.0,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 0.62
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.38
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 4.5
+     },
+     "Sun": {
+      "n_days_curve": 11,
+      "n_days_staff": 4,
+      "need_hours": 24.0,
+      "actual_hours": 34.7,
+      "over_hours": 11.4,
+      "under_hours": 0.7,
+      "over_dollars": 230.0,
+      "under_dollars": 14.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.12
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.12
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 2.88
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 13.2,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 25.0,
+        "need": 2,
+        "actual": 3.75
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 29.0,
+        "need": 3,
+        "actual": 3.75
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 36.4,
+        "need": 3,
+        "actual": 4.25
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 37.0,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 43.4,
+        "need": 4,
+        "actual": 4.5
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 35.4,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 32.2,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 39.0,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 34.4,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 32.6,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 25.0,
+        "need": 2,
+        "actual": 3.88
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 21.8,
+        "need": 2,
+        "actual": 3.5
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 19.4,
+        "need": 2,
+        "actual": 3.25
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 12.8,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 9.4,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 1.0,
+        "need": 1,
+        "actual": 0.75
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.12
+       }
+      ],
+      "peak_need": 4,
+      "peak_actual": 4.5
+     }
+    },
+    "slow": {
+     "Mon": {
+      "n_days_curve": 12,
+      "n_days_staff": 7,
+      "need_hours": 19.0,
+      "actual_hours": 23.6,
+      "over_hours": 5.8,
+      "under_hours": 1.2,
+      "over_dollars": 118.0,
+      "under_dollars": 25.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 0.93
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.4,
+        "need": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 10.6,
+        "need": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.8,
+        "need": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.4,
+        "need": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 25.4,
+        "need": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.0,
+        "need": 3,
+        "actual": 2.86
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 22.4,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.6,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 13.6,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 13.6,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.2,
+        "need": 1,
+        "actual": 2.86
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 11.6,
+        "need": 1,
+        "actual": 2.86
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.6,
+        "need": 1,
+        "actual": 2.86
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.79
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.57
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 2.86
+     },
+     "Tue": {
+      "n_days_curve": 13,
+      "n_days_staff": 7,
+      "need_hours": 15.0,
+      "actual_hours": 24.5,
+      "over_hours": 9.9,
+      "under_hours": 0.5,
+      "over_dollars": 201.0,
+      "under_dollars": 9.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.4,
+        "need": 2,
+        "actual": 2.29
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "actual": 2.93
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 22.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 18.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 13.2,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.4,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 8.8,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.0,
+        "need": 1,
+        "actual": 2.71
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.4,
+        "need": 1,
+        "actual": 2.57
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.57
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 3.14
+     },
+     "Wed": {
+      "n_days_curve": 13,
+      "n_days_staff": 7,
+      "need_hours": 15.0,
+      "actual_hours": 24.6,
+      "over_hours": 9.8,
+      "under_hours": 0.3,
+      "over_dollars": 199.0,
+      "under_dollars": 6.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.43
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 13.6,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 23.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 26.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.8,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 13.6,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.0,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 12.2,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.4,
+        "need": 1,
+        "actual": 3.14
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 10.4,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 5.0,
+        "need": 1,
+        "actual": 2.79
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.64
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.43
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 3.14
+     },
+     "Thu": {
+      "n_days_curve": 13,
+      "n_days_staff": 7,
+      "need_hours": 15.0,
+      "actual_hours": 24.4,
+      "over_hours": 9.9,
+      "under_hours": 0.4,
+      "over_dollars": 200.0,
+      "under_dollars": 9.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.5
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "actual": 2.71
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 24.2,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 23.0,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.0,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.0,
+        "need": 1,
+        "actual": 3.14
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.8,
+        "need": 1,
+        "actual": 3.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 6.4,
+        "need": 1,
+        "actual": 2.86
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 2.65
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.64
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 3.14
+     },
+     "Fri": {
+      "n_days_curve": 13,
+      "n_days_staff": 7,
+      "need_hours": 21.5,
+      "actual_hours": 31.1,
+      "over_hours": 10.9,
+      "under_hours": 1.3,
+      "over_dollars": 220.0,
+      "under_dollars": 26.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.42
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 7.2,
+        "need": 2,
+        "actual": 2.71
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "actual": 2.71
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 27.2,
+        "need": 2,
+        "actual": 3.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 31.0,
+        "need": 3,
+        "actual": 3.79
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 27.6,
+        "need": 2,
+        "actual": 3.86
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 24.4,
+        "need": 2,
+        "actual": 3.79
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 24.0,
+        "need": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 17.0,
+        "need": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "actual": 3.71
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 16.6,
+        "need": 2,
+        "actual": 3.57
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "actual": 3.57
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "actual": 3.43
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 9.8,
+        "need": 2,
+        "actual": 2.35
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 7.6,
+        "need": 1,
+        "actual": 1.43
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 5.6,
+        "need": 1,
+        "actual": 0.71
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 3.2,
+        "need": 1,
+        "actual": 0.71
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 0.57
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 3.86
+     },
+     "Sat": {
+      "n_days_curve": 13,
+      "n_days_staff": 7,
+      "need_hours": 24.5,
+      "actual_hours": 36.8,
+      "over_hours": 13.3,
+      "under_hours": 1.1,
+      "over_dollars": 269.0,
+      "under_dollars": 22.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.07
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.2,
+        "need": 2,
+        "actual": 2.93
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.4,
+        "need": 2,
+        "actual": 3.57
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 27.0,
+        "need": 2,
+        "actual": 4.21
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "actual": 4.5
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 33.0,
+        "need": 3,
+        "actual": 4.86
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 38.8,
+        "need": 3,
+        "actual": 4.86
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 38.8,
+        "need": 3,
+        "actual": 4.86
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 29.6,
+        "need": 3,
+        "actual": 4.86
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 30.0,
+        "need": 3,
+        "actual": 4.86
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 30.4,
+        "need": 3,
+        "actual": 4.86
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 28.8,
+        "need": 3,
+        "actual": 4.86
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.8,
+        "need": 3,
+        "actual": 4.71
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 19.6,
+        "need": 2,
+        "actual": 4.64
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 4.21
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "actual": 2.79
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 1.93
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 1.43
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 7.8,
+        "need": 1,
+        "actual": 0.93
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.4,
+        "need": 1,
+        "actual": 0.71
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.0
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 4.86
+     },
+     "Sun": {
+      "n_days_curve": 12,
+      "n_days_staff": 7,
+      "need_hours": 21.5,
+      "actual_hours": 34.9,
+      "over_hours": 13.7,
+      "under_hours": 0.3,
+      "over_dollars": 277.0,
+      "under_dollars": 7.0,
+      "by_halfhour": [
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.07
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.15
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 2.57
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.4,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 3.29
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 22.4,
+        "need": 2,
+        "actual": 3.64
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 28.0,
+        "need": 2,
+        "actual": 4.21
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 31.4,
+        "need": 3,
+        "actual": 4.43
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 35.6,
+        "need": 3,
+        "actual": 4.57
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 39.6,
+        "need": 3,
+        "actual": 4.57
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 33.4,
+        "need": 3,
+        "actual": 4.57
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 29.8,
+        "need": 3,
+        "actual": 4.57
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 4.57
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.6,
+        "need": 2,
+        "actual": 4.14
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 22.4,
+        "need": 2,
+        "actual": 3.86
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 3.14
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 2.86
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 12.0,
+        "need": 1,
+        "actual": 2.29
+       },
+       {
+        "t": 16.0,
+        "txns_hr": 5.8,
+        "need": 1,
+        "actual": 1.43
+       },
+       {
+        "t": 16.5,
+        "txns_hr": 4.2,
+        "need": 1,
+        "actual": 1.07
+       },
+       {
+        "t": 17.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 17.5,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.35
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 4.57
+     }
+    }
+   }
+  },
+  "1899 Penn": {
+   "avg_core_rate": 20.84,
+   "tiers": {
+    "busy": {
+     "Mon": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 16.5,
+      "actual_hours": 17.7,
+      "over_hours": 2.6,
+      "under_hours": 1.4,
+      "over_dollars": 55.0,
+      "under_dollars": 29.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.6,
+        "need": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.4,
+        "need": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 12.0,
+        "need": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 13.6,
+        "need": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 15.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 13.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 11.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 11.8,
+        "need": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 9.2,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.0,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.34
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.33
+     },
+     "Tue": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 18.0,
+      "actual_hours": 18.2,
+      "over_hours": 0.8,
+      "under_hours": 0.7,
+      "over_dollars": 17.0,
+      "under_dollars": 14.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.33
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 15.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 26.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 25.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 27.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 12.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 14.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 37.2,
+        "need": 3,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.34
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 2.0
+     },
+     "Wed": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 19.0,
+      "actual_hours": 20.6,
+      "over_hours": 2.8,
+      "under_hours": 1.3,
+      "over_dollars": 59.0,
+      "under_dollars": 26.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.34
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 27.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 28.8,
+        "need": 3,
+        "actual": 2.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 14.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 14.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 12.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 30.2,
+        "need": 3,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 28.8,
+        "need": 3,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.2,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.5
+       }
+      ],
+      "peak_need": 3,
+      "peak_actual": 2.33
+     },
+     "Thu": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 17.0,
+      "actual_hours": 20.5,
+      "over_hours": 3.5,
+      "under_hours": 0.0,
+      "over_dollars": 72.0,
+      "under_dollars": 0.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.17
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 26.4,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 23.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 21.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 13.6,
+        "need": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.2,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.17
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.33
+     },
+     "Fri": {
+      "n_days_curve": 6,
+      "n_days_staff": 3,
+      "need_hours": 16.0,
+      "actual_hours": 16.8,
+      "over_hours": 1.2,
+      "under_hours": 0.4,
+      "over_dollars": 26.0,
+      "under_dollars": 9.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.34
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 5.6,
+        "need": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 10.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 14.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 13.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 9.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 7.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 6.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 6.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 10.6,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 7.4,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 6.4,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.4,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.5
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     }
+    },
+    "mid": {
+     "Mon": {
+      "n_days_curve": 15,
+      "n_days_staff": 7,
+      "need_hours": 16.5,
+      "actual_hours": 16.1,
+      "over_hours": 0.7,
+      "under_hours": 1.1,
+      "over_dollars": 14.0,
+      "under_dollars": 22.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.07
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.21
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 2.8,
+        "need": 2,
+        "actual": 1.57
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.6,
+        "need": 2,
+        "actual": 1.57
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 7.6,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 12.4,
+        "need": 2,
+        "actual": 1.93
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 11.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 10.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 7.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 7.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 5.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 18.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 1.71
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 11.0,
+        "need": 1,
+        "actual": 1.21
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 11.4,
+        "need": 1,
+        "actual": 1.14
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.6,
+        "need": 1,
+        "actual": 1.14
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.71
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     },
+     "Tue": {
+      "n_days_curve": 17,
+      "n_days_staff": 7,
+      "need_hours": 17.0,
+      "actual_hours": 17.8,
+      "over_hours": 1.2,
+      "under_hours": 0.5,
+      "over_dollars": 26.0,
+      "under_dollars": 10.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 1.64
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.6,
+        "need": 2,
+        "actual": 1.71
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 21.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 14.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 22.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 19.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 10.4,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 1.0,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.5
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     },
+     "Wed": {
+      "n_days_curve": 17,
+      "n_days_staff": 7,
+      "need_hours": 17.0,
+      "actual_hours": 17.8,
+      "over_hours": 1.2,
+      "under_hours": 0.5,
+      "over_dollars": 26.0,
+      "under_dollars": 10.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.07
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.36
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.8,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 10.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 22.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 20.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 14.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 13.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 8.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 8.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 15.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 19.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 25.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.6,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.8,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.2,
+        "need": 0,
+        "actual": 0.43
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     },
+     "Thu": {
+      "n_days_curve": 17,
+      "n_days_staff": 7,
+      "need_hours": 17.0,
+      "actual_hours": 18.9,
+      "over_hours": 2.0,
+      "under_hours": 0.1,
+      "over_dollars": 42.0,
+      "under_dollars": 2.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.21
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.79
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 4.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.6,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 21.6,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 18.8,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 12.6,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 2.14
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 22.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 13.6,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.8,
+        "need": 1,
+        "actual": 1.79
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.65
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.14
+     },
+     "Fri": {
+      "n_days_curve": 17,
+      "n_days_staff": 7,
+      "need_hours": 16.0,
+      "actual_hours": 15.2,
+      "over_hours": 0.5,
+      "under_hours": 1.3,
+      "over_dollars": 11.0,
+      "under_dollars": 27.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.14
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 1.15
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.0,
+        "need": 2,
+        "actual": 1.57
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 6.0,
+        "need": 2,
+        "actual": 1.64
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 8.2,
+        "need": 2,
+        "actual": 1.85
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 10.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 11.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 10.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 10.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 8.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 5.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 4.2,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 4.2,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 8.8,
+        "need": 2,
+        "actual": 1.86
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.8,
+        "need": 2,
+        "actual": 1.64
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 8.8,
+        "need": 1,
+        "actual": 1.29
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 8.0,
+        "need": 1,
+        "actual": 1.29
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 4.2,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.28
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     }
+    },
+    "slow": {
+     "Mon": {
+      "n_days_curve": 7,
+      "n_days_staff": 3,
+      "need_hours": 16.0,
+      "actual_hours": 15.2,
+      "over_hours": 0.8,
+      "under_hours": 1.6,
+      "over_dollars": 17.0,
+      "under_dollars": 33.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.17
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 0.5
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 2.0,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.8,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 5.8,
+        "need": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 13.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 10.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 6.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 6.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 3.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 2.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 7.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.2,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 7.2,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 5.2,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.0,
+        "need": 1,
+        "actual": 0.83
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.17
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     },
+     "Tue": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 16.5,
+      "actual_hours": 18.6,
+      "over_hours": 3.2,
+      "under_hours": 1.2,
+      "over_dollars": 67.0,
+      "under_dollars": 24.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.17
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.2,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 1.6,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 7.0,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 10.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 13.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 18.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 9.8,
+        "need": 2,
+        "actual": 2.17
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 7.8,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 7.2,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 6.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 15.6,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 18.4,
+        "need": 2,
+        "actual": 2.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 13.0,
+        "need": 1,
+        "actual": 2.33
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 10.8,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 2.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.83
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.33
+     },
+     "Wed": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 17.0,
+      "actual_hours": 15.9,
+      "over_hours": 0.9,
+      "under_hours": 2.0,
+      "over_dollars": 19.0,
+      "under_dollars": 42.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.2,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 8.2,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 17.2,
+        "need": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 16.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 17.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 12.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 11.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 7.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 14.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 20.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 19.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 20.2,
+        "need": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 8.0,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.5
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.33
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     },
+     "Thu": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 17.0,
+      "actual_hours": 16.7,
+      "over_hours": 0.9,
+      "under_hours": 1.2,
+      "over_dollars": 19.0,
+      "under_dollars": 24.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 1.17
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 3.2,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 9.0,
+        "need": 2,
+        "actual": 1.33
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 11.0,
+        "need": 2,
+        "actual": 1.83
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 19.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 16.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 19.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 13.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 10.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 7.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 7.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 16.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 15.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 20.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 15.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 12.4,
+        "need": 1,
+        "actual": 1.83
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.4,
+        "need": 1,
+        "actual": 1.67
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.33
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     },
+     "Fri": {
+      "n_days_curve": 8,
+      "n_days_staff": 3,
+      "need_hours": 16.0,
+      "actual_hours": 14.1,
+      "over_hours": 0.6,
+      "under_hours": 2.5,
+      "over_dollars": 12.0,
+      "under_dollars": 52.0,
+      "by_halfhour": [
+       {
+        "t": 5.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.0,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.0
+       },
+       {
+        "t": 6.5,
+        "txns_hr": 0.0,
+        "need": 2,
+        "actual": 0.83
+       },
+       {
+        "t": 7.0,
+        "txns_hr": 2.0,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 7.5,
+        "txns_hr": 5.8,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 8.0,
+        "txns_hr": 4.8,
+        "need": 2,
+        "actual": 1.0
+       },
+       {
+        "t": 8.5,
+        "txns_hr": 10.0,
+        "need": 2,
+        "actual": 1.5
+       },
+       {
+        "t": 9.0,
+        "txns_hr": 6.4,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 9.5,
+        "txns_hr": 9.8,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.0,
+        "txns_hr": 9.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 10.5,
+        "txns_hr": 6.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.0,
+        "txns_hr": 8.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 11.5,
+        "txns_hr": 3.6,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.0,
+        "txns_hr": 4.2,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 12.5,
+        "txns_hr": 6.0,
+        "need": 2,
+        "actual": 2.0
+       },
+       {
+        "t": 13.0,
+        "txns_hr": 10.8,
+        "need": 2,
+        "actual": 1.67
+       },
+       {
+        "t": 13.5,
+        "txns_hr": 7.2,
+        "need": 1,
+        "actual": 1.33
+       },
+       {
+        "t": 14.0,
+        "txns_hr": 5.8,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 14.5,
+        "txns_hr": 3.6,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.0,
+        "txns_hr": 0.2,
+        "need": 1,
+        "actual": 1.0
+       },
+       {
+        "t": 15.5,
+        "txns_hr": 0.0,
+        "need": 0,
+        "actual": 0.33
+       }
+      ],
+      "peak_need": 2,
+      "peak_actual": 2.0
+     }
+    }
+   }
+  }
+ }
+}

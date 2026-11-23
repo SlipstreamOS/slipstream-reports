@@ -1,0 +1,1768 @@
+{
+  "week_start": "2026-06-28",
+  "week_end": "2026-07-04",
+  "generated_at": "2026-07-06T00:09:04.357152+00:00",
+  "per_cafe_per_day": {
+    "Downtown": {
+      "2026-06-30": {
+        "orders": 232,
+        "net_sales_cents": 193312,
+        "discount_cents": 4688,
+        "tax_cents": 19216,
+        "tip_cents": 24352,
+        "grand_total_cents": 278211,
+        "by_category": {
+          "coffee_bev": 123239,
+          "food": 49295,
+          "other": 18262,
+          "retail_coffee": 2513,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 273
+        },
+        "items": {
+          "Nitro Iced Coffee": {
+            "units": 58,
+            "gross_cents": 33075
+          },
+          "Latte": {
+            "units": 57,
+            "gross_cents": 30200
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 34,
+            "gross_cents": 21300
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 29,
+            "gross_cents": 12500
+          },
+          "Cappuccino": {
+            "units": 24,
+            "gross_cents": 11600
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 11,
+            "gross_cents": 10450
+          },
+          "Banana Bread": {
+            "units": 16,
+            "gross_cents": 8800
+          },
+          "Americano": {
+            "units": 20,
+            "gross_cents": 8000
+          },
+          "Magic Matcha": {
+            "units": 11,
+            "gross_cents": 7300
+          },
+          "Chai": {
+            "units": 12,
+            "gross_cents": 7200
+          },
+          "Smoked Salmon Toast": {
+            "units": 4,
+            "gross_cents": 5700
+          },
+          "Brown Butter Chocolate Chip Cookie": {
+            "units": 11,
+            "gross_cents": 4950
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 5,
+            "gross_cents": 4900
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 8,
+            "gross_cents": 4800
+          },
+          "Avocado Toast": {
+            "units": 4,
+            "gross_cents": 4650
+          },
+          "Cortado": {
+            "units": 9,
+            "gross_cents": 4050
+          },
+          "Snow Jasmine Tea": {
+            "units": 8,
+            "gross_cents": 4000
+          },
+          "Snow Jasmine Box": {
+            "units": 1,
+            "gross_cents": 3800
+          },
+          "Yogurt Parfait": {
+            "units": 5,
+            "gross_cents": 3750
+          },
+          "Tokyo Banana": {
+            "units": 5,
+            "gross_cents": 3425
+          }
+        },
+        "avg_ticket_cents": 870.1642335766423,
+        "tip_pct_of_net": 12.517563175002621
+      },
+      "2026-06-29": {
+        "orders": 155,
+        "net_sales_cents": 182550,
+        "discount_cents": 5933,
+        "tax_cents": 18058,
+        "tip_cents": 17540,
+        "grand_total_cents": 218975,
+        "by_category": {
+          "food": 38701,
+          "coffee_bev": 75725,
+          "other": 19515,
+          "retail_coffee": 5307,
+          "catering": 43300
+        },
+        "by_fulfillment": {
+          "PICKUP": 144,
+          "IN_STORE": 2
+        },
+        "items": {
+          "Nitro Iced Coffee": {
+            "units": 28,
+            "gross_cents": 15725
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 28,
+            "gross_cents": 11625
+          },
+          "Latte": {
+            "units": 20,
+            "gross_cents": 10500
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 16,
+            "gross_cents": 10300
+          },
+          "Smoked Salmon Toast": {
+            "units": 6,
+            "gross_cents": 8100
+          },
+          "Avocado Toast": {
+            "units": 7,
+            "gross_cents": 7950
+          },
+          "Fruit Cup": {
+            "units": 12,
+            "gross_cents": 7800
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 8,
+            "gross_cents": 7600
+          },
+          "Banana Bread": {
+            "units": 13,
+            "gross_cents": 7150
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 7,
+            "gross_cents": 6300
+          },
+          "Chicken and Rice Bowl": {
+            "units": 4,
+            "gross_cents": 5700
+          },
+          "Breakfast Bowl": {
+            "units": 5,
+            "gross_cents": 5650
+          },
+          "Slipstream 360 Traveler Mug (MiiR)": {
+            "units": 2,
+            "gross_cents": 5590
+          },
+          "1.5 Gallon air pot - COMFORT": {
+            "units": 1,
+            "gross_cents": 4600
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 5,
+            "gross_cents": 4500
+          },
+          "Cappuccino": {
+            "units": 9,
+            "gross_cents": 4350
+          },
+          "Magic Matcha": {
+            "units": 6,
+            "gross_cents": 4000
+          },
+          "Americano": {
+            "units": 10,
+            "gross_cents": 4000
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 5,
+            "gross_cents": 3000
+          },
+          "96oz Box of Comfort": {
+            "units": 1,
+            "gross_cents": 3000
+          }
+        },
+        "avg_ticket_cents": 1240.578231292517,
+        "tip_pct_of_net": 8.904669207358868
+      },
+      "2026-07-01": {
+        "orders": 226,
+        "net_sales_cents": 207552,
+        "discount_cents": 5268,
+        "tax_cents": 20392,
+        "tip_cents": 28465,
+        "grand_total_cents": 256409,
+        "by_category": {
+          "coffee_bev": 124913,
+          "food": 51639,
+          "retail_coffee": 3358,
+          "other": 27640,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 224,
+          "IN_STORE": 1
+        },
+        "items": {
+          "Nitro Iced Coffee": {
+            "units": 49,
+            "gross_cents": 28550
+          },
+          "Latte": {
+            "units": 46,
+            "gross_cents": 24700
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 20,
+            "gross_cents": 12600
+          },
+          "Cappuccino": {
+            "units": 26,
+            "gross_cents": 12400
+          },
+          "Chai": {
+            "units": 17,
+            "gross_cents": 10450
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 10,
+            "gross_cents": 9800
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 22,
+            "gross_cents": 9750
+          },
+          "Chicken and Rice Bowl": {
+            "units": 6,
+            "gross_cents": 8100
+          },
+          "Banana Bread": {
+            "units": 11,
+            "gross_cents": 6050
+          },
+          "Avocado Toast": {
+            "units": 5,
+            "gross_cents": 5500
+          },
+          "Magic Matcha": {
+            "units": 8,
+            "gross_cents": 5200
+          },
+          "Americano": {
+            "units": 12,
+            "gross_cents": 5000
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 5,
+            "gross_cents": 4500
+          },
+          "Yogurt Parfait": {
+            "units": 6,
+            "gross_cents": 4500
+          },
+          "Espresso Tonic": {
+            "units": 8,
+            "gross_cents": 4500
+          },
+          "Banoffee Shakerado": {
+            "units": 6,
+            "gross_cents": 4300
+          },
+          "Blueberry Gluten Free Muffin": {
+            "units": 9,
+            "gross_cents": 4050
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 4,
+            "gross_cents": 3600
+          },
+          "Song Red Tea": {
+            "units": 7,
+            "gross_cents": 3500
+          },
+          "Tokyo Banana": {
+            "units": 5,
+            "gross_cents": 3125
+          }
+        },
+        "avg_ticket_cents": 943.4513274336283,
+        "tip_pct_of_net": 13.350060969890254
+      },
+      "2026-07-02": {
+        "orders": 121,
+        "net_sales_cents": 114335,
+        "discount_cents": 3040,
+        "tax_cents": 11161,
+        "tip_cents": 15904,
+        "grand_total_cents": 141813,
+        "by_category": {
+          "coffee_bev": 57313,
+          "food": 41947,
+          "other": 15074,
+          "catering": 0,
+          "retail_coffee": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 121
+        },
+        "items": {
+          "Nitro Iced Coffee": {
+            "units": 23,
+            "gross_cents": 13100
+          },
+          "Latte": {
+            "units": 21,
+            "gross_cents": 11200
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 13,
+            "gross_cents": 8200
+          },
+          "Avocado Toast": {
+            "units": 5,
+            "gross_cents": 5750
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 6,
+            "gross_cents": 5700
+          },
+          "Banana Bread": {
+            "units": 8,
+            "gross_cents": 4400
+          },
+          "Cappuccino": {
+            "units": 9,
+            "gross_cents": 4350
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 10,
+            "gross_cents": 4250
+          },
+          "Americano": {
+            "units": 9,
+            "gross_cents": 3900
+          },
+          "Blueberry Gluten Free Muffin": {
+            "units": 8,
+            "gross_cents": 3600
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 6,
+            "gross_cents": 3600
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 4,
+            "gross_cents": 3600
+          },
+          "Yogurt Parfait": {
+            "units": 4,
+            "gross_cents": 3000
+          },
+          "Breakfast Bowl": {
+            "units": 3,
+            "gross_cents": 3000
+          },
+          "Chai": {
+            "units": 5,
+            "gross_cents": 2850
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 3,
+            "gross_cents": 2700
+          },
+          "Turkey Club Sandwich": {
+            "units": 2,
+            "gross_cents": 2700
+          },
+          "Banoffee Shakerado": {
+            "units": 4,
+            "gross_cents": 2700
+          },
+          "Chicken and Rice Bowl": {
+            "units": 2,
+            "gross_cents": 2600
+          },
+          "Thoughtful Mocha": {
+            "units": 4,
+            "gross_cents": 2400
+          }
+        },
+        "avg_ticket_cents": 973.1404958677685,
+        "tip_pct_of_net": 13.506581740976644
+      }
+    },
+    "Studio": {
+      "2026-06-28": {
+        "orders": 220,
+        "net_sales_cents": 220025,
+        "discount_cents": 4400,
+        "tax_cents": 22006,
+        "tip_cents": 24688,
+        "grand_total_cents": 265234,
+        "by_category": {
+          "food": 76562,
+          "coffee_bev": 104839,
+          "retail_coffee": 5234,
+          "other": 33389,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "IN_STORE": 122,
+          "PICKUP": 94
+        },
+        "items": {
+          "Tahitian Vanilla Latte": {
+            "units": 40,
+            "gross_cents": 25300
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 18,
+            "gross_cents": 17100
+          },
+          "Latte": {
+            "units": 32,
+            "gross_cents": 17000
+          },
+          "Nitro Iced Coffee": {
+            "units": 22,
+            "gross_cents": 12000
+          },
+          "Cappuccino": {
+            "units": 26,
+            "gross_cents": 11900
+          },
+          "Banana Bread": {
+            "units": 20,
+            "gross_cents": 11000
+          },
+          "Banoffee Shakerado": {
+            "units": 14,
+            "gross_cents": 9600
+          },
+          "Turkey Club Sandwich": {
+            "units": 6,
+            "gross_cents": 8100
+          },
+          "Cortado": {
+            "units": 15,
+            "gross_cents": 7050
+          },
+          "Avocado Toast": {
+            "units": 6,
+            "gross_cents": 6850
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 11,
+            "gross_cents": 6600
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 15,
+            "gross_cents": 6125
+          },
+          "Breakfast Bowl": {
+            "units": 5,
+            "gross_cents": 5750
+          },
+          "Chicken and Rice Bowl": {
+            "units": 4,
+            "gross_cents": 5200
+          },
+          "Chai": {
+            "units": 7,
+            "gross_cents": 4550
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 5,
+            "gross_cents": 4500
+          },
+          "Thoughtful Mocha": {
+            "units": 7,
+            "gross_cents": 4300
+          },
+          "Cajun chicken Sandwich": {
+            "units": 3,
+            "gross_cents": 4200
+          },
+          "Americano": {
+            "units": 10,
+            "gross_cents": 4100
+          },
+          "Smoked Salmon Toast": {
+            "units": 3,
+            "gross_cents": 4050
+          }
+        },
+        "avg_ticket_cents": 1017.5339366515838,
+        "tip_pct_of_net": 10.978543635352974
+      },
+      "2026-06-29": {
+        "orders": 140,
+        "net_sales_cents": 124852,
+        "discount_cents": 3651,
+        "tax_cents": 12192,
+        "tip_cents": 14760,
+        "grand_total_cents": 152296,
+        "by_category": {
+          "coffee_bev": 73149,
+          "other": 15346,
+          "food": 36356,
+          "catering": 0,
+          "retail_coffee": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 55,
+          "IN_STORE": 83
+        },
+        "items": {
+          "Tahitian Vanilla Latte": {
+            "units": 28,
+            "gross_cents": 18000
+          },
+          "Nitro Iced Coffee": {
+            "units": 27,
+            "gross_cents": 15200
+          },
+          "Latte": {
+            "units": 24,
+            "gross_cents": 13000
+          },
+          "Smoked Salmon Toast": {
+            "units": 6,
+            "gross_cents": 8100
+          },
+          "Magic Matcha": {
+            "units": 10,
+            "gross_cents": 6800
+          },
+          "Cappuccino": {
+            "units": 11,
+            "gross_cents": 5050
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 5,
+            "gross_cents": 5050
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 10,
+            "gross_cents": 4375
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 4,
+            "gross_cents": 3900
+          },
+          "Avocado Toast": {
+            "units": 3,
+            "gross_cents": 3800
+          },
+          "Banoffee Shakerado": {
+            "units": 5,
+            "gross_cents": 3350
+          },
+          "Banana Bread": {
+            "units": 6,
+            "gross_cents": 3300
+          },
+          "Chai": {
+            "units": 5,
+            "gross_cents": 3150
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 3,
+            "gross_cents": 2700
+          },
+          "Filter - Daily Selection": {
+            "units": 5,
+            "gross_cents": 2625
+          },
+          "Cajun chicken Sandwich": {
+            "units": 2,
+            "gross_cents": 2600
+          },
+          "Gift Card": {
+            "units": 1,
+            "gross_cents": 2500
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 4,
+            "gross_cents": 2400
+          },
+          "Breakfast Bowl": {
+            "units": 2,
+            "gross_cents": 2400
+          },
+          "Cortado": {
+            "units": 5,
+            "gross_cents": 2350
+          }
+        },
+        "avg_ticket_cents": 921.0714285714286,
+        "tip_pct_of_net": 11.446297014346646
+      },
+      "2026-06-30": {
+        "orders": 125,
+        "net_sales_cents": 110007,
+        "discount_cents": 2574,
+        "tax_cents": 10969,
+        "tip_cents": 13631,
+        "grand_total_cents": 135783,
+        "by_category": {
+          "other": 12559,
+          "coffee_bev": 64634,
+          "food": 30199,
+          "retail_coffee": 2613,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 72,
+          "IN_STORE": 51
+        },
+        "items": {
+          "Nitro Iced Coffee": {
+            "units": 28,
+            "gross_cents": 16250
+          },
+          "Latte": {
+            "units": 24,
+            "gross_cents": 12500
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 17,
+            "gross_cents": 10600
+          },
+          "Cappuccino": {
+            "units": 14,
+            "gross_cents": 7000
+          },
+          "Breakfast Bowl": {
+            "units": 4,
+            "gross_cents": 4100
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 4,
+            "gross_cents": 4000
+          },
+          "Americano": {
+            "units": 9,
+            "gross_cents": 3700
+          },
+          "Banoffee Shakerado": {
+            "units": 5,
+            "gross_cents": 3550
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 8,
+            "gross_cents": 3500
+          },
+          "Banana Bread": {
+            "units": 6,
+            "gross_cents": 3300
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 5,
+            "gross_cents": 3000
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 3,
+            "gross_cents": 2850
+          },
+          "[Floral] Aleta Wondo Washed - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 2700
+          },
+          "Blueberry Gluten Free Muffin": {
+            "units": 6,
+            "gross_cents": 2700
+          },
+          "Turkey Club Sandwich": {
+            "units": 2,
+            "gross_cents": 2700
+          },
+          "Chicken and Rice Bowl": {
+            "units": 2,
+            "gross_cents": 2600
+          },
+          "Snow Jasmine Tea": {
+            "units": 5,
+            "gross_cents": 2500
+          },
+          "Brown Butter Chocolate Chip Cookie": {
+            "units": 5,
+            "gross_cents": 2250
+          },
+          "Thoughtful Mocha": {
+            "units": 3,
+            "gross_cents": 2100
+          },
+          "Magic Matcha": {
+            "units": 3,
+            "gross_cents": 1900
+          }
+        },
+        "avg_ticket_cents": 909.2,
+        "tip_pct_of_net": 11.993840739111308
+      },
+      "2026-07-01": {
+        "orders": 121,
+        "net_sales_cents": 115750,
+        "discount_cents": 4375,
+        "tax_cents": 11576,
+        "tip_cents": 13943,
+        "grand_total_cents": 141269,
+        "by_category": {
+          "coffee_bev": 57670,
+          "food": 37820,
+          "other": 14477,
+          "retail_coffee": 5781,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 53,
+          "IN_STORE": 68
+        },
+        "items": {
+          "Nitro Iced Coffee": {
+            "units": 30,
+            "gross_cents": 17000
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 12,
+            "gross_cents": 11400
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 18,
+            "gross_cents": 11200
+          },
+          "Avocado Toast": {
+            "units": 6,
+            "gross_cents": 8100
+          },
+          "Latte": {
+            "units": 13,
+            "gross_cents": 7000
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 14,
+            "gross_cents": 6000
+          },
+          "Cappuccino": {
+            "units": 12,
+            "gross_cents": 5400
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 8,
+            "gross_cents": 4800
+          },
+          "Breakfast Bowl": {
+            "units": 4,
+            "gross_cents": 4700
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 3,
+            "gross_cents": 2700
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 3,
+            "gross_cents": 2700
+          },
+          "Filter - Daily Selection": {
+            "units": 5,
+            "gross_cents": 2625
+          },
+          "Yogurt Parfait": {
+            "units": 3,
+            "gross_cents": 2250
+          },
+          "[Bright] Ibonia Estate AB - Whole bean coffee": {
+            "units": 1,
+            "gross_cents": 2200
+          },
+          "Banoffee Shakerado": {
+            "units": 3,
+            "gross_cents": 2150
+          },
+          "Snow Jasmine Tea": {
+            "units": 4,
+            "gross_cents": 2000
+          },
+          "[Floral] Las Esmeraldas Colombia - Women's project - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 1950
+          },
+          "Thoughtful Mocha": {
+            "units": 3,
+            "gross_cents": 1900
+          },
+          "[Fruit] Endele Uganda - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 1850
+          },
+          "Brown Butter Chocolate Chip Cookie": {
+            "units": 4,
+            "gross_cents": 1800
+          }
+        },
+        "avg_ticket_cents": 992.7685950413223,
+        "tip_pct_of_net": 11.607075962539023
+      },
+      "2026-07-02": {
+        "orders": 147,
+        "net_sales_cents": 147528,
+        "discount_cents": 3772,
+        "tax_cents": 14667,
+        "tip_cents": 17302,
+        "grand_total_cents": 180075,
+        "by_category": {
+          "coffee_bev": 74261,
+          "food": 51840,
+          "other": 18024,
+          "retail_coffee": 3400,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "IN_STORE": 71,
+          "PICKUP": 74
+        },
+        "items": {
+          "Tahitian Vanilla Latte": {
+            "units": 35,
+            "gross_cents": 22400
+          },
+          "Nitro Iced Coffee": {
+            "units": 33,
+            "gross_cents": 19375
+          },
+          "Latte": {
+            "units": 25,
+            "gross_cents": 13600
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 13,
+            "gross_cents": 12350
+          },
+          "Banoffee Shakerado": {
+            "units": 11,
+            "gross_cents": 7450
+          },
+          "Banana Bread": {
+            "units": 13,
+            "gross_cents": 7150
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 7,
+            "gross_cents": 6700
+          },
+          "Cappuccino": {
+            "units": 10,
+            "gross_cents": 5000
+          },
+          "Avocado Toast": {
+            "units": 4,
+            "gross_cents": 4900
+          },
+          "Smoked Salmon Toast": {
+            "units": 3,
+            "gross_cents": 4350
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 4,
+            "gross_cents": 3600
+          },
+          "Thoughtful Mocha": {
+            "units": 4,
+            "gross_cents": 2600
+          },
+          "Cajun chicken Sandwich": {
+            "units": 2,
+            "gross_cents": 2600
+          },
+          "Americano": {
+            "units": 6,
+            "gross_cents": 2400
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 4,
+            "gross_cents": 2400
+          },
+          "Smashed Chickpea Sandwich": {
+            "units": 2,
+            "gross_cents": 2400
+          },
+          "Yogurt Parfait": {
+            "units": 3,
+            "gross_cents": 2250
+          },
+          "Brown Butter Chocolate Chip Cookie": {
+            "units": 5,
+            "gross_cents": 2250
+          },
+          "Espresso Tonic": {
+            "units": 4,
+            "gross_cents": 2200
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 5,
+            "gross_cents": 2125
+          }
+        },
+        "avg_ticket_cents": 1032.8231292517007,
+        "tip_pct_of_net": 11.396015149020254
+      },
+      "2026-07-03": {
+        "orders": 168,
+        "net_sales_cents": 169957,
+        "discount_cents": 1812,
+        "tax_cents": 16912,
+        "tip_cents": 20044,
+        "grand_total_cents": 209643,
+        "by_category": {
+          "coffee_bev": 94366,
+          "food": 57936,
+          "other": 16142,
+          "retail_coffee": 1511,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 84,
+          "IN_STORE": 83
+        },
+        "items": {
+          "Latte": {
+            "units": 39,
+            "gross_cents": 20600
+          },
+          "Nitro Iced Coffee": {
+            "units": 35,
+            "gross_cents": 20325
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 25,
+            "gross_cents": 15900
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 15,
+            "gross_cents": 14850
+          },
+          "Magic Matcha": {
+            "units": 13,
+            "gross_cents": 8800
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 8,
+            "gross_cents": 7450
+          },
+          "Smoked Salmon Toast": {
+            "units": 5,
+            "gross_cents": 7300
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 7,
+            "gross_cents": 6300
+          },
+          "Americano": {
+            "units": 15,
+            "gross_cents": 6100
+          },
+          "Cappuccino": {
+            "units": 13,
+            "gross_cents": 6050
+          },
+          "Espresso Tonic": {
+            "units": 9,
+            "gross_cents": 4950
+          },
+          "Breakfast Bowl": {
+            "units": 4,
+            "gross_cents": 4950
+          },
+          "Banana Bread": {
+            "units": 8,
+            "gross_cents": 4400
+          },
+          "Thoughtful Mocha": {
+            "units": 6,
+            "gross_cents": 3800
+          },
+          "Tokyo Banana": {
+            "units": 5,
+            "gross_cents": 3325
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 5,
+            "gross_cents": 3000
+          },
+          "Blueberry Gluten Free Muffin": {
+            "units": 6,
+            "gross_cents": 2700
+          },
+          "Filter - Daily Selection": {
+            "units": 5,
+            "gross_cents": 2625
+          },
+          "Cajun chicken Sandwich": {
+            "units": 2,
+            "gross_cents": 2600
+          },
+          "Avocado Toast": {
+            "units": 2,
+            "gross_cents": 2450
+          }
+        },
+        "avg_ticket_cents": 1037.202380952381,
+        "tip_pct_of_net": 11.503012912482067
+      },
+      "2026-07-04": {
+        "orders": 128,
+        "net_sales_cents": 121955,
+        "discount_cents": 5320,
+        "tax_cents": 12151,
+        "tip_cents": 11524,
+        "grand_total_cents": 145630,
+        "by_category": {
+          "other": 12600,
+          "coffee_bev": 70834,
+          "retail_coffee": 1485,
+          "food": 37034,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "IN_STORE": 59,
+          "PICKUP": 68
+        },
+        "items": {
+          "Tahitian Vanilla Latte": {
+            "units": 27,
+            "gross_cents": 17000
+          },
+          "Nitro Iced Coffee": {
+            "units": 28,
+            "gross_cents": 16600
+          },
+          "Latte": {
+            "units": 28,
+            "gross_cents": 15600
+          },
+          "Slipstream Breakfast Sandwich": {
+            "units": 9,
+            "gross_cents": 8550
+          },
+          "Breakfast Bowl": {
+            "units": 5,
+            "gross_cents": 5950
+          },
+          "Bacon and Egg Biscuit Sandwich": {
+            "units": 6,
+            "gross_cents": 5400
+          },
+          "Cappuccino": {
+            "units": 11,
+            "gross_cents": 5350
+          },
+          "Chai": {
+            "units": 7,
+            "gross_cents": 4650
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 9,
+            "gross_cents": 3750
+          },
+          "Avocado Toast": {
+            "units": 3,
+            "gross_cents": 3550
+          },
+          "Jammy Bacon and Egg Sandwich": {
+            "units": 3,
+            "gross_cents": 3500
+          },
+          "Banoffee Shakerado": {
+            "units": 5,
+            "gross_cents": 3350
+          },
+          "Banana Bread": {
+            "units": 6,
+            "gross_cents": 3300
+          },
+          "Americano": {
+            "units": 5,
+            "gross_cents": 2500
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 4,
+            "gross_cents": 2400
+          },
+          "Thoughtful Mocha": {
+            "units": 4,
+            "gross_cents": 2400
+          },
+          "Espresso Tonic": {
+            "units": 3,
+            "gross_cents": 1650
+          },
+          "Smoked Salmon Toast": {
+            "units": 1,
+            "gross_cents": 1650
+          },
+          "[Comfort] Cruise Control - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 1550
+          },
+          "Yogurt Parfait": {
+            "units": 2,
+            "gross_cents": 1500
+          }
+        },
+        "avg_ticket_cents": 994.3359375,
+        "tip_pct_of_net": 9.054409742683166
+      }
+    },
+    "1899 Penn": {
+      "2026-06-29": {
+        "orders": 91,
+        "net_sales_cents": 85175,
+        "discount_cents": 2000,
+        "tax_cents": 8523,
+        "tip_cents": 6014,
+        "grand_total_cents": 102747,
+        "by_category": {
+          "coffee_bev": 46486,
+          "other": 10389,
+          "food": 8253,
+          "retail_coffee": 1844,
+          "catering": 18200
+        },
+        "by_fulfillment": {
+          "IN_STORE": 69,
+          "PICKUP": 22
+        },
+        "items": {
+          "Assorted Pastries (Dozen)": {
+            "units": 2,
+            "gross_cents": 9200
+          },
+          "96oz Box of Comfort": {
+            "units": 3,
+            "gross_cents": 9000
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 14,
+            "gross_cents": 8900
+          },
+          "Nitro Iced Coffee": {
+            "units": 15,
+            "gross_cents": 8875
+          },
+          "Latte": {
+            "units": 11,
+            "gross_cents": 5800
+          },
+          "Cappuccino": {
+            "units": 11,
+            "gross_cents": 5150
+          },
+          "Magic Matcha": {
+            "units": 8,
+            "gross_cents": 5100
+          },
+          "Espresso": {
+            "units": 10,
+            "gross_cents": 3750
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 8,
+            "gross_cents": 3350
+          },
+          "Banana Bread": {
+            "units": 6,
+            "gross_cents": 3300
+          },
+          "Banoffee Shakerado": {
+            "units": 3,
+            "gross_cents": 2050
+          },
+          "Americano": {
+            "units": 5,
+            "gross_cents": 2000
+          },
+          "[Fruit] Danche Natural Ethiopia - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 1900
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 3,
+            "gross_cents": 1800
+          },
+          "Yogurt Parfait": {
+            "units": 2,
+            "gross_cents": 1500
+          },
+          "Cortado": {
+            "units": 3,
+            "gross_cents": 1450
+          },
+          "Tokyo Banana": {
+            "units": 2,
+            "gross_cents": 1350
+          },
+          "Spinach & Parmesan Quiche": {
+            "units": 1,
+            "gross_cents": 950
+          },
+          "Filter - Daily Selection": {
+            "units": 2,
+            "gross_cents": 900
+          },
+          "Brown Butter Chocolate Chip Cookie": {
+            "units": 2,
+            "gross_cents": 900
+          }
+        },
+        "avg_ticket_cents": 937.3655913978495,
+        "tip_pct_of_net": 6.898766848293662
+      },
+      "2026-06-30": {
+        "orders": 154,
+        "net_sales_cents": 111546,
+        "discount_cents": 874,
+        "tax_cents": 11113,
+        "tip_cents": 13924,
+        "grand_total_cents": 136583,
+        "by_category": {
+          "coffee_bev": 80568,
+          "food": 14387,
+          "other": 15052,
+          "retail_coffee": 1537,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 79,
+          "IN_STORE": 75
+        },
+        "items": {
+          "Nitro Iced Coffee": {
+            "units": 28,
+            "gross_cents": 15825
+          },
+          "Latte": {
+            "units": 29,
+            "gross_cents": 15100
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 19,
+            "gross_cents": 11600
+          },
+          "Cappuccino": {
+            "units": 16,
+            "gross_cents": 7700
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 16,
+            "gross_cents": 6225
+          },
+          "Americano": {
+            "units": 13,
+            "gross_cents": 5200
+          },
+          "Espresso": {
+            "units": 11,
+            "gross_cents": 4125
+          },
+          "Cortado": {
+            "units": 8,
+            "gross_cents": 3800
+          },
+          "Banoffee Shakerado": {
+            "units": 5,
+            "gross_cents": 3450
+          },
+          "Banana Bread": {
+            "units": 6,
+            "gross_cents": 3300
+          },
+          "Thoughtful Mocha": {
+            "units": 5,
+            "gross_cents": 3200
+          },
+          "Yogurt Parfait": {
+            "units": 4,
+            "gross_cents": 3000
+          },
+          "Slipstream CAMP Mug (MiiR)": {
+            "units": 1,
+            "gross_cents": 2795
+          },
+          "Magic Matcha": {
+            "units": 4,
+            "gross_cents": 2600
+          },
+          "Ceasar Salad - Grab & Go": {
+            "units": 2,
+            "gross_cents": 2400
+          },
+          "Blueberry Gluten Free Muffin": {
+            "units": 4,
+            "gross_cents": 1800
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 3,
+            "gross_cents": 1800
+          },
+          "Chai": {
+            "units": 3,
+            "gross_cents": 1650
+          },
+          "[Comfort] Cruise Control - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 1550
+          },
+          "Mylk Labs oatmeal": {
+            "units": 3,
+            "gross_cents": 1500
+          }
+        },
+        "avg_ticket_cents": 730.0,
+        "tip_pct_of_net": 12.385696495285536
+      },
+      "2026-07-01": {
+        "orders": 139,
+        "net_sales_cents": 114241,
+        "discount_cents": 3554,
+        "tax_cents": 11425,
+        "tip_cents": 10893,
+        "grand_total_cents": 136559,
+        "by_category": {
+          "coffee_bev": 74482,
+          "other": 21234,
+          "food": 15905,
+          "retail_coffee": 2618,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "IN_STORE": 103,
+          "PICKUP": 36
+        },
+        "items": {
+          "Latte": {
+            "units": 26,
+            "gross_cents": 13400
+          },
+          "Cappuccino": {
+            "units": 25,
+            "gross_cents": 11750
+          },
+          "Nitro Iced Coffee": {
+            "units": 20,
+            "gross_cents": 11125
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 17,
+            "gross_cents": 10900
+          },
+          "Banoffee Shakerado": {
+            "units": 7,
+            "gross_cents": 4950
+          },
+          "Americano": {
+            "units": 11,
+            "gross_cents": 4400
+          },
+          "[Comfort] CRUISE CONTROL": {
+            "units": 9,
+            "gross_cents": 4225
+          },
+          "Cortado": {
+            "units": 9,
+            "gross_cents": 4150
+          },
+          "Tokyo Banana": {
+            "units": 6,
+            "gross_cents": 3950
+          },
+          "Yogurt Parfait": {
+            "units": 5,
+            "gross_cents": 3750
+          },
+          "Magic Matcha": {
+            "units": 6,
+            "gross_cents": 3700
+          },
+          "Banana Bread": {
+            "units": 6,
+            "gross_cents": 3300
+          },
+          "Thoughtful Mocha": {
+            "units": 5,
+            "gross_cents": 3000
+          },
+          "Espresso": {
+            "units": 8,
+            "gross_cents": 3000
+          },
+          "Earl Grey Lavender Loaf": {
+            "units": 5,
+            "gross_cents": 3000
+          },
+          "Slipstream CAMP Mug (MiiR)": {
+            "units": 1,
+            "gross_cents": 2795
+          },
+          "Espresso Tonic": {
+            "units": 5,
+            "gross_cents": 2750
+          },
+          "[Floral] Aleta Wondo Washed - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 2700
+          },
+          "Turkey Wrap": {
+            "units": 2,
+            "gross_cents": 2400
+          },
+          "Chai": {
+            "units": 4,
+            "gross_cents": 2400
+          }
+        },
+        "avg_ticket_cents": 847.4460431654676,
+        "tip_pct_of_net": 9.247421367630206
+      },
+      "2026-07-02": {
+        "orders": 79,
+        "net_sales_cents": 68872,
+        "discount_cents": 2228,
+        "tax_cents": 6884,
+        "tip_cents": 6840,
+        "grand_total_cents": 82596,
+        "by_category": {
+          "coffee_bev": 45578,
+          "other": 5619,
+          "food": 8116,
+          "retail_coffee": 9557,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 42,
+          "IN_STORE": 37
+        },
+        "items": {
+          "Latte": {
+            "units": 21,
+            "gross_cents": 10900
+          },
+          "[Floral] Aleta Wondo Washed - Whole Bean Coffee": {
+            "units": 3,
+            "gross_cents": 8100
+          },
+          "Nitro Iced Coffee": {
+            "units": 14,
+            "gross_cents": 8075
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 10,
+            "gross_cents": 6200
+          },
+          "Cappuccino": {
+            "units": 12,
+            "gross_cents": 5500
+          },
+          "Cortado": {
+            "units": 9,
+            "gross_cents": 4150
+          },
+          "Americano": {
+            "units": 6,
+            "gross_cents": 2400
+          },
+          "Turkey Wrap": {
+            "units": 2,
+            "gross_cents": 2400
+          },
+          "Banana Bread": {
+            "units": 4,
+            "gross_cents": 2200
+          },
+          "[Fruit] Endele Uganda - Whole Bean Coffee": {
+            "units": 1,
+            "gross_cents": 1850
+          },
+          "Chai": {
+            "units": 3,
+            "gross_cents": 1750
+          },
+          "Yogurt Parfait": {
+            "units": 2,
+            "gross_cents": 1500
+          },
+          "Open Water Still Bottled Water": {
+            "units": 4,
+            "gross_cents": 1400
+          },
+          "Banoffee Shakerado": {
+            "units": 2,
+            "gross_cents": 1300
+          },
+          "Magic Matcha": {
+            "units": 2,
+            "gross_cents": 1300
+          },
+          "Thoughtful Mocha": {
+            "units": 2,
+            "gross_cents": 1200
+          },
+          "Carrot Ginger Tea": {
+            "units": 2,
+            "gross_cents": 1000
+          },
+          "Spinach & Parmesan Quiche": {
+            "units": 1,
+            "gross_cents": 950
+          },
+          "Filter - Daily Selection": {
+            "units": 2,
+            "gross_cents": 900
+          },
+          "Spindrift Sparkling Water": {
+            "units": 3,
+            "gross_cents": 900
+          }
+        },
+        "avg_ticket_cents": 907.5949367088608,
+        "tip_pct_of_net": 9.539748953974895
+      }
+    },
+    "NMWA": {
+      "2026-06-28": {
+        "orders": 17,
+        "net_sales_cents": 0,
+        "discount_cents": 11875,
+        "tax_cents": 0,
+        "tip_cents": 0,
+        "grand_total_cents": 0,
+        "by_category": {
+          "coffee_bev": 8275,
+          "other": 3600,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 17
+        },
+        "items": {
+          "Miso Hot Chocolate": {
+            "units": 7,
+            "gross_cents": 3600
+          },
+          "Latte": {
+            "units": 4,
+            "gross_cents": 2100
+          },
+          "Thoughtful Mocha": {
+            "units": 3,
+            "gross_cents": 1900
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 2,
+            "gross_cents": 1300
+          },
+          "Espresso": {
+            "units": 3,
+            "gross_cents": 1125
+          },
+          "Cortado": {
+            "units": 2,
+            "gross_cents": 1000
+          },
+          "Cappuccino": {
+            "units": 1,
+            "gross_cents": 450
+          },
+          "Americano": {
+            "units": 1,
+            "gross_cents": 400
+          },
+          "Open Coffee": {
+            "units": 2,
+            "gross_cents": 0
+          }
+        },
+        "avg_ticket_cents": 698.5294117647059,
+        "tip_pct_of_net": 0.0
+      },
+      "2026-07-02": {
+        "orders": 9,
+        "net_sales_cents": 0,
+        "discount_cents": 7825,
+        "tax_cents": 0,
+        "tip_cents": 0,
+        "grand_total_cents": 0,
+        "by_category": {
+          "other": 3850,
+          "coffee_bev": 3975,
+          "catering": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 9
+        },
+        "items": {
+          "Banoffee Shakerado": {
+            "units": 5,
+            "gross_cents": 3350
+          },
+          "Open Coffee": {
+            "units": 4,
+            "gross_cents": 1975
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 2,
+            "gross_cents": 1400
+          },
+          "Latte": {
+            "units": 1,
+            "gross_cents": 600
+          },
+          "Miso Hot Chocolate": {
+            "units": 1,
+            "gross_cents": 500
+          }
+        },
+        "avg_ticket_cents": 869.4444444444445,
+        "tip_pct_of_net": 0.0
+      },
+      "2026-07-03": {
+        "orders": 16,
+        "net_sales_cents": 12480,
+        "discount_cents": 670,
+        "tax_cents": 1248,
+        "tip_cents": 2362,
+        "grand_total_cents": 16090,
+        "by_category": {
+          "coffee_bev": 9443,
+          "other": 3036,
+          "catering": 0,
+          "food": 0,
+          "retail_coffee": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 16
+        },
+        "items": {
+          "Magic Matcha": {
+            "units": 4,
+            "gross_cents": 2700
+          },
+          "Thoughtful Mocha": {
+            "units": 3,
+            "gross_cents": 1900
+          },
+          "Tahitian Vanilla Latte": {
+            "units": 3,
+            "gross_cents": 1800
+          },
+          "12oz Iced Snow jasmine": {
+            "units": 4,
+            "gross_cents": 1800
+          },
+          "Open Coffee": {
+            "units": 4,
+            "gross_cents": 1700
+          },
+          "Banoffee Shakerado": {
+            "units": 2,
+            "gross_cents": 1400
+          },
+          "Nitro Iced Coffee": {
+            "units": 2,
+            "gross_cents": 1000
+          },
+          "Cortado": {
+            "units": 1,
+            "gross_cents": 450
+          },
+          "Americano": {
+            "units": 1,
+            "gross_cents": 400
+          }
+        },
+        "avg_ticket_cents": 821.875,
+        "tip_pct_of_net": 17.96197718631179
+      },
+      "2026-07-04": {
+        "orders": 6,
+        "net_sales_cents": 3050,
+        "discount_cents": 100,
+        "tax_cents": 305,
+        "tip_cents": 560,
+        "grand_total_cents": 3915,
+        "by_category": {
+          "coffee_bev": 2081,
+          "other": 968,
+          "catering": 0,
+          "food": 0,
+          "retail_coffee": 0
+        },
+        "by_fulfillment": {
+          "PICKUP": 6
+        },
+        "items": {
+          "Tahitian Vanilla Latte": {
+            "units": 1,
+            "gross_cents": 600
+          },
+          "Thoughtful Mocha": {
+            "units": 1,
+            "gross_cents": 600
+          },
+          "12oz Iced coffee": {
+            "units": 1,
+            "gross_cents": 500
+          },
+          "Cappuccino": {
+            "units": 1,
+            "gross_cents": 450
+          },
+          "Open Water Still Bottled Water": {
+            "units": 1,
+            "gross_cents": 350
+          },
+          "Topo Chico": {
+            "units": 1,
+            "gross_cents": 350
+          },
+          "Spindrift Sparkling Water": {
+            "units": 1,
+            "gross_cents": 300
+          }
+        },
+        "avg_ticket_cents": 525.0,
+        "tip_pct_of_net": 17.77777777777778
+      }
+    }
+  },
+  "summary": {
+    "orders_parsed_total": 15806,
+    "orders_in_week_total": 2331,
+    "files_processed": 193
+  },
+  "txstore_patched": true
+}

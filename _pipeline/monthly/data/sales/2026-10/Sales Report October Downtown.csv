@@ -1,0 +1,97 @@
+Key Stats
+Filtered By Location: Downtown
+Sales,4376
+Avg. Gross Sale,$12.02
+Gross Sales,"$52,586.70"
+Total Collected,"$60,408.27"
+
+Sales Summary
+Filtered By Location: Downtown
+Sales
+Gross Sales,"$52,586.70"
+Items,"$52,033.50"
+Service Charges,$553.20
+Returns,-$38.75
+Discounts & Comps,"-$1,291.72"
+Net Sales,"$51,256.23"
+Gift Card Sales,$530.00
+Tax,"$3,950.23"
+Tip,"$4,830.81"
+Refunds by Amount,-$159.00
+Total,"$60,408.27"
+
+Payments
+Total Collected,"$60,408.27"
+Cash,$340.63
+Card,"$59,296.08"
+Check,$638.00
+Other,$0.00
+Gift Card,$133.56
+Fees,"-$1,773.27"
+Net Total,"$58,635.00"
+
+Category Sales
+Filtered By Location: Downtown
+Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Catering and Events,232,"$3,353.00",0,$0.00,-$30.00,"$3,323.00",$297.20
+Coffee,4898,"$25,709.25",-3,-$14.25,-$612.05,"$25,082.95","$2,472.02"
+Food,1495,"$11,580.75",-3,-$24.50,-$610.82,"$10,945.43","$1,045.83"
+Retail,57,"$1,177.50",0,$0.00,-$36.75,"$1,140.75",$114.08
+Other Categories,33,$213.00,0,$0.00,-$2.10,$210.90,$21.10
+Services,2,"$10,000.00",0,$0.00,$0.00,"$10,000.00",$0.00
+
+Category Sales
+Display By Source
+Filtered By Location: Downtown
+Source,Category Rollup,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+Point of Sale,Coffee,150,$811.25,0,$0.00,-$9.00,$802.25,$80.23
+Point of Sale,Food,41,$422.50,0,$0.00,-$49.00,$373.50,$37.35
+Register,Catering and Events,15,$291.00,0,$0.00,$0.00,$291.00,$29.10
+Register,Coffee,4564,"$23,857.00",-3,-$14.25,-$532.40,"$23,310.35","$2,331.14"
+Register,Food,1294,"$9,553.25",-3,-$24.50,-$461.50,"$9,067.25",$906.71
+Register,Retail,57,"$1,177.50",0,$0.00,-$36.75,"$1,140.75",$114.08
+Register,Other Categories,33,$213.00,0,$0.00,-$2.10,$210.90,$21.10
+Mobile Order,Coffee,65,$380.00,0,$0.00,-$16.25,$363.75,$0.00
+Mobile Order,Food,40,$391.50,0,$0.00,-$73.50,$318.00,$0.00
+Square Online,Coffee,119,$661.00,0,$0.00,-$54.40,$606.60,$60.65
+Square Online,Food,99,"$1,044.50",0,$0.00,-$26.82,"$1,017.68",$101.77
+Invoices,Catering and Events,217,"$3,062.00",0,$0.00,-$30.00,"$3,032.00",$268.10
+Invoices,Food,21,$169.00,0,$0.00,$0.00,$169.00,$0.00
+Invoices,Services,2,"$10,000.00",0,$0.00,$0.00,"$10,000.00",$0.00
+
+Category Sales
+Display By Dining Option
+Filtered By Location: Downtown
+Dining Option,Category,Items Sold,Gross Sales,Items Refunded,Refunds,Discounts & Comps,Net Sales,Taxes
+No Dining Option,All-Day Food,149,"$1,742.00",-2,-$19.00,-$95.32,"$1,627.68",$127.92
+No Dining Option,Catering and Event,217,"$3,062.00",0,$0.00,-$30.00,"$3,032.00",$268.10
+No Dining Option,Espresso and Specialty,258,"$1,442.00",0,$0.00,-$65.40,"$1,376.60",$110.55
+No Dining Option,Filter Coffee,55,$315.50,-3,-$14.25,-$17.50,$283.75,$19.60
+No Dining Option,Pastry,48,$241.50,-1,-$5.50,-$10.00,$226.00,$8.75
+No Dining Option,Services,2,"$10,000.00",0,$0.00,$0.00,"$10,000.00",$0.00
+No Dining Option,Tea and Other Drinks,21,$98.00,0,$0.00,$0.00,$98.00,$9.30
+For Here,All-Day Food,12,$119.00,0,$0.00,-$15.32,$103.68,$10.37
+For Here,Espresso and Specialty,93,$415.25,0,$0.00,$0.00,$415.25,$41.52
+For Here,Filter Coffee,7,$35.00,0,$0.00,$0.00,$35.00,$3.51
+For Here,Pastry,15,$69.50,0,$0.00,-$4.50,$65.00,$6.50
+For Here,Tea and Other Drinks,9,$36.00,0,$0.00,$0.00,$36.00,$3.60
+Pick Up,All-Day Food,3,$42.50,0,$0.00,-$42.50,$0.00,$0.00
+Pick Up,Sides,1,$3.00,0,$0.00,-$3.00,$0.00,$0.00
+Pick Up,Tea and Other Drinks,1,$3.00,0,$0.00,-$3.00,$0.00,$0.00
+To Go,All-Day Food,568,"$5,924.25",0,$0.00,-$126.88,"$5,797.37",$579.72
+To Go,Catering and Event,15,$291.00,0,$0.00,$0.00,$291.00,$29.10
+To Go,Coffee Drinks,25,$150.00,0,$0.00,-$2.10,$147.90,$14.79
+To Go,Espresso and Specialty,2704,"$14,594.75",0,$0.00,-$349.93,"$14,244.82","$1,424.33"
+To Go,Filter Coffee,1317,"$6,816.75",0,$0.00,-$163.87,"$6,652.88",$665.54
+To Go,Grab and Go,8,$63.00,0,$0.00,$0.00,$63.00,$6.31
+To Go,Pastry,694,"$3,424.00",0,$0.00,-$313.30,"$3,110.70",$311.07
+To Go,Retail,57,"$1,177.50",0,$0.00,-$36.75,"$1,140.75",$114.08
+To Go,Sides,5,$15.00,0,$0.00,$0.00,$15.00,$1.50
+To Go,Tea and Other Drinks,433,"$1,953.00",0,$0.00,-$12.35,"$1,940.65",$194.07
+
+Invoice Payments by Tender
+Filtered By Location: Downtown
+Tender,Payments,Refunds,Amount
+Card,9,1,"$13,234.30"
+Check,1,0,$638.00
+Total,10,1,"$13,872.30"
